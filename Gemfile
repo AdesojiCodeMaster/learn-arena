@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem 'bootstrap-sass'
-gem 'capybara-screenshot', '~> 1.0', '>= 1.0.13'
+#gem 'capybara-screenshot', '~> 1.0', '>= 1.0.13'
 gem 'jquery-rails'
 ruby '2.7.4'
 gem 'devise'
@@ -56,7 +56,7 @@ end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara'
+  #gem 'capybara'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'database_cleaner', '~> 1.7'
   gem 'webdrivers', '~> 4.0'
