@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-gem 'bootstrap-sass'
+#gem 'bootstrap-sass'
+gem 'bootstrap', '~> 4.0.0'
 #gem 'capybara-screenshot', '~> 1.0', '>= 1.0.13'
 gem 'jquery-rails'
 ruby '2.7.4'
