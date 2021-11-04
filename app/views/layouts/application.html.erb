@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LearnArena</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,800' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-
-<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  <%= csrf_meta_tags %>
-</head>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+ <%= csrf_meta_tags %>
+  
+  </head>
 <body>
+<ul class="list-group">
+  <li class="list-group-item ">
+  <% if current_user %>
+   
+  <%= link_to "Sign out", destroy_user_session_path, :method => :delete, class: "destroy_user_session" %>
+  
+  <%else%>
+  <div >
+   <nav class='nav ml-2'>
+   <li class="<%= "active" if current_page?("/users/sign_up") %>">
+   <button class=" btn btn-outline-secondary  btn-sm text-body">
+   <%= link_to "Sign up", new_user_registration_path %>
+   </button>
+   </li>
+  <li class="<%= "active" if current_page?("/users/sign_in") %> ml-2 pill">
+ <button class=" btn btn-outline-success btn-sm text-body">
+ <%= link_to "Sign in", new_user_session_path %>
+ </button>
+</li>
+</nav>
+   </div>
+<% end %> 
+</li>
+<% if current_user %> 
+<h4>
+<span class="badge badge-success">
+<%=current_user.firstname%>
+</span> 
+, you are welcome to Learn-Arena platform.
+</h4>
+<%end%>
+</ul>
+
+<%= render 'layouts/header'%>
+
 <%= yield %>
+
+<%= render 'layouts/footer'%>
 </body>
 </html>

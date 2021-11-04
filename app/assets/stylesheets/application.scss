@@ -10,6 +10,23 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- 
  */
+
+ /*
+ *= require font-awesome
+ */
+
  @import "bootstrap";
+ @import "font-awesome";
+ nav ul li {
+    position:relative;
+  }
+  //add class on sub-menu(.drop-down)
+  .drop-down{
+    position:absolute;
+    top:100%;
+    left:0;
+    right:0;
+    z-index:1;
+  }
+  //z-index value set as your needs

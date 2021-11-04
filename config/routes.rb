@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'pages/about'
+  get 'pages/product'
+  get 'pages/policy'
+  get 'pages/term'
+  get 'pages/faq'
+  get 'pages/contact'
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
