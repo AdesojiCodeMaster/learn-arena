@@ -9,6 +9,12 @@
   
   </head>
 <body>
+
+<%= render 'layouts/header'%>
+
+<%= yield %>
+
+<%= render 'layouts/footer'%>
 <ul class="list-group">
   <li class="list-group-item ">
   <% if current_user %>
@@ -42,10 +48,5 @@
 <%end%>
 </ul>
 
-<%= render 'layouts/header'%>
-
-<%= yield %>
-
-<%= render 'layouts/footer'%>
 </body>
 </html>

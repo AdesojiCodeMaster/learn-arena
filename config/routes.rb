@@ -1,12 +1,16 @@
 Rails.application.routes.draw do
+  get 'mathematics/index'
+  get 'mathematics/page1'
  get 'about', to: 'pages#about', as: 'about'
  get 'product', to: 'pages#product', as: 'product'
  get 'policy', to: 'pages#policy', as: 'policy'
  get 'term', to: 'pages#term', as: 'term'
  get 'faq', to: 'pages#faq', as: 'faq'
  get 'contact', to: 'pages#contact', as: 'contact'
+ get 'index', to: 'mathematics#index', as: 'index'
+ get 'page1', to: 'mathematics#page1', as: 'page1'
  
- root to: 'pages#about'
+ root to: 'mathematics#index'
 devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
