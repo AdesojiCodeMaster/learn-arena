@@ -9,44 +9,7 @@
   
   </head>
 <body>
-
 <%= render 'layouts/header'%>
-
 <%= yield %>
-
-<%= render 'layouts/footer'%>
-<ul class="list-group">
-  <li class="list-group-item ">
-  <% if current_user %>
-   
-  <%= link_to "Sign out", destroy_user_session_path, :method => :delete, class: "destroy_user_session" %>
-  
-  <%else%>
-  <div >
-   <nav class='nav ml-2'>
-   <li class="<%= "active" if current_page?("/users/sign_up") %>">
-   <button class=" btn btn-outline-secondary  btn-sm text-body">
-   <%= link_to "Sign up", new_user_registration_path %>
-   </button>
-   </li>
-  <li class="<%= "active" if current_page?("/users/sign_in") %> ml-2 pill">
- <button class=" btn btn-outline-success btn-sm text-body">
- <%= link_to "Sign in", new_user_session_path %>
- </button>
-</li>
-</nav>
-   </div>
-<% end %> 
-</li>
-<% if current_user %> 
-<h4>
-<span class="badge badge-success">
-<%=current_user.firstname%>
-</span> 
-, you are welcome to <b class='text-success'> Learn-To-Success</b> platform.
-</h4>
-<%end%>
-</ul>
-
 </body>
 </html>

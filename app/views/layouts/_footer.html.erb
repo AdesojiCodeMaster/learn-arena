@@ -1,14 +1,15 @@
 <!-- Footer -->
+<hr>
 <footer class="page-footer font-small indigo">
 
   <!-- Footer Links -->
   <div class="container">
 
     <!-- Grid row-->
-    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+    <div class="row text-center d-flex justify-content-center pt-5">
 
       <!-- Grid column -->
-      <div class="col-md-2 mb-3">
+      <div class="col-md-2 ">
         <h6 class="text-uppercase font-weight-bold">
         <%= link_to "About Us", about_path %>
          
@@ -17,7 +18,7 @@
       <!-- Grid column -->
 
       <!-- Grid column -->
-      <div class="col-md-2 mb-3">
+      <div class="col-md-2 ">
         <h6 class="text-uppercase font-weight-bold">
           <%= link_to "Products", product_path %>
         </h6>
@@ -25,7 +26,7 @@
       <!-- Grid column -->
 
       <!-- Grid column -->
-      <div class="col-md-2 mb-3">
+      <div class="col-md-2 ">
         <h6 class="text-uppercase font-weight-bold">
         <%= link_to "Private Policy", policy_path %>
          </h6>
@@ -33,20 +34,20 @@
       <!-- Grid column -->
 
       <!-- Grid column -->
-      <div class="col-md-2 mb-3">
+      <div class="col-md-2 ">
         <h6 class="text-uppercase font-weight-bold">
         <%= link_to "Terms of Services", term_path %>
         </h6>
       </div>
       <!-- Grid column -->
-      <div class="col-md-2 mb-3">
+      <div class="col-md-2 ">
         <h6 class="font-weight-bold">
         <%= link_to "FAQs", faq_path %>
         </h6>
       </div>
 
       <!-- Grid column -->
-      <div class="col-md-2 mb-3">
+      <div class="col-md-2">
         <h6 class="text-uppercase font-weight-bold">
         <%= link_to "Contact", contact_path %>
         </h6>
@@ -90,11 +91,11 @@
    
    <div class="d-flex justify-content-center">
 
-   <div class="col-4 mt-2 border border-primary rounded bg-info text-white">
-   <%= link_to "Need a Teacher? Click Here!", contact_path, class:'h5' %>
+   <div class="col-4 mt-2   rounded ">
+   <%= link_to "Need a Teacher? Click Here!", contact_path, class:'h5 teach' %>
    </div>
-   <div class="col-4 mt-2 border border-warning ml-2 rounded bg-success text-white">
-   <%= link_to "To be a Teacher.Click Here!", contact_path, class:'h5' %>
+   <div class="col-4 mt-2  ml-2 rounded  ">
+   <%= link_to "To be a Teacher.Click Here!", contact_path, class:'h5 teach' %>
    </div>
  
  </div>
@@ -110,3 +111,26 @@
 
 </footer>
 <!-- Footer -->
+<hr>
+<% if current_user %>
+<button class=" btn btn-outline-secondary  btn-sm text-body ml-3">
+<%= link_to "Sign out", destroy_user_session_path, :method => :delete, class: "destroy_user_session" %>
+ </button>
+<%else%>
+<div class="d-flex">
+  <div class="mr-auto p-2">
+  <div class="<%= "active" if current_page?("/users/sign_up") %>">
+ <button class=" btn btn-outline-secondary  btn-sm text-body">
+ <%= link_to "Sign up", new_user_registration_path %>
+ </button>
+ </div>
+  </div>
+  <div class="p-2">
+  <div class="<%= "active" if current_page?("/users/sign_in") %> ml-2 pill">
+<button class=" btn btn-outline-success btn-sm text-body">
+<%= link_to "Sign in", new_user_session_path %>
+</button>
+</div>
+</div>
+</div>
+<% end %>
