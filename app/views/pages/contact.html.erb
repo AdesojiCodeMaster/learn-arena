@@ -1,38 +1,16 @@
-<br>
-<h1 class='ml-3 text-dark'> <b class='text-center'>Contact</b></h1>
-<div class="d-flex justify-content-center">
-<div class="col-md-3 text-center h4">
-            <ul class="list-unstyled mb-0">
-                <li>
-                <%=fa_icon "map-marker", class: 'fa-2x', base: "circle" %>
-                    <p>Lagos, Nigeria</p>
-                </li>
 
-                <li>
-                <%=fa_icon "phone", class: 'fa-2x', base: "circle" %>
-                <p>+2348075386238</p>
-                </li>
+<div class="d-flex align-items-center pl-3 pt-2 text-success">
+Whether to request for teacher(s) for your kid(s), to give feedback or to apply for a teaching position, use the form below.
+</div>
+<div  class="ml-3 text-danger d-flex align-items-center " >
+Note:The potential teacher(s) should attach the CV/Resume to the message.
+</div>
 
-                <li>
-                <%=fa_icon "envelope-o", class: 'fa-2x bg-warning ml-4', base: "circle" %>
-                  <span class='text-primary'>kemsolink2022@gmail.com</span>
-                </li>
-            </ul>
-        </div>
-       
-        </div>
+<div class="row justify-content-md-center ml-3">
+<h1>Contact Us</h1>
+</div>
 
+<div id="contact">
+<%= render 'pages/contact_form' %>
+</div>
 
-
-
-<nav class="nav nav-pills nav-fill">
-<button class='ml-3'>
-<%= link_to "Previous>>", faq_path, class:'h3' %>
-  </button>
-  <a class="nav-item nav-link" href="#"></a>
-  <a class="nav-item nav-link" href="#"></a>
-<button class='mr-2'>
-<%= link_to "Next>>", about_path, class:'h3' %>
-</button>
-</nav>
-<%= render 'layouts/footer'%>

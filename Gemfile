@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 #gem 'bootstrap-sass'
+gem 'mail_form'
 gem "font-awesome-rails"
 gem 'bootstrap', '~> 4.0.0'
 #gem 'capybara-screenshot', '~> 1.0', '>= 1.0.13'
