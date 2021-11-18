@@ -1,5 +1,5 @@
 <div class="row justify-content-md-center ml-3">
-<%= form_for @contact, url: contact_path, remote: true do |f| %>
+<%= form_for @contact, url: contact_path, method: :post do |f| %>
     <div class="col-md-6">
         <%= f.label :name %></br>
         <%= f.text_field  :name, required: true, class: "contact-form-text-area" %></br>
@@ -11,14 +11,7 @@
       <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "contact-form-text-area",
                         placeholder: "Send me a message"%></br>
 
-      <div class= "hidden">
-      <span class='nick'>Note: you can leave this field blank!</span>
-      <br>
-        <%= f.label :nickname %>
-        <br>
-        <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
-      </div>
-      <span class='nick'>Note: attched file should not exceed 5mb!</span>
+     <span class='nick'>Note: attched file should not exceed 5mb!</span>
         <%= f.file_field :picture %>
    
       <br>

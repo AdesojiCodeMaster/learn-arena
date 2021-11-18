@@ -68,4 +68,5 @@ devise_for :users
   #   end
 
   resources :pages, only: [:new, :create]
+  post    '/contact',  to: 'pages#create'
 end

@@ -73,16 +73,14 @@
     padding: 2rem
 }
 
-.card {
+.card{
     background: #fff;
     bottom: 8px;
     border-width: 0;
     border-radius: .25rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
     margin-bottom: 1.5rem;
-    width: 300px;
-  
-}
+  }
 
 .card-header {
     background-color: transparent;
@@ -102,6 +100,17 @@
 .was-validated .form-check-input:invalid~.form-check-label {
     color: #f54394
 }
+
+.card1 {
+    background: #fff;
+    bottom: 8px;
+    border-width: 0;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
+    margin-bottom: 1.5rem;
+    width: 300px;
+}
+
 
 .login {
     margin-top: 70px;
