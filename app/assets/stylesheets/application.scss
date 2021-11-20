@@ -40,6 +40,7 @@
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    z-index:1;
   }  
 
   textarea { background-color: #add8e6;}
@@ -173,3 +174,19 @@
  .nick {
   font-size: 0.8rem;
 }
+
+.obj-cont {
+  font-size: 0.9rem;
+  position: relative; 
+ 
+}
+
+.c-btn {
+  width: 80px;
+   height: 25px; 
+   border-radius: 3px; 
+   background-color: lightblue; 
+   font-weight: 700;
+}
+
+
