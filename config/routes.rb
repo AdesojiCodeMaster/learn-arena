@@ -9,7 +9,9 @@ Rails.application.routes.draw do
  get 'contact', to: 'pages#contact', as: 'contact'
  get 'index', to: 'mathematics#index', as: 'index'
  get 'page1', to: 'mathematics#page1', as: 'page1'
- 
+ get 'page2', to: 'mathematics#page2', as: 'page2'
+ get 'page3', to: 'mathematics#page3', as: 'page3'
+ get 'page4', to: 'mathematics#page4', as: 'page4'
  root to: 'mathematics#index'
 devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
