@@ -12,6 +12,7 @@ Rails.application.routes.draw do
  get 'page2', to: 'mathematics#page2', as: 'page2'
  get 'page3', to: 'mathematics#page3', as: 'page3'
  get 'page4', to: 'mathematics#page4', as: 'page4'
+ get 'page5', to: 'mathematics#page5', as: 'page5'
  root to: 'mathematics#index'
 devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.

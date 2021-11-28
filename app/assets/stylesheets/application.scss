@@ -19,7 +19,9 @@
  @import "bootstrap";
  @import "font-awesome";
 
- 
+ h1,h2,h3,h4,h5,h6 {
+  font-weight: 550;
+}
   .policy { padding: 20px;
     background-color: #00ffff;
   }
@@ -48,9 +50,7 @@
 
 
   
-  body {
-    background-color: #f9f9fa
-}
+
 
 .flex {
     -webkit-box-flex: 1;
@@ -67,6 +67,11 @@
 @media (max-width:767.98px) {
     .padding {
         padding: 1rem
+    }
+
+    .policy {
+      background-color: inherit;
+      padding: 0px;
     }
 }
 
@@ -160,6 +165,11 @@
     .teach {
       font-size: 0.6rem;
      
+    }
+
+    .policy {
+      background-color: inherit;
+      padding: 0px;
     }
 }
 

@@ -13,5 +13,6 @@ class MathematicsController < ApplicationController
 
   def page4
   end
-
+  def page5
+  end
 end
