@@ -1,48 +1,67 @@
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-  <div id="content" class="flex position-fixed">
-    <div class=""> 
-        <div class="page-content page-container" id="page-content">
-            <div class='sign_up'>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card1">
-                            <div class="card-header"><strong>Sign_Up to create account</strong></div>
-                            <div class="card-body">
-                                <form>
-                                <form>
-                                <div class="form-group">
-                                <%= f.label :firstname %><br/>
-                                 <%= f.text_field :firstname %>
-                                 </div>
-                                    <div class="form-group">
-                                    <%= f.label :email %><br>
-                                    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
-                                    <small id="emailHelp" class="form-text text-muted">We don't share email with anyone</small
-                                    </div>
-                                    <div class="form-group">
-                                    <%= f.label :password %><br />
-                                    <%= f.password_field :password, autocomplete: "current-password" %>
-                                    <br>
-                                    <span>Minimum of six characters</span>
-                                    <small id="passwordHelp" class="form-text text-muted">your password is saved in encrypted form</small>
-                                    </div>
-                                    <div class="form-group">
-                                    <%= f.label :password_confirmation %><br />
-                                    <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
-                                    </div>
-                                    <label class="form-check-label" for="form2Example3g">
-                                    I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
-                                    </label>
-                                    <button type="submit" class="btn btn-primary"> 
-                                    <%= f.submit "Sign up" %>
-                                    </button>
-                                   </form>
-                            </div>
-                        </div>
-                    </div>
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="card" style="border-radius: 15px;">
+            <div class="card-body p-5">
+              <h5 class="text-uppercase text-center mb-5">Sign_Up to create account</h5>
+
+              <form>
+
+                <div class="form-outline mb-1 ml-5">
+                <%= f.label :firstname %>
+                <br>
+                <%= f.text_field :firstname %>
                 </div>
+
+                <div class="form-outline mb-1 ml-5">
+                <%= f.label :email %>
+                <br>
+                <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+                <small id="emailHelp" class="form-text text-muted">We don't share email with anyone</small>
+                </div>
+
+                <div class="form-outline mb-1 ml-5">
+                <%= f.label :password %>
+                <br>
+                <%= f.password_field :password, autocomplete: "current-password" %>
+                <br>
+                <span>Minimum of six characters</span>
+                <small id="passwordHelp" class="form-text text-muted">your password is saved in encrypted form</small>
+                </div>
+
+                <div class="form-outline mb-1 ml-5">
+                <%= f.label :password_confirmation %>
+                <br>
+                <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+                </div>
+
+                <div class="form-check d-flex justify-content-start mb-2">
+                <input
+                    class="form-check-input me-2"
+                    type="checkbox"
+                    value=""
+                    id="form2Example3cg"
+                  />
+                <label class="form-check-label" for="form2Example3g">
+                I agree all statements in <%= link_to "Terms of Services", term_path %>
+                </label>
+                </div>
+
+                
+
+                <div class="d-flex justify-content-center mr-5">
+                <button type="submit" class="btn btn-primary"> 
+                <%= f.submit "Sign up" %>
+                </button>
+                </div>
+              </form>
+              <p class="text-start ml-4 text-muted mt-1 mb-0">Have already an account? <%= link_to "Login here", new_user_session_path %></p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </div>
 <% end %>

@@ -67,7 +67,13 @@
 @media (max-width:767.98px) {
     .padding {
         padding: 1rem
-    }
+        }
+        .main  {
+          font-size: 1.1rem;
+              }
+              h1,h2,h3 {
+                font-size: 1.5rem;
+              }
 
     .policy {
       background-color: inherit;
@@ -123,14 +129,13 @@
 }
 
 .sign_up {
-    margin-top: 10px;
-    margin-left: 30px;
+   margin-left: 30px;
 }
 
 
 .sidenav {
     height: 100%;
-    width: 200px;
+    width: 220px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -150,7 +155,8 @@
 
   
   .main {
-    margin-left: 200px; /* Same as the width of the sidenav */
+    margin-left: 220px; /* Same as the width of the sidenav */
+    font-size: 1.1rem;
   }
   
   @media screen and (max-height: 450px) {
@@ -160,7 +166,8 @@
 
   @media (max-width:400px) {
     .sidenav {
-      width: 100px;
+      width: 150px;
+      font-size: 0.5rem;
     }
     .teach {
       font-size: 0.6rem;
@@ -168,8 +175,15 @@
     }
 
     .policy {
-      background-color: inherit;
+     background-color: inherit;
       padding: 0px;
+    }
+   
+    .main  {
+font-size: 0.8rem;
+    }
+    h1,h2,h3 {
+      font-size: 1.2rem;
     }
 }
 
@@ -200,3 +214,23 @@
 }
 
 
+.gradient-custom-3 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+.gradient-custom-4 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}

@@ -15,15 +15,14 @@
   </div>
  </nav>
  
-
- <div class="d-flex ml-3 login">
+ <div class="d-flex justify-content-center login">
 <% if current_user %> 
- <h4>
+ <div class=' main mt-2'>
  <span class="badge badge-success">
  <%=current_user.firstname%>
  </span> 
  , you are welcome to <b class='text-success'> Learn-To-Success</b> platform.
- </h4>
+</div>
  <%end%>
 </div>
 
