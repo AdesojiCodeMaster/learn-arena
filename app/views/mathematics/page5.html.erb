@@ -1160,9 +1160,9 @@ Total mass in tonnes = <sup>35139</sup>&frasl;<sub>1000</sub> = 35.139
       document.getElementById('result-71').innerHTML = 'Incorrect!'
     }
     if (document.getElementById('option-72').checked) {
-      document.getElementById('block-72').style.border = '3px solid red'
-      document.getElementById('result-72').style.color = 'red'
-      document.getElementById('result-72').innerHTML = 'Incorrect!'
+      document.getElementById('block-72').style.border = '3px solid limegreen'
+      document.getElementById('result-72').style.color = 'limegreen'
+      document.getElementById('result-72').innerHTML = 'Correct!'
       showCorrectAnswer7()
     }
     if (document.getElementById('option-73').checked) {
@@ -1172,91 +1172,9 @@ Total mass in tonnes = <sup>35139</sup>&frasl;<sub>1000</sub> = 35.139
       showCorrectAnswer7()
     }
     if (document.getElementById('option-74').checked) {
-      document.getElementById('block-74').style.border = '3px solid limegreen'
-      document.getElementById('result-74').style.color = 'limegreen'
-      document.getElementById('result-74').innerHTML = 'Correct!'
-      showCorrectAnswer7()
-    }
-  }
-  // the functon displays the link to the correct answer
-  function showCorrectAnswer7() {
-    let showAnswer7 = document.createElement('p')
-    showAnswer7.innerHTML = 'Show Corrent Answer'
-    showAnswer7.style.position = 'relative'
-    showAnswer7.style.top = '-150px'
-    showAnswer7.style.fontSize = '1.5rem'
-    document.getElementById('showanswer7').appendChild(showAnswer6)
-    showAnswer7.addEventListener('click', () => {
-      document.getElementById('block-74').style.border = '3px solid limegreen'
-      document.getElementById('result-74').style.color = 'limegreen'
-      document.getElementById('result-74').innerHTML = 'Correct!'
-      document.getElementById('showanswer7').removeChild(showAnswer7)
-    })
-  }
-</script>
-</article>
-<hr>
-<article>
-<div class='obj-cont'>
-  <h6>8.	A typist can type about 33 words per minute. Estimate how long it will take to type 289 words.</h6>
- <div id='block-81' >
-    <label for='option-71' style=' padding: 5px;'>
-      <input type='radio' name='option7' value='15 minutes' id='option-81' style='transform: scale(1.2)'  />
-      15 minutes</label>
-    <span id='result-81'></span>
-  </div>
- 
-
-  <div id='block-82'>
-    <label for='option-82' style='padding: 5px;'>
-      <input type='radio' name='option7' value='9 minutes' id='option-82' style='transform: scale(1.2)' />
-      9 minutes</label>
-    <span id='result-82'></span>
-  </div>
-  
-
-  <div id='block-83'>
-    <label for='option-73' style='padding: 5px;'>
-      <input type='radio' name='option7' value='20 minutes' id='option-83' style='transform: scale(1.2)' />
-      20 minutes</label>
-    <span id='result-83'></span>
-  </div>
-  
-
-  <div id='block-84'>
-    <label for='option-84' style=' padding: 5px;'>
-      <input type='radio' name='option7' value='14 minutes' id='option-84' style='transform: scale(1.2)' />
-      14 minutes</label>
-    <span id='result-84'></span>
-  </div>
- 
-  <button type='button' onclick='displayAnswer7()' class='c-btn'>Submit</button>
-</div>
-
-<script>
-  //    The function evaluates the answer and displays result
-  function displayAnswer7() {
-    if (document.getElementById('option-81').checked) {
-      document.getElementById('block-81').style.border = '3px solid red'
-      document.getElementById('result-81').style.color = 'red'
-      document.getElementById('result-81').innerHTML = 'Incorrect!'
-    }
-    if (document.getElementById('option-82').checked) {
-      document.getElementById('block-82').style.border = '3px solid limegreen'
-      document.getElementById('result-82').style.color = 'limegreen'
-      document.getElementById('result-82').innerHTML = 'Correct!'
-      showCorrectAnswer7()
-    }
-    if (document.getElementById('option-83').checked) {
-      document.getElementById('block-83').style.border = '3px solid red'
-      document.getElementById('result-83').style.color = 'red'
-      document.getElementById('result-83').innerHTML = 'Incorrect!'
-      showCorrectAnswer7()
-    }
-    if (document.getElementById('option-84').checked) {
-      document.getElementById('block-84').style.border = '3px solid red'
-      document.getElementById('result-84').style.color = 'red'
-      document.getElementById('result-84').innerHTML = 'Incorrect!'
+      document.getElementById('block-74').style.border = '3px solid red'
+      document.getElementById('result-74').style.color = 'red'
+      document.getElementById('result-74').innerHTML = 'Incorrect!'
       showCorrectAnswer7()
     }
   }
@@ -1278,6 +1196,88 @@ Total mass in tonnes = <sup>35139</sup>&frasl;<sub>1000</sub> = 35.139
 </script>
 </article>
 <hr>
+<article>
+<div class='obj-cont'>
+  <h6>8.	A typist can type about 33 words per minute. Estimate how long it will take to type 289 words.</h6>
+ <div id='block-81' >
+    <label for='option-81' style=' padding: 5px;'>
+      <input type='radio' name='option7' value='15 minutes' id='option-81' style='transform: scale(1.2)'  />
+      15 minutes</label>
+    <span id='result-81'></span>
+  </div>
+ 
+
+  <div id='block-82'>
+    <label for='option-82' style='padding: 5px;'>
+      <input type='radio' name='option7' value='9 minutes' id='option-82' style='transform: scale(1.2)' />
+      9 minutes</label>
+    <span id='result-82'></span>
+  </div>
+  
+
+  <div id='block-83'>
+    <label for='option-83' style='padding: 5px;'>
+      <input type='radio' name='option7' value='20 minutes' id='option-83' style='transform: scale(1.2)' />
+      20 minutes</label>
+    <span id='result-83'></span>
+  </div>
+  
+
+  <div id='block-84'>
+    <label for='option-84' style=' padding: 5px;'>
+      <input type='radio' name='option7' value='14 minutes' id='option-84' style='transform: scale(1.2)' />
+      14 minutes</label>
+    <span id='result-84'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer8()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer8() {
+    if (document.getElementById('option-81').checked) {
+      document.getElementById('block-81').style.border = '3px solid red'
+      document.getElementById('result-81').style.color = 'red'
+      document.getElementById('result-81').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-82').checked) {
+      document.getElementById('block-82').style.border = '3px solid limegreen'
+      document.getElementById('result-82').style.color = 'limegreen'
+      document.getElementById('result-82').innerHTML = 'Correct!'
+      showCorrectAnswer8()
+    }
+    if (document.getElementById('option-83').checked) {
+      document.getElementById('block-83').style.border = '3px solid red'
+      document.getElementById('result-83').style.color = 'red'
+      document.getElementById('result-83').innerHTML = 'Incorrect!'
+      showCorrectAnswer8()
+    }
+    if (document.getElementById('option-84').checked) {
+      document.getElementById('block-84').style.border = '3px solid red'
+      document.getElementById('result-84').style.color = 'red'
+      document.getElementById('result-84').innerHTML = 'Incorrect!'
+      showCorrectAnswer8()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer8() {
+    let showAnswer8 = document.createElement('p')
+    showAnswer8.innerHTML = 'Show Corrent Answer'
+    showAnswer8.style.position = 'relative'
+    showAnswer8.style.top = '-150px'
+    showAnswer8.style.fontSize = '1.5rem'
+    document.getElementById('showanswer8').appendChild(showAnswer8)
+    showAnswer8.addEventListener('click', () => {
+      document.getElementById('block-82').style.border = '3px solid limegreen'
+      document.getElementById('result-82').style.color = 'limegreen'
+      document.getElementById('result-82').innerHTML = 'Correct!'
+      document.getElementById('showanswer8').removeChild(showAnswer8)
+    })
+  }
+</script>
+</article>
+<hr>
 <nav class="nav nav-pills nav-fill">
 <button class='ml-3'>
 <%= link_to "Previous>>", page4_path, class:'h3' %>
@@ -1290,7 +1290,7 @@ Total mass in tonnes = <sup>35139</sup>&frasl;<sub>1000</sub> = 35.139
 </nav>
 
 </div>
-
+<hr>
 <%= render 'layouts/footer' %>
 </div>
 
