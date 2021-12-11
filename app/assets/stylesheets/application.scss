@@ -46,12 +46,6 @@
   }  
 
   textarea { background-color: #add8e6;}
-
-
-
-  
-
-
 .flex {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -69,17 +63,23 @@
         padding: 1rem
         }
         .main  {
-          font-size: 1.1rem;
-              }
+          font-size: 1.0rem;
+          }
               h1,h2,h3 {
-                font-size: 1.5rem;
+                font-size: 1.3rem;
               }
 
     .policy {
       background-color: inherit;
       padding: 0px;
     }
-}
+
+    .med {
+      padding: 0px;
+      
+    }
+
+  }
 
 .padding {
     padding: 2rem
@@ -185,7 +185,14 @@ font-size: 0.8rem;
     h1,h2,h3 {
       font-size: 1.2rem;
     }
+
+.med {
+  padding: 0px;
+  width: 200px;
 }
+
+}
+
 
   #side-ite {
     margin-top: 70px;
