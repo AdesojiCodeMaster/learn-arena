@@ -1,5 +1,9 @@
 <div class="main">
-<div class='container-fluid med'>
+
+
+<div class="row">
+  <div class="col-md-10 ad-border">
+  <div class='container-fluid med'>
 
 <div class="d-flex justify-content-center mt-3">
 <h1 class='text-dark justify-content-center'>Letters for Numbers</h1>
@@ -494,6 +498,16 @@ This involves replacing the letter with number in algebraic equation. The exampl
   }
 </script>
 </article>
+  </div>
+  </div>
+  <div class="col-md-2 justify-content-center mt-3">
+  <%= link_to "Advert/Sponsorship", contact_path, class: 'text-primary advert' %>
+  
+  <div>
+  This space is created by the management for the interested organizations to advertise their products and sponsorships.
+  </div>
+  </div>
+</div>
 <hr>
 <nav class="nav nav-pills nav-fill">
 <button class='ml-3'>
@@ -505,8 +519,6 @@ This involves replacing the letter with number in algebraic equation. The exampl
 <%= link_to "Next>>", page5_path, class:'h3' %>
 </button>
 </nav>
-
-</div>
 <hr>
 <%= render 'layouts/footer' %>
 </div>

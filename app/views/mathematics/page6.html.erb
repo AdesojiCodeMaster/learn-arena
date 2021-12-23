@@ -1,5 +1,7 @@
 <div class="main">
-<div class='container-fluid med'>
+<div class="row">
+  <div class="col-md-10 ad-border">
+  <div class='container-fluid med'>
 
 <div class="d-flex justify-content-center mt-3">
 <h1 class='text-dark justify-content-center'>Proportion, Reciprocal, Ratio and Rate</h1>
@@ -794,6 +796,15 @@ In proportion, it is important to use value of one unit to solve the problem (<s
   }
 </script>
 </article>
+  </div>
+  </div>
+  <div class="col-md-2 justify-content-center mt-3">
+  <%= link_to "Advert/Sponsorship", contact_path, class: 'text-primary advert' %>
+  <div>
+  This space is created by the management for the interested organizations to advertise their products and sponsorships.
+  </div>
+  </div>
+</div>
 <hr>
 <nav class="nav nav-pills nav-fill">
 <button class='ml-3'>
@@ -805,8 +816,6 @@ In proportion, it is important to use value of one unit to solve the problem (<s
 <%= link_to "Next>>", page7_path, class:'h3' %>
 </button>
 </nav>
-
-</div>
 <hr>
 <%= render 'layouts/footer' %>
 </div>

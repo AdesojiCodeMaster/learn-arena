@@ -18,6 +18,8 @@ Rails.application.routes.draw do
  get 'page8', to: 'mathematics#page8', as: 'page8'
  get 'page9', to: 'mathematics#page9', as: 'page9'
  get 'page10', to: 'mathematics#page10', as: 'page10'
+ get 'page11', to: 'mathematics#page11', as: 'page11'
+ get 'page12', to: 'mathematics#page12', as: 'page12'
  root to: 'mathematics#index'
 devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.

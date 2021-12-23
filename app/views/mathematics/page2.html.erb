@@ -1,9 +1,12 @@
 <div class="main">
-<div class='container-fluid med'>
+
+<div class="row">
+  <div class="col-md-10 ad-border">
+  <div class='container-fluid med'>
 <div class="d-flex justify-content-center mt-3">
 <h1 class='text-dark justify-content-center'>Factors and Multiples in Whole Numbers</h1>
 </div>
-
+<hr>
 <article>
 <p>
 A <strong>factor</strong> is simply a number that can divide another whole number without any remainder e.g. 16/<b>2</b> = 8, 16/<b>4</b> = 4 and 16/<b>8</b> = 2. Then we can say <b>2</b>, <b>4</b> and <b>8</b> are factors of 16.
@@ -866,20 +869,26 @@ The divisibility <b>rules</b> are;
   }
 </script>
 </article>
+</div>
+  </div>
+  <div class="col-md-2 justify-content-center mt-3">
+  <%= link_to "Advert/Sponsorship", contact_path, class: 'text-primary advert' %>
+  <div>
+  This space is created by the management for the interested organizations to advertise their products and sponsorships.
+  </div>
+  </div>
+</div>
 <hr>
 <nav class="nav nav-pills nav-fill">
 <button class='ml-3'>
 <%= link_to "Previous>>", mathematics_page1_path, class:'h3' %>
-  </button>
+</button>
 <a class="nav-item nav-link" href="#"></a>
-  <a class="nav-item nav-link" href="#"></a>
+<a class="nav-item nav-link" href="#"></a>
 <button class='mr-2 ml-3'>
 <%= link_to "Next>>", page3_path, class:'h3' %>
 </button>
 </nav>
-
-
-</div>
 <hr>
 <%= render 'layouts/footer' %>
 </div>

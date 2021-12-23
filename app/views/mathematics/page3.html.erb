@@ -1,5 +1,7 @@
 <div class="main">
-<div class='container-fluid med'>
+<div class="row">
+  <div class="col-md-10 ad-border">
+  <div class='container-fluid med'>
 
 <div class="d-flex justify-content-center mt-3">
 <h1 class='text-dark justify-content-center'>Fractions, Percentages and Decimals </h1>
@@ -95,8 +97,8 @@ Arrange the following fractions in ascending order;<strong> <sup>3</sup>&frasl;<
 The <strong>LCM</strong> for the denominators = <strong>24</strong>, this is known as Lowest Common Denominator.
 <br>
 <strong>Note: Lowest Common Denominator</strong> is the smallest denominator <strong>common </strong> to two or more fractions.
-<%= image_tag 'FracAsend.png', class: 'carol' %>
-<%= image_tag 'FracDescend.png', class: 'carol' %>
+<%= image_tag 'FracAsend.png', class: 'carol ' %>
+<%= image_tag 'FracDescend.png', class: 'carol ' %>
 
 <div class="d-flex justify-content-center mt-3">
 <h3 class='text-dark justify-content-center'> Lowest Terms </h3>
@@ -125,7 +127,7 @@ A fraction is in its <strong>lowest term</strong> or <strong>simplest form</stro
 (iii)	Add or subtract appropriately.
 <br>
 
-<%= image_tag 'FracAdd.png', class: 'carol' %>
+<%= image_tag 'FracAdd.png', class: 'carol ' %>
 <br>
 <%= image_tag 'FracSubtr.png', class: 'carol' %>
 <br>
@@ -938,6 +940,16 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
   }
 </script>
 </article>
+  </div>
+  </div>
+  <div class="col-md-2 justify-content-center mt-3">
+  <%= link_to "Advert/Sponsorship", contact_path, class: 'text-primary advert' %>
+  
+  <div>
+  This space is created by the management for the interested organizations to advertise their products and sponsorships.
+  </div>
+  </div>
+</div>
 <hr>
 <nav class="nav nav-pills nav-fill">
 <button class='ml-3'>
@@ -950,7 +962,6 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
 </button>
 </nav>
 
-</div>
 <hr>
 <%= render 'layouts/footer' %>
 </div>

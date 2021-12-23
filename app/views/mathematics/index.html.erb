@@ -1,17 +1,18 @@
 
 <div class="main">
 
-<div class='container-fluid med'>
+<div class="row">
+  <div class="col-md-10 ad-border">
+  <div class='container-fluid med'>
 <div class="d-flex justify-content-center mt-3">
 <h1 class='text-dark justify-content-center'>Number Systems</h1>
 </div>
-
+<hr>
+<article>
 <p>
 <h2>Counting</h2>
 <strong>Counting</strong> is the systematic way of determining the quantity or the total number of objects/items in a set or group. 
 </p>
-
-
 <p>
 <h3>1. Integer System </h3>
 The basis for the number or integer system is the ability to count and recognize basic numbers which are; 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 through which other complex numbers are formed e.g. 11, 12, 321, 5000, 11,000, 1,000,000 and so on.
@@ -19,6 +20,7 @@ The most common counting system in the world is the base ten which is called <st
 </p>
 <h4>Counting in Seven and Sixty</h4>
 <strong>There are 7days in a week. </strong>
+</article>
 <article>
 <div class="container">
   <div class="row">
@@ -89,12 +91,7 @@ The most common counting system in the world is the base ten which is called <st
     </div>
   </div>
 </div>
-
-
-
 </article>
-
-
 <article>
 <h3>2. Tally System</h3>
 <p>
@@ -441,11 +438,7 @@ Because, <b>3</b> in 9 has <b>power</b> or <b>index</b> of <b>2</b>, then the sq
     </div>
   </div>
   </div>
-
-
-
-
-<p>
+  <p>
 <b>Example 3</b>
 <br>
 Find the smallest number that 1125 must be multiply by, so that the product is a perfect square.
@@ -1041,6 +1034,19 @@ The answer = <strong>5</strong>
   }
 </script>
 </article>
+</div>
+  </div>
+  <div class="col-md-2 justify-content-center mt-3">
+  <%= link_to "Advert/Sponsorship", contact_path, class: 'text-primary advert' %>
+  
+  <div>
+  This space is created by the management for the interested organizations to advertise their products and sponsorships.
+  </div>
+  </div>
+</div>
+
+
+
 <hr>
 <nav class="nav nav-pills nav-fill">
 <a class="nav-item nav-link" href="#"></a>
@@ -1049,9 +1055,24 @@ The answer = <strong>5</strong>
 <%= link_to "Next>>", mathematics_page1_path, class:'h3' %>
 </button>
 </nav>
-</div>
+
+
 <hr>
 <%= render 'layouts/footer' %>
 </div>
 
 <%= render 'mathematics/sidebar'%>
+
+
+
+<div class="row">
+  <div class="col-md-10 ad-border">col-sm-8</div>
+  <div class="col-md-2 justify-content-center mt-3">
+  <%= link_to "Advert/Sponsorship", contact_path, class: 'text-primary advert' %>
+  
+  <div>
+  This space is created by the management for the interested organizations to advertise their products and sponsorships.
+  </div>
+  </div>
+</div>
+

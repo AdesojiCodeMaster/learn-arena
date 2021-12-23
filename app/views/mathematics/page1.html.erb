@@ -1,19 +1,17 @@
 <div class="main">
-<article>
-<div class='container-fluid med'>
-<div class="d-flex justify-content-center mt-3">
+<div class="row">
+  <div class=" col-md-10  ad-border">
+  <div class='container-fluid med'>
+  <div class="d-flex justify-content-center mt-3">
 <h1 class='text-dark justify-content-center'>Reading and Writing Numbers</h1>
 </div>
-
+<hr>
 <p>
 <strong>Reading and writing numbers </strong>is a crucial concept in Mathematics 
 that helps in being able to read and write any number. However, Mathematics 
 students must know how to read/write numbers in words and 
 figures effectively irrespective of how small or large the number(s) could be.
 </p>
-</article>
-
-
 <article>
 <div class='container-fluid'>
 <div class="d-flex justify-content-center mt-3">
@@ -267,7 +265,7 @@ the number of digit(s) after decimal point (.) e.g.
 <hr>
 <article class='ml-3'>
 <div class="d-flex justify-content-start text-primary">
-<h4>Test your <strong class='text-secondary'>reading and writing numbers</strong> knowledge with these Objective Questions.</h4>
+<h5>Test your <strong class='text-secondary'>reading and writing numbers</strong> knowledge with these Objective Questions.</h5>
 </div>
 <div class='obj-cont' >
   <h6>1. Write this in figure; forty-two billion, five hundred and sixty million, two hundred and sixteen thousand, eight hundred and thirty.</h6>
@@ -595,6 +593,18 @@ the number of digit(s) after decimal point (.) e.g.
   }
 </script>
 </article>
+
+
+</div>
+ </div>
+  <div class="col-md-2 justify-content-center mt-3 ">
+  <%= link_to "Advert/Sponsorship", contact_path, class: 'text-primary advert' %>
+  
+  <div>
+  This space is created by the management for the interested organizations to advertise their products and sponsorships.
+  </div>
+  </div>
+</div>
 <hr>
 <nav class="nav nav-pills nav-fill">
 <button class='ml-3'>
@@ -606,9 +616,10 @@ the number of digit(s) after decimal point (.) e.g.
 <%= link_to "Next>>", page2_path, class:'h3' %>
 </button>
 </nav>
-</div>
 <hr>
 <%= render 'layouts/footer' %>
 </div>
-
 <%= render 'mathematics/sidebar'%>
+
+
+
