@@ -60,18 +60,72 @@
       border-right: 1px solid #224cc0;
       
     }
-   
-    
-}
+
+  }
 
 
 @media (min-width:767.98px) {
   .ad-border{
     border-right: 1px solid #224cc0;
   }
+
+  .sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #E7E9EB;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+  }
+  
+  .sidenav a {
+    display: block;
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 16px;
+   }
+
+  
+  .main {
+    margin-left: 230px; /* Same as the width of the sidenav */
+    
+  }
+
 }
 
+@media (max-width:982.98px) {
 
+  .sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #E7E9EB;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+  }
+  
+  .sidenav a {
+    display: block;
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 16px;
+   }
+
+  
+  .main {
+    margin-left: 157px; /* Same as the width of the sidenav */
+    
+  }
+
+}
 
 
 
@@ -97,7 +151,7 @@
       margin-left: 10px;
     }
 
-  }
+}
 
 .padding {
     padding: 2rem
@@ -151,32 +205,7 @@
 }
 
 
-.sidenav {
-    height: 100%;
-    width: 220px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #E7E9EB;
-    overflow-x: hidden;
-    padding-top: 20px;
-    
-  }
-  
-  .sidenav a {
-    display: block;
-    padding: 6px 6px 6px 32px;
-    text-decoration: none;
-    font-size: 16px;
-   }
 
-  
-  .main {
-    margin-left: 220px; /* Same as the width of the sidenav */
-    
-  }
-  
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -189,11 +218,7 @@
     }
 
   @media (max-width:400px) {
-    .sidenav {
-      width: 150px;
-      font-size: 0.5rem;
-    }
-  .teach {
+    .teach {
       font-size: 0.6rem;
     }
 

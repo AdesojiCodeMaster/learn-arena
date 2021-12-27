@@ -29,4 +29,13 @@ class MathematicsController < ApplicationController
   end
   def page12
   end
+  def page13
+  end
+  def page14
+  end
+  def page15
+  end
+  def page16
+  end
 end
+
