@@ -1,5 +1,7 @@
+<div class='large'>
+<%= render 'layouts/header'%>
 <div class="main">
-<div class="row">
+<div class="row row-over">
   <div class="col-md-10 ad-border">
   <div class='container-fluid med'>
   <div class="d-flex justify-content-center mt-3">
@@ -10,11 +12,11 @@
 <strong>Variation</strong> is a concept that deals with variability in mathematics. 
 Variation means change in one quantity as a result of change in another related
  quantity or other quantities. <strong>The symbol of variation is;</strong> <span class='h3'>∝</span>.
-
-
- <div class="d-flex justify-content-center mt-3">
+<hr>
+<div class="d-flex justify-content-center mt-3">
 <h2 class='text-dark justify-content-center'> Types of Variation</h2>
 </div>
+<hr>
 <div class="d-flex justify-content-center mt-3">
 <h3 class='text-dark justify-content-center'>Direct Variation</h3>
 </div>
@@ -671,18 +673,16 @@ Partial variation is usually solved with <strong>simultaneous equations</strong>
 </article>
 </div>
   </div>
-  <div class="col-md-2 justify-content-center mt-3">
-  <%= link_to "Advert/Sponsorship", contact_path, class: 'text-primary advert' %>
-  
-  <div>
-  This space is created by the management for the interested organizations to advertise their products and sponsorships.
-  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+ <div>
+ <%= render 'layouts/sideadvert' %>
+ </div>
   </div>
 </div>
 <hr>
 <nav class="nav nav-pills nav-fill">
 <button class='ml-3'>
-<%= link_to "Previous>>", page14_path, class:'h3' %>
+<%= link_to "Prev>>", page14_path, class:'h3' %>
   </button>
 <a class="nav-item nav-link" href="#"></a>
   <a class="nav-item nav-link" href="#"></a>
@@ -695,4 +695,768 @@ Partial variation is usually solved with <strong>simultaneous equations</strong>
 </div>
 
 <%= render 'mathematics/sidebar'%>
+</div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="medium">
+<%= render 'layouts/header2'%>
+<br>
+<div class="row row-over">
+  <div class="col-md-10 ad-border">
+  <div class='container-fluid med'>
+
+  <div class="d-flex justify-content-center mt-3">
+<h1 class='text-dark justify-content-center'>Variation</h1>
+</div>
+<article>
+<strong>Variation</strong> is a concept that deals with variability in mathematics. 
+Variation means change in one quantity as a result of change in another related
+ quantity or other quantities. <strong>The symbol of variation is;</strong> <span class='h3'>∝</span>.
+<hr>
+<div class="d-flex justify-content-center mt-3">
+<h2 class='text-dark justify-content-center'> Types of Variation</h2>
+</div>
+<hr>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Direct Variation</h3>
+</div>
+<strong>Direct variation</strong> between related quantities means the quantities 
+vary proportionally to one another i.e. as one quantity increases, 
+the other quantity increases, and as one quantity decreases the other quantity also decreases.
+<br>
+<br>
+<strong>In general;</strong>
+<br>
+<span class='h5'>y</span> <span class='h5'>∝</span> <span class='h5'>x</span>
+Therefore; y = kx where k is a constant.
+<br>
+K = <sup>y</sup>&frasl;<sub>x</sub> (the ratio of y to x is a constant)
+<br>
+<strong>The above means y varies directly with x (or y is directly proportional to x)</strong>
+<br>
+<br>
+<strong>Example 1 </strong>
+<br>
+(i)	A dozen of pen cost $n. What is cost of 10 dozens of pen?
+<br>
+(ii)	C varies directly with N, when C = 9, N = 3. Find;
+<br>
+(1)	The relationship between C and N
+<br>
+(2)	The value of N when C = 21.
+<br>
+<strong>Solution</strong>
+<br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (i)
+    <br>
+    Cost of a dozen of pen = $n
+    <br>
+    Cost of 10 dozens = 10 x $n = $20n
+     </div>
+    <div class="col">
+    (ii)
+    <br>
+	<span class='h5'>C</span> <span class='h5'>∝</span> <span class='h5'>N</span>; C = kN when C = 9, N = 3
+    <br>
+9 = 3k; divide both sides by 3
+<br>
+<sup>3k</sup>&frasl;<sub>3</sub> = <sup>9</sup>&frasl;<sub>3</sub>
+<br>
+k = 3
+<br>
+Therefore; the relationship between C and N is; 
+<br>
+<strong> C = 3N </strong>
+<br>
+	Value of N when C = 21
+    <br>
+C = 3N
+<br>
+21 = 3N; divide both sides by 3
+<br>
+<sup>3N</sup>&frasl;<sub>3</sub> = <sup>21</sup>&frasl;<sub>3</sub>
+<br>
+N = <strong>7</strong>
+</div>
+  </div>
+  </div>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>Inverse Variation</h3>
+  </div>
+  <strong>Inverse variation</strong> between related quantities means they vary inversely with one another i.e. as one quantity increases, the other quantity decreases and as one quantity decreases the other quantity increases.
+<br>
+  <strong>In general;</strong>
+  <br>
+<span class='h5'>b</span> <span class='h5'>∝</span> <span class='h5'><sup>1</sup>&frasl;<sub>a</sub></span>  or  b = <sup>k</sup>&frasl;<sub>a</sub> where k is the constant.
+<br>
+<br>
+<strong>Example 1</strong>
+<br>
+	(i) M varies inversely as h when m = 6, h = 2. Find the;
+    <br>
+	(1) The formula that connects m and h
+    <br>
+	(2) The value of m when h = 4
+    <br>
+	(ii) <span class='h5'>s</span> <span class='h5'>∝</span> <span class='h5'><sup>1</sup>&frasl;<sub>t</sub></span> and t = 0.25 when s = 100. Find;
+    <br>
+(a) t when s = 40 (b) s when t = 0.2
+<br>
+<strong>Solution</strong>
+<br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (i)
+    <br>
+    (1) <span class='h5'>m</span> <span class='h5'>∝</span> <span class='h5'><sup>1</sup>&frasl;<sub>h</sub></span>; m = <sup>k</sup>&frasl;<sub>h</sub> when m = 6, h = 2 and k = constant
+    <br>
+    6 = <sup>k</sup>&frasl;<sub>2</sub>
+    <br>
+    k = 6 x 2 = 12; thus: m = <sup>12</sup>&frasl;<sub>h</sub>
+    <br>
+    The formula that connects m and h is; m = <sup>12</sup>&frasl;<sub>h</sub>
+    <br>
+    (2) Value of m when h = 4
+    <br>
+    m = <sup>12</sup>&frasl;<sub>h</sub>
+    <br>
+    m =  <sup>12</sup>&frasl;<sub>4</sub>
+    <br>
+    m =  <strong>3</strong>
+    </div>
+    <div class="col">
+    (ii)
+    <br>
+<span class='h5'>s</span> <span class='h5'>∝</span> <span class='h5'><sup>1</sup>&frasl;<sub>t</sub></span>; s = <sup>k</sup>&frasl;<sub>t</sub>; where k is the constant
+<br>
+When t = 0.25, s = 100
+<br>
+100 = <sup>k</sup>&frasl;<sub>0.25</sub>
+<br>
+k = 100 x 0.25
+<br>
+k = 25
+<br>
+s = <sup>25</sup>&frasl;<sub>t</sub> (relationship formula);
+<br>
+The value of t when s = 40
+    <br>
+s = <sup>25</sup>&frasl;<sub>t</sub> 
+<br>
+40 = <sup>25</sup>&frasl;<sub>t</sub>
+<br>
+40t = 25; divide both sides by 40
+<br>
+<sup>40t</sup>&frasl;<sub>40</sub> = <sup>25</sup>&frasl;<sub>40</sub>
+<br>
+t = 0.625
+<br>
+The value of s  when t = 0.2
+<br>
+ s = <sup>25</sup>&frasl;<sub>t</sub>;
+ <br>
+s = <sup>25</sup>&frasl;<sub>0.2</sub>
+<br>
+s = <strong>125</strong>
+</div>
+  </div>
+  </div>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>Joint Variation</h3>
+  </div>
+ <strong>Joint variation</strong> occurs when a quantity varies directly and/or inversely with two or more other quantities.
+ <br> 
+ <strong>In general;</strong>
+ <br>
+  <strong>Case I;</strong>
+  <br>
+  <span class='h5'>A</span> <span class='h5'>∝</span> <span class='h5'><sup>B</sup>&frasl;<sub>C<sup>2</sup></sub></span> ------------------ A = <sup>kB</sup>&frasl;<sub>C<sup>2</sup></sub>
+   <br>
+  The above means A varies directly with B and inversely with C<sup>2</sup> where k is the constant.
+  <br>
+  <strong>Case II</strong>
+  <br>
+  <span class='h5'>m</span> <span class='h5'>∝</span> <span class='h5'>np</span> ------------------ m = knp 
+  <br>
+  The above means m varies directly or jointly with both n and p where k is the constant.
+  <br>
+  <br>
+  <strong>Example 1</strong>
+  <br>
+	(i) a ∝ <sup>b</sup>&frasl;<sub>c</sub>; When a = 6, b = 2 and c = 3. Find;
+    <br>
+	 (1) The relationship between a, b, and c.
+     <br>
+	 (2) a when b = 8 and c = 4
+     <br>
+	(ii) The mass of a sheet of plywood varies jointly with its area and its thickness. A sheet of plywood of area 300cm<sup>2</sup> and the thickness of 2mm has a mass of 250g. Find;
+	<br>
+    (a) The formula that connects the mass M g, the area A cm<sup>2</sup> and the thickness t mm.
+	<br>
+    (b) The mass of a piece of plywood of an area 500cm<sup>2</sup> and a thickness of 5mm.
+<br>
+<br>
+    <strong>Solution</strong>
+<br>
+<div class="container-fluid">
+<div class="row">
+  <div class="col border-right border-danger">
+  (i)
+  <br>
+a ∝ <sup>b</sup>&frasl;<sub>c</sub>;  a = <sup>kb</sup>&frasl;<sub>c</sub> When a = 6, b = 2 and c = 3.
+<br>
+	6 = <sup>(2 x k)</sup>&frasl;<sub>3</sub>
+    <br>
+k x 2 = 6 x 3
+<br>
+2k = 18; divide both sides by 2
+<br>
+<sup>2k</sup>&frasl;<sub>2</sub>  = <sup>18</sup>&frasl;<sub>2</sub>
+<br>
+k = 9
+<br>
+The relationship between a, b, and c is;  a =  <sup>9b</sup>&frasl;<sub>c</sub>
+<br>
+The value of a when b = 8 and c = 4
+<br>
+a =  <sup>9b</sup>&frasl;<sub>c</sub>
+<br>
+a = <sup>(9 x 8)</sup>&frasl;<sub>4</sub> = a = <sup>72</sup>&frasl;<sub>4</sub> = 18
+<br>
+a= <strong>18</strong>
+  </div>
+  <div class="col">
+  (ii)
+  <br>
+  M ∝ At; M=kAt; When A = 300cm<sup>2</sup>, t = 2mm and M = 150g
+  <br>
+     (a) <strong>M = kAt</strong>
+      <br>
+              150 = k x 300 x 2
+              <br>
+              600k = 150; divide both sides by 600
+              <br>
+              <sup>600k</sup>&frasl;<sub>600</sub> = <sup>150</sup>&frasl;<sub>600</sub>
+              <br>
+             k = <strong>0.25</strong>
+             <br>
+            The formula that connects A, M and t is; 
+            <br>
+            <strong>M = 0.25At</strong>
+            <br>
+     (b) <strong>The value of M when;</strong>
+     <br>
+      A = 500cm<sup>2</sup> and t = 5mm
+      <br>
+  M = 0.25 x 500 x 5
+  <br>
+  M = 625g
+  <br>
+  The mass M = <strong>625g</strong>
+</div>
+</div>
+</div>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Partial Variation</h3>
+</div>
+<strong>Partial variation</strong> occurs when a quantity is partly constant and partly varies with another quantity.
+ <br>
+ <br>
+ <strong>In general;</strong>
+ <br>
+<strong>M = x + yN; M and N are variables while x and y are constants.</strong>
+<br>
+Partial variation is usually solved with <strong>simultaneous equations</strong> approach.
+<br>
+<br>
+<strong>Example 1</strong>
+<br>
+(i)	C is partly constant and partly varies with T. When C = 20, T = 5 and when C = 40, T = 10.
+<br>
+(a)	Find the formula that connects C and T
+<br>
+(b)	Find C when T = 15
+<br>
+<strong>Solution</strong>
+<br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (a) C = x + y T where x and y are constants.
+    <br>
+    Then, substitute the given values to have the two equations;
+    <br>
+    20 = x + 5y -----------(i)
+    <br>
+    40 = x + 10y ----------(ii)
+    <br>
+    Subtract equation (i) from (ii) 
+    <br>
+      40 = x + 10y
+      <br>
+    ─(20 = x + 5y)
+    <br>
+    -----------------------------
+    <br>
+    20 = 5y 
+    <br>
+    divide both sides by 5 
+    <br>
+    <sup>5y</sup>&frasl;<sub>5</sub> = <sup>20</sup>&frasl;<sub>5</sub>
+    <br>
+    y = <strong>4</strong>
+    <br>
+    Substitute y in equation (i)
+    <br>
+    20 = x + 5y
+    <br>
+    20 = x + 5(4)
+    <br>
+    20 = x + 20
+    <br>
+    x = 20 – 20 
+    <br>
+    x = <strong>0</strong>
+    <br>
+    C = x + yT; x = 0 while y = 4. 
+    <br>
+    Thus; C = 0 + 4T; C = 4T
+    <br>
+    The formula that connects C and T is; <strong>C = 4T</strong>
+    </div>
+    <div class="col">
+    (b)	The value of C when T = 15
+    <br>
+    C = 4T
+    <br>
+    C = 4 x 15
+    <br>
+    C = <strong>60</strong>
+    </div>
+  </div>
+  </div>
+</article>
+<hr>
+<div class="d-flex justify-content-start text-primary">
+<h5>Test your <strong class='text-secondary'>Variation</strong> knowledge with these Objective Questions.</h5>
+</div>
+<article>
+<div class='obj-cont' >
+  <h6>1.	P varies directly with Q when P = 14, Q = 2. Find P when Q = 4</h6>
+ <div id='block-11' >
+    <label for='option-11' style=' padding: 5px;'>
+      <input type='radio' name='option' value='14' id='option-11' style='transform: scale(1.2)'  />
+      14</label>
+    <span id='result-11'></span>
+  </div>
+ 
+
+  <div id='block-12'>
+    <label for='option-12' style='padding: 5px;'>
+      <input type='radio' name='option' value='28' id='option-12' style='transform: scale(1.2)' />
+      28</label>
+    <span id='result-12'></span>
+  </div>
+  
+
+  <div id='block-13'>
+    <label for='option-13' style='padding: 5px;'>
+      <input type='radio' name='option' value='7' id='option-13' style='transform: scale(1.2)' />
+      7</label>
+    <span id='result-13'></span>
+  </div>
+  
+
+  <div id='block-14'>
+    <label for='option-14' style=' padding: 5px;'>
+      <input type='radio' name='option' value='21' id='option-14' style='transform: scale(1.2)' />
+      21</label>
+    <span id='result-14'></span>
+  </div>
+ 
+  <button type='button' class = "c-btn" onclick='displayAnswer1()'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer1() {
+    if (document.getElementById('option-11').checked) {
+      document.getElementById('block-11').style.border = '3px solid red'
+      document.getElementById('result-11').style.color = 'red'
+      document.getElementById('result-11').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-12').checked) {
+      document.getElementById('block-12').style.border = '3px solid red'
+      document.getElementById('result-12').style.color = 'red'
+      document.getElementById('result-12').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-13').checked) {
+      document.getElementById('block-13').style.border = '3px solid limegreen'
+      document.getElementById('result-13').style.color = 'limegreen'
+      document.getElementById('result-13').innerHTML = 'Correct!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-14').checked) {
+      document.getElementById('block-14').style.border = '3px solid red'
+      document.getElementById('result-14').style.color = 'red'
+      document.getElementById('result-14').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer1() {
+    let showAnswer1 = document.createElement('p')
+    showAnswer1.innerHTML = 'Show Corrent Answer'
+    showAnswer1.style.position = 'relative'
+    showAnswer1.style.top = '-150px'
+    showAnswer1.style.fontSize = '1.5rem'
+    document.getElementById('showanswer1').appendChild(showAnswer1)
+    showAnswer1.addEventListener('click', () => {
+      document.getElementById('block-13').style.border = '3px solid limegreen'
+      document.getElementById('result-13').style.color = 'limegreen'
+      document.getElementById('result-13').innerHTML = 'Correct!'
+      document.getElementById('showanswer1').removeChild(showAnswer1)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>2.	C ∝  <sup>1</sup>&frasl;<sub>P</sub>; When C = 12, P = 3. Find the formula that connects C and P</h6>
+ <div id='block-21' >
+    <label for='option-21' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='C = <sup>k</sup>&frasl;<sub>P</sub>' id='option-21' style='transform: scale(1.2)'  />
+      C = <sup>k</sup>&frasl;<sub>p</sub></label>
+    <span id='result-21'></span>
+  </div>
+ 
+
+  <div id='block-22'>
+    <label for='option-22' style='padding: 5px;'>
+      <input type='radio' name='option1' value='C ∝ <sup>12</sup>&frasl;<sub>P</sub>' id='option-22' style='transform: scale(1.2)' />
+      C ∝  <sup>12</sup>&frasl;<sub>P</sub></label>
+    <span id='result-22'></span>
+  </div>
+  
+
+  <div id='block-23'>
+    <label for='option-23' style='padding: 5px;'>
+      <input type='radio' name='option1' value='C = <sup>1</sup>&frasl;<sub>P</sub>' id='option-23' style='transform: scale(1.2)' />
+      C =  <sup>1</sup>&frasl;<sub>P</sub></label>
+    <span id='result-23'></span>
+  </div>
+  
+
+  <div id='block-24'>
+    <label for='option-24' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='C = <sup>36</sup>&frasl;<sub>p</sub>' id='option-24' style='transform: scale(1.2)' />
+      C =  <sup>36</sup>&frasl;<sub>p</sub></label>
+    <span id='result-24'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer2()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer2() {
+    if (document.getElementById('option-21').checked) {
+      document.getElementById('block-21').style.border = '3px solid red'
+      document.getElementById('result-21').style.color = 'red'
+      document.getElementById('result-21').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-22').checked) {
+      document.getElementById('block-22').style.border = '3px solid red'
+      document.getElementById('result-22').style.color = 'red'
+      document.getElementById('result-22').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-23').checked) {
+      document.getElementById('block-23').style.border = '3px solid red'
+      document.getElementById('result-23').style.color = 'red'
+      document.getElementById('result-23').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-24').checked) {
+      document.getElementById('block-24').style.border = '3px solid limegreen'
+      document.getElementById('result-24').style.color = 'limegreen'
+      document.getElementById('result-24').innerHTML = 'Correct!'
+      showCorrectAnswer2()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer2() {
+    let showAnswer2 = document.createElement('p')
+    showAnswer2.innerHTML = 'Show Corrent Answer'
+    showAnswer2.style.position = 'relative'
+    showAnswer2.style.top = '-150px'
+    showAnswer2.style.fontSize = '1.5rem'
+    document.getElementById('showanswer2').appendChild(showAnswer2)
+    showAnswer2.addEventListener('click', () => {
+      document.getElementById('block-24').style.border = '3px solid limegreen'
+      document.getElementById('result-24').style.color = 'limegreen'
+      document.getElementById('result-24').innerHTML = 'Correct!'
+      document.getElementById('showanswer2').removeChild(showAnswer2)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>3. m varies jointly with n and q when m = 25, n = 1 and q = 5. Find m when n = 2 and q = 3.</h6>
+ <div id='block-31' >
+    <label for='option-31' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='25' id='option-31' style='transform: scale(1.2)'  />
+      25</label>
+    <span id='result-31'></span>
+  </div>
+ 
+
+  <div id='block-32'>
+    <label for='option-32' style='padding: 5px;'>
+      <input type='radio' name='option2' value='35' id='option-32' style='transform: scale(1.2)' />
+      35</label>
+    <span id='result-32'></span>
+  </div>
+  
+
+  <div id='block-33'>
+    <label for='option-33' style='padding: 5px;'>
+      <input type='radio' name='option2' value='40' id='option-33' style='transform: scale(1.2)' />
+      40</label>
+    <span id='result-33'></span>
+  </div>
+  
+
+  <div id='block-34'>
+    <label for='option-34' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='30' id='option-34' style='transform: scale(1.2)' />
+      30</label>
+    <span id='result-34'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer3()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer3() {
+    if (document.getElementById('option-31').checked) {
+      document.getElementById('block-31').style.border = '3px solid red'
+      document.getElementById('result-31').style.color = 'red'
+      document.getElementById('result-31').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-32').checked) {
+      document.getElementById('block-32').style.border = '3px solid red'
+      document.getElementById('result-32').style.color = 'red'
+      document.getElementById('result-32').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-33').checked) {
+      document.getElementById('block-33').style.border = '3px solid red'
+      document.getElementById('result-33').style.color = 'red'
+      document.getElementById('result-33').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-34').checked) {
+      document.getElementById('block-34').style.border = '3px solid limegreen'
+      document.getElementById('result-34').style.color = 'limegreen'
+      document.getElementById('result-34').innerHTML = 'Correct!'
+      showCorrectAnswer3()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer3() {
+    let showAnswer3 = document.createElement('p')
+    showAnswer3.innerHTML = 'Show Corrent Answer'
+    showAnswer3.style.position = 'relative'
+    showAnswer3.style.top = '-150px'
+    showAnswer3.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer2)
+    showAnswer3.addEventListener('click', () => {
+      document.getElementById('block-34').style.border = '3px solid limegreen'
+      document.getElementById('result-34').style.color = 'limegreen'
+      document.getElementById('result-34').innerHTML = 'Correct!'
+      document.getElementById('showanswer3').removeChild(showAnswer3)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>4. x is partly constant and partly varies y. When y = 4, x = 60 and when y = 12, x = 100. Find x when y = 3</h6>
+ <div id='block-41' >
+    <label for='option-41' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='50' id='option-41' style='transform: scale(1.2)'  />
+     50</label>
+    <span id='result-41'></span>
+  </div>
+ 
+
+  <div id='block-42'>
+    <label for='option-42' style='padding: 5px;'>
+      <input type='radio' name='option3' value='55' id='option-42' style='transform: scale(1.2)' />
+     55</label>
+    <span id='result-42'></span>
+  </div>
+  
+
+  <div id='block-43'>
+    <label for='option-43' style='padding: 5px;'>
+      <input type='radio' name='option3' value='40' id='option-43' style='transform: scale(1.2)' />
+      40</label>
+    <span id='result-43'></span>
+  </div>
+  
+
+  <div id='block-44'>
+    <label for='option-44' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='45' id='option-44' style='transform: scale(1.2)' />
+    45</label>
+    <span id='result-44'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer4()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer4() {
+    if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid red'
+      document.getElementById('result-41').style.color = 'red'
+      document.getElementById('result-41').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid limegreen' 
+      document.getElementById('result-42').style.color = 'limegreen'
+      document.getElementById('result-42').innerHTML = 'Correct!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid red'
+      document.getElementById('result-43').style.color = 'red'
+      document.getElementById('result-43').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid red'
+      document.getElementById('result-44').style.color = 'red'
+      document.getElementById('result-44').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer4() {
+    let showAnswer4 = document.createElement('p')
+    showAnswer4.innerHTML = 'Show Corrent Answer'
+    showAnswer4.style.position = 'relative'
+    showAnswer4.style.top = '-150px'
+    showCorrectAnswer4.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer4)
+    showAnswer4.addEventListener('click', () => {
+      document.getElementById('block-42').style.border = '3px solid limegreen'
+      document.getElementById('result-42').style.color = 'limegreen'
+      document.getElementById('result-42').innerHTML = 'Correct!'
+      document.getElementById('showanswer4').removeChild(showAnswer4)
+    })
+  }
+</script>
+</article>
+</div>
+  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+  <div>
+  <%= render 'layouts/sideadvert' %>
+  </div>
+  </div>
+</div>
+<hr>
+<nav class="nav nav-pills nav-fill">
+<button class='ml-3'>
+<%= link_to "Prev>>", page14_path, class:'h3' %>
+  </button>
+<a class="nav-item nav-link" href="#"></a>
+  <a class="nav-item nav-link" href="#"></a>
+<button class='mr-2 ml-3'>
+<%= link_to "Next>>", page16_path, class:'h3' %>
+</button>
+</nav>
+<hr>
+<%= render 'layouts/footer' %>
+</div>

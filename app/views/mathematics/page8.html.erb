@@ -1,5 +1,7 @@
+<div class='large'>
+<%= render 'layouts/header'%>
 <div class="main">
-<div class="row">
+<div class="row row-over">
   <div class="col-md-10 ad-border">
   <div class='container-fluid med'>
   <div class="d-flex justify-content-center mt-3">
@@ -12,7 +14,7 @@
 <strong>Number line</strong> is a line extending above and below zero (0).
 <strong>Number line</strong> is a line extending above and below zero (0).
 <br>
-<%= image_tag 'Number-line1.png', class: 'carol col-12' %>
+<%= image_tag 'Number-line1.png', alt: 'Number line Image', class: 'carol col-12' %>
 <div class="d-flex justify-content-center mt-3">
 <h2 class='text-dark justify-content-center'> Positive and Negative Numbers </h2>
 </div>
@@ -87,7 +89,7 @@ The position of the <strong>frog</strong> to the river surface = <strong>-4m</st
 <div class="d-flex justify-content-center mt-3">
  <h3 class='text-dark justify-content-center'>Size of Directed Numbers </h3>
  </div>
- <%= image_tag 'Number-line2.png', class: 'carol col-12' %>
+ <%= image_tag 'Number-line2.png', alt:'Number line2', class: 'carol col-12' %>
  <p>
  The farther you move in the left direction, the lesser the numbers e.g. -1 > -2 (i.e. <strong>-1 is greater than -2</strong>)
  <br>
@@ -95,8 +97,7 @@ The position of the <strong>frog</strong> to the river surface = <strong>-4m</st
  <br>
  <strong>Note;</strong> positive number is always greater than negative number no matter how big the negative number is e.g. +2 > -10 (i.e. <strong>+2 is greater than -10 </strong>).
  </p>
-
- <div class="container">
+<div class="container-fluid">
  <div class="row">
    <div class="col border-right border-danger">
    <strong>Example 1</strong>
@@ -135,7 +136,7 @@ The position of the <strong>frog</strong> to the river surface = <strong>-4m</st
  In this section, for easy understanding, look at the positive (+) as what you have with you and the negative (-) as what you are going to give out (debt).
  </p>
  <br>
- <div class="container">
+ <div class="container-fluid">
  <div class="row">
    <div class="col border-right border-danger">
    <strong>Example 1</strong>
@@ -203,7 +204,7 @@ The position of the <strong>frog</strong> to the river surface = <strong>-4m</st
     <div class="d-flex justify-content-center mt-3">
     <h3 class='text-dark justify-content-center'>Addition of Negative Numbers</h3>
     </div>
-    <div class="container">
+    <div class="container-fluid">
     <div class="row">
       <div class="col border-right border-danger">
       <strong>Example 1</strong>
@@ -781,18 +782,14 @@ The position of the <strong>frog</strong> to the river surface = <strong>-4m</st
 </article>
 </div>
   </div>
-  <div class="col-md-2 justify-content-center mt-3">
-  <%= link_to "Advert/Sponsorship", contact_path, class: 'text-primary advert' %>
-  
-  <div>
-  This space is created by the management for the interested organizations to advertise their products and sponsorships.
-  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+  <%= render 'layouts/sideadvert' %>
   </div>
 </div>
 <hr>
 <nav class="nav nav-pills nav-fill">
 <button class='ml-3'>
-<%= link_to "Previous>>", page7_path, class:'h3' %>
+<%= link_to "Prev>>", page7_path, class:'h3' %>
   </button>
 <a class="nav-item nav-link" href="#"></a>
   <a class="nav-item nav-link" href="#"></a>
@@ -803,9 +800,1016 @@ The position of the <strong>frog</strong> to the river surface = <strong>-4m</st
 <hr>
 <%= render 'layouts/footer' %>
 </div>
-
 <%= render 'mathematics/sidebar'%>
+</div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="medium">
+<%= render 'layouts/header2'%>
+<br>
+<div class="row ml-5 row-over">
+  <div class=" col-md-10  ad-border">
+  <div class='container-fluid med'>
+  <div class="d-flex justify-content-center mt-3">
+  <h1 class='text-dark justify-content-center interest'>Directed Numbers</h1>
+  </div>
+  <article>
+  <p>
+  <strong>Directed</strong> numbers are positive and negative numbers. The sign depends on the direction of the number from zero
+  </p>
+  <strong>Number line</strong> is a line extending above and below zero (0).
+  <strong>Number line</strong> is a line extending above and below zero (0).
+  <br>
+  <%= image_tag 'Number-line1.png', alt: 'Number line Image', class: 'carol col-12' %>
+  <div class="d-flex justify-content-center mt-3">
+  <h2 class='text-dark justify-content-center'> Positive and Negative Numbers </h2>
+  </div>
+  <div class="d-flex justify-content-center mt-3">
+    <h3 class='text-dark justify-content-center'> Positive Numbers </h3>
+  </div>
+  <p>
+  In <strong>number line</strong> moving towards right means <strong>positive numbers (i.e. from zero (0), upward).</strong> 
+  <br>
+  <strong>Positive numbers</strong> are numbers greater than zero; they have positive symbol (+) preceding 
+  the numbers e.g. +5, +6, +1 etc. 
+  Sometimes, not always written with the positive symbol (+) i.e. +5 => 5
+  </p>
+  <div class="d-flex justify-content-center mt-3">
+    <h3 class='text-dark justify-content-center'> Negative Numbers </h3>
+  </div>
+  <p>
+  In <strong>number line</strong> moving towards left means <strong>negative numbers (i.e. from zero (0), downward).</strong>
+  <br> 
+  <strong>Negative numbers</strong> are number less than zero (0). They usually have negative symbol (-) preceding the numbers e.g. -2, -3, -14 etc.  
+  </p>
+  
+  <p>
+   Note; <strong>Zero</strong> is a number that is neither <strong> positive </strong> nor <strong>negative.</strong>
+  </p>
+  
+  <br>
+  <div class="container">
+   <div class="row">
+     <div class="col border-right border-danger">
+     <strong>Example 1 </strong> 
+  <br>                        
+  A monkey is sitting at the top of a mango tree which is 8m above the surface of the river. A frog swims 4m below the surface of the river. Find (i) the position of the monkey and the frog as distance from the river surface (ii) How far is the frog below the monkey?
+  <br>  
+  <strong>Solution</strong>
+  <br>  	
+  <strong>Above</strong> means <strong>positive(+)</strong> and <strong>Below</strong> means <strong>negative(-)</strong>
+  <br>  
+  (i)	
+  <br>  
+  The position of the <strong>monkey</strong> to the river surface = <strong> +8m </strong>
+  <br>  
+  The position of the <strong>frog</strong> to the river surface = <strong>-4m</strong>
+  <br>  
+  (ii)
+  <br>  
+  <strong>Frog</strong> below the <strong>monkey</strong> distance = +8m – (-4m) 
+  <br>
+  <strong>Distance</strong> = 8m + 4m = <strong>12m</strong>
+     </div>
+     <div class="col">
+     <strong>Example 2</strong>
+     <br>
+     A lady arrives at the meeting 15minutes early. A man is 5minutes late. How long has the lady been waiting in the meeting room before the man arrived?
+     <br>
+     <strong>Solution </strong>
+     <br>
+     <strong>Before</strong> means positive (+) and <strong>After</strong> means negative (-) 
+     <br>
+     The lady’s time =  <strong> +15 minutes  </strong>
+     <br>
+     The man’s time =  <strong>-5 minutes </strong>
+     <br>
+     The lady’s waiting period = +15 – (-5) 
+     <br>
+     The lady’s waiting period = 15 + 5 
+     <br>
+     The lady’s waiting period = <strong>20minutes</strong>
+     </div>
+   </div>
+  </div>
+  <div class="d-flex justify-content-center mt-3">
+   <h3 class='text-dark justify-content-center'>Size of Directed Numbers </h3>
+   </div>
+   <%= image_tag 'Number-line2.png', alt:'Number line2', class: 'carol col-12' %>
+   <p>
+   The farther you move in the left direction, the lesser the numbers e.g. -1 > -2 (i.e. <strong>-1 is greater than -2</strong>)
+   <br>
+   The farther you move in the right direction the greater the numbers e.g. +2 > +1 (i.e. <strong>+2 is greater than +1</strong>)
+   <br>
+   <strong>Note;</strong> positive number is always greater than negative number no matter how big the negative number is e.g. +2 > -10 (i.e. <strong>+2 is greater than -10 </strong>).
+   </p>
+  
+   <div class="container-fluid">
+   <div class="row">
+     <div class="col border-right border-danger">
+     <strong>Example 1</strong>
+     <br>
+     Arrange the following numbers in ascending order 
+     (<strong>least to greatest</strong>) (i) -4, 0, -3, +1, -7, +6 (ii) -1, 0, -3, -14, -10, -5
+     <br>
+     <strong>Solution</strong>
+     <br>
+     (i)	<strong>-7, -4, -3, 0, +1, +6</strong>
+     <br>
+     (ii)	<strong>-14, -10, -5, -3, -1, 0</strong>
+     </div>
+     <div class="col">
+     <strong>Example 2</strong>
+     <br>
+     Arrange the following numbers in descending order (<strong>greatest to least</strong>) (i) +16, +17, -10, +1, -11, -9 (ii) +4, 0, -4,-8, -12, -16
+     <br>
+     <strong>Solution</strong>
+     <br>
+     (i)	<strong>+17, +16, +1, -9, -10, -11</strong>
+     <br>
+     (ii) <strong>+4, 0, -4, -8, -12, -16</strong>
+     </div>
+   </div>
+   </div>
+  
+   <div class="d-flex justify-content-center mt-3">
+   <h3 class='text-dark justify-content-center'>Adding and Subtracting Positive Numbers</h3>
+   </div>
+  
+   <div class="d-flex justify-content-center mt-3">
+   <h3 class='text-dark justify-content-center'>Addition of Positive Numbers</h3>
+   </div>
+   <p>
+   In this section, for easy understanding, look at the positive (+) as what you have with you and the negative (-) as what you are going to give out (debt).
+   </p>
+   <br>
+   <div class="container-fluid">
+   <div class="row">
+     <div class="col border-right border-danger">
+     <strong>Example 1</strong>
+     <br>
+     Simplify 3 + 5 
+     <br>
+     <strong>Solution</strong>
+     <br>
+     3 + 5 = (+3) + (+5) = <b>+8</b>
+     <br>
+     <strong>The above means you have 3 and 5 (i.e. +3 and +5), you have total of 8 with you (i.e. +8)</strong>
+     
+     </div>
+     <div class="col">
+     <strong>Example 2</strong>
+     <br>
+     Simplify 6 + (-12)
+     <br>
+     <strong>Solution</strong>
+     <br>
+     6 + (-12) = (+6) + (-12) = -6
+     <br>
+     <strong>The above means you have 6 (i.e. +6), you owe 12 (i.e. -12) 
+     if you give out the 6 you have with you, and you still have 6 to balance up (i.e. - 6).</strong>
+    
+     </div>
+   </div>
+   </div>
+   <div class="d-flex justify-content-center mt-3">
+   <h3 class='text-dark justify-content-center'>Subtraction of the Positive Number</h3>
+   </div>
+  <strong>Example 1</strong>
+      <br>
+      Simplify +6 – (+4)
+      <br>
+      <strong>Solution</strong>
+      <br>
+      <strong>Note:  - x + = - (i.e. product of Positive sign (+) and Negative sign (-) gives Negative result)</strong>
+      <br>
+      +6 – (+4) = +6 – 4 = <strong>+2</strong>
+      <br>
+      <strong>The above means you have 6 (i.e. +6) and owe 4 (i.e. -4), if you pay the 4, you will still have 2 with you (i.e. +2).</strong> 
+      <br>
+      <br>
+      <strong>Example 2</strong>
+      <br>
+      Solve +4 – (+9)
+      <br>
+      <strong>Solution</strong>
+      <br>
+      Note:  - x + = -
+      <br>
+      +4 – (+9) = +4 – 9 = <strong>-5</strong>
+      <br>
+      <strong>The above means you have 4 (i.e. +4), owe 9 (i.e. -9), if you give out the 
+      4 you will still have 5 (i.e. -5) to balance up.</strong>
+     
+    
+  
+      <div class="d-flex justify-content-center mt-3">
+      <h3 class='text-dark justify-content-center'>Adding and Subtracting Negative Numbers</h3>
+      </div>
+    
+    
+      <div class="d-flex justify-content-center mt-3">
+      <h3 class='text-dark justify-content-center'>Addition of Negative Numbers</h3>
+      </div>
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col border-right border-danger">
+        <strong>Example 1</strong>
+        <br>
+        Simplify (+3) + (-7)
+        <br>
+        <strong>Solution</strong>
+        <br>
+        <strong>Note:  + x - = - (i.e. product of Negative sign (-) and Positive sign (+) gives Negative result)</strong>
+        <br>
+        (+3) + (-7) = 3 – 7 = <strong>-4</strong>
+        <br>
+        <strong>The above means you have 3 (i.e. +3) and owe 7 (i.e. -7), if you give out the 3, you will need 4 (i.e. -4) to balance up.</strong>
+        </div>
+        <div class="col">
+        <strong>Example 2</strong>
+        <br>
+        Simplify (-2) + (-4)
+        <br>
+       <strong> Solution</strong>
+       <br>
+       <strong>Note:  + x - = - </strong>
+       <br>
+        (-2) + (-4) = -2 – 4 = -6
+        <br>
+        <strong>The above means you owe 2 (i.e. -2), you owe 4 as well (i.e. -4), in total you owe 6 (i.e. -2 and -4).</strong>
+        
+        </div>
+      </div>
+      </div>
+      <div class="d-flex justify-content-center mt-3">
+      <h3 class='text-dark justify-content-center'>Subtraction of Negative Numbers</h3>
+      </div>
+    <p class='ml-3'>
+      <strong>Note:  - x - = + (i.e. product of Negative sign (-) and Negative sign (-) gives Positive result)</strong>
+      <strong>Example 1</strong>
+      <br>
+      Simplify (-2) – (-4)
+      <br>
+      <strong>Solution </strong>
+      <br>
+      (-2) – (-4) = -2 + 4 = <strong>+2</strong>
+      <br>
+      <strong>The above means you owe 2 (i.e. -2) and have 4 (i.e. +4), if you pay the 2, you will still have 2 with you (i.e. +2).</strong> 
+      <br>
+      <strong>Generally</strong> in directed numbers addition and subtraction;
+      <br>
+      (i)	If the larger number has the negative sign (-) before it, the result is negative (-).
+      <br>
+      (ii)	If the larger number has the positive sign (+) before it, the result is positive (+).
+      <br>
+      (iii)	If the signs are the same, disregard the sign and add the two numbers, therefore;
+      <br>
+      <span class='ml-5'>(i)	If both signs are positive (+), the result is positive (+)</span>
+      <br>
+      <span class='ml-5'>(ii)	If both signs are negative (-), the result is negative (-)</span>
+      <br>
+      <strong>The above can be used to simplify the directed numbers easily without stress.</strong>
+      </p>
+      <div class="d-flex justify-content-center mt-3">
+      <h3 class='text-dark justify-content-center'>Multiplication of Directed Numbers </h3>
+      </div>
+      <p class='ml-3'>
+       <strong>Multiplication</strong> means to increase the number. It is also regarded as repeated addition e.g. 3 x 3 = 3 + 3 + 3 = <strong>9</strong>
+      </p>
+      <div class="d-flex justify-content-center mt-3">
+      <h3 class='text-dark justify-content-center'>Positive Multipliers in Directed Numbers</h3>
+      </div>
+      <p class='ml-3'>
+      <strong>General rules for positive multipliers;</strong>
+      <br>
+      (+i) x (+j) = <strong>+ (i x j) i.e. + x + = + </strong>
+      <br>
+      (+i) x (-j) = <strong>- (i x j) i.e. + x - = - </strong>
+      <br>
+       <strong>Example 1</strong>
+       <br>
+       Simplify the following; (i) (+8) x (+4) (ii) (+12) x (-2) (iii) (+<sup>2</sup>&frasl;<sub>3</sub>) x (+<sup>1</sup>&frasl;<sub>3</sub>) (iv) 3 x (-0.6)
+       <br>
+       <strong>Solution</strong>
+       <br>
+      (i) (+8) x (+4) = + (8 x 4)  = <strong> +32 </strong>
+        <br>
+      (ii) (+12) x (-2) = - (12 x 2) = <strong>-24</strong>
+        <br>
+      (iii) (+<sup>2</sup>&frasl;<sub>3</sub>) x (+<sup>1</sup>&frasl;<sub>3</sub>) = + ( <sup>2</sup>&frasl;<sub>3</sub> x  <sup>1</sup>&frasl;<sub>3</sub>) = <strong> +<sup>2</sup>&frasl;<sub>9</sub> </strong>
+        <br>
+      (iv)  3 x (-0.6) = - (3 x 0.6) = <strong>-1.8</strong>
+      </p>
+    
+      <div class="d-flex justify-content-center">
+      <h3 class='text-dark justify-content-center'> Negative Multipliers in Directed Numbers </h3>
+      </div>
+      <p class='ml-3'>
+    
+      <strong>General rules for negative multipliers;</strong>
+      <br>
+      (-i) x (+j) = <strong>- (i x j) i.e. - x + = -</strong>
+      <br>
+      (-i) x (-j) = <strong>+ (i x j) i.e. - x - = +</strong>
+      <br>
+      <strong>Example 1</strong>
+      <br>
+     Simplify (i) (-2) x (+4) (ii) (-16) x (-3) (iii) (-<sup>1</sup>&frasl;<sub>4</sub>) x (+<sup>1</sup>&frasl;<sub>2</sub>) (iv) (-6) X (-0.5)
+     <br>
+     <strong>Solution</strong>
+     <br>
+      (-2) x (+4) = - (2 x 4) = <strong>-8</strong>
+      <br>
+      (-16) x (-3) = + (16 x 3) = <strong>+48</strong>
+      <br>
+      (-<sup>1</sup>&frasl;<sub>4</sub>) x (+<sup>1</sup>&frasl;<sub>2</sub>) =  -(<sup>1</sup>&frasl;<sub>4</sub> x (<sup>1</sup>&frasl;<sub>2</sub>)= <strong> -<sup>1</sup>&frasl;<sub>8</sub></strong>
+      <br>
+      (-6) X (-0.5) = + (6 x 0.5) = <strong>+3</strong>
+      <br>
+     <strong>Note:</strong> when multiplying directed numbers;
+     <br>
+      <span  class='ml-3'>(i) Two like signs give a positive result(+)</span>
+      <br>
+      <span  class='ml-3'>(ii) Two unlike signs or different signs give a negative result(-)</span>
+    </p>
+    <div class="d-flex justify-content-center">
+      <h3 class='text-dark justify-content-center'> Division in Directed Numbers </h3>
+    </div>
+    <p class='ml-3'>
+    <strong>Divide</strong> means to share or to find how many times a number is contained in another number.
+    <br>
+    In general;
+    <br>
+      (+i) ÷ (+j) = <strong>+(<sup>i</sup>&frasl;<sub>j</sub>)</strong>
+      <br>
+      (-i) ÷ (-j) =<strong> +(<sup>i</sup>&frasl;<sub>j</sub>) </strong>
+      <br>
+      (+i) ÷ (-j) = <strong>-(<sup>i</sup>&frasl;<sub>j</sub>)</strong>
+      <br>
+      (-i) ÷ (+j) = <strong>-(<sup>i</sup>&frasl;<sub>j</sub>)</strong>
+    <br>
+    <strong>In mathematics; by => ÷ and of => ×.</strong>
+    <br>
+    <strong>Example 1</strong>
+    <br>
+    Simplify the following; (i) (+36) ÷ (+12) (ii) (-16) ÷ (-4) (iii) (-36) ÷ (+18) (iv) (+9) ÷ (-27)
+    <br>
+    <strong>Solution</strong>
+    <br>
+      (i) (+36) ÷ (+12) = +(<sup>336</sup>&frasl;<sub>13</sub>) = <strong>+3</strong>
+      <br>
+      (ii) (-16) ÷ (-4) = +(<sup>16</sup>&frasl;<sub>4</sub>) = <strong>+4</strong>
+      <br>
+      (iii) (-36) ÷ (+18) = -(<sup>36</sup>&frasl;<sub>18</sub>) = <strong>-2</strong>
+      <br>
+      (iii) (+9) ÷ (-27) = -(<sup>9</sup>&frasl;<sub>27</sub>) = <strong>-(<sup>1</sup>&frasl;<sub>3</sub>)</strong>
+      <br>
+    <strong>Example 2</strong>
+    <br>
+    Solve <sup>(-7) x (-4) </sup>&frasl;<sub>(-2)</sub>
+    <br>
+    <strong>Solution</strong>
+    <br>
+    <sup>(-7) x (-4) </sup>&frasl;<sub>(-2)</sub> = <sup>(+28)</sup>&frasl;<sub>(-2)</sub> = - <sup>28</sup>&frasl;<sub>2</sub> = <strong>-14</strong>
+    </p>
+    </article>
+  <hr>
+<div class="d-flex justify-content-start text-primary">
+<h5>Test your <strong class='text-secondary'>Directed Numbers</strong> knowledge with these Objective Questions.</h5>
+</div>
+<article class='ml-3'>
+<div class='obj-cont' >
+  <h6>1.	Simplify -4 + 10 – 8</h6>
+ <div id='block-11' >
+    <label for='option-11' style=' padding: 5px;'>
+      <input type='radio' name='option' value='-2' id='option-11' style='transform: scale(1.2)'  />
+      -2</label>
+    <span id='result-11'></span>
+  </div>
+ 
+
+  <div id='block-12'>
+    <label for='option-12' style='padding: 5px;'>
+      <input type='radio' name='option' value='+2' id='option-12' style='transform: scale(1.2)' />
+     +2</label>
+    <span id='result-12'></span>
+  </div>
+  
+
+  <div id='block-13'>
+    <label for='option-13' style='padding: 5px;'>
+      <input type='radio' name='option' value='+6' id='option-13' style='transform: scale(1.2)' />
+    +6</label>
+    <span id='result-13'></span>
+  </div>
+  
+
+  <div id='block-14'>
+    <label for='option-14' style=' padding: 5px;'>
+      <input type='radio' name='option' value='-12' id='option-14' style='transform: scale(1.2)' />
+    -12</label>
+    <span id='result-14'></span>
+  </div>
+ 
+  <button type='button' class = "c-btn" onclick='displayAnswer1()'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer1() {
+    if (document.getElementById('option-11').checked) {
+      document.getElementById('block-11').style.border = '3px solid limegreen'
+      document.getElementById('result-11').style.color = 'limegreen'
+      document.getElementById('result-11').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-12').checked) {
+      document.getElementById('block-12').style.border = '3px solid red'
+      document.getElementById('result-12').style.color = 'red'
+      document.getElementById('result-12').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-13').checked) {
+      document.getElementById('block-13').style.border = '3px solid red'
+      document.getElementById('result-13').style.color = 'red'
+      document.getElementById('result-13').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-14').checked) {
+      document.getElementById('block-14').style.border = '3px solid red'
+      document.getElementById('result-14').style.color = 'red'
+      document.getElementById('result-14').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer1() {
+    let showAnswer1 = document.createElement('p')
+    showAnswer1.innerHTML = 'Show Corrent Answer'
+    showAnswer1.style.position = 'relative'
+    showAnswer1.style.top = '-150px'
+    showAnswer1.style.fontSize = '1.5rem'
+    document.getElementById('showanswer1').appendChild(showAnswer1)
+    showAnswer1.addEventListener('click', () => {
+      document.getElementById('block-11').style.border = '3px solid limegreen'
+      document.getElementById('result-11').style.color = 'limegreen'
+      document.getElementById('result-11').innerHTML = 'Correct!'
+      document.getElementById('showanswer1').removeChild(showAnswer1)
+    })
+  }
+</script>
+</article>
+<hr>
+<article class='ml-3'>
+<div class='obj-cont'>
+  <h6>2.	Simplify 7 – (-9) + (-6)</h6>
+ <div id='block-21' >
+    <label for='option-21' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='-15' id='option-21' style='transform: scale(1.2)'  />
+      -15</label>
+    <span id='result-21'></span>
+  </div>
+ 
+
+  <div id='block-22'>
+    <label for='option-22' style='padding: 5px;'>
+      <input type='radio' name='option1' value='-16' id='option-22' style='transform: scale(1.2)' />
+      -16</label>
+    <span id='result-22'></span>
+  </div>
+  
+
+  <div id='block-23'>
+    <label for='option-23' style='padding: 5px;'>
+      <input type='radio' name='option1' value='+10' id='option-23' style='transform: scale(1.2)' />
+      +10</label>
+    <span id='result-23'></span>
+  </div>
+  
+
+  <div id='block-24'>
+    <label for='option-24' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='+22' id='option-24' style='transform: scale(1.2)' />
+      +22</label>
+    <span id='result-24'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer2()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer2() {
+    if (document.getElementById('option-21').checked) {
+      document.getElementById('block-21').style.border = '3px solid red'
+      document.getElementById('result-21').style.color = 'red'
+      document.getElementById('result-21').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-22').checked) {
+      document.getElementById('block-22').style.border = '3px solid red'
+      document.getElementById('result-22').style.color = 'red'
+      document.getElementById('result-22').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-23').checked) {
+      document.getElementById('block-23').style.border = '3px solid limegreen'
+      document.getElementById('result-23').style.color = 'limegreen'
+      document.getElementById('result-23').innerHTML = 'Correct!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-24').checked) {
+      document.getElementById('block-24').style.border = '3px solid red'
+      document.getElementById('result-24').style.color = 'red'
+      document.getElementById('result-24').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer2() {
+    let showAnswer2 = document.createElement('p')
+    showAnswer2.innerHTML = 'Show Corrent Answer'
+    showAnswer2.style.position = 'relative'
+    showAnswer2.style.top = '-150px'
+    showAnswer2.style.fontSize = '1.5rem'
+    document.getElementById('showanswer2').appendChild(showAnswer2)
+    showAnswer2.addEventListener('click', () => {
+      document.getElementById('block-23').style.border = '3px solid limegreen'
+      document.getElementById('result-23').style.color = 'limegreen'
+      document.getElementById('result-23').innerHTML = 'Correct!'
+      document.getElementById('showanswer2').removeChild(showAnswer2)
+    })
+  }
+</script>
+</article>
+<hr>
+<article class='ml-3'>
+<div class='obj-cont'>
+  <h6>3. Solve <sup>30</sup>&frasl;<sub>(-3) x (-5)</sub></h6>
+ <div id='block-31' >
+    <label for='option-31' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='-10' id='option-31' style='transform: scale(1.2)'  />
+      -10</label>
+    <span id='result-31'></span>
+  </div>
+ 
+
+  <div id='block-32'>
+    <label for='option-32' style='padding: 5px;'>
+      <input type='radio' name='option2' value='+10' id='option-32' style='transform: scale(1.2)' />
+      +10</label>
+    <span id='result-32'></span>
+  </div>
+  
+
+  <div id='block-33'>
+    <label for='option-33' style='padding: 5px;'>
+      <input type='radio' name='option2' value='-6' id='option-33' style='transform: scale(1.2)' />
+      -6</label>
+    <span id='result-33'></span>
+  </div>
+  
+
+  <div id='block-34'>
+    <label for='option-34' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='+2' id='option-34' style='transform: scale(1.2)' />
+      +2</label>
+    <span id='result-34'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer3()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer3() {
+    if (document.getElementById('option-31').checked) {
+      document.getElementById('block-31').style.border = '3px solid red'
+      document.getElementById('result-31').style.color = 'red'
+      document.getElementById('result-31').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-32').checked) {
+      document.getElementById('block-32').style.border = '3px solid red'
+      document.getElementById('result-32').style.color = 'red'
+      document.getElementById('result-32').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-33').checked) {
+      document.getElementById('block-33').style.border = '3px solid red'
+      document.getElementById('result-33').style.color = 'red'
+      document.getElementById('result-33').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-34').checked) {
+      document.getElementById('block-34').style.border = '3px solid limegreen'
+      document.getElementById('result-34').style.color = 'limegreen'
+      document.getElementById('result-34').innerHTML = 'Correct!'
+      showCorrectAnswer3()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer3() {
+    let showAnswer3 = document.createElement('p')
+    showAnswer3.innerHTML = 'Show Corrent Answer'
+    showAnswer3.style.position = 'relative'
+    showAnswer3.style.top = '-150px'
+    showAnswer3.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer2)
+    showAnswer3.addEventListener('click', () => {
+      document.getElementById('block-34').style.border = '3px solid limegreen'
+      document.getElementById('result-34').style.color = 'limegreen'
+      document.getElementById('result-34').innerHTML = 'Correct!'
+      document.getElementById('showanswer3').removeChild(showAnswer3)
+    })
+  }
+</script>
+</article>
+<hr>
+<article class='ml-3'>
+<div class='obj-cont'>
+  <h6>4.		Simplify <sup>4</sup>&frasl;<sub>9</sub> of -2<sup>4</sup>&frasl;<sub>7</sub></h6>
+ <div id='block-41' >
+    <label for='option-41' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='-1<sup>1</sup>&frasl;<sub>7</sub>' id='option-41' style='transform: scale(1.2)'  />
+     -1<sup>1</sup>&frasl;<sub>7</sub></label>
+    <span id='result-41'></span>
+  </div>
+ 
+
+  <div id='block-42'>
+    <label for='option-42' style='padding: 5px;'>
+      <input type='radio' name='option3' value='+1<sup>1</sup>&frasl;<sub>7</sub>' id='option-42' style='transform: scale(1.2)' />
+      +1<sup>1</sup>&frasl;<sub>7</sub></label>
+    <span id='result-42'></span>
+  </div>
+  
+
+  <div id='block-43'>
+    <label for='option-43' style='padding: 5px;'>
+      <input type='radio' name='option3' value='<sup>18</sup>&frasl;<sub>7</sub>' id='option-43' style='transform: scale(1.2)' />
+      <sup>18</sup>&frasl;<sub>7</sub></label>
+    <span id='result-43'></span>
+  </div>
+  
+
+  <div id='block-44'>
+    <label for='option-44' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='2<sup>1</sup>&frasl;<sub>7</sub>' id='option-44' style='transform: scale(1.2)' />
+      2<sup>1</sup>&frasl;<sub>7</sub></label>
+    <span id='result-44'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer4()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer4() {
+    if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid limegreen'
+      document.getElementById('result-41').style.color = 'limegreen'
+      document.getElementById('result-41').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid red' 
+      document.getElementById('result-42').style.color = 'red'
+      document.getElementById('result-42').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid red'
+      document.getElementById('result-43').style.color = 'red'
+      document.getElementById('result-43').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid red'
+      document.getElementById('result-44').style.color = 'red'
+      document.getElementById('result-44').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer4() {
+    let showAnswer4 = document.createElement('p')
+    showAnswer4.innerHTML = 'Show Corrent Answer'
+    showAnswer4.style.position = 'relative'
+    showAnswer4.style.top = '-150px'
+    showCorrectAnswer4.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer4)
+    showAnswer4.addEventListener('click', () => {
+      document.getElementById('block-41').style.border = '3px solid limegreen'
+      document.getElementById('result-41').style.color = 'limegreen'
+      document.getElementById('result-41').innerHTML = 'Correct!'
+      document.getElementById('showanswer4').removeChild(showAnswer4)
+    })
+  }
+</script>
+</article>
+<hr>
+<article class='ml-3'>
+<div class='obj-cont'>
+  <h6>5.	Arrange the numbers in descending order;  -2, -6, +2, 0, +3, -15</h6>
+ <div id='block-51' >
+    <label for='option-51' style=' padding: 5px;'>
+      <input type='radio' name='option4' value='+3, +2, 0, -2, -6, -15' id='option-51' style='transform: scale(1.2)'  />
+      +3, +2, 0, -2, -6, -15</label>
+    <span id='result-51'></span>
+  </div>
+ 
+
+  <div id='block-52'>
+    <label for='option-52' style='padding: 5px;'>
+      <input type='radio' name='option4' value='-15, -6, -2, 0, +2, +3' id='option-52' style='transform: scale(1.2)' />
+     -15, -6, -2, 0, +2, +3</label>
+    <span id='result-52'></span>
+  </div>
+  
+
+  <div id='block-53'>
+    <label for='option-53' style='padding: 5px;'>
+      <input type='radio' name='option4' value='0, +2, +3, -15, -6, -2' id='option-53' style='transform: scale(1.2)' />
+      0, +2, +3, -15, -6, -2</label>
+    <span id='result-53'></span>
+  </div>
+  
+
+  <div id='block-54'>
+    <label for='option-54' style=' padding: 5px;'>
+      <input type='radio' name='option4' value='-2, -6, -15, +3, +2, 0' id='option-54' style='transform: scale(1.2)' />
+      -2, -6, -15, +3, +2, 0</label>
+    <span id='result-54'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer5()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer5() {
+    if (document.getElementById('option-51').checked) {
+      document.getElementById('block-51').style.border = '3px solid limegreen'
+      document.getElementById('result-51').style.color = 'limegreen'
+      document.getElementById('result-51').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-52').checked) {
+      document.getElementById('block-52').style.border = '3px solid red'
+      document.getElementById('result-52').style.color = 'red'
+      document.getElementById('result-52').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+    if (document.getElementById('option-53').checked) {
+      document.getElementById('block-53').style.border = '3px solid red'
+      document.getElementById('result-53').style.color = 'red'
+      document.getElementById('result-53').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+    if (document.getElementById('option-54').checked) {
+      document.getElementById('block-54').style.border = '3px solid red'
+      document.getElementById('result-54').style.color = 'red'
+      document.getElementById('result-54').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer5() {
+    let showAnswer5 = document.createElement('p')
+    showAnswer5.innerHTML = 'Show Corrent Answer'
+    showAnswer5.style.position = 'relative'
+    showAnswer5.style.top = '-150px'
+    showAnswer5.style.fontSize = '1.5rem'
+    document.getElementById('showanswer5').appendChild(showAnswer5)
+    showAnswer5.addEventListener('click', () => {
+      document.getElementById('block-51').style.border = '3px solid limegreen'
+      document.getElementById('result-51').style.color = 'limegreen'
+      document.getElementById('result-51').innerHTML = 'Correct!'
+      document.getElementById('showanswer5').removeChild(showAnswer5)
+    })
+  }
+</script>
+</article>
+</div>
+  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+ <%= render 'layouts/sideadvert' %>
+  </div>
+</div>
+<hr>
+<nav class="nav nav-pills nav-fill">
+<button class='ml-3'>
+<%= link_to "Prev>>", page7_path, class:'h3' %>
+  </button>
+<a class="nav-item nav-link" href="#"></a>
+  <a class="nav-item nav-link" href="#"></a>
+<button class='mr-2 ml-3'>
+<%= link_to "Next>>", page9_path, class:'h3' %>
+</button>
+</nav>
+<hr>
+<%= render 'layouts/footer' %>
+</div>
 
 
 

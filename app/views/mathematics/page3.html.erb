@@ -1,5 +1,7 @@
+<div class='large'>
+<%= render 'layouts/header'%>
 <div class="main">
-<div class="row">
+<div class="row row-over">
   <div class="col-md-10 ad-border">
   <div class='container-fluid med'>
 
@@ -11,11 +13,11 @@
 <p>
 A <strong>fraction </strong> is a number that has two parts; the <strong>numerator</strong> (number above the division line) and the <strong> denominator </strong> (number below the division line) e.g.<strong> <sup>1</sup>&frasl;<sub>2</sub>, <sup>3</sup>&frasl;<sub>5</sub>, <sup>4</sup>&frasl;<sub>7</sub> 
 1<sup>2</sup>&frasl;<sub>3</sub>.</strong>
-
+<hr>
 <div class="d-flex justify-content-center mt-3">
 <h2 class='text-dark justify-content-center'>Types of Fractions </h2>
 </div>
-
+<hr>
 (i) <strong>Proper Fraction</strong>: this is a fraction where numerator is less than the denominator e.g.<strong> <sup>1</sup>&frasl;<sub>4</sub>, <sup>1</sup>&frasl;<sub>2</sub>, <sup>3</sup>&frasl;<sub>5</sub> etc.</strong>
 <br>
 (ii) <strong>Improper fraction</strong>: this is a fraction where numerator is greater than the denominator e.g.<strong><sup>4</sup>&frasl;<sub>3</sub>, <sup>7</sup>&frasl;<sub>2</sub>, <sup>9</sup>&frasl;<sub>4</sub> etc.</strong>
@@ -25,7 +27,7 @@ A <strong>fraction </strong> is a number that has two parts; the <strong>numerat
 
 <p>
 <div class="d-flex justify-content-center mt-3">
-<h2 class='text-dark justify-content-center'> Conversion in Fractions </h2>
+<h3 class='text-dark justify-content-center'> Conversion in Fractions </h3>
 </div>
 It is easy to convert <strong>mixed numbers </strong> to <strong>improper fractions</strong> vice versa.
 
@@ -59,7 +61,7 @@ Express 16/5 as mixed number.
 
 <article>
 <div class="d-flex justify-content-center mt-3">
-<h2 class='text-dark justify-content-center'> Equivalent Fraction </h2>
+<h3 class='text-dark justify-content-center'> Equivalent Fraction </h3>
 </div>
 
 <p>
@@ -77,9 +79,9 @@ Express 16/5 as mixed number.
 <br>
 <strong>Formula;</strong>
 <br>
-<%= image_tag 'eqiv.fracimg.png', class: 'carol' %>
+<%= image_tag 'eqiv.fracimg.png', alt: "Equivalent Fractions", class: 'carol' %>
 <br>
-<%= image_tag 'eqivfracexamp.png', class: 'carol' %>
+<%= image_tag 'eqivfracexamp.png', alt: "Equivalent Fractions Examples", class: 'carol' %>
 <p>
 <div class="d-flex justify-content-center mt-3">
 <h3 class='text-dark justify-content-center'> Arrangement of Fractions </h3>
@@ -97,21 +99,21 @@ Arrange the following fractions in ascending order;<strong> <sup>3</sup>&frasl;<
 The <strong>LCM</strong> for the denominators = <strong>24</strong>, this is known as Lowest Common Denominator.
 <br>
 <strong>Note: Lowest Common Denominator</strong> is the smallest denominator <strong>common </strong> to two or more fractions.
-<%= image_tag 'FracAsend.png', class: 'carol ' %>
-<%= image_tag 'FracDescend.png', class: 'carol ' %>
+<%= image_tag 'FracAsend.png', alt: "Arrange Fractions in Ascending Order", class: 'carol ' %>
+<%= image_tag 'FracDescend.png', alt: "Arrange Fractions in Descending Order", class: 'carol ' %>
 
 <div class="d-flex justify-content-center mt-3">
 <h3 class='text-dark justify-content-center'> Lowest Terms </h3>
 </div>
 A fraction is in its <strong>lowest term</strong> or <strong>simplest form</strong> when there is no <strong>common factor</strong> to further divide both the numerator and the denominator.
 <br>
-<%= image_tag 'FracLTerm.png', class: 'carol' %>
+<%= image_tag 'FracLTerm.png', alt: "Fractions in its lowest terms", class: 'carol' %>
 </p>
 </article>
 
 <article>
 <div class="d-flex justify-content-center mt-3">
-<h2 class='text-dark justify-content-center'> Basic Operations in Fractions </h2>
+<h3 class='text-dark justify-content-center'> Basic Operations in Fractions </h3>
 </div>
 <hr>
 <div class="d-flex justify-content-center mt-3">
@@ -170,7 +172,7 @@ A fraction is in its <strong>lowest term</strong> or <strong>simplest form</stro
 
 <article>
 <div class="d-flex justify-content-center mt-3">
-<h2 class='text-dark justify-content-center'> Division in Fractions </h2>
+<h3 class='text-dark justify-content-center'> Division in Fractions </h3>
 </div>
 
 <p>
@@ -207,8 +209,9 @@ e.g. <strong><sup>5</sup>&frasl;<sub>3</sub></strong> is the <strong>reciprocal<
 </article>
 
 <article>
+<hr>
 <div class="d-flex justify-content-center mt-3">
-<h2 class='text-dark justify-content-center'> Percentages </h2>
+<h3 class='text-dark justify-content-center'> Percentages </h3>
 </div>
 <hr>
 <p>
@@ -238,7 +241,7 @@ A <strong>fraction</strong> can be expressed as a <strong>percentage</strong> by
 
 <article>
 <div class="d-flex justify-content-center mt-3">
-<h2 class='text-dark justify-content-center'> Decimals </h2>
+<h3 class='text-dark justify-content-center'> Decimals </h3>
 </div>
 <hr>
 <p>
@@ -329,9 +332,9 @@ ii.	Use the same multiples of 10 to multiply the numbers.
 <br>
 iii.	 Divide the numbers as usual.
 <br>
-<%= image_tag 'decimal-div-part1.png', class: 'carol' %>
+<%= image_tag 'decimal-div-part1.png', alt: "Equivalent Fractions1", class: 'carol' %>
 <br>
-<%= image_tag 'decimal-div-part2.png', class: 'carol' %>
+<%= image_tag 'decimal-div-part2.png', alt: "Equivalent Fractions2", class: 'carol' %>
 <br>
 <%= link_to "Click here for more explanation on Multiplication and division of decimals in standard form.
 ", page5_path, class: 'text-danger' %> 
@@ -341,25 +344,25 @@ iii.	 Divide the numbers as usual.
 </div>
 Use denominator to divide the numerator, if the value of denominator is greater than the value of numerator at any point during division process we use <strong>“0.”</strong> To be able to add zero (0) to the value of numerator or multiply it by 10 consecutively until it is greater than the value of denominator and divide through accordingly.
 <br>
-<%= image_tag 'RecurrDecimal.png', class: 'carol' %>
+<%= image_tag 'RecurrDecimal.png',alt: "Division in Fractions", class: 'carol' %>
 <div class="d-flex justify-content-center mt-3">
 <h3 class='text-dark justify-content-center'> How to Change Decimals to Fractions </h3>
 </div>
 It is easier to change the decimal to the fraction by changing the decimal point in the decimal to <strong>1</strong> and every other number after the decimal to zero (0) to form the denominator of the expected fraction, and then look for common factor(s) to take the fraction to its lowest terms.
 <br>
-<%= image_tag 'Decimal-Frac.png', class: 'carol' %>
+<%= image_tag 'Decimal-Frac.png',alt: "How to change Decimals to Fractions", class: 'carol' %>
 <div class="d-flex justify-content-center mt-3">
 <h3 class='text-dark justify-content-center'> How to Change Percentages to Decimals </h3>
 </div>
 Change the percentage to the fraction first, and then convert to the decimal.
 <br>
-<%= image_tag 'percenttofrac.png', class: 'carol' %>
+<%= image_tag 'percenttofrac.png', alt: "How to change percentage to Decimal", class: 'carol' %>
 <div class="d-flex justify-content-center mt-3">
 <h3 class='text-dark justify-content-center'> How to Change Decimals to Percentages </h3>
 </div>
 Change the decimal to fraction first, if the denominator is 100 express as percentage directly, otherwise multiply the fraction by 100% to change it to percentage.
 <br>
-<%= image_tag 'chanPertodec.png', class: 'carol' %>
+<%= image_tag 'chanPertodec.png',alt: "Decimal to Percentage", class: 'carol' %>
 </p>
 </article>
 <hr>
@@ -942,18 +945,16 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
 </article>
   </div>
   </div>
-  <div class="col-md-2 justify-content-center mt-3">
-  <%= link_to "Advert/Sponsorship", contact_path, class: 'text-primary advert' %>
-  
+  <div class="col-md-2 justify-content-center mt-1">
   <div>
-  This space is created by the management for the interested organizations to advertise their products and sponsorships.
+  <%= render 'layouts/sideadvert' %>
   </div>
   </div>
 </div>
 <hr>
 <nav class="nav nav-pills nav-fill">
 <button class='ml-3'>
-<%= link_to "Previous>>", page2_path, class:'h3' %>
+<%= link_to "Prev>>", page2_path, class:'h3' %>
   </button>
 <a class="nav-item nav-link" href="#"></a>
   <a class="nav-item nav-link" href="#"></a>
@@ -967,3 +968,1072 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
 </div>
 
 <%= render 'mathematics/sidebar'%>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="medium">
+<%= render 'layouts/header2'%>
+<br>
+<div class="row ml-5 row-over">
+  <div class=" col-md-10  ad-border">
+  <div class='container-fluid med'>
+  <div class="d-flex justify-content-center mt-3">
+<h1 class='text-dark justify-content-center'>Fractions, Percentages and Decimals </h1>
+</div>
+<hr>
+<article>
+A <strong>fraction </strong> is a number that has two parts; the <strong>numerator</strong> (number above the division line) and the <strong> denominator </strong> (number below the division line) e.g.<strong> <sup>1</sup>&frasl;<sub>2</sub>, <sup>3</sup>&frasl;<sub>5</sub>, <sup>4</sup>&frasl;<sub>7</sub> 
+1<sup>2</sup>&frasl;<sub>3</sub>.</strong>
+<hr>
+<div class="d-flex justify-content-center mt-3">
+<h2 class='text-dark justify-content-center'>Types of Fractions </h2>
+</div>
+<hr>
+(i) <strong>Proper Fraction</strong>: this is a fraction where numerator is less than the denominator e.g.<strong> <sup>1</sup>&frasl;<sub>4</sub>, <sup>1</sup>&frasl;<sub>2</sub>, <sup>3</sup>&frasl;<sub>5</sub> etc.</strong>
+<br>
+(ii) <strong>Improper fraction</strong>: this is a fraction where numerator is greater than the denominator e.g.<strong><sup>4</sup>&frasl;<sub>3</sub>, <sup>7</sup>&frasl;<sub>2</sub>, <sup>9</sup>&frasl;<sub>4</sub> etc.</strong>
+<br>
+(iii) <strong>Mixed Number</strong>: this has a whole number part and a fractional part written together e.g. <strong> 1<sup>3</sup>&frasl;<sub>4</sub>, 2<sup>3</sup>&frasl;<sub>5</sub> etc.</strong>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Conversion in Fractions </h3>
+</div>
+It is easy to convert <strong>mixed numbers </strong> to <strong>improper fractions</strong> vice versa.
+
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Rule for Converting Mixed number to Improper Fraction. </h3>
+</div>
+Use the <strong>denominator </strong>in the fractional part to multiply the <strong> whole number </strong> part and add the result to the <strong>numerator </strong>in the fractional part to have the expected <strong>improper fraction</strong>.
+<br>
+<strong>Example 1 </strong>
+<br>
+Express 5<sup>1</sup>&frasl;<sub>2</sub> an improper fraction.
+<br>
+<strong> Solution </strong>
+<br>
+5<sup>1</sup>&frasl;<sub>2</sub>  =  <strong><sup>11</sup>&frasl;<sub>2</sub> </strong>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Rules for Converting Improper Fraction to Mixed Number </h3>
+</div>
+(i)	Find how many of the <strong>denominator</strong> you can get in the 
+<strong>numerator</strong> to form the whole number part.
+<br>
+(ii) Place the <strong>remainder</strong> on the denominator to form the fractional part. 
+<br>
+<strong>Example 2 </strong>
+<br>
+Express <sup>16</sup>&frasl;<sub>5</sub> as mixed number.
+<br>
+<strong>Solution </strong>
+<br>
+<sup>16</sup>&frasl;<sub>5</sub>  =  <strong>3<sup>1</sup>&frasl;<sub>5</sub></strong>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Equivalent Fraction </h3>
+</div>
+<strong>Equivalent fractions </strong> are fractions that are similar in values e.g.
+ <sup>1</sup>&frasl;<sub>3</sub> =  <strong><sup>2</sup>&frasl;<sub>6</sub></strong>,   <sup>1</sup>&frasl;<sub>2</sub> = <strong> <sup>6</sup>&frasl;<sub>12</sub></strong>.
+ <div class="d-flex justify-content-center mt-3">
+ <h3 class='text-dark justify-content-center'> How to Form Equivalent Fractions </h3>
+ </div>
+ <strong>Equivalent fractions</strong> can be formed by multiplying the <strong>numerator</strong> and the <strong>denominator</strong> with the <strong>same number</strong>.
+<br>
+<strong>Formula;</strong>
+<br>
+<%= image_tag 'eqiv.fracimg.png', class: 'carol' %>
+<br>
+<%= image_tag 'eqivfracexamp.png', class: 'carol' %>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Arrangement of Fractions </h3>
+</div>
+<strong>Ascending Order</strong>: this is the arrangement of fractions from the lowest to the highest.
+<br>
+<strong>Descending Order</strong>: this is the arrangement of fractions from the highest to the lowest.
+<br>
+<strong>Example 1 </strong>
+<br>
+Arrange the following fractions in ascending order;<strong> <sup>3</sup>&frasl;<sub>4</sub>, <sup>5</sup>&frasl;<sub>6</sub>, <sup>1</sup>&frasl;<sub>4</sub>, <sup>7</sup>&frasl;<sub>12</sub>.</strong>
+<br>
+<strong>Solution </strong>
+<br>
+The <strong>LCM</strong> for the denominators = <strong>24</strong>, this is known as Lowest Common Denominator.
+<br>
+<strong>Note: Lowest Common Denominator</strong> is the smallest denominator <strong>common </strong> to two or more fractions.
+<br>
+<%= image_tag 'FracAsend.png', class: 'carol' %>
+<br>
+<%= image_tag 'FracDescend.png', class: 'carol' %>
+<br>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Lowest Terms </h3>
+</div>
+A fraction is in its <strong>lowest term</strong> or <strong>simplest form</strong> when there is no <strong>common factor</strong> to further divide both the numerator and the denominator.
+<br>
+<%= image_tag 'FracLTerm.png', class: 'carol' %>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Basic Operations in Fractions </h3>
+</div>
+<hr>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Addition and Subtraction </h3>
+</div>
+
+<p>
+<h4>Rules;</h4>
+(i)	Find the LCM or Lowest Common Denominator of the denominators in the fractions.
+<br> 
+(ii)	Express each fraction as equivalent fraction based on the denominator
+<br>
+(iii)	Add or subtract appropriately.
+<br>
+
+<%= image_tag 'FracAdd.png', class: 'carol ' %>
+<br>
+<%= image_tag 'FracSubtr.png', class: 'carol' %>
+<br>
+<%= image_tag 'FracMixednum.png', class: 'carol' %>
+<br>
+<%= image_tag 'FracMixedex5.png', class: 'carol' %>
+<br>
+<%= image_tag 'FracMixedNumExamp6.png', class: 'carol' %>
+<br>
+<%= image_tag 'mixedFracExamp7.png', class: 'carol' %>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Multiplication in Fractions </h3>
+</div>
+<%= image_tag 'WholeNumtoFrac.png', class: 'carol' %>
+<br>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Rules for Multiplication of Fractions </h3>
+</div>
+(i)	Convert the whole number to fraction by dividing it by <strong>1</strong> or use the fraction directly.
+<br>
+(ii)	Use the numerator to multiply numerator and the denominator to multiply denominator.
+<br>
+(iii)	Convert mixed number to improper fraction before multiplication, if present.
+<br>
+(iv)	Always cut out factors that are similar.
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Whole Number and Fraction Multiplication </h3>
+</div>
+<%= image_tag 'FracWhFrac12.png', class: 'carol' %>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Fraction and Fraction Multiplication </h3>
+</div>
+<%= image_tag 'FracFracExamp1-2.png', class: 'carol' %>
+<br>
+<%= image_tag 'FracFracExamp3.png', class: 'carol' %>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Division in Fractions </h3>
+</div>
+To effectively carry out <strong>division operation </strong>, the fraction behind division sign (<strong>÷</strong>) will undergo <strong> Reciprocal operation </strong> through which division sign (<strong>÷</strong>) will change to multiplication sign (<strong>x</strong>).
+<br>
+<strong>Note:</strong> Reciprocal operation means interchanging between the numerator and the denominator. 
+e.g. <strong><sup>5</sup>&frasl;<sub>3</sub></strong> is the <strong>reciprocal</strong> of  <strong><sup>3</sup>&frasl;<sub>5</sub>.</strong>
+<br>
+<%= image_tag 'dIVfracExa1-2.png', class: 'carol' %>
+<br>
+<%= image_tag 'DivfracfracExamp3.png', class: 'carol' %>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> BODMAS/PEMDAS </h3>
+</div>
+<strong>BODMAS/PEMDAS</strong> is a logical structure designed to assist students in <strong>remembering</strong> the order of operations in mathematics. <strong>PEMDAS</strong> is peculiar to the United States.
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> BODMAS </h3>
+</div>
+<strong>B</strong> => Brackets, <strong>O</strong>=> Orders, <strong>D</strong> => Division, <strong>M</strong> => Multiplication, <strong>A</strong> => Addition and <strong>S</strong> => Subtraction.
+<br>
+<strong>O</strong> is regarded as <strong>of</strong> in some countries.
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> PEMDAS </h3>
+</div>
+<strong>P</strong> => Parentheses, <strong>E</strong> = Exponents, <strong>M</strong> => Multiplication, <strong>D</strong>= Division, <strong>A</strong> => Addition and <strong>S</strong> => Subtraction.
+<br>
+<strong>BODMAS</strong> and <strong>PEMDAS</strong> are equivalents. 
+<br>
+<%= image_tag 'BodmasExamp1.png', class: 'carol' %>
+<hr>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Percentages </h3>
+</div>
+<hr>
+<strong>Percentage</strong> is a fraction with a denominator of 100 e.g. 5% = <sup>5</sup>&frasl;<sub>100</sub>
+<br>
+<strong>Example 1 </strong>
+<br>
+Express <strong>25% </strong> and <strong>12% </strong> as fractions in their lowest terms.
+<br>
+<strong>Solution</strong>
+25% = <sup>25</sup>&frasl;<sub>100</sub> =  <strong><sup>1</sup>&frasl;<sub>4</sub></strong>
+<br>
+12%  = <sup>12</sup>&frasl;<sub>100</sub>	 = <strong><sup>3</sup>&frasl;<sub>25</sub></strong>
+
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Fractions as Percentages </h3>
+</div>
+A <strong>fraction</strong> can be expressed as a <strong>percentage</strong> by multiplying the fraction with 100%
+<br>
+<%= image_tag 'PercentExamp1.png', class: 'carol' %>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Decimals </h3>
+</div>
+<hr>
+A <strong>Decimal</strong> is a number with decimal point. <strong>Decimal point (.)</strong> is the symbol that separates the whole number from the fraction in decimal e.g. <strong>24.8, 0.01 125.25 </strong> etc.
+
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> How to do Addition and Subtraction in Decimal </h3>
+</div>
+Carefully arrange the numbers and take the position of decimal point in each decimal into consideration to avoid errors during addition and subtraction in decimals.
+<br>
+<%= image_tag 'Decimal-add-suntr.png', class: 'carol' %>
+<br>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> How to do Multiplication and Division in Decimals </h3>
+</div>
+
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Multiplication in Decimals </h3>
+</div>
+
+Rules;
+<br>
+i.	Find the product of the given numbers without decimal points (i.e. <strong>Whole numbers</strong>).
+<br>
+ii.	Count the digits after the decimal points in those numbers being multiplied.
+<br>
+iii.	Put the decimal point appropriately so that the result has the same number of digits after the decimal point.
+<br>
+<strong>Example 1</strong>
+<br>
+Evaluate the following; (i) 0.6 x 1.8 (ii) 0.64 x 2.5 (iii) 510 x 0.002 and (iv) 3 x 0.9
+<br>
+<strong>Solution</strong>
+<br>
+<strong>(i.)	0.6 x 1.8</strong>
+<br>
+0.6 (has 1 digit after decimal point) and 1.8 (has 1 digit after decimal point.) = total of 2 digits after decimal point.
+<br>
+<strong>Multiply the whole numbers without decimal points.</strong>
+<br>
+6 x 18 = 108 
+<br>
+Therefore, 0.6 x 1.8 = <b>1.08 </b> (i.e. counted 2 digits after decimal point.)
+<br>
+<strong>(ii.)	0.64 x 2.5</strong>
+<br>
+0.64 x 2.5 (the numbers have a total of 3 digits after decimal points.)
+<br>
+<strong>Multiply the whole numbers without decimal points.</strong>
+<br>
+64 x 25 = 1 600
+<br>
+Therefore, 0.64 x 2.5 = <b>1.600 </b>(counted 3 digits after decimal point)
+<br>
+                                     = <b>1.6</b>
+ <br>                                    
+<strong>(iii.)	510 x 0.002</strong>
+<br>
+510 x 0.002 (the numbers have a total of 3 digits after decimal points. 510 has no decimal point)
+<br>
+<strong>Multiply the whole numbers without decimal points.</strong>
+<br>
+510 x 2 = 1020
+<br>
+Therefore, 510 x 0.002 = <b>1.020</b> (counted 3 digits after decimal point)
+<br>
+                                     = <b>1.02</b>
+ <br>                                    
+<strong>(iv.)	3 x 0.9</strong>
+<br>
+3 x 0.9 (the numbers have a total of 1 digit after decimal points. 3 has no decimal point)
+<br>
+<strong>Multiply the whole numbers without decimal points.</strong>
+<br>
+3 x 9 = 27
+<br>
+Therefore, 3 x 0.9 = <b>2.7</b> (counted 1 digit after decimal point)
+<br>
+= <b>2.7</b>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Division in Decimals. </h3>
+</div>
+Rules;
+<br>
+i.	Calculate the multiples of 10 required to change the numbers to whole numbers.
+<br>
+ii.	Use the same multiples of 10 to multiply the numbers.
+<br>
+iii.	 Divide the numbers as usual.
+<br>
+<%= image_tag 'decimal-div-part1.png', alt: "Equivalent Fractions1", class: 'carol' %>
+<br>
+<%= image_tag 'decimal-div-part2.png', alt: "Equivalent Fractions2", class: 'carol' %>
+<br>
+<%= link_to "Click here for more explanation on Multiplication and division of decimals in standard form.
+", page5_path, class: 'text-danger' %> 
+
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> How to Change Fractions to Decimals </h3>
+</div>
+Use denominator to divide the numerator, if the value of denominator is greater than the value of numerator at any point during division process we use <strong>“0.”</strong> To be able to add zero (0) to the value of numerator or multiply it by 10 consecutively until it is greater than the value of denominator and divide through accordingly.
+<br>
+<%= image_tag 'RecurrDecimal.png',alt: "Division in Fractions", class: 'carol' %>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> How to Change Decimals to Fractions </h3>
+</div>
+It is easier to change the decimal to the fraction by changing the decimal point in the decimal to <strong>1</strong> and every other number after the decimal to zero (0) to form the denominator of the expected fraction, and then look for common factor(s) to take the fraction to its lowest terms.
+<br>
+<%= image_tag 'Decimal-Frac.png',alt: "How to change Decimals to Fractions", class: 'carol' %>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> How to Change Percentages to Decimals </h3>
+</div>
+Change the percentage to the fraction first, and then convert to the decimal.
+<br>
+<%= image_tag 'percenttofrac.png', alt: "How to change percentage to Decimal", class: 'carol' %>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> How to Change Decimals to Percentages </h3>
+</div>
+Change the decimal to fraction first, if the denominator is 100 express as percentage directly, otherwise multiply the fraction by 100% to change it to percentage.
+<br>
+<%= image_tag 'chanPertodec.png',alt: "Decimal to Percentage", class: 'carol' %>
+</article>
+<hr>
+<article>
+<div class="d-flex justify-content-start text-primary">
+<h5>Test your <strong class='text-secondary'> Fractions, Percentages and Decimals </strong> knowledge with these Objective Questions.</h5>
+</div>
+<div class='obj-cont' >
+  <h6>1.	Express 6<sup>1</sup>&frasl;<sub>2</sub>  as improper fraction.</h6>
+ <div id='block-11' >
+    <label for='option-11' style=' padding: 5px;'>
+      <input type='radio' name='option' value='1<sup>2</sup>&frasl;<sub>5</sub> ' id='option-11' style='transform: scale(1.2)'  />
+      1<sup>2</sup>&frasl;<sub>5</sub> </label>
+    <span id='result-11'></span>
+  </div>
+ 
+
+  <div id='block-12'>
+    <label for='option-12' style='padding: 5px;'>
+      <input type='radio' name='option' value='<sup>9</sup>&frasl;<sub>2</sub> ' id='option-12' style='transform: scale(1.2)' />
+      <sup>9</sup>&frasl;<sub>2</sub> </label>
+    <span id='result-12'></span>
+  </div>
+  
+
+  <div id='block-13'>
+    <label for='option-13' style='padding: 5px;'>
+      <input type='radio' name='option' value='<sup>13</sup>&frasl;<sub>2</sub> ' id='option-13' style='transform: scale(1.2)' />
+      <sup>13</sup>&frasl;<sub>2</sub> </label>
+    <span id='result-13'></span>
+  </div>
+  
+
+  <div id='block-14'>
+    <label for='option-14' style=' padding: 5px;'>
+      <input type='radio' name='option' value='<sup>7</sup>&frasl;<sub>2</sub> ' id='option-14' style='transform: scale(1.2)' />
+      <sup>7</sup>&frasl;<sub>2</sub> </label>
+    <span id='result-14'></span>
+  </div>
+ 
+  <button type='button' class = "c-btn" onclick='displayAnswer1()'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer1() {
+    if (document.getElementById('option-11').checked) {
+      document.getElementById('block-11').style.border = '3px solid red'
+      document.getElementById('result-11').style.color = 'red'
+      document.getElementById('result-11').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-12').checked) {
+      document.getElementById('block-12').style.border = '3px solid red'
+      document.getElementById('result-12').style.color = 'red'
+      document.getElementById('result-12').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-13').checked) {
+      document.getElementById('block-13').style.border = '3px solid limegreen'
+      document.getElementById('result-13').style.color = 'limegreen'
+      document.getElementById('result-13').innerHTML = 'Correct!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-14').checked) {
+      document.getElementById('block-14').style.border = '3px solid red'
+      document.getElementById('result-14').style.color = 'red'
+      document.getElementById('result-14').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer1() {
+    let showAnswer1 = document.createElement('p')
+    showAnswer1.innerHTML = 'Show Corrent Answer'
+    showAnswer1.style.position = 'relative'
+    showAnswer1.style.top = '-150px'
+    showAnswer1.style.fontSize = '1.5rem'
+    document.getElementById('showanswer1').appendChild(showAnswer1)
+    showAnswer1.addEventListener('click', () => {
+      document.getElementById('block-13').style.border = '3px solid limegreen'
+      document.getElementById('result-13').style.color = 'limegreen'
+      document.getElementById('result-13').innerHTML = 'Correct!'
+      document.getElementById('showanswer1').removeChild(showAnswer1)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>2.	Find the missing number 'X' in <sup>3</sup>&frasl;<sub>5</sub> = <sup>X</sup>&frasl;<sub>15</sub>.</h6>
+ <div id='block-21' >
+    <label for='option-21' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='9' id='option-21' style='transform: scale(1.2)'  />
+      9</label>
+    <span id='result-21'></span>
+  </div>
+ 
+
+  <div id='block-22'>
+    <label for='option-22' style='padding: 5px;'>
+      <input type='radio' name='option1' value='6' id='option-22' style='transform: scale(1.2)' />
+      6</label>
+    <span id='result-22'></span>
+  </div>
+  
+
+  <div id='block-23'>
+    <label for='option-23' style='padding: 5px;'>
+      <input type='radio' name='option1' value='10' id='option-23' style='transform: scale(1.2)' />
+      10</label>
+    <span id='result-23'></span>
+  </div>
+  
+
+  <div id='block-24'>
+    <label for='option-24' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='12' id='option-24' style='transform: scale(1.2)' />
+      12</label>
+    <span id='result-24'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer2()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer2() {
+    if (document.getElementById('option-21').checked) {
+      document.getElementById('block-21').style.border = '3px solid limegreen'
+      document.getElementById('result-21').style.color = 'limegreen'
+      document.getElementById('result-21').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-22').checked) {
+      document.getElementById('block-22').style.border = '3px solid red'
+      document.getElementById('result-22').style.color = 'red'
+      document.getElementById('result-22').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-23').checked) {
+      document.getElementById('block-23').style.border = '3px solid red'
+      document.getElementById('result-23').style.color = 'red'
+      document.getElementById('result-23').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-24').checked) {
+      document.getElementById('block-24').style.border = '3px solid red'
+      document.getElementById('result-24').style.color = 'red'
+      document.getElementById('result-24').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer2() {
+    let showAnswer2 = document.createElement('p')
+    showAnswer2.innerHTML = 'Show Corrent Answer'
+    showAnswer2.style.position = 'relative'
+    showAnswer2.style.top = '-150px'
+    showAnswer2.style.fontSize = '1.5rem'
+    document.getElementById('showanswer2').appendChild(showAnswer2)
+    showAnswer2.addEventListener('click', () => {
+      document.getElementById('block-21').style.border = '3px solid limegreen'
+      document.getElementById('result-21').style.color = 'limegreen'
+      document.getElementById('result-21').innerHTML = 'Correct!'
+      document.getElementById('showanswer2').removeChild(showAnswer2)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>3. 	Arrange the fractions in an ascending order; <sup>3</sup>&frasl;<sub>5</sub>, <sup>5</sup>&frasl;<sub>8</sub>, <sup>7</sup>&frasl;<sub>10</sub> , <sup>13</sup>&frasl;<sub>20</sub></h6>
+ <div id='block-31' >
+    <label for='option-31' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='<sup>3</sup>&frasl;<sub>5</sub> , <sup>5</sup>&frasl;<sub>8</sub>, <sup>7</sup>&frasl;<sub>10</sub>, <sup>13</sup>&frasl;<sub>20</sub>' id='option-31' style='transform: scale(1.2)' />
+      <sup>3</sup>&frasl;<sub>5</sub> , <sup>5</sup>&frasl;<sub>8</sub>, <sup>7</sup>&frasl;<sub>10</sub>, <sup>13</sup>&frasl;<sub>20</sub></label>
+    <span id='result-31'></span>
+  </div>
+ 
+
+  <div id='block-32'>
+    <label for='option-32' style='padding: 5px;'>
+      <input type='radio' name='option2' value='<sup>13</sup>&frasl;<sub>20</sub>, <sup>7</sup>&frasl;<sub>10</sub>, <sup>5</sup>&frasl;<sub>8</sub>, <sup>3</sup>&frasl;<sub>5</sub>' id='option-32' style='transform: scale(1.2)' />
+      <sup>13</sup>&frasl;<sub>20</sub>, <sup>7</sup>&frasl;<sub>10</sub>, <sup>5</sup>&frasl;<sub>8</sub>, <sup>3</sup>&frasl;<sub>5</sub></label>
+    <span id='result-32'></span>
+  </div>
+  
+
+  <div id='block-33'>
+    <label for='option-33' style='padding: 5px;'>
+      <input type='radio' name='option2' value=' <sup>3</sup>&frasl;<sub>5</sub>, <sup>5</sup>&frasl;<sub>8</sub>, <sup>13</sup>&frasl;<sub>20</sub>, <sup>7</sup>&frasl;<sub>10</sub>' id='option-33' style='transform: scale(1.2)' />
+      <sup>3</sup>&frasl;<sub>5</sub>, <sup>5</sup>&frasl;<sub>8</sub>, <sup>13</sup>&frasl;<sub>20</sub>, <sup>7</sup>&frasl;<sub>10</sub></label>
+    <span id='result-33'></span>
+  </div>
+  
+
+  <div id='block-34'>
+    <label for='option-34' style=' padding: 5px;'>
+      <input type='radio' name='option2' value=' <sup>7</sup>&frasl;<sub>10</sub>, <sup>13</sup>&frasl;<sub>20</sub>, <sup>8</sup>&frasl;<sub>5</sub>, <sup>3</sup>&frasl;<sub>5</sub>' id='option-34' style='transform: scale(1.2)' />
+      <sup>7</sup>&frasl;<sub>10</sub>, <sup>13</sup>&frasl;<sub>20</sub>, <sup>8</sup>&frasl;<sub>5</sub>, <sup>3</sup>&frasl;<sub>5</sub></label>
+    <span id='result-34'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer3()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer3() {
+    if (document.getElementById('option-31').checked) {
+      document.getElementById('block-31').style.border = '3px solid red'
+      document.getElementById('result-31').style.color = 'red'
+      document.getElementById('result-31').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-32').checked) {
+      document.getElementById('block-32').style.border = '3px solid red'
+      document.getElementById('result-32').style.color = 'red'
+      document.getElementById('result-32').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-33').checked) {
+      document.getElementById('block-33').style.border = '3px solid limegreen'
+      document.getElementById('result-33').style.color = 'limegreen'
+      document.getElementById('result-33').innerHTML = 'Correct!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-34').checked) {
+      document.getElementById('block-34').style.border = '3px solid red'
+      document.getElementById('result-34').style.color = 'red'
+      document.getElementById('result-34').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer3() {
+    let showAnswer3 = document.createElement('p')
+    showAnswer3.innerHTML = 'Show Corrent Answer'
+    showAnswer3.style.position = 'relative'
+    showAnswer3.style.top = '-150px'
+    showAnswer3.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer2)
+    showAnswer3.addEventListener('click', () => {
+      document.getElementById('block-33').style.border = '3px solid limegreen'
+      document.getElementById('result-33').style.color = 'limegreen'
+      document.getElementById('result-33').innerHTML = 'Correct!'
+      document.getElementById('showanswer3').removeChild(showAnswer3)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6> 4.	What is the sum of 3<sup>5</sup>&frasl;<sub>8</sub> and 1<sup>7</sup>&frasl;<sub>12</sub>?</h6>
+ <div id='block-41' >
+    <label for='option-41' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='5<sup>5</sup>&frasl;<sub>24</sub>' id='option-41' style='transform: scale(1.2)'  />
+      5<sup>5</sup>&frasl;<sub>24</sub></label>
+    <span id='result-41'></span>
+  </div>
+ 
+
+  <div id='block-42'>
+    <label for='option-42' style='padding: 5px;'>
+      <input type='radio' name='option3' value='3<sup>5</sup>&frasl;<sub>24</sub>' id='option-42' style='transform: scale(1.2)' />
+      3<sup>5</sup>&frasl;<sub>24</sub></label>
+    <span id='result-42'></span>
+  </div>
+  
+
+  <div id='block-43'>
+    <label for='option-43' style='padding: 5px;'>
+      <input type='radio' name='option3' value='6<sup>5</sup>&frasl;<sub>24</sub>' id='option-43' style='transform: scale(1.2)' />
+      6<sup>5</sup>&frasl;<sub>24</sub></label>
+    <span id='result-43'></span>
+  </div>
+  
+
+  <div id='block-44'>
+    <label for='option-44' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='<sup>5</sup>&frasl;<sub>24</sub>' id='option-44' style='transform: scale(1.2)' />
+      <sup>5</sup>&frasl;<sub>24</sub></label>
+    <span id='result-44'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer4()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer4() {
+    if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid limegreen'
+      document.getElementById('result-41').style.color = 'limegreen'
+      document.getElementById('result-41').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid red' 
+      document.getElementById('result-42').style.color = 'red'
+      document.getElementById('result-42').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid red'
+      document.getElementById('result-43').style.color = 'red'
+      document.getElementById('result-43').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid red'
+      document.getElementById('result-44').style.color = 'red'
+      document.getElementById('result-44').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer4() {
+    let showAnswer4 = document.createElement('p')
+    showAnswer4.innerHTML = 'Show Corrent Answer'
+    showAnswer4.style.position = 'relative'
+    showAnswer4.style.top = '-150px'
+    showCorrectAnswer4.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer4)
+    showAnswer4.addEventListener('click', () => {
+      document.getElementById('block-41').style.border = '3px solid limegreen'
+      document.getElementById('result-41').style.color = 'limegreen'
+      document.getElementById('result-41').innerHTML = 'Correct!'
+      document.getElementById('showanswer4').removeChild(showAnswer4)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>5. 	A bowl contains 15 litres of water; the capacity of a Jug is <sup>3</sup>&frasl;<sub>10</sub>  of a litre. How many jugs of water are in the bowl?</h6>
+ <div id='block-51' >
+    <label for='option-51' style=' padding: 5px;'>
+      <input type='radio' name='option4' value='30' id='option-51' style='transform: scale(1.2)'  />
+      30</label>
+    <span id='result-51'></span>
+  </div>
+ 
+
+  <div id='block-52'>
+    <label for='option-52' style='padding: 5px;'>
+      <input type='radio' name='option4' value='40' id='option-52' style='transform: scale(1.2)' />
+      40</label>
+    <span id='result-52'></span>
+  </div>
+  
+
+  <div id='block-53'>
+    <label for='option-53' style='padding: 5px;'>
+      <input type='radio' name='option4' value='25' id='option-53' style='transform: scale(1.2)' />
+      25</label>
+    <span id='result-53'></span>
+  </div>
+  
+
+  <div id='block-54'>
+    <label for='option-54' style=' padding: 5px;'>
+      <input type='radio' name='option4' value='50' id='option-54' style='transform: scale(1.2)' />
+      50</label>
+    <span id='result-54'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer5()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer5() {
+    if (document.getElementById('option-51').checked) {
+      document.getElementById('block-51').style.border = '3px solid red'
+      document.getElementById('result-51').style.color = 'red'
+      document.getElementById('result-51').innerHTML = 'Inorrect!'
+    }
+    if (document.getElementById('option-52').checked) {
+      document.getElementById('block-52').style.border = '3px solid red'
+      document.getElementById('result-52').style.color = 'red'
+      document.getElementById('result-52').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+    if (document.getElementById('option-53').checked) {
+      document.getElementById('block-53').style.border = '3px solid red'
+      document.getElementById('result-53').style.color = 'red'
+      document.getElementById('result-53').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+    if (document.getElementById('option-54').checked) {
+      document.getElementById('block-54').style.border = '3px solid limegreen'
+      document.getElementById('result-54').style.color = 'limegreen'
+      document.getElementById('result-54').innerHTML = 'Correct!'
+      showCorrectAnswer5()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer5() {
+    let showAnswer5 = document.createElement('p')
+    showAnswer5.innerHTML = 'Show Corrent Answer'
+    showAnswer5.style.position = 'relative'
+    showAnswer5.style.top = '-150px'
+    showAnswer5.style.fontSize = '1.5rem'
+    document.getElementById('showanswer5').appendChild(showAnswer5)
+    showAnswer5.addEventListener('click', () => {
+      document.getElementById('block-54').style.border = '3px solid limegreen'
+      document.getElementById('result-54').style.color = 'limegreen'
+      document.getElementById('result-54').innerHTML = 'Correct!'
+      document.getElementById('showanswer5').removeChild(showAnswer5)
+    })
+  }
+</script>
+</article>
+<hr>
+
+<article>
+<div class='obj-cont'>
+  <h6>1. 6.	Ade scored 60 points out of the total 80 points. What is the percentage of his points to the total?</h6>
+ <div id='block-61' >
+    <label for='option-61' style=' padding: 5px;'>
+      <input type='radio' name='option5' value='60%' id='option-61' style='transform: scale(1.2)'  />
+      60%</label>
+    <span id='result-61'></span>
+  </div>
+ 
+
+  <div id='block-62'>
+    <label for='option-62' style='padding: 5px;'>
+      <input type='radio' name='option5' value='65%' id='option-62' style='transform: scale(1.2)' />
+      65%</label>
+    <span id='result-62'></span>
+  </div>
+  
+
+  <div id='block-63'>
+    <label for='option-63' style='padding: 5px;'>
+      <input type='radio' name='option5' value='75%' id='option-63' style='transform: scale(1.2)' />
+      75%</label>
+    <span id='result-63'></span>
+  </div>
+  
+
+  <div id='block-64'>
+    <label for='option-64' style=' padding: 5px;'>
+      <input type='radio' name='option5' value='85%' id='option-64' style='transform: scale(1.2)' />
+      85%</label>
+    <span id='result-64'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer6()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer6() {
+    if (document.getElementById('option-61').checked) {
+      document.getElementById('block-61').style.border = '3px solid red'
+      document.getElementById('result-61').style.color = 'red'
+      document.getElementById('result-61').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-62').checked) {
+      document.getElementById('block-62').style.border = '3px solid red'
+      document.getElementById('result-62').style.color = 'red'
+      document.getElementById('result-62').innerHTML = 'Incorrect!'
+      showCorrectAnswer6()
+    }
+    if (document.getElementById('option-63').checked) {
+      document.getElementById('block-63').style.border = '3px solid limegreen'
+      document.getElementById('result-63').style.color = 'limegreen'
+      document.getElementById('result-63').innerHTML = 'Correct!'
+      showCorrectAnswer6()
+    }
+    if (document.getElementById('option-64').checked) {
+      document.getElementById('block-64').style.border = '3px solid red'
+      document.getElementById('result-64').style.color = 'red'
+      document.getElementById('result-64').innerHTML = 'Incorrect!'
+      showCorrectAnswer6()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer6() {
+    let showAnswer6 = document.createElement('p')
+    showAnswer6.innerHTML = 'Show Corrent Answer'
+    showAnswer6.style.position = 'relative'
+    showAnswer6.style.top = '-150px'
+    showAnswer6.style.fontSize = '1.5rem'
+    document.getElementById('showanswer6').appendChild(showAnswer6)
+    showAnswer6.addEventListener('click', () => {
+      document.getElementById('block-63').style.border = '3px solid limegreen'
+      document.getElementById('result-63').style.color = 'limegreen'
+      document.getElementById('result-63').innerHTML = 'Correct!'
+      document.getElementById('showanswer6').removeChild(showAnswer6)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>7. 	Express <sup>1</sup>&frasl;<sub>4</sub> as decimal.</h6>
+ <div id='block-71' >
+    <label for='option-71' style=' padding: 5px;'>
+      <input type='radio' name='option6' value='0.25' id='option-71' style='transform: scale(1.2)'  />
+      0.25</label>
+    <span id='result-71'></span>
+  </div>
+ 
+
+  <div id='block-72'>
+    <label for='option-72' style='padding: 5px;'>
+      <input type='radio' name='option6' value='0.025' id='option-72' style='transform: scale(1.2)' />
+      0.025</label>
+    <span id='result-72'></span>
+  </div>
+  
+
+  <div id='block-73'>
+    <label for='option-73' style='padding: 5px;'>
+      <input type='radio' name='option6' value='2.5' id='option-73' style='transform: scale(1.2)' />
+      2.5</label>
+    <span id='result-73'></span>
+  </div>
+  
+
+  <div id='block-74'>
+    <label for='option-74' style=' padding: 5px;'>
+      <input type='radio' name='option6' value='0.15' id='option-74' style='transform: scale(1.2)' />
+      0.15</label>
+    <span id='result-74'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer7()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer7() {
+    if (document.getElementById('option-71').checked) {
+      document.getElementById('block-71').style.border = '3px solid limegreen'
+      document.getElementById('result-71').style.color = 'limegreen'
+      document.getElementById('result-71').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-72').checked) {
+      document.getElementById('block-72').style.border = '3px solid red'
+      document.getElementById('result-72').style.color = 'red'
+      document.getElementById('result-72').innerHTML = 'Incorrect!'
+      showCorrectAnswer7()
+    }
+    if (document.getElementById('option-73').checked) {
+      document.getElementById('block-73').style.border = '3px solid red'
+      document.getElementById('result-73').style.color = 'red'
+      document.getElementById('result-73').innerHTML = 'Incorrect!'
+      showCorrectAnswer7()
+    }
+    if (document.getElementById('option-74').checked) {
+      document.getElementById('block-74').style.border = '3px solid red'
+      document.getElementById('result-74').style.color = 'red'
+      document.getElementById('result-74').innerHTML = 'Incorrect!'
+      showCorrectAnswer7()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer7() {
+    let showAnswer7 = document.createElement('p')
+    showAnswer7.innerHTML = 'Show Corrent Answer'
+    showAnswer7.style.position = 'relative'
+    showAnswer7.style.top = '-150px'
+    showAnswer7.style.fontSize = '1.5rem'
+    document.getElementById('showanswer7').appendChild(showAnswer6)
+    showAnswer7.addEventListener('click', () => {
+      document.getElementById('block-71').style.border = '3px solid limegreen'
+      document.getElementById('result-71').style.color = 'limegreen'
+      document.getElementById('result-71').innerHTML = 'Correct!'
+      document.getElementById('showanswer7').removeChild(showAnswer7)
+    })
+  }
+</script>
+</article>
+</div>
+  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+ <%= render 'layouts/sideadvert' %>
+  </div>
+</div>
+<hr>
+<nav class="nav nav-pills nav-fill">
+<button class='ml-3'>
+<%= link_to "Prev>>", page2_path, class:'h3' %>
+  </button>
+<a class="nav-item nav-link" href="#"></a>
+  <a class="nav-item nav-link" href="#"></a>
+<button class='mr-2 ml-3'>
+<%= link_to "Next>>", page4_path, class:'h3' %>
+</button>
+</nav>
+<hr>
+<%= render 'layouts/footer' %>
+</div>
+
+
+
+
+
+

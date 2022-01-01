@@ -1,5 +1,7 @@
+<div class='large'>
+<%= render 'layouts/header'%>
 <div class="main">
-<div class="row">
+<div class="row row-over">
   <div class="col-md-10 ad-border">
   <div class='container-fluid med'>
   <div class="d-flex justify-content-center mt-3">
@@ -40,7 +42,7 @@ Solve the following word problems;
 <br>
 <strong>Solution</strong>
 <br>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     (i)
@@ -65,7 +67,7 @@ Solve the following word problems;
   </div>
   </div>
   <br>
-  <div class="container">
+  <div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     (iii)
@@ -129,7 +131,7 @@ Solve the following word problems;
   <br>
   <strong>Solution</strong>
   <br>
-  <div class="container">
+  <div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     (i)
@@ -182,7 +184,7 @@ Length = 2 x 10m = <strong>20m</strong>
   </div>
   </div>
   <br>
-  <div class="container">
+  <div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     (iii)	
@@ -246,7 +248,7 @@ The numbers are;<strong> 6, 7, 8, 9, 10</strong>
   <br>
   <strong>Product = Multiplication</strong>
   <br>
-  <div class="container">
+  <div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     (i)
@@ -699,12 +701,951 @@ The numbers are;<strong> 6, 7, 8, 9, 10</strong>
 <hr>
 </div>
   </div>
-  <div class="col-md-2 justify-content-center mt-3">
-  <%= link_to "Advert/Sponsorship", contact_path, class: 'text-primary advert' %>
-  
-  <div>
-  This space is created by the management for the interested organizations to advertise their products and sponsorships.
+  <div class="col-md-2 justify-content-center mt-1">
+  <%= render 'layouts/sideadvert' %>
+</div>
+</div>
+<hr>
+<nav class="nav nav-pills nav-fill">
+<button class='ml-3'>
+<%= link_to "Previous>>", page13_path, class:'h3' %>
+  </button>
+<a class="nav-item nav-link" href="#"></a>
+  <a class="nav-item nav-link" href="#"></a>
+<button class='mr-2 ml-3'>
+<%= link_to "Next>>", page15_path, class:'h3' %>
+</button>
+</nav>
+<hr>
+<%= render 'layouts/footer' %>
+</div>
+<%= render 'mathematics/sidebar'%>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="medium">
+<%= render 'layouts/header2'%>
+<br>
+<div class="row ml-5 row-over">
+  <div class=" col-md-10  ad-border">
+  <div class='container-fluid med'>
+  <div class="d-flex justify-content-center mt-3">
+<h1 class='text-dark justify-content-center'>Word Problems</h1>
+</div>
+<hr>
+<article>
+<strong>Word problem</strong> is the process of using mathematical approach in resolving problem in sentence or statement mode. Word problem is also a problem stated in everyday language.  In algebra, we use letters to represent unknown(s).
+<br>
+<br>
+<strong>Steps to solve word problems;</strong>
+<br>
+(i) Use letters for unknown(s).
+<br>
+(ii) Write down the information in the question in algebraic form.
+<br>
+(iii) Use the information to form equation(s).
+<br>
+(iv) Solve the equation(s) step wisely.
+<br>
+(v) Write out your answer(s).
+<br>
+(vi) Check your answer(s) against the information in the equation.
+<br>
+<br>
+<strong>Example 1</strong>
+<br>
+Solve the following word problems;
+<br>
+(i)	A girl has y apples in her basket. She sells 3 of them to a friend. How many apples will remain in the basket?
+<br>
+(ii)	A man has 10 white and black caps, x of them are white. How many of the caps are black?
+<br>
+(iii)	A man is 5 times older than his daughter. If the daughter’s age is m; (1) How old is the man (2) the age of the man and his daughter in n years’ time respectively.
+<br>
+(iv)	A woman has y goats in her compound. She sells one quarter of them. She gives 6 of them to her son. How many goats will be in her compound now?
+<br>
+<br>
+<strong>Solution</strong>
+<br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (i)
+    <br>
+    Total apples = y
+    <br>
+    Sold = 3 
+    <br>
+    Left over = <strong>(y – 3) apples.</strong>
+    </div>
+    <div class="col">
+    (ii)
+    <br>
+    Total caps = 10
+    <br>
+    White caps = x
+    <br>
+    Black caps = 10 – x 
+    <br>
+    Black caps = <strong>(10 – x) black caps.</strong>
+    </div>
   </div>
+  </div>
+  <br>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (iii)
+    <br>
+(1)	Daughter’s age = m
+<br>
+      Man’s age = 5 x m = <strong>5m</strong>
+      <br>
+(2)	
+<br>
+(i) Man’s age in n years’ time = <strong> (5m + n) yrs.</strong>
+<br>
+(ii) Daughter’s age in n years’ time = <strong>(m + n) yrs</strong>
+</div>
+    <div class="col">
+    (iv)
+    <br>
+    Total goats = y
+    <br>
+    Sells one quarter = y x <sup>1</sup>&frasl;<sub>4</sub>   =  <sup>y</sup>&frasl;<sub>4</sub> 
+    <br>
+    Given out to her son = 6
+    <br>
+    The left over goats;
+    <br>
+    y − <sup>y</sup>&frasl;<sub>4</sub> ─ 6 = <sup>y</sup>&frasl;<sub>1</sub>  − <sup>y</sup>&frasl;<sub>4</sub>  ─ <sup>6</sup>&frasl;<sub>1</sub> 
+    <br>
+    The LCM is 4
+    <br>
+    The left over goats;
+    <br>
+    <sup>(4y ─ y ─ 24)</sup>&frasl;<sub>4</sub>  =  <sup>(3y ─ 24)</sup>&frasl;<sub>4</sub>
+    <br>
+    The left over goats; 
+    <br>
+    <sup>3y</sup>&frasl;<sub>4</sub> ─ <sup>24</sup>&frasl;<sub>4</sub>  =  <strong>( <sup>3</sup>&frasl;<sub>4</sub><span class='h5'>(y)</span> – 8).</strong>
+    <br>
+    The left over goats = <strong>( <sup>3</sup>&frasl;<sub>4</sub><span class='h5'>(y)</span> – 8) goat(s)</strong>
+    </div>
+  </div>
+  </div>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>Word Problems with Addition and Subtraction</h3>
+  </div>
+  <strong>Example 1</strong>
+  <br>
+  Solve the following word problems;
+  <br>
+  (i)	Michael thinks of a number, he multiplies the number by 4, he adds 24 to it. The result is 60. What is the number?
+  <br>
+  (ii)	The length of a rectangle is twice as long as its breadth, if the perimeter of the rectangle is 60m. Find the length and breadth of the rectangle.
+  <br>
+  (iii)	The body mass of a hen is y kg. The body masses of two checks are one-thirds and one-fifths of that of the hen.
+  <br>
+  (a)	Express the chick’s masses in term of
+  <br>
+  (b)	If the difference of their masses is 0.4kg. Find the mass of the hen.
+  <br>
+  (iv)	The sum of 5 consecutive numbers is 40. Find all the numbers. Find all the numbers.
+  <br>
+  <br>
+  <strong>Solution</strong>
+  <br>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (i)
+    <br>
+Let the number = n
+<br>	
+The number multiply by 4 = 4 x n => 4n
+<br>
+He adds 24 to the number = 4n + 24
+<br>
+4n + 24 = 60
+<br>
+4n = 60 – 24 => 36
+<br>
+n = <sup>36</sup>&frasl;<sub>4</sub>
+<br>
+n = 9
+<br>
+Check;
+<br>
+Substitute for value of n in 4n + 24 = 60;
+<br>
+4(9) + 24 = 60
+<br>
+36 + 24 = 60
+<br>
+<strong>60 = 60 (LHS = RHS)</strong>
+</div>
+<div class="col">
+(ii)
+<br>
+<strong>Perimeter = 2length + 2breadth</strong>
+<br>
+Breadth = b; Length = 2b
+<br>
+Perimeter = 2(2b) + 2b
+<br>
+Perimeter = 4b + 2b
+<br>
+6b = 60; divide both sides by 6
+<br>
+<sup>6b</sup>&frasl;<sub>6</sub>  =  <sup>60</sup>&frasl;<sub>6</sub>
+<br>
+b = 10m
+<br>
+Breadth = <strong>10m</strong>
+<br>
+Length = 2 x 10m = <strong>20m</strong>
+</div>
+  </div>
+  </div>
+  <br>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (iii)	
+	<br>
+    (a)
+    <br>
+	(i) First chick’s = <sup>1</sup>&frasl;<sub>3</sub> x y = <sup>y</sup>&frasl;<sub>3</sub>  = (<sup>1</sup>&frasl;<sub>3</sub>)<span class='h4'>y</span> kg
+    <br>
+    (ii) Second’s = <sup>1</sup>&frasl;<sub>5</sub> x y =  <sup>y</sup>&frasl;<sub>5</sub>  =  ( <sup>1</sup>&frasl;<sub>5</sub>)<span class='h4'>y</span> kg
+    <br>
+    (b)
+    <br>
+	<sup>y</sup>&frasl;<sub>3</sub> ─ <sup>y</sup>&frasl;<sub>5</sub>= 0.4; the LCM is 15.
+    <br>
+       15 (<sup>y</sup>&frasl;<sub>3</sub>) ─ 15 (<sup>y</sup>&frasl;<sub>5</sub>) = 0.4 x 15
+       <br>
+        5y – 3y = 6
+        <br>
+        2y = 6 divide both sides by 2
+        <br>
+        <sup>2y</sup>&frasl;<sub>2</sub>  =  <sup>6</sup>&frasl;<sub>2</sub>
+        <br>
+        y = 3
+        <br>
+        The mass of hen = <strong>3kg</strong>
+        </div>
+    <div class="col">
+    (iv)
+    <br>
+Let the numbers = x, x + 1, x + 2, x + 3, x + 4
+<br>
+x + x + 1 + x + 2 + x + 3 + x + 4 = 40
+<br>
+5x + 10 = 40 
+<br>
+5x = 40 – 10 
+<br>
+5x = 30; divide both sides by 5
+<br>
+<sup>5x</sup>&frasl;<sub>5</sub> = <sup>30</sup>&frasl;<sub>5</sub>
+<br>
+x = 6
+<br>
+The numbers are;<strong> 6, 7, 8, 9, 10</strong>
+</div>
+  </div>
+  </div>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>Word Problems with Multiplication and Division</h3>
+  </div>
+  <strong>Example 1</strong>
+  <br>
+  Solve the following word problems;
+  <br>
+  (i)	The product of a certain number and 6 is equal to three times the number plus 39. Find the number
+  <br>
+  (ii)	Find the positive between 41 and  the product of 3 and 15
+  <br>
+  <br>
+  <strong>Solution</strong>
+  <br>
+  <strong>Product = Multiplication</strong>
+  <br>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (i)
+    <br>
+    Let the number = y
+    <br>
+    The product of the number and 6 = 6y
+    <br>
+    Three times the number plus 39 = 3y + 39
+    <br>
+    6y = 3y + 39
+    <br>
+    6y – 3y = 39
+    <br>
+    3y = 39; divide both sides by 3
+    <br>
+    <sup>3y</sup>&frasl;<sub>3</sub> = <sup>39</sup>&frasl;<sub>3</sub>
+    <br>
+    y = 13
+    <br>
+    The number = <strong>13</strong>
+    </div>
+    <div class="col">
+    (ii)
+    <br>
+    The product of 3 and 15 = 3 x 15 = 45
+    <br>
+    The positive difference between;
+    <br>
+    41 and 45 = 45 – 41 
+    <br>
+    The difference = <strong>4</strong>
+    </div>
+  </div>
+  </div>
+  </article>
+<hr>
+<div class="d-flex justify-content-start text-primary">
+<h5>Test your <strong class='text-secondary'>Word Problems</strong> knowledge with these Objective Questions.</h5>
+</div>
+<article>
+<div class='obj-cont' >
+  <h6>1.	From the product of 9 and 5, subtract 30 and divide the result by 3.</h6>
+ <div id='block-11' >
+    <label for='option-11' style=' padding: 5px;'>
+      <input type='radio' name='option' value='4' id='option-11' style='transform: scale(1.2)'  />
+      4</label>
+    <span id='result-11'></span>
+  </div>
+ 
+
+  <div id='block-12'>
+    <label for='option-12' style='padding: 5px;'>
+      <input type='radio' name='option' value='3' id='option-12' style='transform: scale(1.2)' />
+      3</label>
+    <span id='result-12'></span>
+  </div>
+  
+
+  <div id='block-13'>
+    <label for='option-13' style='padding: 5px;'>
+      <input type='radio' name='option' value='5' id='option-13' style='transform: scale(1.2)' />
+      5</label>
+    <span id='result-13'></span>
+  </div>
+  
+
+  <div id='block-14'>
+    <label for='option-14' style=' padding: 5px;'>
+      <input type='radio' name='option' value='6' id='option-14' style='transform: scale(1.2)' />
+      6</label>
+    <span id='result-14'></span>
+  </div>
+ 
+  <button type='button' class = "c-btn" onclick='displayAnswer1()'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer1() {
+    if (document.getElementById('option-11').checked) {
+      document.getElementById('block-11').style.border = '3px solid red'
+      document.getElementById('result-11').style.color = 'red'
+      document.getElementById('result-11').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-12').checked) {
+      document.getElementById('block-12').style.border = '3px solid red'
+      document.getElementById('result-12').style.color = 'red'
+      document.getElementById('result-12').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-13').checked) {
+      document.getElementById('block-13').style.border = '3px solid limegreen'
+      document.getElementById('result-13').style.color = 'limegreen'
+      document.getElementById('result-13').innerHTML = 'Correct!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-14').checked) {
+      document.getElementById('block-14').style.border = '3px solid red'
+      document.getElementById('result-14').style.color = 'red'
+      document.getElementById('result-14').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer1() {
+    let showAnswer1 = document.createElement('p')
+    showAnswer1.innerHTML = 'Show Corrent Answer'
+    showAnswer1.style.position = 'relative'
+    showAnswer1.style.top = '-150px'
+    showAnswer1.style.fontSize = '1.5rem'
+    document.getElementById('showanswer1').appendChild(showAnswer1)
+    showAnswer1.addEventListener('click', () => {
+      document.getElementById('block-13').style.border = '3px solid limegreen'
+      document.getElementById('result-13').style.color = 'limegreen'
+      document.getElementById('result-13').innerHTML = 'Correct!'
+      document.getElementById('showanswer1').removeChild(showAnswer1)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>2.	Multiplication of a number by 4 is equal to 3 times the number subtracted from 28.</h6>
+ <div id='block-21' >
+    <label for='option-21' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='4' id='option-21' style='transform: scale(1.2)'  />
+      4</label>
+    <span id='result-21'></span>
+  </div>
+ 
+
+  <div id='block-22'>
+    <label for='option-22' style='padding: 5px;'>
+      <input type='radio' name='option1' value='10' id='option-22' style='transform: scale(1.2)' />
+      10</label>
+    <span id='result-22'></span>
+  </div>
+  
+
+  <div id='block-23'>
+    <label for='option-23' style='padding: 5px;'>
+      <input type='radio' name='option1' value='2' id='option-23' style='transform: scale(1.2)' />
+      2</label>
+    <span id='result-23'></span>
+  </div>
+  
+
+  <div id='block-24'>
+    <label for='option-24' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='12' id='option-24' style='transform: scale(1.2)' />
+      12</label>
+    <span id='result-24'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer2()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer2() {
+    if (document.getElementById('option-21').checked) {
+      document.getElementById('block-21').style.border = '3px solid limegreen'
+      document.getElementById('result-21').style.color = 'limegreen'
+      document.getElementById('result-21').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-22').checked) {
+      document.getElementById('block-22').style.border = '3px solid red'
+      document.getElementById('result-22').style.color = 'red'
+      document.getElementById('result-22').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-23').checked) {
+      document.getElementById('block-23').style.border = '3px solid red'
+      document.getElementById('result-23').style.color = 'red'
+      document.getElementById('result-23').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-24').checked) {
+      document.getElementById('block-24').style.border = '3px solid red'
+      document.getElementById('result-24').style.color = 'red'
+      document.getElementById('result-24').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer2() {
+    let showAnswer2 = document.createElement('p')
+    showAnswer2.innerHTML = 'Show Corrent Answer'
+    showAnswer2.style.position = 'relative'
+    showAnswer2.style.top = '-150px'
+    showAnswer2.style.fontSize = '1.5rem'
+    document.getElementById('showanswer2').appendChild(showAnswer2)
+    showAnswer2.addEventListener('click', () => {
+      document.getElementById('block-21').style.border = '3px solid limegreen'
+      document.getElementById('result-21').style.color = 'limegreen'
+      document.getElementById('result-21').innerHTML = 'Correct!'
+      document.getElementById('showanswer2').removeChild(showAnswer2)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>3.	I add 51 to a number and divide the sum by 3. The result is 6 times the original number. Find the original number.</h6>
+ <div id='block-31' >
+    <label for='option-31' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='5' id='option-31' style='transform: scale(1.2)'  />
+      5</label>
+    <span id='result-31'></span>
+  </div>
+ 
+
+  <div id='block-32'>
+    <label for='option-32' style='padding: 5px;'>
+      <input type='radio' name='option2' value='3' id='option-32' style='transform: scale(1.2)' />
+      3</label>
+    <span id='result-32'></span>
+  </div>
+  
+
+  <div id='block-33'>
+    <label for='option-33' style='padding: 5px;'>
+      <input type='radio' name='option2' value='8' id='option-33' style='transform: scale(1.2)' />
+      8</label>
+    <span id='result-33'></span>
+  </div>
+  
+
+  <div id='block-34'>
+    <label for='option-34' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='12' id='option-34' style='transform: scale(1.2)' />
+      12</label>
+    <span id='result-34'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer3()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer3() {
+    if (document.getElementById('option-31').checked) {
+      document.getElementById('block-31').style.border = '3px solid red'
+      document.getElementById('result-31').style.color = 'red'
+      document.getElementById('result-31').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-32').checked) {
+      document.getElementById('block-32').style.border = '3px solid limegreen'
+      document.getElementById('result-32').style.color = 'limegreen'
+      document.getElementById('result-32').innerHTML = 'Correct!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-33').checked) {
+      document.getElementById('block-33').style.border = '3px solid red'
+      document.getElementById('result-33').style.color = 'red'
+      document.getElementById('result-33').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-34').checked) {
+      document.getElementById('block-34').style.border = '3px solid red'
+      document.getElementById('result-34').style.color = 'red'
+      document.getElementById('result-34').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer3() {
+    let showAnswer3 = document.createElement('p')
+    showAnswer3.innerHTML = 'Show Corrent Answer'
+    showAnswer3.style.position = 'relative'
+    showAnswer3.style.top = '-150px'
+    showAnswer3.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer2)
+    showAnswer3.addEventListener('click', () => {
+      document.getElementById('block-32').style.border = '3px solid limegreen'
+      document.getElementById('result-32').style.color = 'limegreen'
+      document.getElementById('result-32').innerHTML = 'Correct!'
+      document.getElementById('showanswer3').removeChild(showAnswer3)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>4.	A rectangle has 5m breadth and its perimeter is 24m. Find the length of the rectangle.</h6>
+ <div id='block-41' >
+    <label for='option-41' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='6' id='option-41' style='transform: scale(1.2)'  />
+     6</label>
+    <span id='result-41'></span>
+  </div>
+ 
+
+  <div id='block-42'>
+    <label for='option-42' style='padding: 5px;'>
+      <input type='radio' name='option3' value='7' id='option-42' style='transform: scale(1.2)' />
+     7</label>
+    <span id='result-42'></span>
+  </div>
+  
+
+  <div id='block-43'>
+    <label for='option-43' style='padding: 5px;'>
+      <input type='radio' name='option3' value='11' id='option-43' style='transform: scale(1.2)' />
+      111</label>
+    <span id='result-43'></span>
+  </div>
+  
+
+  <div id='block-44'>
+    <label for='option-44' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='13' id='option-44' style='transform: scale(1.2)' />
+    13</label>
+    <span id='result-44'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer4()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer4() {
+    if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid red'
+      document.getElementById('result-41').style.color = 'red'
+      document.getElementById('result-41').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid limegreen' 
+      document.getElementById('result-42').style.color = 'limegreen'
+      document.getElementById('result-42').innerHTML = 'Correct!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid red'
+      document.getElementById('result-43').style.color = 'red'
+      document.getElementById('result-43').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid red'
+      document.getElementById('result-44').style.color = 'red'
+      document.getElementById('result-44').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer4() {
+    let showAnswer4 = document.createElement('p')
+    showAnswer4.innerHTML = 'Show Corrent Answer'
+    showAnswer4.style.position = 'relative'
+    showAnswer4.style.top = '-150px'
+    showCorrectAnswer4.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer4)
+    showAnswer4.addEventListener('click', () => {
+      document.getElementById('block-42').style.border = '3px solid limegreen'
+      document.getElementById('result-42').style.color = 'limegreen'
+      document.getElementById('result-42').innerHTML = 'Correct!'
+      document.getElementById('showanswer4').removeChild(showAnswer4)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>5.	A merchant bought a gold for $n and sold it at $16500. What is the gain?</h6>
+ <div id='block-51' >
+    <label for='option-51' style=' padding: 5px;'>
+      <input type='radio' name='option4' value='$(16500 + x)' id='option-51' style='transform: scale(1.2)'  />
+      $(16500 + x)</label>
+    <span id='result-51'></span>
+  </div>
+ 
+
+  <div id='block-52'>
+    <label for='option-52' style='padding: 5px;'>
+      <input type='radio' name='option4' value='$(16500x)' id='option-52' style='transform: scale(1.2)' />
+      $(16500x)</label>
+    <span id='result-52'></span>
+  </div>
+  
+
+  <div id='block-53'>
+    <label for='option-53' style='padding: 5px;'>
+      <input type='radio' name='option4' value='$(16500 ÷ x)' id='option-53' style='transform: scale(1.2)' />
+      $(16500 ÷ x)</label>
+    <span id='result-53'></span>
+  </div>
+  
+
+  <div id='block-54'>
+    <label for='option-54' style=' padding: 5px;'>
+      <input type='radio' name='option4' value='$(16500 ─ x)' id='option-54' style='transform: scale(1.2)' />
+      $(16500 ─ x)</label>
+    <span id='result-54'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer5()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer5() {
+    if (document.getElementById('option-51').checked) {
+      document.getElementById('block-51').style.border = '3px solid red'
+      document.getElementById('result-51').style.color = 'red'
+      document.getElementById('result-51').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-52').checked) {
+      document.getElementById('block-52').style.border = '3px solid red'
+      document.getElementById('result-52').style.color = 'red'
+      document.getElementById('result-52').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+    if (document.getElementById('option-53').checked) {
+      document.getElementById('block-53').style.border = '3px solid red'
+      document.getElementById('result-53').style.color = 'red'
+      document.getElementById('result-53').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+    if (document.getElementById('option-54').checked) {
+      document.getElementById('block-54').style.border = '3px solid limegreen'
+      document.getElementById('result-54').style.color = 'limegreen'
+      document.getElementById('result-54').innerHTML = 'Correct!'
+      showCorrectAnswer5()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer5() {
+    let showAnswer5 = document.createElement('p')
+    showAnswer5.innerHTML = 'Show Corrent Answer'
+    showAnswer5.style.position = 'relative'
+    showAnswer5.style.top = '-150px'
+    showAnswer5.style.fontSize = '1.5rem'
+    document.getElementById('showanswer5').appendChild(showAnswer5)
+    showAnswer5.addEventListener('click', () => {
+      document.getElementById('block-54').style.border = '3px solid limegreen'
+      document.getElementById('result-54').style.color = 'limegreen'
+      document.getElementById('result-54').innerHTML = 'Correct!'
+      document.getElementById('showanswer5').removeChild(showAnswer5)
+    })
+  }
+</script>
+</article>
+</div>
+  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+ <%= render 'layouts/sideadvert' %>
   </div>
 </div>
 <hr>
@@ -721,6 +1662,3 @@ The numbers are;<strong> 6, 7, 8, 9, 10</strong>
 <hr>
 <%= render 'layouts/footer' %>
 </div>
-
-<%= render 'mathematics/sidebar'%>
-

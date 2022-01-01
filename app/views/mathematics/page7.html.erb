@@ -1,21 +1,23 @@
+<div class='large'>
+<%= render 'layouts/header'%>
 <div class="main">
-<div class="row">
+<div class="row row-over">
   <div class="col-md-10 ad-border">
   <div class='container-fluid med'>
 <div class="d-flex justify-content-center mt-3">
 <h1 class='text-dark justify-content-center interest'>Simple Interest and Compound Interest,</h1>
 </div>
 <div class="d-flex justify-content-center mt-3">
-<h1 class='text-dark justify-content-center interest'> Business Mathematics </h1>
+<h2 class='text-dark justify-content-center interest'> Business Mathematics </h2>
 </div>
 <hr>
 <article>
 <div class="d-flex justify-content-center mt-3">
-<h2 class='text-dark justify-content-center'> How to Calculate Interest </h2>
+<h3 class='text-dark justify-content-center'> How to Calculate Interest </h3>
 </div>
 <div class= 'mb-3'><strong>Interest</strong> is the extra payment for saving or borrowing money. This is usually set by the lenders or commercial banks.</div>
-<div class="container">
- <div class="row">
+<div class="container-fluid">
+ <div class="row ml-0 mr-0">
     <div class="col border-right border-danger">
     <strong>Example 1</strong>
     <br>
@@ -90,7 +92,7 @@ Calculate the simple interest and the amount paid back on the following; (i) $40
 <br>
 <strong>Solution</strong>
 
-<div class="container">
+<div class="containerfluid-">
   <div class="row">
     <div class="col border-right border-danger">
     <b>(i)</b>
@@ -135,7 +137,7 @@ Calculate the simple interest and the amount paid back on the following; (i) $40
   <strong>Compound interest</strong> is the interest added to the principal at the end of each time interval, therefore the principal 
   increases and the interest becomes greater for each successive interval.
  
-  <div class="container">
+  <div class="container-fluid">
   <div class="row">
 <div class="col border-right border-danger">
 <strong>Example 1 </strong>
@@ -245,7 +247,7 @@ Tax he pays = <b>10% </b> of $2000 + <b>15% </b> of $1900
 <p>
 A <strong>discount</strong> is the money taken off the price of an item or commodity to encourage the buyer(s).
 </p>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     <strong>Example 1</strong>
@@ -284,7 +286,7 @@ A <strong>discount</strong> is the money taken off the price of an item or commo
 <p>
 <strong>Installment</strong> is a part payment on a sum borrowed or item purchased.<strong> Hire purchase</strong> is another name for paying installmentally.
 </p>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     <strong>Example 1</strong>
@@ -325,7 +327,7 @@ A <strong>discount</strong> is the money taken off the price of an item or commo
 <p>
 <strong>VAT (value-added-tax)</strong> is a tax on the selling price of certain items and services.
 </p>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     <strong>Example 1</strong>
@@ -408,7 +410,7 @@ Total bill = <strong>$199.5</strong>
 <div class="d-flex justify-content-center mt-3">
   <h3 class='text-dark justify-content-center'> How to Calculate Profit and Loss </h3>
   </div>
-  <div class="container">
+  <div class="containe-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     <strong>Example 1</strong>
@@ -447,7 +449,7 @@ Total bill = <strong>$199.5</strong>
   </div>
   </div>
 <br>
-  <div class="container">
+  <div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     <strong>Example 3</strong>
@@ -498,7 +500,7 @@ Total bill = <strong>$199.5</strong>
 <strong>Commission</strong> is a payment for selling an item or a service.
 </p>
 
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     <strong>Example 1</strong>
@@ -1277,18 +1279,14 @@ Cost at the end of the 1<sup>st</sup> year = $1200 + $180 = <strong>$1380</stron
 </article>
 </div>
   </div>
-  <div class="col-md-2 justify-content-center mt-3">
-  <%= link_to "Advert/Sponsorship", contact_path, class: 'text-primary advert' %>
-  
-  <div>
-  This space is created by the management for the interested organizations to advertise their products and sponsorships.
-  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+  <%= render 'layouts/sideadvert' %>
   </div>
 </div>
 <hr>
 <nav class="nav nav-pills nav-fill">
 <button class='ml-3'>
-<%= link_to "Previous>>", page6_path, class:'h3' %>
+<%= link_to "Prev>>", page6_path, class:'h3' %>
   </button>
 <a class="nav-item nav-link" href="#"></a>
   <a class="nav-item nav-link" href="#"></a>
@@ -1299,8 +1297,8 @@ Cost at the end of the 1<sup>st</sup> year = $1200 + $180 = <strong>$1380</stron
 <hr>
 <%= render 'layouts/footer' %>
 </div>
-
 <%= render 'mathematics/sidebar'%>
+</div>
 
 
 
@@ -1492,5 +1490,1397 @@ Cost at the end of the 1<sup>st</sup> year = $1200 + $180 = <strong>$1380</stron
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="medium">
+<%= render 'layouts/header2'%>
+<br>
+<div class="row ml-5 row-over">
+  <div class=" col-md-10  ad-border">
+  <div class='container-fluid med'>
+  <div class="d-flex justify-content-center mt-3">
+<h1 class='text-dark justify-content-center interest'>Simple Interest and Compound Interest,</h1>
+</div>
+<div class="d-flex justify-content-center mt-3">
+<h1 class='text-dark justify-content-center interest'> Business Mathematics </h1>
+</div>
+<hr>
+<article>
+<div class="d-flex justify-content-center mt-3">
+<h2 class='text-dark justify-content-center'> How to Calculate Interest </h2>
+</div>
+<div class= 'mb-3'><strong>Interest</strong> is the extra payment for saving or borrowing money. This is usually set by the lenders or commercial banks.</div>
+<div class="container-fluid">
+ <div class="row">
+    <div class="col border-right border-danger">
+    <strong>Example 1</strong>
+    <br>
+    <strong> Solution</strong>
+    <br>
+    A man saves $20000 in microfinance bank for one year, if the interest rate is 10% per annum. How much will he get at the end of the year?
+    <br>
+    <strong>Note; per annum means each year.</strong>
+    <br>
+    <strong>Solution</strong>
+    <br>
+    10% of $20000 = <sup>10</sup>&frasl;<sub>100</sub> x <sup>20000</sup>&frasl;<sub>1</sub> = 10 x 200 = $2000
+    <br>
+    Interest = <b>$2000</b>
+    <br>
+     Amount at the end of the year = Amount saved + Interest
+     <br>
+     Amount at the end of the year = $20000 + $2000
+    <br>
+    Amount at the end of the year = <b>$22000</b>
+    </div>
+    <div class="col">
+   <strong>Example 2</strong>
+    <br>
+    <strong> Solution</strong>
+    <br>
+    A trader borrows $2000 for 3 weeks at $1 on each $10 interest per week. How much is the trader paying back in total after 3 weeks?
+    <br>
+    <strong>Solution </strong>
+    <br>
+    Number of $10 in $2000 = <sup>$2000</sup>&frasl;<sub>$10</sub> = <strong>200</strong>
+    <br>
+    Interest per week = $1 x 200 = $200
+    <br>
+    Interest in 3 weeks = 3 x $200 = <b> $600 </b>
+    <br>
+    <strong>The total amount</strong> = Amount borrowed + Interest
+    <br>
+    = $2000 + $600
+    <br>
+    = $2600
+    <br>
+    Total amount = <b>$2600</b>
+   </div>
+  </div>
+  </div>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>How to Calculate Simple Interest </h3>
+  </div>
+<p>
+<strong>Simple interest</strong> is the interest calculated on a fixed yearly or per annum rate.
+<br>
+The <strong>formula </strong>for <strong>simple interest;</strong>
+<br>
+<strong>I =  <sup>PRT</sup>&frasl;<sub>100</sub> </strong>
+<br>
+<strong>I</strong> = Simple Interest, <strong>P</strong>= Principal, <strong>R</strong> = Rate, and <strong>T</strong> = Time
+<br>
+<strong> Simple Interest (I)</strong> means interest calculated on a fixed yearly rate.
+<br>
+<strong>Principal (P)</strong> means amount of money saved or borrowed.
+<br>
+<strong>Rate (R) </strong> means the annual rate of the interest given as percentage.
+<br>
+<strong>Time (T)</strong> means the time (measure in year) for which the money is saved or borrowed.
+<br>
+The <strong>amount to be paid back</strong> is the <strong>sum</strong> of the <strong>principal</strong> and the <strong>interest.</strong>
+</p>
+<strong>Example 1 </strong>
+<br>
+Calculate the simple interest and the amount paid back on the following; (i) $4000 for 3 years at 6% rate per annum (ii) $1350 for 1 year and 6 months at 8% rate per annum.
+<br>
+<strong>Solution</strong>
+
+<div class="containerfluid-">
+  <div class="row">
+    <div class="col border-right border-danger">
+    <b>(i)</b>
+    <br>
+    P = $4000, R = 6, T= 3 and I =?
+    <br>
+    I = <sup>PRT</sup>&frasl;<sub>100</sub> = <sup>(4000 x 6 x3)</sup>&frasl;<sub>100</sub> = 40 x 6 x 3 = $720
+    <br>
+    Simple Interest = <strong>$720</strong>
+    <br>
+    Amount paid = principal + simple interest
+    <br>
+       = $4000 + $720 
+    <br>
+    = $4700
+    <br>
+    Amount paid = <strong>$4700</strong>
+   </div>
+    <div class="col">
+    <strong>(ii)</strong>
+    <br>
+    P = $1350, R = 8, T = 1.5 (<strong>1year and 6 months</strong>) and I =?
+    <br>
+    I = <sup>PRT</sup>&frasl;<sub>100</sub> = <sup>(1350 X 8 X 1.5)</sup>&frasl;<sub>100</sub> = <sup>16200</sup>&frasl;<sub>100</sub> = $162
+    <br>
+    Simple Interest = <b>$162</b>
+    <br>
+    Amount paid = Principal + Simple Interest
+    <br>
+    = $ 1350 + $162
+    <br>
+    = $1512
+    <br>
+    Amount paid = <strong>$1512</strong>
+   </div>
+  </div>
+  </div>
+
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'> How to Calculate Compound Interest </h3>
+  </div>
+  <strong>Compound interest</strong> is the interest added to the principal at the end of each time interval, therefore the principal 
+  increases and the interest becomes greater for each successive interval.
+ 
+  <div class="container-fluid">
+  <div class="row">
+<div class="col border-right border-danger">
+<strong>Example 1 </strong>
+<br>
+Calculate the compound interest on $5000 for 2 years at 10% per annum.
+<br>
+<strong>Solution</strong>
+<br>
+<strong>The interest is added at 1 year interval.</strong>
+<br>
+<strong>Initial principal</strong> = $5000
+<br>
+<strong>1<sup>st</sup> year at 10% interest; I<sub>1</sub></strong> = <sup>(5000 x 10 x 1)</sup>&frasl;<sub>100</sub> = <strong>$500</strong>
+<br>
+1<sup>st</sup> year amount = $5000 + $500 = <strong>$5500</strong>
+<br>
+<strong>2<sup>nd</sup> year at 10% interest; I<sub>2</sub></strong> =  <sup>(5500 x 10 x 1)</sup>&frasl;<sub>100</sub> = <strong>$550</strong>
+<br>
+2<sup>nd</sup> year amount = $5500 + $550 = <strong>$6050</strong>
+<br>
+The compound interest = $6050 - $5000
+<br>
+The compound interest after 2 years = <strong>$1050</strong>
+
+</div>
+    <div class="col">
+    <strong>Example 2</strong>
+    <br>
+    Find how much $800 becomes at the end of 3 years if the compound interest is 5% per annum.
+    <br>
+    <strong>Solution</strong>
+    <br>
+    <strong>Initial principal</strong> = $8000
+    <br>
+    <strong>1<sup>st</sup> year at 5% interest;</strong> <sup>(8000 x 5 x 1)</sup>&frasl;<sub>100</sub> = 80 x 5 = <strong>$400</strong>
+    <br>
+    1<sup>st</sup> year amount = $8000 + $400 = <strong>$8400</strong>
+    <br>
+    <strong>2<sup>nd</sup> year at 5% interest;</strong> <sup>(8400 x 5 x 1)</sup>&frasl;<sub>100</sub> = 84 x 5 = <strong>$420</strong>
+    <br>
+    2<sup>nd</sup> year amount = $8400 + $420 = <strong>$8820</strong>
+    <br>
+    <strong>3rd year at 5% interest;</strong> <sup>(8820 x 5 x 1)</sup>&frasl;<sub>100</sub> = <sup>44100</sup>&frasl;<sub>100</sub> = <strong>$441</strong>
+    <br>
+    3<sup>rd</sup> year amount = $8820 + $441 = $9261
+    <br>
+    The amount it becomes at the end of 3 years = <strong>$9261</strong>
+    </div>
+  </div>
+  </div>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'> What is Tax? </h3>
+  </div>
+<p>
+<strong>Tax</strong> is a compulsory payment imposed on an individual or legal entity by government to raise money for
+ government expenditures e.g. income tax such as, PAYE (<strong>pay-as-you-earn</strong>).
+</p>
+<p>
+For any salary earner or wage earner, it is not the total income that is taxable;
+<br>
+<strong> Taxable income </strong> = total income – allowances.
+</p>
+<p>
+<strong>The allowances are;</strong> personal allowance, child allowance, dependent relative allowance etc. 
+The accurate conditions for 
+calculating the tax would be given per income earner and it varies.
+</p>
+<div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'> How to Calculate the Income Tax </h3>
+  </div>
+
+<p>
+<strong>Example 1</strong>
+<br>
+A staff has a total income of $5400 per month. He has 2 children; he claims $300 for dependent relatives. $700 for personal allowance and $250 for child allowance, If the bands for taxable income are; first $2000 attracts 10% tax rate, over $2000 - $4000 attracts 15% and over $4000 - $6000 attracts 20%. Calculate the amount of tax he pays.
+<br>
+<strong>Solutions</strong>
+<br>
+<strong>Total allowance </strong>= personal + dependent + child (allowances)
+<br>
+= 700 + 300 + 2(250)
+<br>
+= 700 + 300 + 500
+<br>
+Total allowance = <strong>$1500</strong>
+<br>
+<strong>Taxable income</strong> = total income – total allowances
+<br>
+= $5400 - $1500
+<br>
+Taxable income = <b>$3900</b>
+<br>
+Taxable in $3900 => $2000 + $1900
+<br>
+Tax he pays = <b>10% </b> of $2000 + <b>15% </b> of $1900
+<br>
+= $200 + $285
+<br>
+ Tax he pays = <b>$485</b>
+</p>
+<div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'> How to Calculate Discounts </h3>
+</div>
+<div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'> Commodity Discounts </h3>
+</div>
+<p>
+A <strong>discount</strong> is the money taken off the price of an item or commodity to encourage the buyer(s).
+</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    <strong>Example 1</strong>
+    <br>
+    A television set costs $1200 and 6% discount is given to the buyer. How much would the buyer pay to have the television set?
+    <br>
+    <strong>Solution</strong>
+    <br>
+   <strong>Discount</strong> = 6% of $1200 = <sup>6</sup>&frasl;<sub>100</sub> x <sup>1200</sup>&frasl;<sub>1</sub> = 6 x 12 = <strong>$72</strong>
+    <br>
+    <strong>The actual price</strong> = $1200 - $72 = <strong>$1128</strong>
+    
+    </div>
+    <div class="col">
+    <strong>Example 2</strong>
+    <br>
+    Drilling an oil well costs $14000, the driller gives 25% discount for cash. How much would customer pay?
+    <br>
+    <strong>Solution</strong>
+    <br>
+    Discount = 25% of $14000 = <sup>25</sup>&frasl;<sub>100</sub> x $14000 = 25 x 140 
+    Discount = <strong>$3500</strong>
+    <br>
+    <strong>Actual payment</strong> = $14000 - $3500 = <strong>$10500</strong>
+    </div>
+  </div>
+  </div>
+  
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'> How to Calculate Installments </h3>
+  </div>
+  <hr>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'> Installment Buying </h3>
+  </div>
+<p>
+<strong>Installment</strong> is a part payment on a sum borrowed or item purchased.<strong> Hire purchase</strong> is another name for paying installmentally.
+</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    <strong>Example 1</strong>
+    <br>
+    A laptop computer costs $340 on cash payment or a deposit of $40 and 12 monthly payment of $27.5. Calculate the difference between cash payment and the installment payment of the laptop computer.
+    <br>
+    <strong>Solution </strong>
+    <br>
+    <strong>Installment</strong> = deposit + total monthly payments
+    <br>
+    = $40 + 12(27.5)
+    <br>
+    = $40 + $330
+    <br>
+    = $370
+    <br>
+    The difference = $370 - $340 
+    <br>
+    The difference = <strong> $30 </strong>
+    
+    </div>
+    <div class="col">
+    <strong>Example 2 </strong>
+    <br>
+    The hire purchase of a Toyota Camry car is $248400. The payment is spread over 24 equal monthly installments. Find each installment.
+    <br>
+    <strong>Solution</strong>
+    <br>
+    Each installment = <sup>248400</sup>&frasl;<sub>24</sub> = $10350
+    <br>
+    Each installment = <strong>$10350</strong>
+  </div>
+  </div>
+  </div>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'> How to Calculate Value-Added-Tax (VAT) </h3>
+  </div>
+<p>
+<strong>VAT (value-added-tax)</strong> is a tax on the selling price of certain items and services.
+</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    <strong>Example 1</strong>
+    <br>
+    A tag is placed on a washing machine that the price is $1050 plus 5% VAT. How much does the customer pay?
+    <br>
+    <strong>Solution</strong>
+    <br>
+    VAT = 5% of $1050 = <sup>5</sup>&frasl;<sub>100</sub> x <sup>$1050</sup>&frasl;<sub>1</sub> = <sup>5250</sup>&frasl;<sub>100</sub> 
+    <br>
+    VAT = <strong> $52.5</strong>
+    <br>
+    Amount paid = Actual price + VAT
+    <br>
+    Amount paid = $1050 + $52.5
+    <br>
+    Amount paid = <strong>$1102.5</strong>
+    </div>
+    <div class="col">
+    <strong>Example 2</strong>
+    <br>
+    A firm paid $2835 per annum for water supply, the bill included VAT at 5% . 
+    Find how much the actual bill is?
+    <br>
+    <strong>Solution</strong>
+    <br>
+    $2835 is 105% of the actual bill
+    <br>
+    1% of the actual bill = <sup>$2835</sup>&frasl;<sub>105</sub> = $27 
+    <br>
+    5% of the actual bill = $27 x 5 = $135
+    <br>
+    <strong>The actual bill</strong> = total bill – VAT
+    <br>
+    The actual bill = $2835 – $135
+    <br>
+    The actual bill = <strong>$2700</strong>
+    </div>
+  </div>
+  </div>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'> How to Calculate Bills and Charges </h3>
+  </div>
+<p>
+<strong>Utility bills</strong> are based on the number of units consumed per period of time.
+</p>
+
+<p>
+<strong>Example 1</strong>
+<br>
+An electricity meter reading changed from 6000 to 6235 over a period of one month. 
+If the standing charge is $2 per month, the cost per unit is $0.8 and VAT is 5%. Calculate the total bill.
+<br>
+<strong>Solution</strong>
+<br>
+<strong>Number of units consumed</strong> = Final reading - Initial reading
+<br>
+Number of units consumed = 6235 – 6000
+<br>
+Number of units consumed = <strong>235units</strong>
+<br>
+Cost of units consumed = $0.8 x 235
+<br>
+Cost of units consumed = <strong>$188</strong>
+<br>
+<strong>Total cost</strong> = Cost of units consumed + standing charges
+<br>
+= $188 + $2
+<br>                 
+ Total cost = $190
+ <br>
+Total bill including VAT = $190 x 105%
+<br>
+= $190 x <sup>105</sup>&frasl;<sub>100</sub>
+<br>
+= <sup>19950</sup>&frasl;<sub>100</sub>
+<br>
+Total bill = <strong>$199.5</strong>
+</p>
+<div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'> How to Calculate Profit and Loss </h3>
+  </div>
+  <div class="containe-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    <strong>Example 1</strong>
+    <br>
+    A merchant buys a microwave at $240 and sells it at profit of 15%. Calculate the profit and the selling price.
+    <br>
+    <strong>Solution</strong>
+    <br>
+    Profit = 15% of $240 = <sup>15</sup>&frasl;<sub>100</sub> x $240 = <sup>3600</sup>&frasl;<sub>100</sub>
+    <br>
+    Profit = <strong> $36 </strong>
+    <br>
+    Selling price = cost price + profit
+    <br>
+     Selling price = $240 + $36
+    <br>
+    Selling price = <strong>$276</strong>
+    </div>
+    <div class="col">
+    <strong>Example 2</strong>
+    <br>
+    Ruth bought a packet of sweets for $800 and sold it for $500, because some are spoilt. Calculate the percentage loss.
+    <br>
+    <strong>Solution</strong>
+    <br>
+    Loss = Cost price - Selling price
+    <br>
+    Loss = $800 - $500 = <strong>$300</strong>
+    <br>
+    Percentage = <sup>loss</sup>&frasl;<sub>(cost price)</sub>  x <strong> 100% </strong>
+    <br>
+     Percentage = <sup>300</sup>&frasl;<sub>800</sub> x <sup>100</sup>&frasl;<sub>1</sub> = <sup>300</sup>&frasl;<sub>8</sub>
+    <br>
+    Percentage = <strong> 37.5% </strong>
+    </div>
+  </div>
+  </div>
+<br>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    <strong>Example 3</strong>
+    <br>
+    A woman buys phones at $900 a dozen and sells each at $90. Calculate the profit percent.
+    <br>
+    <strong>Solution</strong>
+    <br>
+    Total selling price = 12 x $90 = $1080
+    <br>
+  <strong> Profit </strong> = Total selling price - Cost price
+    <br>
+    Profit = $1080 - $900 
+    <br>
+    Profit = <b>$180</b>
+    <br>
+    Percentage profit = <sup>180</sup>&frasl;<sub>900</sub> x <sup>100</sup>&frasl;<sub>1</sub>
+    <br>
+    =  <sup>180</sup>&frasl;<sub>9</sub>
+    <br>
+    Percentage profit = <strong> 20% </strong>
+    </div>
+    <div class="col">
+    <strong> Example 4 </strong>
+    <br>
+    A trader bought a pack of discs for $3500 per pack and sold at 12% profit. What is the selling price?
+    <br>
+    <strong>Solution</strong>
+    <br>
+    Profit = 12% of $3500
+    <br>
+     Profit = <sup>12</sup>&frasl;<sub>100</sub>  x <sup>3500</sup>&frasl;<sub>1</sub> = 12 x 35 
+    <br>
+    <strong>Profit</strong> = $420
+    <br>
+    <strong>Selling price</strong> = cost price + profit
+    <br>
+    Selling price = $3500 + $420
+    <br>
+    Selling price = <strong> $3920 </strong>
+    </div>
+  </div>
+  </div>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'> How to Calculate Commission </h3>
+  </div>
+<p>
+<strong>Commission</strong> is a payment for selling an item or a service.
+</p>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    <strong>Example 1</strong>
+    <br>
+	A commission of 15% is charged on a Bank-Draft. How much commission would be paid on a Bank-Draft worth of $52000 and the total cost of the Bank-Draft.
+    <br>
+    <strong>Solution</strong>
+    <br>
+    <strong>Commission</strong> = 1.5% of $52000
+    <br>
+    Commission = 1.5/100 x $52000
+    <br>
+     Commission = 1.5 x 520
+    <br>
+    Commission = <strong>$780</strong>
+    <br>
+    <strong>The total cost</strong>  = Bank-Draft Value + Commission
+    <br>
+    The total cost  = $52000 + $780
+    <br>
+     Total cost = <strong>$52780</strong>
+   </div>
+    <div class="col">
+    <strong> Example 2</strong>
+    <br>
+    A writer gets 12% of the price of each of his book sold. If each book costs $8. How much would he get as commission, if the marketer sells 8000 copies in a year?
+    <br>
+    <strong>Solution</strong>
+    <br>
+    Cost of 8000 copies = $8 x 8000 = <strong>$64000</strong>
+    <br>
+    12% of the cost = <sup>12</sup>&frasl;<sub>100</sub> x <sup>64000</sup>&frasl;<sub>1</sub>
+    <br>
+    Commission = 12 x 640
+    <br>
+    Commission = $7680
+    <br>
+    He gets     = <strong>$7680</strong>
+    </div>
+  </div>
+  </div>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>How to Calculate Depreciation and Appreciation</h3>
+  </div>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>Depreciation</h3>
+  </div>
+  <p>
+  <strong>Depreciation </strong> means loss in value. It could be as a result of wear and tear, damage etc. 
+  </p>
+  <p>
+  <strong>Example 1</strong>
+  <br>
+  The cost of a machine is $520000; it depreciates by 10% in its first year and 15% in its second year. Find its value or worth after 2 years.
+  <br>
+  <strong>Solution</strong>
+  <br>
+  <strong>1<sup>st</sup> year; </strong>
+  <br>
+  Depreciation = 10% x 520000 = <sup>10</sup>&frasl;<sub>100</sub> x  <sup>520000</sup>&frasl;<sub>1</sub> = <strong>$52000</strong>
+  <br>
+  Value at the end of 1<sup>st</sup> year = $520000 - $52000 = <strong>$468000</strong>
+  <br>
+  <strong>2<sup>nd</sup> year:</strong>
+  <br>
+  Depreciation = 15% of $468000
+  <br>
+  Depreciation = <sup>15</sup>&frasl;<sub>100</sub> x 468000 = 15 x 4680
+  <br>
+  Depreciation = <strong>$70200</strong>
+  <br>
+  Value at the end of 2<sup>nd</sup> year = $468000 - $70200
+  <br>
+  The value of the machine after 2 years = <strong>$397800</strong>	
+  </p>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'> Appreciation </h3>
+  </div>
+  <p>
+  <strong>Appreciation</strong> means increase in value. It could be as a result of civilization, development etc.
+  </p>
+<p>
+<strong>Example 1</strong>
+<br>
+A man bought a piece of land at $2500. It appreciates at 15% in the first year and 25% in the second year due to rapid urban development. Calculate the value of the land after two years.
+<br>
+<strong>Solution</strong>
+<br>
+<strong>1<sup>st</sup> year;</strong>
+<br>
+Appreciation = 15% of $2500 = <sup>15</sup>&frasl;<sub>100</sub> x <sup>$2500</sup>&frasl;<sub>1</sub> = 15 x 25 = <strong>$375</strong>
+<br>
+Value at the end of 1<sup>st</sup> year = $2500 + $375 = <strong>$2875</strong>
+<br>
+<strong>2<sup>nd</sup> year;</strong>
+<br>
+Appreciation = 25% of $2875 = <sup>25</sup>&frasl;<sub>100</sub> x <sup>$2875</sup>&frasl;<sub>1</sub> = <sup>71875</sup>&frasl;<sub>100</sub> = <strong>$718.75</strong>
+<br>
+Value of the land after two years = $2875 + $718.75 = <strong>$3593.75</strong>
+</p>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>How to Calculate Inflation</h3>
+</div>
+<p>
+<strong>Inflation</strong> is the loss in value of money due to rise in price.There are hyper-inflation, demand-pull inflation etc.
+</p>
+<p>
+<strong>Example 1</strong>
+<br>
+A television set costs $1200. Find the cost of purchasing the same kind of TV set in 2 years’ time, if the inflation rate is 15% per annum.
+<br>
+<strong>Solution</strong>
+<br>
+1<sup>st</sup> year;
+<br>
+<strong>Inflation</strong> = 15% of $1200 = <sup>15</sup>&frasl;<sub>100</sub> x 1200 = 15 x 12 = <strong>$180</strong>
+<br>
+Cost at the end of the 1<sup>st</sup> year = $1200 + $180 = <strong>$1380</strong>
+<br>
+2<sup>nd</sup> year;
+<br>
+<strong>Inflation</strong> = 15% of $1380 = <sup>15</sup>&frasl;<sub>100</sub> x <sup>1380</sup>&frasl;<sub>1</sub> = <sup>20700</sup>&frasl;<sub>100</sub> = <strong>$207</strong>
+<br>
+<strong>The cost in 2 years’ time</strong> = $1380 + $207 = <strong>$1587</strong>
+</p>
+</article>
+  <hr>
+  <div class="d-flex justify-content-start text-primary">
+<h5>Test your <strong class='text-secondary'>Simple Interest, Compound Interest and Business Mathematics</strong> knowledge with these Objective Questions.</h5>
+</div>
+<article>
+<div class='obj-cont' >
+  <h6>1.	Calculate the simple interest on $25000 at 6% per annum for 2 years.</h6>
+ <div id='block-11' >
+    <label for='option-11' style=' padding: 5px;'>
+      <input type='radio' name='option' value='$3000' id='option-11' style='transform: scale(1.2)'  />
+      $3000</label>
+    <span id='result-11'></span>
+  </div>
+ <div id='block-12'>
+    <label for='option-12' style='padding: 5px;'>
+      <input type='radio' name='option' value='$300000' id='option-12' style='transform: scale(1.2)' />
+      $300000</label>
+    <span id='result-12'></span>
+  </div>
+  <div id='block-13'>
+    <label for='option-13' style='padding: 5px;'>
+      <input type='radio' name='option' value='$10500' id='option-13' style='transform: scale(1.2)' />
+      $10500</label>
+    <span id='result-13'></span>
+  </div>
+  <div id='block-14'>
+    <label for='option-14' style=' padding: 5px;'>
+      <input type='radio' name='option' value='$1500' id='option-14' style='transform: scale(1.2)' />
+      $1500</label>
+    <span id='result-14'></span>
+  </div>
+ 
+  <button type='button' class = "c-btn" onclick='displayAnswer1()'>Submit</button>
+</div>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer1() {
+    if (document.getElementById('option-11').checked) {
+      document.getElementById('block-11').style.border = '3px solid limegreen'
+      document.getElementById('result-11').style.color = 'limegreen'
+      document.getElementById('result-11').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-12').checked) {
+      document.getElementById('block-12').style.border = '3px solid red'
+      document.getElementById('result-12').style.color = 'red'
+      document.getElementById('result-12').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-13').checked) {
+      document.getElementById('block-13').style.border = '3px solid red'
+      document.getElementById('result-13').style.color = 'red'
+      document.getElementById('result-13').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-14').checked) {
+      document.getElementById('block-14').style.border = '3px solid red'
+      document.getElementById('result-14').style.color = 'red'
+      document.getElementById('result-14').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer1() {
+    let showAnswer1 = document.createElement('p')
+    showAnswer1.innerHTML = 'Show Corrent Answer'
+    showAnswer1.style.position = 'relative'
+    showAnswer1.style.top = '-150px'
+    showAnswer1.style.fontSize = '1.5rem'
+    document.getElementById('showanswer1').appendChild(showAnswer1)
+    showAnswer1.addEventListener('click', () => {
+      document.getElementById('block-11').style.border = '3px solid limegreen'
+      document.getElementById('result-11').style.color = 'limegreen'
+      document.getElementById('result-11').innerHTML = 'Correct!'
+      document.getElementById('showanswer1').removeChild(showAnswer1)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>2. Find the total amount to be paid back on $10000 for 2 years at 8% simple interest per annum.</h6>
+ <div id='block-21' >
+    <label for='option-21' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='$11800' id='option-21' style='transform: scale(1.2)'  />
+      $11800</label>
+    <span id='result-21'></span>
+  </div>
+ 
+
+  <div id='block-22'>
+    <label for='option-22' style='padding: 5px;'>
+      <input type='radio' name='option1' value='$11600' id='option-22' style='transform: scale(1.2)' />
+      $11600</label>
+    <span id='result-22'></span>
+  </div>
+  
+
+  <div id='block-23'>
+    <label for='option-23' style='padding: 5px;'>
+      <input type='radio' name='option1' value='$1600' id='option-23' style='transform: scale(1.2)' />
+      $1600</label>
+    <span id='result-23'></span>
+  </div>
+  
+
+  <div id='block-24'>
+    <label for='option-24' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='$16000' id='option-24' style='transform: scale(1.2)' />
+      $16000</label>
+    <span id='result-24'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer2()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer2() {
+    if (document.getElementById('option-21').checked) {
+      document.getElementById('block-21').style.border = '3px solid red'
+      document.getElementById('result-21').style.color = 'red'
+      document.getElementById('result-21').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-22').checked) {
+      document.getElementById('block-22').style.border = '3px solid limegreen'
+      document.getElementById('result-22').style.color = 'limegreen'
+      document.getElementById('result-22').innerHTML = 'Correct!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-23').checked) {
+      document.getElementById('block-23').style.border = '3px solid red'
+      document.getElementById('result-23').style.color = 'red'
+      document.getElementById('result-23').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-24').checked) {
+      document.getElementById('block-24').style.border = '3px solid red'
+      document.getElementById('result-24').style.color = 'red'
+      document.getElementById('result-24').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer2() {
+    let showAnswer2 = document.createElement('p')
+    showAnswer2.innerHTML = 'Show Corrent Answer'
+    showAnswer2.style.position = 'relative'
+    showAnswer2.style.top = '-150px'
+    showAnswer2.style.fontSize = '1.5rem'
+    document.getElementById('showanswer2').appendChild(showAnswer2)
+    showAnswer2.addEventListener('click', () => {
+      document.getElementById('block-22').style.border = '3px solid limegreen'
+      document.getElementById('result-22').style.color = 'limegreen'
+      document.getElementById('result-22').innerHTML = 'Correct!'
+      document.getElementById('showanswer2').removeChild(showAnswer2)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>3.	A single man monthly income is $3200 and he claims $800 for dependent relatives. Calculate his taxable income.</h6>
+ <div id='block-31' >
+    <label for='option-31' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='$4000' id='option-31' style='transform: scale(1.2)'  />
+      $4000</label>
+    <span id='result-31'></span>
+  </div>
+ 
+
+  <div id='block-32'>
+    <label for='option-32' style='padding: 5px;'>
+      <input type='radio' name='option2' value='$4' id='option-32' style='transform: scale(1.2)' />
+      $4</label>
+    <span id='result-32'></span>
+  </div>
+  
+
+  <div id='block-33'>
+    <label for='option-33' style='padding: 5px;'>
+      <input type='radio' name='option2' value='$2400' id='option-33' style='transform: scale(1.2)' />
+      $2400</label>
+    <span id='result-33'></span>
+  </div>
+  
+
+  <div id='block-34'>
+    <label for='option-34' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='$1000' id='option-34' style='transform: scale(1.2)' />
+      $1000</label>
+    <span id='result-34'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer3()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer3() {
+    if (document.getElementById('option-31').checked) {
+      document.getElementById('block-31').style.border = '3px solid red'
+      document.getElementById('result-31').style.color = 'red'
+      document.getElementById('result-31').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-32').checked) {
+      document.getElementById('block-32').style.border = '3px solid red'
+      document.getElementById('result-32').style.color = 'red'
+      document.getElementById('result-32').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-33').checked) {
+      document.getElementById('block-33').style.border = '3px solid limegreen'
+      document.getElementById('result-33').style.color = 'limegreen'
+      document.getElementById('result-33').innerHTML = 'Correct!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-34').checked) {
+      document.getElementById('block-34').style.border = '3px solid red'
+      document.getElementById('result-34').style.color = 'red'
+      document.getElementById('result-34').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer3() {
+    let showAnswer3 = document.createElement('p')
+    showAnswer3.innerHTML = 'Show Corrent Answer'
+    showAnswer3.style.position = 'relative'
+    showAnswer3.style.top = '-150px'
+    showAnswer3.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer2)
+    showAnswer3.addEventListener('click', () => {
+      document.getElementById('block-33').style.border = '3px solid limegreen'
+      document.getElementById('result-33').style.color = 'limegreen'
+      document.getElementById('result-33').innerHTML = 'Correct!'
+      document.getElementById('showanswer3').removeChild(showAnswer3)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>4. A 500g sack of flour costs $30. A 20kg bag of flour costs $1040. Calculate how much you would save buying 20kg bag of flour instead of buying 500g sacks worth the same 20kg bag of flour.</h6>
+ <div id='block-41' >
+    <label for='option-41' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='$200' id='option-41' style='transform: scale(1.2)'  />
+      $200</label>
+    <span id='result-41'></span>
+  </div>
+ 
+
+  <div id='block-42'>
+    <label for='option-42' style='padding: 5px;'>
+      <input type='radio' name='option3' value='$60' id='option-42' style='transform: scale(1.2)' />
+      $60</label>
+    <span id='result-42'></span>
+  </div>
+  
+
+  <div id='block-43'>
+    <label for='option-43' style='padding: 5px;'>
+      <input type='radio' name='option3' value='$100' id='option-43' style='transform: scale(1.2)' />
+      $100</label>
+    <span id='result-43'></span>
+  </div>
+  
+
+  <div id='block-44'>
+    <label for='option-44' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='$160' id='option-44' style='transform: scale(1.2)' />
+      $160</label>
+    <span id='result-44'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer4()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer4() {
+    if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid red'
+      document.getElementById('result-41').style.color = 'red'
+      document.getElementById('result-41').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid red' 
+      document.getElementById('result-42').style.color = 'red'
+      document.getElementById('result-42').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid red'
+      document.getElementById('result-43').style.color = 'red'
+      document.getElementById('result-43').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-44').style.color = 'limegreen'
+      document.getElementById('result-44').innerHTML = 'Correct!'
+      showCorrectAnswer4()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer4() {
+    let showAnswer4 = document.createElement('p')
+    showAnswer4.innerHTML = 'Show Corrent Answer'
+    showAnswer4.style.position = 'relative'
+    showAnswer4.style.top = '-150px'
+    showCorrectAnswer4.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer4)
+    showAnswer4.addEventListener('click', () => {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-44').style.color = 'limegreen'
+      document.getElementById('result-44').innerHTML = 'Correct!'
+      document.getElementById('showanswer4').removeChild(showAnswer4)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>5. $10000 cash is paid to have a car or $710 per week for 16 weeks installment payments. What is the difference between cash and hire purchase payment?</h6>
+ <div id='block-51' >
+    <label for='option-51' style=' padding: 5px;'>
+      <input type='radio' name='option4' value='$360' id='option-51' style='transform: scale(1.2)'  />
+      $360</label>
+    <span id='result-51'></span>
+  </div>
+ 
+
+  <div id='block-52'>
+    <label for='option-52' style='padding: 5px;'>
+      <input type='radio' name='option4' value='$1360' id='option-52' style='transform: scale(1.2)' />
+      $1360</label>
+    <span id='result-52'></span>
+  </div>
+  
+
+  <div id='block-53'>
+    <label for='option-53' style='padding: 5px;'>
+      <input type='radio' name='option4' value='$1300' id='option-53' style='transform: scale(1.2)' />
+      $1300</label>
+    <span id='result-53'></span>
+  </div>
+  
+
+  <div id='block-54'>
+    <label for='option-54' style=' padding: 5px;'>
+      <input type='radio' name='option4' value='$3600' id='option-54' style='transform: scale(1.2)' />
+      $3600</label>
+    <span id='result-54'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer5()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer5() {
+    if (document.getElementById('option-51').checked) {
+      document.getElementById('block-51').style.border = '3px solid red'
+      document.getElementById('result-51').style.color = 'red'
+      document.getElementById('result-51').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-52').checked) {
+      document.getElementById('block-52').style.border = '3px solid limegreen'
+      document.getElementById('result-52').style.color = 'limegreen'
+      document.getElementById('result-52').innerHTML = 'Correct!'
+      showCorrectAnswer5()
+    }
+    if (document.getElementById('option-53').checked) {
+      document.getElementById('block-53').style.border = '3px solid red'
+      document.getElementById('result-53').style.color = 'red'
+      document.getElementById('result-53').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+    if (document.getElementById('option-54').checked) {
+      document.getElementById('block-54').style.border = '3px solid red'
+      document.getElementById('result-54').style.color = 'red'
+      document.getElementById('result-54').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer5() {
+    let showAnswer5 = document.createElement('p')
+    showAnswer5.innerHTML = 'Show Corrent Answer'
+    showAnswer5.style.position = 'relative'
+    showAnswer5.style.top = '-150px'
+    showAnswer5.style.fontSize = '1.5rem'
+    document.getElementById('showanswer5').appendChild(showAnswer5)
+    showAnswer5.addEventListener('click', () => {
+      document.getElementById('block-52').style.border = '3px solid limegreen'
+      document.getElementById('result-52').style.color = 'limegreen'
+      document.getElementById('result-52').innerHTML = 'Correct!'
+      document.getElementById('showanswer5').removeChild(showAnswer5)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>6.	Find the compound interest on $5400 in 2 years at 6<sup>1</sup>&frasl;<sub>2</sub> per annum interest rate to the nearest whole number.</h6>
+ <div id='block-61' >
+    <label for='option-61' style=' padding: 5px;'>
+      <input type='radio' name='option5' value='$725' id='option-61' style='transform: scale(1.2)'  />
+      $725</label>
+    <span id='result-61'></span>
+  </div>
+ <div id='block-62'>
+    <label for='option-62' style='padding: 5px;'>
+      <input type='radio' name='option5' value='$724.82' id='option-62' style='transform: scale(1.2)' />
+      $724.82</label>
+    <span id='result-62'></span>
+  </div>
+  
+
+  <div id='block-63'>
+    <label for='option-63' style='padding: 5px;'>
+      <input type='radio' name='option5' value='$724.8' id='option-63' style='transform: scale(1.2)' />
+      $724.8</label>
+    <span id='result-63'></span>
+  </div>
+  
+
+  <div id='block-64'>
+    <label for='option-64' style=' padding: 5px;'>
+      <input type='radio' name='option5' value='$724' id='option-64' style='transform: scale(1.2)' />
+      $724</label>
+    <span id='result-64'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer6()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer6() {
+    if (document.getElementById('option-61').checked) {
+      document.getElementById('block-61').style.border = '3px solid limegreen'
+      document.getElementById('result-61').style.color = 'limegreen'
+      document.getElementById('result-61').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-62').checked) {
+      document.getElementById('block-62').style.border = '3px solid red'
+      document.getElementById('result-62').style.color = 'red'
+      document.getElementById('result-62').innerHTML = 'Incorrect!'
+      showCorrectAnswer6()
+    }
+    if (document.getElementById('option-63').checked) {
+      document.getElementById('block-63').style.border = '3px solid red'
+      document.getElementById('result-63').style.color = 'red'
+      document.getElementById('result-63').innerHTML = 'Incorrect!'
+      showCorrectAnswer6()
+    }
+    if (document.getElementById('option-64').checked) {
+      document.getElementById('block-64').style.border = '3px solid red'
+      document.getElementById('result-64').style.color = 'red'
+      document.getElementById('result-64').innerHTML = 'Incorrect!'
+      showCorrectAnswer6()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer6() {
+    let showAnswer6 = document.createElement('p')
+    showAnswer6.innerHTML = 'Show Corrent Answer'
+    showAnswer6.style.position = 'relative'
+    showAnswer6.style.top = '-150px'
+    showAnswer6.style.fontSize = '1.5rem'
+    document.getElementById('showanswer6').appendChild(showAnswer6)
+    showAnswer6.addEventListener('click', () => {
+      document.getElementById('block-61').style.border = '3px solid limegreen'
+      document.getElementById('result-61').style.color = 'limegreen'
+      document.getElementById('result-61').innerHTML = 'Correct!'
+      document.getElementById('showanswer6').removeChild(showAnswer6)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>7. The selling price of an item is $72000. The seller gives 2.5% discount for cash. What is the cash price?</h6>
+ <div id='block-71' >
+    <label for='option-71' style=' padding: 5px;'>
+      <input type='radio' name='option6' value='$7000' id='option-71' style='transform: scale(1.2)'  />
+      $7000</label>
+    <span id='result-71'></span>
+  </div>
+ 
+
+  <div id='block-72'>
+    <label for='option-72' style='padding: 5px;'>
+      <input type='radio' name='option6' value='$7010' id='option-72' style='transform: scale(1.2)' />
+      $7010</label>
+    <span id='result-72'></span>
+  </div>
+  
+
+  <div id='block-73'>
+    <label for='option-73' style='padding: 5px;'>
+      <input type='radio' name='option6' value='$7020' id='option-73' style='transform: scale(1.2)' />
+      $7020</label>
+    <span id='result-73'></span>
+  </div>
+  
+
+  <div id='block-74'>
+    <label for='option-74' style=' padding: 5px;'>
+      <input type='radio' name='option6' value='$7100' id='option-74' style='transform: scale(1.2)' />
+      $7100</label>
+    <span id='result-74'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer7()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer7() {
+    if (document.getElementById('option-71').checked) {
+      document.getElementById('block-71').style.border = '3px solid red'
+      document.getElementById('result-71').style.color = 'red'
+      document.getElementById('result-71').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-72').checked) {
+      document.getElementById('block-72').style.border = '3px solid red'
+      document.getElementById('result-72').style.color = 'red'
+      document.getElementById('result-72').innerHTML = 'Incorrect!'
+      showCorrectAnswer7()
+    }
+    if (document.getElementById('option-73').checked) {
+      document.getElementById('block-73').style.border = '3px solid limegreen'
+      document.getElementById('result-73').style.color = 'limegreen'
+      document.getElementById('result-73').innerHTML = 'Correct!'
+      showCorrectAnswer7()
+    }
+    if (document.getElementById('option-74').checked) {
+      document.getElementById('block-74').style.border = '3px solid red'
+      document.getElementById('result-74').style.color = 'red'
+      document.getElementById('result-74').innerHTML = 'Incorrect!'
+      showCorrectAnswer7()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer7() {
+    let showAnswer7 = document.createElement('p')
+    showAnswer7.innerHTML = 'Show Corrent Answer'
+    showAnswer7.style.position = 'relative'
+    showAnswer7.style.top = '-150px'
+    showAnswer7.style.fontSize = '1.5rem'
+    document.getElementById('showanswer7').appendChild(showAnswer6)
+    showAnswer7.addEventListener('click', () => {
+      document.getElementById('block-73').style.border = '3px solid limegreen'
+      document.getElementById('result-73').style.color = 'limegreen'
+      document.getElementById('result-73').innerHTML = 'Correct!'
+      document.getElementById('showanswer7').removeChild(showAnswer7)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>8.	A man sold his car after 4 years at a total depreciation of 15%. If he bought the car at $8400. How much did he sell the car?</h6>
+ <div id='block-81' >
+    <label for='option-81' style=' padding: 5px;'>
+      <input type='radio' name='option7' value='$7100' id='option-81' style='transform: scale(1.2)'  />
+      $7100</label>
+    <span id='result-81'></span>
+  </div>
+ 
+
+  <div id='block-82'>
+    <label for='option-82' style='padding: 5px;'>
+      <input type='radio' name='option7' value='$7000' id='option-82' style='transform: scale(1.2)' />
+      $7000</label>
+    <span id='result-82'></span>
+  </div>
+  
+
+  <div id='block-83'>
+    <label for='option-83' style='padding: 5px;'>
+      <input type='radio' name='option7' value='$7140' id='option-83' style='transform: scale(1.2)' />
+      $7140</label>
+    <span id='result-83'></span>
+  </div>
+  
+
+  <div id='block-84'>
+    <label for='option-84' style=' padding: 5px;'>
+      <input type='radio' name='option7' value='$7040' id='option-84' style='transform: scale(1.2)' />
+      $7040</label>
+    <span id='result-84'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer8()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer8() {
+    if (document.getElementById('option-81').checked) {
+      document.getElementById('block-81').style.border = '3px solid red'
+      document.getElementById('result-81').style.color = 'red'
+      document.getElementById('result-81').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-82').checked) {
+      document.getElementById('block-82').style.border = '3px solid red'
+      document.getElementById('result-82').style.color = 'red'
+      document.getElementById('result-82').innerHTML = 'Incorrect!'
+      showCorrectAnswer8()
+    }
+    if (document.getElementById('option-83').checked) {
+      document.getElementById('block-83').style.border = '3px solid limegreen'
+      document.getElementById('result-83').style.color = 'limegreen'
+      document.getElementById('result-83').innerHTML = 'Correct!'
+      showCorrectAnswer8()
+    }
+    if (document.getElementById('option-84').checked) {
+      document.getElementById('block-84').style.border = '3px solid red'
+      document.getElementById('result-84').style.color = 'red'
+      document.getElementById('result-84').innerHTML = 'Incorrect!'
+      showCorrectAnswer8()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer8() {
+    let showAnswer8 = document.createElement('p')
+    showAnswer8.innerHTML = 'Show Corrent Answer'
+    showAnswer8.style.position = 'relative'
+    showAnswer8.style.top = '-150px'
+    showAnswer8.style.fontSize = '1.5rem'
+    document.getElementById('showanswer8').appendChild(showAnswer8)
+    showAnswer8.addEventListener('click', () => {
+      document.getElementById('block-83').style.border = '3px solid limegreen'
+      document.getElementById('result-83').style.color = 'limegreen'
+      document.getElementById('result-83').innerHTML = 'Correct!'
+      document.getElementById('showanswer8').removeChild(showAnswer8)
+    })
+  }
+</script>
+</article>
+</div>
+  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+  <%= render 'layouts/sideadvert' %>
+  </div>
+</div>
+<hr>
+<nav class="nav nav-pills nav-fill">
+<button class='ml-3'>
+<%= link_to "Prev>>", page6_path, class:'h3' %>
+  </button>
+<a class="nav-item nav-link" href="#"></a>
+  <a class="nav-item nav-link" href="#"></a>
+<button class='mr-2 ml-3'>
+<%= link_to "Next>>", page8_path, class:'h3' %>
+</button>
+</nav>
+<hr>
+<%= render 'layouts/footer' %>
+</div>
 
 

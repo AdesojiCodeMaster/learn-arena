@@ -1,7 +1,7 @@
+<div class='large'>
+<%= render 'layouts/header'%>
 <div class="main">
-
-
-<div class="row">
+<div class="row row-over">
   <div class="col-md-10 ad-border">
   <div class='container-fluid med'>
 
@@ -34,7 +34,7 @@ iii.	Watch out for coefficient of letter(s) to easily evaluate the equation appr
 Evaluate (i) a = 5 + 6 (ii)9 + 7 = c (iii)8 + f = 2 and (iV)u + u + u = 30.
 <br>
 <strong>Solution</strong>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     (i.)	
@@ -71,10 +71,6 @@ Evaluate (i) a = 5 + 6 (ii)9 + 7 = c (iii)8 + f = 2 and (iV)u + u + u = 30.
     </div>
   </div>
   </div>
-
-
-
-
 <div class="d-flex justify-content-center mt-3">
 <h3 class='text-dark justify-content-center'>Algebraic Equations with Minus Sign (-)</h3>
 </div>
@@ -83,7 +79,7 @@ Evaluate (i) a = 5 + 6 (ii)9 + 7 = c (iii)8 + f = 2 and (iV)u + u + u = 30.
 Evaluate (i) y = 14 – 4 (ii) 18 – 7 = p and (iii) 7 – m = 6
 <br>
 <strong>Solution </strong>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     (i.)
@@ -111,27 +107,25 @@ m = <strong>1</strong>
 </div>
 </div>
 </div>
-
-
 <div class="d-flex justify-content-center mt-3">
 <h3 class='text-dark justify-content-center'>Algebraic Equations with Multiplication Sign (x)</h3>
 </div>
-<%= image_tag 'AlgeraicMultipPart1.png', class: 'carol' %>
+<%= image_tag 'AlgeraicMultipPart1.png', alt: "Algebraic Multiplication", class: 'carol' %>
 <br>
-<%= image_tag 'AlgebraicMultipPart2.png', class: 'carol' %>
+<%= image_tag 'AlgebraicMultipPart2.png', alt: "Algebraic Multiplication", class: 'carol' %>
 
 <div class="d-flex justify-content-center mt-3">
 <h3 class='text-dark justify-content-center'>Algebraic Equations with Division Sign (÷)</h3>
 </div>
-<%= image_tag 'AlgbraicDivPatr1.png', class: 'carol' %>
+<%= image_tag 'AlgbraicDivPatr1.png', alt: "Algebraic Division", class: 'carol' %>
 <br>
-<%= image_tag 'AlgebraicDivPart2.png', class: 'carol' %>
+<%= image_tag 'AlgebraicDivPart2.png', alt: "Algebraic Division", class: 'carol' %>
 <div class="d-flex justify-content-center mt-3">
 <h3 class='text-dark justify-content-center'>Algebraic Substitution</h3>
 </div>
 This involves replacing the letter with number in algebraic equation. The examples below show how to easily do that;
 <br>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     <strong>Example 1 </strong>
@@ -419,7 +413,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
 <hr>
 <article>
 <div class='obj-cont'>
-  <h6>4.	Solve 3x2 + 2, when x = 2.</h6>
+  <h6>4.	Solve 3x<sup>2</sup> + 2, when x = 2.</h6>
  <div id='block-41' >
     <label for='option-41' style=' padding: 5px;'>
       <input type='radio' name='option3' value='12' id='option-41' style='transform: scale(1.2)'  />
@@ -500,12 +494,8 @@ This involves replacing the letter with number in algebraic equation. The exampl
 </article>
   </div>
   </div>
-  <div class="col-md-2 justify-content-center mt-3">
-  <%= link_to "Advert/Sponsorship", contact_path, class: 'text-primary advert' %>
-  
-  <div>
-  This space is created by the management for the interested organizations to advertise their products and sponsorships.
-  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+  <%= render 'layouts/sideadvert' %>
   </div>
 </div>
 <hr>
@@ -522,5 +512,725 @@ This involves replacing the letter with number in algebraic equation. The exampl
 <hr>
 <%= render 'layouts/footer' %>
 </div>
-
 <%= render 'mathematics/sidebar'%>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="medium">
+<%= render 'layouts/header2'%>
+<br>
+<div class="row ml-5 row-over">
+  <div class=" col-md-10  ad-border">
+  <div class='container-fluid med'>
+  <div class="d-flex justify-content-center mt-3">
+<h1 class='text-dark justify-content-center'>Letters for Numbers</h1>
+</div>
+<hr>
+<article>
+<p>
+The mathematical process of mixing letters and numbers together to form equation(s) is known as <strong>algebra</strong>. It also involves using letters to represent numbers in algebraic sentence. 
+<br>
+<strong>Algebraic sentence</strong> is a statement with equals sign e.g. y + 3 = 11
+
+<div class="d-flex justify-content-center mt-3">
+<h2 class='text-dark justify-content-center'>Rules for Solving Algebraic Equation/Sentence</h2>
+</div>
+
+i.	Look for like terms, put them together on the same of the equation and simplify accordingly.
+<br>
+ii.	If any number or letter crosses the equals sign (=), its sign will change e.g. from positive sign (+) to negative sign (-) vice versa. 
+<br>
+iii.	Watch out for coefficient of letter(s) to easily evaluate the equation appropriately e.g. 2x has coefficient of 2.
+<br>
+<strong>Note: coefficient</strong> is the number in front of letter(s) or alphabet(s) in algebraic sentence.
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Algebraic Equations with Addition Sign (+)</h3>
+</div>
+<strong>Example 1 </strong>
+<br>
+Evaluate (i) a = 5 + 6 (ii)9 + 7 = c (iii)8 + f = 2 and (iV)u + u + u = 30.
+<br>
+<strong>Solution</strong>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (i.)	
+    <br>
+    a = 5 + 6
+    <br>
+    a = <strong>11</strong>
+    <br>    
+    (ii.)	
+    <br>
+    9 + 7 = c
+    <br>
+    c = <strong>16</strong>
+    <br>
+    (iii.)
+    <br>	
+    8 + f = 2
+    <br>
+    f = 2 - 8
+    <br>              
+    f = <strong>-6 </strong>
+    <br>
+    </div>
+    <div class="col">
+    (iv.)	
+    <br>
+    u + u + u = 30
+    <br>
+    3u = 30
+    <br>
+    Divide both sides by 3 since coefficient of u => 3
+    <br>
+    u = <b>10</b>
+    </div>
+  </div>
+  </div>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Algebraic Equations with Minus Sign (-)</h3>
+</div>
+<strong>Example 1</strong>
+<br>
+Evaluate (i) y = 14 – 4 (ii) 18 – 7 = p and (iii) 7 – m = 6
+<br>
+<strong>Solution </strong>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (i.)
+    <br>	
+    y = 14 – 4
+    <br>
+    y = <strong>10 </strong>
+    <br>
+    (ii.)	
+    <br>
+    18 – 7 = p
+   p = <strong>11</strong>
+    <br>
+    </div>
+    <div class="col">
+    (iii.)
+    <br>
+    7 – m = 6
+    <br>
+7 = 6 + m
+<br>
+m + 6  =  7
+<br>
+m = <strong>1</strong>
+</div>
+</div>
+</div>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Algebraic Equations with Multiplication Sign (x)</h3>
+</div>
+<%= image_tag 'AlgeraicMultipPart1.png', alt: "Algebraic Multiplication", class: 'carol' %>
+<br>
+<%= image_tag 'AlgebraicMultipPart2.png', alt: "Algebraic Multiplication", class: 'carol' %>
+
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Algebraic Equations with Division Sign (÷)</h3>
+</div>
+<%= image_tag 'AlgbraicDivPatr1.png', alt: "Algebraic Division", class: 'carol' %>
+<br>
+<%= image_tag 'AlgebraicDivPart2.png', alt: "Algebraic Division", class: 'carol' %>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Algebraic Substitution</h3>
+</div>
+This involves replacing the letter with number in algebraic equation. The examples below show how to easily do that;
+<br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    <strong>Example 1 </strong>
+    <br>
+    Evaluate x + 5, 9 + x, x + 3, 19x when x = 3
+    <br>
+    <strong>Solution</strong>
+    <br>
+    <b>i.</b>	x + 5 = <b>3</b> + 5 = 8
+    <br>
+    <b>ii.</b>	9 + x = 9 + <b>3</b> = 12
+    <br>
+    <b>iii.</b>	19x = 19(<b>3</b>) = 57
+    </div>
+    <div class="col">
+    <strong>Example 2</strong>
+    <br>
+    A mother is 42 years old and her daughter is k years old. If the difference in their age is 28 years. What is the daughter’s age?
+    <br>
+    <strong>Solution</strong>
+    <br>
+    42 – k = 28
+    <br>
+    k + 28 = 42
+    <br>
+    k = 42 - 28
+    <br>
+    k = 14
+    <br>
+    The daughter’s age =><strong> 14 years </strong>
+    </div>
+  </div>
+  </div>
+</p>
+</article>
+  <hr>
+  <article>
+<div class="d-flex justify-content-start text-primary">
+<h5>Test your <strong class='text-secondary'>Letters for Numbers</strong> knowledge with these Objective Questions.</h5>
+</div>
+<div class='obj-cont' >
+  <h6>1.	What is the value of h in h = 9 + 5</h6>
+ <div id='block-11' >
+    <label for='option-11' style=' padding: 5px;'>
+      <input type='radio' name='option' value='14' id='option-11' style='transform: scale(1.2)'  />
+     14</label>
+    <span id='result-11'></span>
+  </div>
+ 
+
+  <div id='block-12'>
+    <label for='option-12' style='padding: 5px;'>
+      <input type='radio' name='option' value='15' id='option-12' style='transform: scale(1.2)' />
+      15 </label>
+    <span id='result-12'></span>
+  </div>
+  
+
+  <div id='block-13'>
+    <label for='option-13' style='padding: 5px;'>
+      <input type='radio' name='option' value='4' id='option-13' style='transform: scale(1.2)' />
+     4</label>
+    <span id='result-13'></span>
+  </div>
+  
+
+  <div id='block-14'>
+    <label for='option-14' style=' padding: 5px;'>
+      <input type='radio' name='option' value='-15' id='option-14' style='transform: scale(1.2)' />
+     -15 </label>
+    <span id='result-14'></span>
+  </div>
+ 
+  <button type='button' class = "c-btn" onclick='displayAnswer1()'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer1() {
+    if (document.getElementById('option-11').checked) {
+      document.getElementById('block-11').style.border = '3px solid limegreen'
+      document.getElementById('result-11').style.color = 'limegreen'
+      document.getElementById('result-11').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-12').checked) {
+      document.getElementById('block-12').style.border = '3px solid red'
+      document.getElementById('result-12').style.color = 'red'
+      document.getElementById('result-12').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-13').checked) {
+      document.getElementById('block-13').style.border = '3px solid red'
+      document.getElementById('result-13').style.color = 'red'
+      document.getElementById('result-13').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-14').checked) {
+      document.getElementById('block-14').style.border = '3px solid red'
+      document.getElementById('result-14').style.color = 'red'
+      document.getElementById('result-14').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer1() {
+    let showAnswer1 = document.createElement('p')
+    showAnswer1.innerHTML = 'Show Corrent Answer'
+    showAnswer1.style.position = 'relative'
+    showAnswer1.style.top = '-150px'
+    showAnswer1.style.fontSize = '1.5rem'
+    document.getElementById('showanswer1').appendChild(showAnswer1)
+    showAnswer1.addEventListener('click', () => {
+      document.getElementById('block-11').style.border = '3px solid limegreen'
+      document.getElementById('result-11').style.color = 'limegreen'
+      document.getElementById('result-11').innerHTML = 'Correct!'
+      document.getElementById('showanswer1').removeChild(showAnswer1)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>2.	Solve 3y = 15. What is y?</h6>
+ <div id='block-21' >
+    <label for='option-21' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='6' id='option-21' style='transform: scale(1.2)'  />
+      6</label>
+    <span id='result-21'></span>
+  </div>
+ 
+
+  <div id='block-22'>
+    <label for='option-22' style='padding: 5px;'>
+      <input type='radio' name='option1' value='5' id='option-22' style='transform: scale(1.2)' />
+      5</label>
+    <span id='result-22'></span>
+  </div>
+  
+
+  <div id='block-23'>
+    <label for='option-23' style='padding: 5px;'>
+      <input type='radio' name='option1' value='12' id='option-23' style='transform: scale(1.2)' />
+      12</label>
+    <span id='result-23'></span>
+  </div>
+  
+
+  <div id='block-24'>
+    <label for='option-24' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='18' id='option-24' style='transform: scale(1.2)' />
+      18</label>
+    <span id='result-24'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer2()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer2() {
+    if (document.getElementById('option-21').checked) {
+      document.getElementById('block-21').style.border = '3px solid red'
+      document.getElementById('result-21').style.color = 'red'
+      document.getElementById('result-21').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-22').checked) {
+      document.getElementById('block-22').style.border = '3px solid limegreen'
+      document.getElementById('result-22').style.color = 'limegreen'
+      document.getElementById('result-22').innerHTML = 'Correct!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-23').checked) {
+      document.getElementById('block-23').style.border = '3px solid red'
+      document.getElementById('result-23').style.color = 'red'
+      document.getElementById('result-23').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-24').checked) {
+      document.getElementById('block-24').style.border = '3px solid red'
+      document.getElementById('result-24').style.color = 'red'
+      document.getElementById('result-24').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer2() {
+    let showAnswer2 = document.createElement('p')
+    showAnswer2.innerHTML = 'Show Corrent Answer'
+    showAnswer2.style.position = 'relative'
+    showAnswer2.style.top = '-150px'
+    showAnswer2.style.fontSize = '1.5rem'
+    document.getElementById('showanswer2').appendChild(showAnswer2)
+    showAnswer2.addEventListener('click', () => {
+      document.getElementById('block-22').style.border = '3px solid limegreen'
+      document.getElementById('result-22').style.color = 'limegreen'
+      document.getElementById('result-22').innerHTML = 'Correct!'
+      document.getElementById('showanswer2').removeChild(showAnswer2)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>3.	A man has x naira. He spends $150 on food. If still has $320 with him. What is the value of x?</h6>
+ <div id='block-31' >
+    <label for='option-31' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='$500' id='option-31' style='transform: scale(1.2)' />
+    $500</label>
+    <span id='result-31'></span>
+  </div>
+ 
+
+  <div id='block-32'>
+    <label for='option-32' style='padding: 5px;'>
+      <input type='radio' name='option2' value='470' id='option-32' style='transform: scale(1.2)' />
+      $470</label>
+    <span id='result-32'></span>
+  </div>
+  
+
+  <div id='block-33'>
+    <label for='option-33' style='padding: 5px;'>
+      <input type='radio' name='option2' value='$170' id='option-33' style='transform: scale(1.2)' />
+      $170</label>
+    <span id='result-33'></span>
+  </div>
+  
+
+  <div id='block-34'>
+    <label for='option-34' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='$450' id='option-34' style='transform: scale(1.2)' />
+      $450</label>
+    <span id='result-34'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer3()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer3() {
+    if (document.getElementById('option-31').checked) {
+      document.getElementById('block-31').style.border = '3px solid red'
+      document.getElementById('result-31').style.color = 'red'
+      document.getElementById('result-31').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-32').checked) {
+      document.getElementById('block-32').style.border = '3px solid limegreen'
+      document.getElementById('result-32').style.color = 'limegreen'
+      document.getElementById('result-32').innerHTML = 'Correct!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-33').checked) {
+      document.getElementById('block-33').style.border = '3px solid red'
+      document.getElementById('result-33').style.color = 'red'
+      document.getElementById('result-33').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-34').checked) {
+      document.getElementById('block-34').style.border = '3px solid red'
+      document.getElementById('result-34').style.color = 'red'
+      document.getElementById('result-34').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer3() {
+    let showAnswer3 = document.createElement('p')
+    showAnswer3.innerHTML = 'Show Corrent Answer'
+    showAnswer3.style.position = 'relative'
+    showAnswer3.style.top = '-150px'
+    showAnswer3.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer2)
+    showAnswer3.addEventListener('click', () => {
+      document.getElementById('block-32').style.border = '3px solid limegreen'
+      document.getElementById('result-32').style.color = 'limegreen'
+      document.getElementById('result-32').innerHTML = 'Correct!'
+      document.getElementById('showanswer3').removeChild(showAnswer3)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>4.	Solve 3x<sup>2</sup> + 2, when x = 2.</h6>
+ <div id='block-41' >
+    <label for='option-41' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='12' id='option-41' style='transform: scale(1.2)'  />
+      12</label>
+    <span id='result-41'></span>
+  </div>
+ 
+
+  <div id='block-42'>
+    <label for='option-42' style='padding: 5px;'>
+      <input type='radio' name='option3' value='10' id='option-42' style='transform: scale(1.2)' />
+      10</label>
+    <span id='result-42'></span>
+  </div>
+  
+
+  <div id='block-43'>
+    <label for='option-43' style='padding: 5px;'>
+      <input type='radio' name='option3' value='6' id='option-43' style='transform: scale(1.2)' />
+     6</label>
+    <span id='result-43'></span>
+  </div>
+  
+
+  <div id='block-44'>
+    <label for='option-44' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='14' id='option-44' style='transform: scale(1.2)' />
+      14</label>
+    <span id='result-44'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer4()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer4() {
+    if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid red'
+      document.getElementById('result-41').style.color = 'red'
+      document.getElementById('result-41').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid red' 
+      document.getElementById('result-42').style.color = 'red'
+      document.getElementById('result-42').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid red'
+      document.getElementById('result-43').style.color = 'red'
+      document.getElementById('result-43').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-44').style.color = 'limegreen'
+      document.getElementById('result-44').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer4() {
+    let showAnswer4 = document.createElement('p')
+    showAnswer4.innerHTML = 'Show Corrent Answer'
+    showAnswer4.style.position = 'relative'
+    showAnswer4.style.top = '-150px'
+    showCorrectAnswer4.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer4)
+    showAnswer4.addEventListener('click', () => {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-44').style.color = 'limegreen'
+      document.getElementById('result-44').innerHTML = 'Correct!'
+      document.getElementById('showanswer4').removeChild(showAnswer4)
+    })
+  }
+</script>
+</article>
+</div>
+  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+  <%= render 'layouts/sideadvert' %>
+  </div>
+</div>
+<hr>
+<nav class="nav nav-pills nav-fill">
+<button class='ml-3'>
+<%= link_to "Prev>>", page3_path, class:'h3' %>
+  </button>
+<a class="nav-item nav-link" href="#"></a>
+  <a class="nav-item nav-link" href="#"></a>
+<button class='mr-2 ml-3'>
+<%= link_to "Next>>", page5_path, class:'h3' %>
+</button>
+</nav>
+<hr>
+<%= render 'layouts/footer' %>
+</div>
+
+

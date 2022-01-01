@@ -1,9 +1,9 @@
+<div class='large'>
+<%= render 'layouts/header'%>
 <div class="main">
-
-<div class="row">
+<div class="row row-over">
   <div class="col-md-10 ad-border">
   <div class='container-fluid med'>
-
 <div class="d-flex justify-content-center mt-3">
 <h1 class='text-dark justify-content-center'>Indices and Standard Form </h1>
 </div>
@@ -11,9 +11,11 @@
 <article>
 <p>
 The system of writing numbers in the index forms is known as <strong>indices</strong>.Indices are the plural of index. <strong>Index</strong> is also known as <strong>power</strong> e.g. 10<sup>4</sup> is the index form of <strong>10 000</strong> (10 x 10 x 10 x 10). <b>4</b> is the index or power in the number 10<sup>4</sup> and <strong>10</strong> is the base number.
+<hr>
 <div class="d-flex justify-content-center mt-3">
 <h2 class='text-dark justify-content-center'> Laws of Indices in Mathematics </h2>
 </div>
+<hr>
 <div class="d-flex justify-content-center mt-3">
 <h3 class='text-dark justify-content-center'> Multiplication in Indices </h3>
 </div>
@@ -140,7 +142,7 @@ Express the decimals as standard forms; (a) 0.00006 (b) 0.065 (c) 0.000000075 (d
 <br>
 <strong>Solution</strong>
 <br>
-<%= image_tag 'decimal-standardform.png.png', class: 'carol' %>
+<%= image_tag 'decimal-standardform.png.png', alt: ' decimal to standard forms', class: 'carol' %>
 <div class="d-flex justify-content-center mt-3">
 <h3 class='text-dark justify-content-center'>Addition and Subtraction in Standard Form</h3>
 </div>
@@ -153,7 +155,7 @@ Express the decimals as standard forms; (a) 0.00006 (b) 0.065 (c) 0.000000075 (d
 Find the sum of 5.38 x 10<sup>3</sup> and 8.2 x 10<sup>4</sup>.  Give the sum in standard form.
 <br>
 <strong>Solution</strong>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     <strong>Method I</strong>
@@ -188,10 +190,6 @@ Find the sum of 5.38 x 10<sup>3</sup> and 8.2 x 10<sup>4</sup>.  Give the sum in
     </div>
   </div>
   </div>
-
-
-
-
 <div class="d-flex justify-content-center mt-3">
 <h3 class='text-dark justify-content-center'>Subtraction in Standard Form</h3>
 </div>
@@ -233,14 +231,12 @@ Find the difference between 2.4 x 10<sup>6</sup> and 3.5 x 10<sup>5</sup>.
     </div>
   </div>
   </div>
-  
-  
-<strong>Example 2</strong>
+  <strong>Example 2</strong>
 <br>
 Find 1.8 x 10-2  -  6.4 x 10<sup>-3</sup>. Leave your answer in standard form.
 <br>
 <strong>Solution</strong>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     <strong>Method I</strong>
@@ -270,10 +266,7 @@ Find 1.8 x 10-2  -  6.4 x 10<sup>-3</sup>. Leave your answer in standard form.
     </div>
   </div>
   </div>
-
-
-
-<p>
+  <p>
 <div class="d-flex justify-content-center mt-3">
 <h3 class='text-dark justify-content-center'>Multiplication and Division in Standard Form</h3>
 </div>
@@ -286,7 +279,7 @@ Find 1.8 x 10-2  -  6.4 x 10<sup>-3</sup>. Leave your answer in standard form.
 Calculate the following (a) 0.25 x 0.009 (b) 0.6 x 0.3 (c) 7 x 0.6 (d) 0.003 x 0.05
 <br>
 <strong>Solution </strong>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     (a)  0.25 x 0.009
@@ -321,7 +314,7 @@ Calculate the following (a) 0.25 x 0.009 (b) 0.6 x 0.3 (c) 7 x 0.6 (d) 0.003 x 0
   </div>
   </div>
 <br>
-  <div class="container">
+  <div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     (c)  7 x 0.6
@@ -365,7 +358,7 @@ Calculate the following (a) 1.8 ÷ 6 (b) 0.12 ÷ 0.4
 <br>
 <strong>Solution</strong>
 <br>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     (a) 1.8 ÷ 6
@@ -429,7 +422,7 @@ If a number is less than <b>5</b> i.e. 4, 3, 2, 1, the number will be <strong>ro
 </div>
 <strong>Significant Figures:</strong>  counting from the first non-zero digit at the left of a number.
 <br>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     <b>Example 1</b>
@@ -468,7 +461,7 @@ If a number is less than <b>5</b> i.e. 4, 3, 2, 1, the number will be <strong>ro
 <br>
 <b>Example 1</b>
 <br>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     (a)	
@@ -1281,18 +1274,14 @@ Total mass in tonnes = <sup>35139</sup>&frasl;<sub>1000</sub> = 35.139
 </article>
 </div>
   </div>
-  <div class="col-md-2 justify-content-center mt-3">
-  <%= link_to "Advert/Sponsorship", contact_path, class: 'text-primary advert' %>
-  
-  <div>
-  This space is created by the management for the interested organizations to advertise their products and sponsorships.
-  </div>
-  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+  <%= render 'layouts/sideadvert' %>  
+</div>
 </div>
 <hr>
 <nav class="nav nav-pills nav-fill">
 <button class='ml-3'>
-<%= link_to "Previous>>", page4_path, class:'h3' %>
+<%= link_to "Prev>>", page4_path, class:'h3' %>
   </button>
 <a class="nav-item nav-link" href="#"></a>
   <a class="nav-item nav-link" href="#"></a>
@@ -1305,3 +1294,1488 @@ Total mass in tonnes = <sup>35139</sup>&frasl;<sub>1000</sub> = 35.139
 </div>
 
 <%= render 'mathematics/sidebar'%>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="medium">
+<%= render 'layouts/header2'%>
+<br>
+<div class="row ml-5 row-over">
+  <div class=" col-md-10  ad-border">
+  <div class='container-fluid med'>
+  <div class="d-flex justify-content-center mt-3">
+<h1 class='text-dark justify-content-center'>Indices and Standard Form </h1>
+</div>
+<hr>
+<article>
+<p>
+The system of writing numbers in the index forms is known as <strong>indices</strong>.Indices are the plural of index. <strong>Index</strong> is also known as <strong>power</strong> e.g. 10<sup>4</sup> is the index form of <strong>10 000</strong> (10 x 10 x 10 x 10). <b>4</b> is the index or power in the number 10<sup>4</sup> and <strong>10</strong> is the base number.
+<hr>
+<div class="d-flex justify-content-center mt-3">
+<h2 class='text-dark justify-content-center'> Laws of Indices in Mathematics </h2>
+</div>
+<hr>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Multiplication in Indices </h3>
+</div>
+If a multiplication sign(x) is between numbers with similar base, the index/power of those numbers will be added together, while the coefficients of the numbers will be multiplied in the usual way at the same time.
+<br>
+<strong>In general: y<sup>a</sup> x y<sup>b</sup>  = y<sup>a + b </sup></strong>
+<br>
+<strong>Example 1</strong>
+<br>
+Simplify; (a) 10<sup>3</sup> x 10<sup>2</sup> (b) 3b<sup>4</sup> x 2b<sup>3</sup> 
+<br>
+<strong>Solution</strong>
+<br>
+(a)	10<sup>3</sup> x 10<sup>2</sup> = 10<sup>3+2</sup> = 10<sup>5</sup>
+<br>
+(b)	3b<sup>4</sup> x 2b<sup>3</sup> = 3 x 2 x b<sup>4+3</sup> = 6b<sup>7</sup>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Division in Indices </h3>
+</div>
+If a division sign(÷) is between numbers with similar base, the index/power of those numbers will be subtracted/minus from one another , while the coefficients of the numbers will be divided in the usual way at the same time.
+<br>
+<strong>In general: y<sup>a</sup> ÷ y<sup>b</sup>  = y<sup>a - b</sup> </strong>
+<br>
+<strong>Example 1</strong>
+<br>
+Evaluate the following expressions; (a) y<sup>6</sup> ÷ y<sup>3</sup> (b) 10<sup>7</sup> ÷ 10<sup>3</sup> 
+(c) 10c<sup>6</sup>  ÷ 2c<sup>4</sup>
+<br>
+<strong>Solution</strong>
+<br>
+y<sup>6</sup> ÷ y<sup>3</sup> = y<sup>6 – 4</sup> = <strong>y<sup>3</sup></strong>
+<br> 
+10<sup>7</sup> ÷ 10<sup>3</sup> = 10<sup>7-3</sup> = <strong>10<sup>4</sup></strong>
+<br>
+10c<sup>6</sup>  ÷ 2c<sup>4</sup> = <sup>10</sup>&frasl;<sub>2</sub> c<sup>6 – 4</sup> = <strong>5c<sup>2</sup></strong>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Power of Zero in Indices </h3>
+</div>
+Any number with power of zero is equal to 1.
+<br>
+<strong>In general: y<sup>0</sup> = 1</strong>
+<br>
+<strong>Example 1 </strong>
+<br>
+Simplify the following expression; (a) b<sup>4</sup> ÷ b<sup>4</sup> (b) 6d<sup>3</sup> ÷ 3d<sup>3</sup>
+<br>
+<strong>Solution</strong>
+<br>
+(a) b<sup>4</sup> ÷ b<sup>4</sup> =  b<sup>4 - 4</sup>  = b <sup>0</sup> = 1
+<br>
+(b) 6d<sup>3</sup> ÷ 3d<sup>3</sup> = <sup>6</sup>&frasl;<sub>3</sub>  d <sup>3 – 3</sup> 
+= 2d<sup>0</sup> = 2 x d<sup>0</sup> = 2 x <b>1</b> = 2
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'> Negative Powers in Indices </h3>
+</div>
+If a number in the index form has a negative (-) index or power, the negative sign (-) becomes ( <strong><sup>1</sup>&frasl;<sub></sub> </strong>) and the positive index form of the number is placed under it.
+<br>
+<strong>In general: y<sup>-a</sup> = <sup>1</sup>&frasl;<sub>y<sup>a</sup></sub> </strong>
+<br>
+<strong>Example 1</strong>
+<br>
+Solve these expressions; (a) y<sup>4</sup> x y<sup>0</sup> x y<sup>-2</sup> (b) 2<sup>-3</sup> (c) b<sup>-3</sup> ÷ b<sup>-5</sup>	
+<br>
+<strong>Solution</strong>
+<br>
+(a) y<sup>4</sup> x y<sup>0</sup> x y<sup>-2</sup>  = y<sup>4</sup> x 1 x <sup>1</sup>&frasl;<sub>y<sup>2</sup></sub>  
+= <sup>y<sup>4</sup></sup>&frasl;<sub>y<sup>2</sup></sub>  = y<sup>4</sup> ÷ y<sup>2</sup> = y<sup>4 – 2</sup> = <strong>y<sup>2</sup></strong>
+<br>
+(b) 2<sup>-3</sup> = <sup>1</sup>&frasl;<sub>2<sup>3</sup></sub> = <strong><sup>1</sup>&frasl;<sub>8</sub> </strong>
+<br>
+(c) b<sup>-3</sup> ÷ b<sup>-5</sup> = <sup>1</sup>&frasl;<sub>b<sup>3</sup></sub>  ÷ <sup>1</sup>&frasl;<sub>b<sup>5</sup></sub>   = <sup>1</sup>&frasl;<sub>b<sup>3</sup></sub>  x <sup>b<sup>5</sup></sup>&frasl;<sub>1</sub>  
+= <sup>b<sup>5</sup></sup>&frasl;<sub>b<sup>3</sup></sub> = b<sup>5</sup>  ÷ b<sup>3</sup> = <strong>b<sup>2</sup></strong>
+</p>
+</article>
+<hr>
+<article>
+<div class="d-flex justify-content-center mt-3">
+<h2 class='text-dark justify-content-center'>Standard Form</h2>
+</div>
+<strong>Standard form</strong> is the systematic way of writing numbers using index form notation. Standard form is also known as the <strong>Scientific notation. </strong>
+<br>
+<strong>In general: A X 1O<sup>n</sup> </strong> where A is between 1 and 10 and n is an integer (which could be positive (+) or negative (-)).
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Numbers to Standard Forms</h3>
+</div>
+<br>
+<strong>Example 1 </strong>
+<br>
+Express the following numbers in standard forms or scientific notations; (a) 70 000 (b) 950 (c) 560 000 000 (d) 350 000
+<br>
+<strong>Solution</strong>
+<br>
+(a)	70 000 = 7 x 10000 = <b>7 x 10<sup>4</sup> or 7.0 x 10<sup>4</sup></b>
+<br>
+(b)	950 = 9.5 x 100 = <strong>9.5 x 10<sup>2</sup></strong>
+<br>
+(c)	560 000 000 = 5.6 x 100 000 000 = <strong>5.6 x 10<sup>8</sup></strong>
+<br>
+(d)	350 000 = 3.5 x 100 000 = <strong>3.5 x 10<sup>5</sup></strong>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Standard Forms to Numbers</h3>
+</div>
+<strong>Example 1 </strong>
+<br>
+Change the following numbers from standard forms to ordinary numbers; (a) 6 x 10<sup>5</sup> (b) 8.2 x 10<sup>3</sup> (c) 8.5 x 10<sup>4</sup>
+<br>
+<strong>Solution</strong>
+<br>
+(a)	6 x 10<sup>5</sup> = 6 x 100 000 = <strong>600 000</strong>
+<br>
+(b)	8.2 x 10<sup>3</sup> = 8.2 x 1000 = <strong>8 200</strong>
+<br>
+(c)	8.5 x 10<sup>4</sup> = 8.5 x 1000 = <strong>85 000</strong>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Decimals to Standard forms</h3>
+</div>
+Decimal to standard form involves converting the decimal to fraction first, then express the obtained fraction in standard form.
+<br>
+<strong>Note: (.) = 1 in decimal, while other integers after the decimal point will be zero.</strong>
+<br>
+<b>Example 1</b>
+<br>
+Express the decimals as standard forms; (a) 0.00006 (b) 0.065 (c) 0.000000075 (d)
+<br>
+<strong>Solution</strong>
+<br>
+<%= image_tag 'decimal-standardform.png.png', alt: ' decimal to standard forms', class: 'carol' %>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Addition and Subtraction in Standard Form</h3>
+</div>
+
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Addition in Standard Form</h3>
+</div>
+<strong>Example 1 </strong>
+<br>
+Find the sum of 5.38 x 10<sup>3</sup> and 8.2 x 10<sup>4</sup>.  Give the sum in standard form.
+<br>
+<strong>Solution</strong>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    <strong>Method I</strong>
+    <br>
+    5.38 x 10<sup>3</sup> + 8.2 x 10<sup>4</sup> 
+    <br>
+    = 5380 + 82000
+    <br>
+    = 87380
+    <br>
+    <b>= 8.738 x 10<sup>4</sup></b>
+    <br>
+    </div>
+    <div class="col">
+    <strong>Method II (Factorize)</strong>
+    <br>
+    5.38 x 10<sup>3</sup> + 8.2 x 10<sup>4</sup> 
+    <br> 
+    = 10<sup>3</sup> ( 5.38 + 8.2 x 10<sup>1</sup>)
+    <br>
+    = 10<sup>3</sup> (5.38 + 82)
+    <br>
+    =  10<sup></sup> (87.38)
+    <br>
+    = 10<sup>3</sup> (8.738 x 10<sup>1</sup>)
+    <br>
+    = 8.738 x 10<sup>3</sup> x 10<sup>1</sup>
+    <br>
+    = 8.738 x 10<sup>3+1</sup>
+    <br>
+    <strong>=  8.738 x 10<sup>4 </sup> </strong>
+    </div>
+  </div>
+  </div>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Subtraction in Standard Form</h3>
+</div>
+<b>Example 1</b>
+<br>
+Find the difference between 2.4 x 10<sup>6</sup> and 3.5 x 10<sup>5</sup>.
+<br>
+<strong>Solution</strong>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col border-right border-danger">
+    <strong>Method I</strong>
+    <br>
+    2.4	x 10<sup>6</sup> - 3.5 x 10<sup>5</sup>
+    <br>
+    = 2400000 – 350000
+    <br>
+    = 2050000
+    <br>
+    <strong>= 2.05 x 10<sup>6</sup></strong>
+    
+    </div>
+    <div class="col">
+    <strong>Method II (Factorize)</strong>
+    <br>
+    2.4	x 10<sup>6</sup> - 3.5 x 10<sup>5</sup> 
+    <br>
+    = 10<sup>5</sup> (2.4 x 10<sup>1</sup>  -  3.5)
+    <br>
+    =  10<sup>5</sup> (24  -  3.5)
+    <br>
+    =  10<sup>5</sup> (20.5)
+    <br>
+    = 2.05 x 10<sup>1</sup> x 10<sup>5</sup>
+    <br>
+    <strong>=  2.05 x 10<sup>6</sup></strong>
+    
+    </div>
+  </div>
+  </div>
+  <strong>Example 2</strong>
+<br>
+Find 1.8 x 10-2  -  6.4 x 10<sup>-3</sup>. Leave your answer in standard form.
+<br>
+<strong>Solution</strong>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    <strong>Method I</strong>
+    <br>
+    1.8 x 10<sup>-2</sup>  -  6.4 x 10<sup>-3</sup>
+    <br>
+    = 0.018 – 0.0064
+    <br>
+    = 0.0116
+    <br>
+    <strong>= 1.16 x 10<sup>-2</sup></strong>
+    
+    </div>
+    <div class="col">
+    <strong>Method II (Factorize)</strong>
+    <br>
+    1.8 x 10<sup>-2</sup>  -  6.4 x 10<sup>-3</sup> 
+    <br> 
+    = 10<sup>-2</sup> (1.8 – 6.4 x 10<sup>-1</sup>)
+    <br>
+    =  10<sup>-2</sup> (1.8 – 0.64)
+    <br>
+    = 10<sup>-2</sup> (1.16)
+    <br>
+    <strong>= 1.16 x 10<sup>-2</sup></strong>
+    
+    </div>
+  </div>
+  </div>
+  <p>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Multiplication and Division in Standard Form</h3>
+</div>
+<strong>Multiplication</strong> and <strong>division</strong> of decimals in mathematics can easily be carried with standard form.
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Multiplication in Standard Form</h3>
+</div>
+<strong>Example 1</strong>
+<br>
+Calculate the following (a) 0.25 x 0.009 (b) 0.6 x 0.3 (c) 7 x 0.6 (d) 0.003 x 0.05
+<br>
+<strong>Solution </strong>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (a)  0.25 x 0.009
+    <br>
+    = 25 x 10<sup>-2</sup> x 9 x 10<sup>-3</sup>
+    <br>
+    = 25 x 9 10<sup>-2+(-3)</sup>  
+    <br>
+    = 225 x 10<sup>-5</sup>
+    <br>
+    = 225 x <sup>1</sup>&frasl;<sub>10<sup>-5</sup></sub>
+    <br>
+    = <sup>225</sup>&frasl;<sub>100000</sub>
+    <br>     
+    <strong>= 0.00225</strong>
+    </div>
+    <div class="col">
+    (b)  0.6 x 0.3
+    <br>
+    = 6 x10<sup>-1</sup> x 3 x 10<sup>-1</sup>
+    <br>
+    = 6 x 10<sup>-1+(-1)</sup> 
+    <br>
+    = 18 x 10<sup>-2 </sup>
+    <br>
+    = 18 x <sup>1</sup>&frasl;<sub>10<sup>2</sup></sub>
+    <br>
+    = <sup>18</sup>&frasl;<sub>100</sub>
+    <br>
+    <strong>= 0.18</strong>
+   </div>
+  </div>
+  </div>
+<br>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (c)  7 x 0.6
+    <br>
+    = 7 x 10<sup>0</sup> x 6 x 10<sup>-1 </sup> 
+    <br>    
+    = 7 x 6 x 10<sup>0+(-1)</sup>    
+    <br>    
+    = 42 x 10<sup>-1</sup>   
+    <br>
+    = 42 x <sup>1</sup>&frasl;<sub>10<sup>1</sup></sub>
+    <br>
+    = <sup>42</sup>&frasl;<sub>10</sub>
+    <br>
+    <strong> = 4.2 </strong>
+    </div>
+    <div class="col">
+    (d)  0.003 x 0.05
+    <br>
+    = 3 x10<sup>-3</sup> x 5 x10<sup>-2</sup>
+    <br>
+    = 3 x 5 x 10<sup>-3+(-2)</sup>
+    <br>
+    = 15 x 10<sup>-5</sup>
+    <br>
+    = 15 x <sup>1</sup>&frasl;<sub>10<sup>5</sup></sub>
+    <br>
+    = <sup>15</sup>&frasl;<sub>100000</sub>
+    <br>
+    = <strong>0.00015</strong>
+   </div>
+  </div>
+  </div>
+
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Division in Standard Form</h3>
+</div>
+<strong>Example 1</strong>
+<br>
+Calculate the following (a) 1.8 ÷ 6 (b) 0.12 ÷ 0.4 
+<br>
+<strong>Solution</strong>
+<br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (a) 1.8 ÷ 6
+<br>
+= 18 x 10<sup>-1</sup> ÷ 6 x 10<sup>0</sup>
+<br>
+= <sup>18</sup>&frasl;<sub>6</sub> x 10<sup>-1</sup>
+<br>
+= 3 x 10<sup>-1</sup>
+<br>
+= 3 x <sup>1</sup>&frasl;<sub>10<sup>1</sup></sub>
+<br>
+= <sup>3</sup>&frasl;<sub>10</sub>
+<br>
+<strong> = 0.3 </strong>
+
+    </div>
+    <div class="col">
+    (b)  0.12 ÷ 0.4 
+    <br>
+    = 12 x10<sup>-2</sup> ÷ 4 x 10<sup>-1</sup>
+    <br>
+    =12/4 x 10<sup>-2-(-1)</sup>
+    <br>
+    = 3 x 10<sup>-2+1</sup>
+    <br>
+    = 3 x 10<sup>-1</sup>
+    <br>
+    = 3 x <sup>1</sup>&frasl;<sub>10<sup>1</sup></sub>
+    <br>
+    = <sup>3</sup>&frasl;<sub>10</sub>
+    <br>
+    <strong>= 0.3 </strong>
+    </div>
+  </div>
+</div>
+</p>
+</article>
+<hr>
+
+<article>
+<div class="d-flex justify-content-center mt-3">
+<h2 class='text-dark justify-content-center'>Rounding Off Numbers</h2>
+</div>
+
+<p>
+<strong>Round off</strong> is the system of finding an approximate value of a number. 
+It involves approximating numbers to significant figures (s.f.), 
+decimal places (d.p.) or nearest whole numbers.
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>General Rounding off Rules</h3>
+</div>
+Generally in the rounding off system;
+<br>
+If a number is greater than or equal to <b>5</b> i.e. 5, 6, 7, 8, 9, the number will be <strong>rounded up </strong>
+(changed to <b>1</b> and be added to the integer before it).
+<br>
+If a number is less than <b>5</b> i.e. 4, 3, 2, 1, the number will be <strong>rounded down</strong> (discarded or thrown away).
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Significant Figures (s.f.)</h3>
+</div>
+<strong>Significant Figures:</strong>  counting from the first non-zero digit at the left of a number.
+<br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    <b>Example 1</b>
+    <br>
+    645.63 => 600 to <strong>1 s.f.</strong>
+    <br>
+    645.63 => 650 to <strong>2 s.f.</strong>
+    <br>
+    645.63 => 646 to <strong>3 s.f.</strong>
+    <br>
+    645.63 => 645.6 to <strong>4 s.f.</strong>
+    </div>
+    <div class="col">
+    <b>Example 2</b>
+    <br>
+    9.0397 => 9 to <strong>1 s.f.</strong>
+    <br>
+    9.0397 => 9.0 to <strong>2 s.f.</strong> (<strong>Note: zero after decimal is significant</strong>)
+    <br>
+    9.0397 => 9.04 to <strong>3 s.f.</strong>
+    <br>
+    9.0397 => 9.040 to <strong>4 s.f.</strong>
+    </div>
+  </div>
+  <br>
+  <b>Example 3</b>
+  <br>
+  0.00635 => 0.006 to <strong>1 s.f.</strong>
+  <br>
+  0.00635 => 0.0064 to <strong>2 s.f.</strong>
+
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Decimal Places</h3>
+</div>
+<strong>Decimal places:</strong> counting from decimal point including zero.
+<br>
+<b>Example 1</b>
+<br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (a)	
+    <br>
+    16.9037 => 16.9 to <strong>1 d.p.</strong>
+    <br>
+    16.9037 => 16.90 to <strong>2 d.p.</strong>
+    <br>
+    16.9037 => 16.904 to <strong>3 d.p.</strong>
+    <br>
+    </div>
+    <div class="col">
+    (b)
+    <br> 
+    3.4967 => 3.5 to <strong>1 d.p.</strong>
+    <br>
+    3.4967 => 3.50 to <strong>2 d.p.</strong>
+    <br>
+    3.4967 => 3.497 to <strong>3 d.p.</strong>
+   </div>
+  </div>
+  </div>
+</p>
+<div class='ml-3'>   
+(c)
+<br>
+0.0052 => 0.0 to <strong>1 d.p.</strong>
+<br>
+0.0052 => 0.01 to <strong>2 d.p.</strong>
+<br>
+0.0052 => 0.005 to <strong>3 d.p.</strong>
+</div>
+<p>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Nearest Whole Number</h3>
+</div>
+Numbers can also be rounded off to the nearest ten, tenth, hundred, thousand etc.
+<strong>Example 1</strong>
+<br>
+Round off 16 268 to (i) nearest hundred (ii) nearest thousand.
+<br>
+<strong>Solution</strong>
+<br>
+(i)	16 268 to the nearest hundred => <strong>16 300</strong> (268 is between 200 and 300, but is nearer to 300)
+<br>
+(ii)	16 268 to the nearest thousand => <strong>16 000</strong> (16 268 is between 16 000 and 17 000, but is nearer to 16 000) 
+<br>
+<strong>Example 2</strong>
+<br>
+Round off the following to the nearest ten (i) 543 (ii) 548
+<br>
+<strong>Solution</strong> 
+<br>
+(i)	543 to the nearest ten => <strong> 540 </strong> (the last digit 3 is less than <strong>5</strong> and <strong>rounded down</strong>)
+<br>
+(ii)	548 to the nearest ten => <strong>550</strong> (the last digit 8 is greater than <strong>4</strong> and <strong>rounded up</strong>)
+<br>
+<strong>Example 3</strong>
+<br>
+Round of 65.57 to the nearest tenth
+<br>
+<strong>Solution</strong>
+<br>
+65.57 to the nearest tenth => <strong>65.6</strong> (the last digit 7 is greater than <strong>4</strong> and <strong>rounded up</strong>)
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Approximation of Numbers</h3>
+</div>
+<strong>Approximation</strong> is the system of using rounded numbers or figures to estimate 
+the outcome of calculation. Number can be 
+approximated to a certain significant figure or to the nearest whole number.
+<br>
+<strong>Example 1</strong>
+<br>
+<strong>Solution</strong>
+<br>
+Round off the following to the nearest whole number (i) 24 + 18 (ii) 82 – 43 (iii) 6.2 + 3.7 (iv) 8.5 x 4.6 (v) 42 ÷ 3.6
+<br>
+<strong>Solution</strong>
+<br>
+	(i) 24 + 18 = 42 ~ <strong>40</strong>
+  <br>
+	(ii) 82 – 43 = 39 ~ <strong>40</strong>
+  <br>
+	(iii) 6.2 + 3.7 = 9.9 ~ <strong>10</strong>
+  <br>
+	(iv) 8.5 x 4.6 = 39.1 ~ <strong>39</strong>
+  <br>
+	(v) 42 ÷ 3.6 = 11.66667 ~ <strong>12</strong>
+<br>
+<strong>Example 2</strong>
+<br>
+A tank holds 12.5 litres of water. A cup holds 320ml. Estimate the number of cups of water in the tank.
+<br>
+<strong>Solution</strong> 
+<br>
+12.5 litres = 12.5 x 1000 =12500ml
+<br>
+<strong>The number of cups of water in the tank</strong> = 12500/320 = 39.06 ~ <strong>39 cups</strong>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Estimation of Numbers</h3>
+</div>
+<strong>Estimation</strong> means to find a rough or approximate value of a number. 
+Estimation can be <strong>surplus</strong> or <strong>deficit</strong>.
+<br>
+<strong>Surplus</strong> means more than the expected estimation, 
+while <strong>deficit</strong> means less than the expected estimation.
+<br>
+<strong>Example 1</strong>
+<br>
+ A private school has 28 classes; one of the classes has 32 pupils. Estimate the number of pupils in that school to the nearest whole number.
+<br>
+<strong>Solution</strong>
+<br>
+Number of pupils = Number of classes x Number of pupils.
+<br>
+= 28 x 32 
+<br>
+= 896 <strong>~ 900</strong>
+<br>
+<strong>Example 2</strong>
+<br>
+An event planner booked an event center that has 12 by 20 chairs. 250 guests were invited to the center for a meeting. Calculate; (i) total number of chairs in the hall (ii) Check if the chairs are surplus or deficit and by how many?
+<br>
+<strong>Solution</strong>
+<br>
+Total number of chairs = 12 x 20 = <strong>240 chairs</strong>
+<br>
+Invited guests = <strong>250 guests</strong>
+<br>
+Difference = 250 – 240 = <strong>10</strong>
+<br>
+Therefore, the chairs are in <strong> deficit </strong> by <strong>10 chairs</strong>, so 10 guests will be outside the hall.
+<br>
+<strong>Example 3</strong>
+<br>
+A train carries 689 passengers. The average mass of a passenger is approximately 51kg. Estimate the total mass, in tonnes, of all the passengers.
+<br>
+<strong>Solution</strong>
+<br>
+1  tonne = 1000kg
+<br>
+Total mass in kg = 689 x 5 = 35 139kg
+<br>
+Total mass in tonnes = <sup>35139</sup>&frasl;<sub>1000</sub> = 35.139
+<br>
+ <strong>~ 35 tonnes.</strong>
+</p>
+</article>
+  <hr>
+  <div class="d-flex justify-content-start text-primary">
+<h5>Test your <strong class='text-secondary'>Indices and Standard Form</strong> knowledge with these Objective Questions.</h5>
+</div>
+
+<article>
+
+<div class='obj-cont' >
+  <h6>1.	Evaluate k<sup>2</sup> x  k<sup>5</sup></h6>
+ <div id='block-11' >
+    <label for='option-11' style=' padding: 5px;'>
+      <input type='radio' name='option' value='k<sup>7</sup>' id='option-11' style='transform: scale(1.2)'  />
+      k<sup>7</sup></label>
+    <span id='result-11'></span>
+  </div>
+ 
+
+  <div id='block-12'>
+    <label for='option-12' style='padding: 5px;'>
+      <input type='radio' name='option' value='k<sup>6</sup>' id='option-12' style='transform: scale(1.2)' />
+      k<sup>6</sup></label>
+    <span id='result-12'></span>
+  </div>
+  
+
+  <div id='block-13'>
+    <label for='option-13' style='padding: 5px;'>
+      <input type='radio' name='option' value='k<sup>3</sup>' id='option-13' style='transform: scale(1.2)' />
+      k<sup>3</sup></label>
+    <span id='result-13'></span>
+  </div>
+  
+
+  <div id='block-14'>
+    <label for='option-14' style=' padding: 5px;'>
+      <input type='radio' name='option' value='2-5' id='option-14' style='transform: scale(1.2)' />
+      2-5</label>
+    <span id='result-14'></span>
+  </div>
+ 
+  <button type='button' class = "c-btn" onclick='displayAnswer1()'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer1() {
+    if (document.getElementById('option-11').checked) {
+      document.getElementById('block-11').style.border = '3px solid limegreen'
+      document.getElementById('result-11').style.color = 'limegreen'
+      document.getElementById('result-11').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-12').checked) {
+      document.getElementById('block-12').style.border = '3px solid red'
+      document.getElementById('result-12').style.color = 'red'
+      document.getElementById('result-12').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-13').checked) {
+      document.getElementById('block-13').style.border = '3px solid red'
+      document.getElementById('result-13').style.color = 'red'
+      document.getElementById('result-13').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-14').checked) {
+      document.getElementById('block-14').style.border = '3px solid red'
+      document.getElementById('result-14').style.color = 'red'
+      document.getElementById('result-14').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer1() {
+    let showAnswer1 = document.createElement('p')
+    showAnswer1.innerHTML = 'Show Corrent Answer'
+    showAnswer1.style.position = 'relative'
+    showAnswer1.style.top = '-150px'
+    showAnswer1.style.fontSize = '1.5rem'
+    document.getElementById('showanswer1').appendChild(showAnswer1)
+    showAnswer1.addEventListener('click', () => {
+      document.getElementById('block-11').style.border = '3px solid limegreen'
+      document.getElementById('result-11').style.color = 'limegreen'
+      document.getElementById('result-11').innerHTML = 'Correct!'
+      document.getElementById('showanswer1').removeChild(showAnswer1)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>2.	Simplify 12y<sup>7</sup> ÷ 4y<sup>3</sup></h6>
+ <div id='block-21' >
+    <label for='option-21' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='48y<sup>10</sup>' id='option-21' style='transform: scale(1.2)'  />
+      48y<sup>10</sup></label>
+    <span id='result-21'></span>
+  </div>
+ 
+
+  <div id='block-22'>
+    <label for='option-22' style='padding: 5px;'>
+      <input type='radio' name='option1' value='3y<sup>10</sup>' id='option-22' style='transform: scale(1.2)' />
+      3y<sup>10</sup></label>
+    <span id='result-22'></span>
+  </div>
+  
+
+  <div id='block-23'>
+    <label for='option-23' style='padding: 5px;'>
+      <input type='radio' name='option1' value='3y<sup>4</sup>' id='option-23' style='transform: scale(1.2)' />
+      3y<sup>4</sup></label>
+    <span id='result-23'></span>
+  </div>
+  
+
+  <div id='block-24'>
+    <label for='option-24' style=' padding: 5px;'>
+      <input type='radio' name='option1' value=' 3y<sup>6</sup>' id='option-24' style='transform: scale(1.2)' />
+      3y<sup>6</sup></label>
+    <span id='result-24'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer2()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer2() {
+    if (document.getElementById('option-21').checked) {
+      document.getElementById('block-21').style.border = '3px solid red'
+      document.getElementById('result-21').style.color = 'red'
+      document.getElementById('result-21').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-22').checked) {
+      document.getElementById('block-22').style.border = '3px solid red'
+      document.getElementById('result-22').style.color = 'red'
+      document.getElementById('result-22').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-23').checked) {
+      document.getElementById('block-23').style.border = '3px solid limegreen'
+      document.getElementById('result-23').style.color = 'limegreen'
+      document.getElementById('result-23').innerHTML = 'Correct!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-24').checked) {
+      document.getElementById('block-24').style.border = '3px solid red'
+      document.getElementById('result-24').style.color = 'red'
+      document.getElementById('result-24').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer2() {
+    let showAnswer2 = document.createElement('p')
+    showAnswer2.innerHTML = 'Show Corrent Answer'
+    showAnswer2.style.position = 'relative'
+    showAnswer2.style.top = '-150px'
+    showAnswer2.style.fontSize = '1.5rem'
+    document.getElementById('showanswer2').appendChild(showAnswer2)
+    showAnswer2.addEventListener('click', () => {
+      document.getElementById('block-23').style.border = '3px solid limegreen'
+      document.getElementById('result-23').style.color = 'limegreen'
+      document.getElementById('result-2').innerHTML = 'Correct!'
+      document.getElementById('showanswer2').removeChild(showAnswer2)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>3.	Solve (<sup>1</sup>&frasl;<sub>2</sub>)<sup>-3</sup></h6>
+ <div id='block-31' >
+    <label for='option-31' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='8' id='option-31' style='transform: scale(1.2)'  />
+      8</label>
+    <span id='result-31'></span>
+  </div>
+ 
+
+  <div id='block-32'>
+    <label for='option-32' style='padding: 5px;'>
+      <input type='radio' name='option2' value='-8' id='option-32' style='transform: scale(1.2)' />
+      -8</label>
+    <span id='result-32'></span>
+  </div>
+  
+
+  <div id='block-33'>
+    <label for='option-33' style='padding: 5px;'>
+      <input type='radio' name='option2' value='<sup>1</sup>&frasl;<sub>8</sub>' id='option-33' style='transform: scale(1.2)' />
+      <sup>1</sup>&frasl;<sub>8</sub></label>
+    <span id='result-33'></span>
+  </div>
+  
+
+  <div id='block-34'>
+    <label for='option-34' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='8<sup>-1</sup>' id='option-34' style='transform: scale(1.2)' />
+      8<sup>-1</sup></label>
+    <span id='result-34'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer3()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer3() {
+    if (document.getElementById('option-31').checked) {
+      document.getElementById('block-31').style.border = '3px solid limegreen'
+      document.getElementById('result-31').style.color = 'limegreen'
+      document.getElementById('result-31').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-32').checked) {
+      document.getElementById('block-32').style.border = '3px solid red'
+      document.getElementById('result-32').style.color = 'red'
+      document.getElementById('result-32').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-33').checked) {
+      document.getElementById('block-33').style.border = '3px solid red'
+      document.getElementById('result-33').style.color = 'red'
+      document.getElementById('result-33').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-34').checked) {
+      document.getElementById('block-34').style.border = '3px solid red'
+      document.getElementById('result-34').style.color = 'red'
+      document.getElementById('result-34').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer3() {
+    let showAnswer3 = document.createElement('p')
+    showAnswer3.innerHTML = 'Show Corrent Answer'
+    showAnswer3.style.position = 'relative'
+    showAnswer3.style.top = '-150px'
+    showAnswer3.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer2)
+    showAnswer3.addEventListener('click', () => {
+      document.getElementById('block-31').style.border = '3px solid limegreen'
+      document.getElementById('result-31').style.color = 'limegreen'
+      document.getElementById('result-31').innerHTML = 'Correct!'
+      document.getElementById('showanswer3').removeChild(showAnswer3)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>4.	Change 7.2 x 10<sup>2</sup> to ordinary number.</h6>
+ <div id='block-41' >
+    <label for='option-41' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='7.2' id='option-41' style='transform: scale(1.2)'  />
+      7.2</label>
+    <span id='result-41'></span>
+  </div>
+ 
+
+  <div id='block-42'>
+    <label for='option-42' style='padding: 5px;'>
+      <input type='radio' name='option3' value='72' id='option-42' style='transform: scale(1.2)' />
+      72</label>
+    <span id='result-42'></span>
+  </div>
+  
+
+  <div id='block-43'>
+    <label for='option-43' style='padding: 5px;'>
+      <input type='radio' name='option3' value='7200' id='option-43' style='transform: scale(1.2)' />
+      7200</label>
+    <span id='result-43'></span>
+  </div>
+  
+
+  <div id='block-44'>
+    <label for='option-44' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='720' id='option-44' style='transform: scale(1.2)' />
+      720</label>
+    <span id='result-44'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer4()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer4() {
+    if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid red'
+      document.getElementById('result-41').style.color = 'red'
+      document.getElementById('result-41').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid red' 
+      document.getElementById('result-42').style.color = 'red'
+      document.getElementById('result-42').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid red'
+      document.getElementById('result-43').style.color = 'red'
+      document.getElementById('result-43').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-44').style.color = 'limegreen'
+      document.getElementById('result-44').innerHTML = 'Correct!'
+      showCorrectAnswer4()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer4() {
+    let showAnswer4 = document.createElement('p')
+    showAnswer4.innerHTML = 'Show Corrent Answer'
+    showAnswer4.style.position = 'relative'
+    showAnswer4.style.top = '-150px'
+    showCorrectAnswer4.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer4)
+    showAnswer4.addEventListener('click', () => {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-44').style.color = 'limegreen'
+      document.getElementById('result-44').innerHTML = 'Correct!'
+      document.getElementById('showanswer4').removeChild(showAnswer4)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>5.	Evaluate 0.05 x 1.2; leave your answer in standard form.</h6>
+ <div id='block-51' >
+    <label for='option-51' style=' padding: 5px;'>
+      <input type='radio' name='option4' value='6 x 10<sup>-2</sup>' id='option-51' style='transform: scale(1.2)'  />
+      6 x 10<sup>-2</sup></label>
+    <span id='result-51'></span>
+  </div>
+ 
+
+  <div id='block-52'>
+    <label for='option-52' style='padding: 5px;'>
+      <input type='radio' name='option4' value='6 x 10<sup>-1</sup>' id='option-52' style='transform: scale(1.2)' />
+      6 x 10<sup>-1</sup></label>
+    <span id='result-52'></span>
+  </div>
+  
+
+  <div id='block-53'>
+    <label for='option-53' style='padding: 5px;'>
+      <input type='radio' name='option4' value='6 x 10<sup>1</sup>' id='option-53' style='transform: scale(1.2)' />
+      6 x 10<sup>1</sup></label>
+    <span id='result-53'></span>
+  </div>
+  
+
+  <div id='block-54'>
+    <label for='option-54' style=' padding: 5px;'>
+      <input type='radio' name='option4' value='60' id='option-54' style='transform: scale(1.2)' />
+      60</label>
+    <span id='result-54'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer5()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer5() {
+    if (document.getElementById('option-51').checked) {
+      document.getElementById('block-51').style.border = '3px solid limegreen'
+      document.getElementById('result-51').style.color = 'limegreen'
+      document.getElementById('result-51').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-52').checked) {
+      document.getElementById('block-52').style.border = '3px solid red'
+      document.getElementById('result-52').style.color = 'red'
+      document.getElementById('result-52').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+    if (document.getElementById('option-53').checked) {
+      document.getElementById('block-53').style.border = '3px solid red'
+      document.getElementById('result-53').style.color = 'red'
+      document.getElementById('result-53').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+    if (document.getElementById('option-54').checked) {
+      document.getElementById('block-54').style.border = '3px solid red'
+      document.getElementById('result-54').style.color = 'red'
+      document.getElementById('result-54').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer5() {
+    let showAnswer5 = document.createElement('p')
+    showAnswer5.innerHTML = 'Show Corrent Answer'
+    showAnswer5.style.position = 'relative'
+    showAnswer5.style.top = '-150px'
+    showAnswer5.style.fontSize = '1.5rem'
+    document.getElementById('showanswer5').appendChild(showAnswer5)
+    showAnswer5.addEventListener('click', () => {
+      document.getElementById('block-51').style.border = '3px solid limegreen'
+      document.getElementById('result-51').style.color = 'limegreen'
+      document.getElementById('result-51').innerHTML = 'Correct!'
+      document.getElementById('showanswer5').removeChild(showAnswer5)
+    })
+  }
+</script>
+</article>
+<hr>
+
+<article>
+<div class='obj-cont'>
+  <h6>6.	Round off 0.8804 to 3 s.f.</h6>
+ <div id='block-61' >
+    <label for='option-61' style=' padding: 5px;'>
+      <input type='radio' name='option5' value='0.881' id='option-61' style='transform: scale(1.2)'  />
+      0.881</label>
+    <span id='result-61'></span>
+  </div>
+ 
+
+  <div id='block-62'>
+    <label for='option-62' style='padding: 5px;'>
+      <input type='radio' name='option5' value='0.890' id='option-62' style='transform: scale(1.2)' />
+      0.890</label>
+    <span id='result-62'></span>
+  </div>
+  
+
+  <div id='block-63'>
+    <label for='option-63' style='padding: 5px;'>
+      <input type='radio' name='option5' value='0.8804' id='option-63' style='transform: scale(1.2)' />
+      0.8804</label>
+    <span id='result-63'></span>
+  </div>
+  
+
+  <div id='block-64'>
+    <label for='option-64' style=' padding: 5px;'>
+      <input type='radio' name='option5' value='0.880' id='option-64' style='transform: scale(1.2)' />
+      0.880</label>
+    <span id='result-64'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer6()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer6() {
+    if (document.getElementById('option-61').checked) {
+      document.getElementById('block-61').style.border = '3px solid red'
+      document.getElementById('result-61').style.color = 'red'
+      document.getElementById('result-61').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-62').checked) {
+      document.getElementById('block-62').style.border = '3px solid red'
+      document.getElementById('result-62').style.color = 'red'
+      document.getElementById('result-62').innerHTML = 'Incorrect!'
+      showCorrectAnswer6()
+    }
+    if (document.getElementById('option-63').checked) {
+      document.getElementById('block-63').style.border = '3px solid red'
+      document.getElementById('result-63').style.color = 'red'
+      document.getElementById('result-63').innerHTML = 'Incorrect!'
+      showCorrectAnswer6()
+    }
+    if (document.getElementById('option-64').checked) {
+      document.getElementById('block-64').style.border = '3px solid limegreen'
+      document.getElementById('result-64').style.color = 'limegreen'
+      document.getElementById('result-64').innerHTML = 'Correct!'
+      showCorrectAnswer6()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer6() {
+    let showAnswer6 = document.createElement('p')
+    showAnswer6.innerHTML = 'Show Corrent Answer'
+    showAnswer6.style.position = 'relative'
+    showAnswer6.style.top = '-150px'
+    showAnswer6.style.fontSize = '1.5rem'
+    document.getElementById('showanswer6').appendChild(showAnswer6)
+    showAnswer6.addEventListener('click', () => {
+      document.getElementById('block-64').style.border = '3px solid limegreen'
+      document.getElementById('result-64').style.color = 'limegreen'
+      document.getElementById('result-64').innerHTML = 'Correct!'
+      document.getElementById('showanswer6').removeChild(showAnswer6)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>7. Round off 1.9875 to 2 d.p.</h6>
+ <div id='block-71' >
+    <label for='option-71' style=' padding: 5px;'>
+      <input type='radio' name='option6' value='1.98' id='option-71' style='transform: scale(1.2)'  />
+      1.98</label>
+    <span id='result-71'></span>
+  </div>
+ 
+
+  <div id='block-72'>
+    <label for='option-72' style='padding: 5px;'>
+      <input type='radio' name='option6' value='1.99' id='option-72' style='transform: scale(1.2)' />
+      1.99</label>
+    <span id='result-72'></span>
+  </div>
+  
+
+  <div id='block-73'>
+    <label for='option-73' style='padding: 5px;'>
+      <input type='radio' name='option6' value='2.00' id='option-73' style='transform: scale(1.2)' />
+      2.00</label>
+    <span id='result-73'></span>
+  </div>
+  
+
+  <div id='block-74'>
+    <label for='option-74' style=' padding: 5px;'>
+      <input type='radio' name='option6' value='1.10' id='option-74' style='transform: scale(1.2)' />
+      1.10</label>
+    <span id='result-74'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer7()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer7() {
+    if (document.getElementById('option-71').checked) {
+      document.getElementById('block-71').style.border = '3px solid red'
+      document.getElementById('result-71').style.color = 'red'
+      document.getElementById('result-71').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-72').checked) {
+      document.getElementById('block-72').style.border = '3px solid limegreen'
+      document.getElementById('result-72').style.color = 'limegreen'
+      document.getElementById('result-72').innerHTML = 'Correct!'
+      showCorrectAnswer7()
+    }
+    if (document.getElementById('option-73').checked) {
+      document.getElementById('block-73').style.border = '3px solid red'
+      document.getElementById('result-73').style.color = 'red'
+      document.getElementById('result-73').innerHTML = 'Incorrect!'
+      showCorrectAnswer7()
+    }
+    if (document.getElementById('option-74').checked) {
+      document.getElementById('block-74').style.border = '3px solid red'
+      document.getElementById('result-74').style.color = 'red'
+      document.getElementById('result-74').innerHTML = 'Incorrect!'
+      showCorrectAnswer7()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer7() {
+    let showAnswer7 = document.createElement('p')
+    showAnswer7.innerHTML = 'Show Corrent Answer'
+    showAnswer7.style.position = 'relative'
+    showAnswer7.style.top = '-150px'
+    showAnswer7.style.fontSize = '1.5rem'
+    document.getElementById('showanswer7').appendChild(showAnswer6)
+    showAnswer7.addEventListener('click', () => {
+      document.getElementById('block-72').style.border = '3px solid limegreen'
+      document.getElementById('result-72').style.color = 'limegreen'
+      document.getElementById('result-72').innerHTML = 'Correct!'
+      document.getElementById('showanswer7').removeChild(showAnswer7)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>8.	A typist can type about 33 words per minute. Estimate how long it will take to type 289 words.</h6>
+ <div id='block-81' >
+    <label for='option-81' style=' padding: 5px;'>
+      <input type='radio' name='option7' value='15 minutes' id='option-81' style='transform: scale(1.2)'  />
+      15 minutes</label>
+    <span id='result-81'></span>
+  </div>
+ 
+
+  <div id='block-82'>
+    <label for='option-82' style='padding: 5px;'>
+      <input type='radio' name='option7' value='9 minutes' id='option-82' style='transform: scale(1.2)' />
+      9 minutes</label>
+    <span id='result-82'></span>
+  </div>
+  
+
+  <div id='block-83'>
+    <label for='option-83' style='padding: 5px;'>
+      <input type='radio' name='option7' value='20 minutes' id='option-83' style='transform: scale(1.2)' />
+      20 minutes</label>
+    <span id='result-83'></span>
+  </div>
+  
+
+  <div id='block-84'>
+    <label for='option-84' style=' padding: 5px;'>
+      <input type='radio' name='option7' value='14 minutes' id='option-84' style='transform: scale(1.2)' />
+      14 minutes</label>
+    <span id='result-84'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer8()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer8() {
+    if (document.getElementById('option-81').checked) {
+      document.getElementById('block-81').style.border = '3px solid red'
+      document.getElementById('result-81').style.color = 'red'
+      document.getElementById('result-81').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-82').checked) {
+      document.getElementById('block-82').style.border = '3px solid limegreen'
+      document.getElementById('result-82').style.color = 'limegreen'
+      document.getElementById('result-82').innerHTML = 'Correct!'
+      showCorrectAnswer8()
+    }
+    if (document.getElementById('option-83').checked) {
+      document.getElementById('block-83').style.border = '3px solid red'
+      document.getElementById('result-83').style.color = 'red'
+      document.getElementById('result-83').innerHTML = 'Incorrect!'
+      showCorrectAnswer8()
+    }
+    if (document.getElementById('option-84').checked) {
+      document.getElementById('block-84').style.border = '3px solid red'
+      document.getElementById('result-84').style.color = 'red'
+      document.getElementById('result-84').innerHTML = 'Incorrect!'
+      showCorrectAnswer8()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer8() {
+    let showAnswer8 = document.createElement('p')
+    showAnswer8.innerHTML = 'Show Corrent Answer'
+    showAnswer8.style.position = 'relative'
+    showAnswer8.style.top = '-150px'
+    showAnswer8.style.fontSize = '1.5rem'
+    document.getElementById('showanswer8').appendChild(showAnswer8)
+    showAnswer8.addEventListener('click', () => {
+      document.getElementById('block-82').style.border = '3px solid limegreen'
+      document.getElementById('result-82').style.color = 'limegreen'
+      document.getElementById('result-82').innerHTML = 'Correct!'
+      document.getElementById('showanswer8').removeChild(showAnswer8)
+    })
+  }
+</script>
+</article>
+</div>
+  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+  <%= render 'layouts/sideadvert' %>
+  </div>
+</div>
+<hr>
+<nav class="nav nav-pills nav-fill">
+<button class='ml-3'>
+<%= link_to "Prev>>", page4_path, class:'h3' %>
+  </button>
+<a class="nav-item nav-link" href="#"></a>
+  <a class="nav-item nav-link" href="#"></a>
+<button class='mr-2 ml-3'>
+<%= link_to "Next>>", page6_path, class:'h3' %>
+</button>
+</nav>
+<hr>
+<%= render 'layouts/footer' %>
+</div>
+
+

@@ -6,17 +6,18 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav nav-pills ">
-    <%= link_to "Mathematics", mathematics_index_path, class:'nav-item text-white  nav-link active ml-auto ' %>
-    <a class="nav-item nav-link  ml-auto" href="#">English</a>
-      <a class="nav-item nav-link ml-auto" href="#">Economics</a>
+    <%= link_to "Mathematics", mathematics_index_path, class: "#{current? "active ", mathematics_index_path}, nav-item   nav-link  ml-auto text-dark " %>
+    <%= link_to "English", page2_path, class: "#{current? "active", page2_path} nav-item nav-link ml-auto text-dark" %>
+    <%= link_to "Economics", page3_path, class: "#{current? "active", page3_path} nav-item nav-link ml-auto text-dark" %>
+    
       <a class="nav-item nav-link  ml-auto" href="#">Agric-Science</a>
+      <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
   </div>
   </div>
- 
- 
- 
-  </nav>
- 
+ </nav>
  <div class="d-flex justify-content-center login">
 <% if current_user %> 
  <div class=' main mt-2'>

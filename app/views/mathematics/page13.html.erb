@@ -1,5 +1,7 @@
+<div class='large'>
+<%= render 'layouts/header'%>
 <div class="main">
-<div class="row">
+<div class="row row-over">
   <div class="col-md-10 ad-border">
   <div class='container-fluid med'>
   <div class="d-flex justify-content-center mt-3">
@@ -46,7 +48,7 @@ The area of a square is less than 16m<sup>2</sup>. Use inequality statement to e
 <br>
 <strong>Solution</strong>
 <br>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     (i)
@@ -167,7 +169,7 @@ Find the value of x that will satisfy the following inequalities;
 <br>
 <strong>Solution</strong>
 <br>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     (i)	
@@ -196,7 +198,7 @@ Find the value of x that will satisfy the following inequalities;
   </div>
   </div>
 <br>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     (iii)
@@ -227,7 +229,7 @@ Find the value of x that will satisfy the following inequalities;
   </div>
   </div>
 <br>
-  <div class="container">
+  <div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     (v)
@@ -266,7 +268,7 @@ Find the value of x that will satisfy the following inequalities;
   <br>
   <strong>Solution</strong>
   <br>
-  <div class="container">
+  <div class="container-fluid">
   <div class="row">
     <div class="col border-right border-danger">
     <strong>First condition;</strong> perimeter not greater than 40m means   ≤ 40m
@@ -721,18 +723,14 @@ Find the value of x that will satisfy the following inequalities;
 <hr>
 </div>
   </div>
-  <div class="col-md-2 justify-content-center mt-3">
-  <%= link_to "Advert/Sponsorship", contact_path, class: 'text-primary advert' %>
-  
-  <div>
-  This space is created by the management for the interested organizations to advertise their products and sponsorships.
-  </div>
-  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+  <%= render 'layouts/sideadvert' %>
+</div>
 </div>
 <hr>
 <nav class="nav nav-pills nav-fill">
 <button class='ml-3'>
-<%= link_to "Previous>>", page12_path, class:'h3' %>
+<%= link_to "Prev>>", page12_path, class:'h3' %>
   </button>
 <a class="nav-item nav-link" href="#"></a>
   <a class="nav-item nav-link" href="#"></a>
@@ -743,6 +741,980 @@ Find the value of x that will satisfy the following inequalities;
 <hr>
 <%= render 'layouts/footer' %>
 </div>
-
 <%= render 'mathematics/sidebar'%>
+</div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="medium">
+<%= render 'layouts/header2'%>
+<br>
+<div class="row ml-5 row-over">
+  <div class=" col-md-10  ad-border">
+  <div class='container-fluid med'>
+  <div class="d-flex justify-content-center mt-3">
+  <h1 class='text-dark justify-content-center'>Linear Inequalities</h1>
+  </div>
+  <hr>
+  <article>
+  In general, <strong>Inequality</strong> is a statement indicating that two quantities are not equal.
+  <div class="d-flex justify-content-center mt-3">
+  <h2 class='text-dark justify-content-center'>Inequality Symbols/Signs</h2>
+  </div>
+  
+  <strong>Inequality symbols</strong> are symbols that tell us that quantities are not equal. They are;
+  <br>
+    >  ≡ <strong>Greater than;</strong> < ≡ <strong>Less than;</strong>  ≥ ≡ <strong>Greater than or equal to;</strong>  ≤ ≡ <strong>Less than or equal to;</strong>  ≠ ≡ <strong>Not equal to (unequal).</strong>
+    <br>
+  <strong>Algebraic inequality</strong> is an algebraic statement containing one or more inequality signs.
+  <br>
+  <strong>Note;</strong> ≥ also means <strong> ‘Not less than’</strong> while ≤ also means <strong> ‘Not greater than’</strong>
+  <br>
+  <br>
+  <strong>Example 1</strong>
+  <br>
+  For each of these statements write an inequality statement in terms of the unknown;
+  <br>
+  (i)	The height of a tower h in metres is less than 10metres.
+  <br>
+  (ii)	Owen has $x. He spent $100. The amount he has left with him is greater than $25.
+  <br>
+  <strong>Solution</strong>
+  <br>
+  (i)	h < 10
+  <br>
+  (ii)x – 100 > 25
+  <br>
+  <br>
+  <strong>Example 2</strong>
+  <br>
+  The area of a square is less than 16m<sup>2</sup>. Use inequality statement to express the following;
+  <br>
+  (i)	The length of one of its sides.
+  <br>
+  (ii) The perimeter.
+  <br>
+  <strong>Solution</strong>
+  <br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col border-right border-danger">
+      (i)
+      <br>
+      Let the <strong> length </strong>of a side of the square = y
+      <br>
+      The area of the square = 16m<sup>2</sup>
+      <br>
+      Area of a square = length x length
+      <br>
+      <strong>Area < length x length (with inequality sign <)</strong>
+      <br>
+       y x y < 16
+       <br>
+      y<sup>2</sup> < 16
+      <br>
+      y<sup>2</sup> < √16
+      <br>
+      y < 4 (therefore; length is less than 4m)
+      </div>
+      <div class="col">
+      (ii)
+      <br>	
+      <strong>Let perimeter = p</strong>
+      <br>
+      Perimeter (p) of a square = 4length
+      <br>
+      y = 4m
+      <br>
+      p < 4y
+      <br>
+      p < 4 x 4
+      <br>
+      p < <strong>16m<sup>2</sup></strong>
+      <br>
+      Therefore; y < <strong>4m</strong> and p < <strong>16m<sup>2</sup></strong>
+      </div>
+    </div>
+    </div>
+  <br>
+  <strong>Example 3</strong>
+  <br>
+  A pen costs $3 each. John has $x. It is not enough to buy a pen. Smith has $y. He is able to buy a pen. What can you say about the value of x and y?
+  <br>
+  <strong>Solution</strong>
+  <br>
+   John’s money ($x) is less than $3. It means <strong>x < 3</strong> 
+   <br>
+  Smith’s money ($y) is greater than $3. It means <strong>y > 3 </strong>
+  <br>
+  If Smith gets no balance amount (change) after the purchase, then <strong>y = 3</strong>
+  <br>
+  If he gets balance amount (change) after the purchase, then <strong>y > 3</strong>
+  <br>
+  But we do not know if smith gets balance amount (change) or not; then <strong>y ≥ 3</strong>
+  <br>
+  So; <strong>x < 3 and y ≥ 3</strong>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>Inequality Graphs</h3>
+  </div>
+  <strong>Linear inequality</strong> is an inequality with variables of index or power of 1 e.g. 4x > - 10 and 3x – y < 9, the variables x and y have power of 1.
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>The Graphs of Linear Inequalities in one Variable</h3>
+  </div>
+  In inequality graph, the <strong>empty</strong> or <strong>unshaded circle</strong> means the value is not included, while <strong>shaded circle</strong> means value is included.
+  <br>
+  <br>
+  <strong>Example 1</strong>
+  <br>
+  <strong>Solution</strong>
+  <br>	
+  Draw an inequality graph to represent <strong>y < 3</strong>
+  <br>
+  <%= image_tag 'Inequality-graph.png', alt: "inequality graph of y < 3", class: 'carol' %>
+  <br>
+  <strong>
+  The above means; y can have any value less than 3 and the value cannot be equal to 3 or greater than 3 i.e. you can have any value to the left of 3; where the arrow head is pointing to.
+  </strong>
+  <br>
+  <br>
+  <strong>Example 2</strong>
+  <br>
+  Draw an inequality an inequality graph to represent <strong>x ≤ 3.</strong>
+  <br>
+  <strong>Solution</strong>
+  <br>
+  <%= image_tag 'Inequality-graph2.png', alt: "inequality graph of y < or = 3", class: 'carol' %>
+  <br>
+  <strong>
+  The above means; x can have values from 3 downwards (where arrow head is pointing to) with 3 inclusive, but cannot have value greater than 3.
+  </strong>
+  <br>
+  <br>
+  <strong>Example 3 </strong>
+  <br>
+  Draw an inequality graph to represent <strong>x > 2.</strong>
+  <br>
+  <%= image_tag 'Inequlity-graph3.png', alt: "inequality graph of y > 2", class: 'carol' %>
+  <br>
+  <strong>Example 4</strong>
+  <br>                 
+  Draw an inequality graph to represent <strong>y ≥ -4</strong>
+  <br>
+  <strong>Solution</strong>
+  <br>
+  <%= image_tag 'Inequality-graph4.png', alt: "inequality graph of y >= -4", class: 'carol' %>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>Algebraic Inequalities</h3>
+  </div>
+  In the algebraic inequality, when <strong>multiplying</strong> or <strong>dividing</strong> both sides of an inequality by a negative number, reverse the inequality sign to keep the statement true.
+  <br>
+  <br>
+  <strong>Example 1</strong>
+  <br>
+  Find the value of x that will satisfy the following inequalities;
+  <br>
+  (i) x + 3 < 7 (ii) 8 < 2x + 1 (iii) ─ 9 < 3x (iv) 18  ≥ ─3 ─3x (v) −4 –x ≤8 (vi) 4 ─ 3x ≤ ─11
+  <br>
+  <strong>Solution</strong>
+  <br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col border-right border-danger">
+      (i)	
+      <br>
+      x + 3 < 7
+      <br>
+      x < 7 + 3
+      <br>
+      x < <strong>10</strong>
+      </div>
+      <div class="col">
+      (ii)
+      <br>
+      8 < 2x + 1
+      <br>
+      8 ─ 1 < 2x
+      <br>
+      7  < 2x   ≡  2x  >  7
+      <br>
+      2x  >  7 divide both sides by 2
+      <br>
+      <sup>2x</sup>&frasl;<sub>x</sub>  >  <sup>7</sup>&frasl;<sub>2</sub>
+      <br>
+      x > <strong>3<sup>1</sup>&frasl;<sub>2</sub></strong>
+      </div>
+    </div>
+    </div>
+  <br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col border-right border-danger">
+      (iii)
+      <br>
+      ─ 9 < 3x divide both sides by 3
+      <br>
+      <sup>−9</sup>&frasl;<sub>3</sub> < <sup>3x</sup>&frasl;<sub>3</sub>
+      <br>
+      −3 < x <=> x > −3
+      <br>
+      <strong>x > −3 </strong>
+      </div>
+      <div class="col">
+      (iv)
+      <br>
+      18  ≥ ─3 ─3x
+      <br>
+      18 + 3 ≥ − 3x
+      <br>
+      21 ≥ − 3x divide both sides by −3
+      <br>
+      <sup>21</sup>&frasl;<sub>-3</sub> ≥ <sup>−3x</sup>&frasl;<sub>─3</sub>; <strong>When dividing by negative (─), the inequality sign will change</strong>
+      <br>
+      ─ 7 ≤ x  <=>  x ≥ ─ 7
+      <br>
+      <strong>x  ≥  ─ 7</strong>
+      </div>
+    </div>
+    </div>
+  <br>
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col border-right border-danger">
+      (v)
+      <br>
+      −4 –x ≤8
+      <br>
+      –x  ≤ 8 + 4
+      <br>
+      –x ≤  12 divide both sides by −1
+      <br>
+      <sup>─x</sup>&frasl;<sub>─1</sub> ≤ <sup>12</sup>&frasl;<sub>─1</sub> ; When dividing by negative (─), the inequality sign will change
+      <br>
+      <strong>x ≥ −12</strong>
+      </div>
+      <div class="col">
+      (vi)
+      <br>
+      4 ─ 3x ≤ ─11
+      <br>
+      ─3x   ≤ ─11 ─4
+      <br>
+    ─3x   ≤ ─ 15 divide both sides by ─3
+    <br>
+    <sup>─3x</sup>&frasl;<sub>─3</sub ≤ <sup>─15</sup>&frasl;<sub>─3</sub> ; When dividing by negative (-), the inequality sign will change
+    <br>
+     <strong>x   ≥ 5</strong>
+    </div>
+    </div>
+    </div>
+    <div class="d-flex justify-content-center mt-3">
+    <h3 class='text-dark justify-content-center'>Word Problems Involving Inequalities</h3>
+    </div>
+    <strong>Example 1</strong>
+    <br>
+    A rectangle has a length of 6metres and breadth of y metres. Find the range of y if the perimeter of the rectangle is not greater than 40metres and not less than 16metres.
+    <br>
+    <strong>Solution</strong>
+    <br>
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col border-right border-danger">
+      <strong>First condition;</strong> perimeter not greater than 40m means   ≤ 40m
+      <br>
+      Perimeter = 2length x 2breadth
+      <br>
+      2(6) + 2y  ≤ 40
+      <br>
+      12 + 2y  ≤ 40
+      <br>
+      2y  ≤ 40 – 12
+      <br> 
+      2y  ≤ 28 divide both sides 2
+      <br>
+      <sup>2y</sup>&frasl;<sub>2</sub> ≤ <sup>28</sup>&frasl;<sub>2</sub>
+      <br>
+      <strong>y  ≤ 14</strong>
+      </div>
+      <div class="col">
+      <strong> Second condition; </strong>perimeter not less than ≥ 16m
+      <br>
+       2(6) + 2y ≥ 16
+       <br>
+       12 + 2y ≥ 16
+       <br> 
+       2y ≥ 16 – 12
+       <br> 
+       2y ≥ 4 divide both sides by 2
+       <br>
+       <sup>2y</sup>&frasl;<sub>2</sub> ≥ <sup>4</sup>&frasl;<sub>2</sub>
+       <br>
+       <strong>y ≥ 2</strong>
+       <br>
+       The values of y are between <strong>2 to 14</strong> i.e. 2 ≤ y ≤ 14
+       </div>
+    </div>
+    </div>
+    </article>
+<hr>
+  <div class="d-flex justify-content-start text-primary">
+<h5>Test your <strong class='text-secondary'>Linear Inequalities</strong> knowledge with these Objective Questions.</h5>
+</div>
+<article>
+<div class='obj-cont' >
+  <h6>1.	Solve this inequality x – 6 < 9x + 10</h6>
+ <div id='block-11' >
+    <label for='option-11' style=' padding: 5px;'>
+      <input type='radio' name='option' value='x < 2' id='option-11' style='transform: scale(1.2)'  />
+      x < 2</label>
+    <span id='result-11'></span>
+  </div>
+ 
+
+  <div id='block-12'>
+    <label for='option-12' style='padding: 5px;'>
+      <input type='radio' name='option' value='x < 8' id='option-12' style='transform: scale(1.2)' />
+      x < 8</label>
+    <span id='result-12'></span>
+  </div>
+  
+
+  <div id='block-13'>
+    <label for='option-13' style='padding: 5px;'>
+      <input type='radio' name='option' value='x > 2' id='option-13' style='transform: scale(1.2)' />
+      x > 2</label>
+    <span id='result-13'></span>
+  </div>
+  
+
+  <div id='block-14'>
+    <label for='option-14' style=' padding: 5px;'>
+      <input type='radio' name='option' value='x > 8' id='option-14' style='transform: scale(1.2)' />
+      x > 8</label>
+    <span id='result-14'></span>
+  </div>
+ 
+  <button type='button' class = "c-btn" onclick='displayAnswer1()'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer1() {
+    if (document.getElementById('option-11').checked) {
+      document.getElementById('block-11').style.border = '3px solid red'
+      document.getElementById('result-11').style.color = 'red'
+      document.getElementById('result-11').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-12').checked) {
+      document.getElementById('block-12').style.border = '3px solid red'
+      document.getElementById('result-12').style.color = 'red'
+      document.getElementById('result-12').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-13').checked) {
+      document.getElementById('block-13').style.border = '3px solid limegreen'
+      document.getElementById('result-13').style.color = 'limegreen'
+      document.getElementById('result-13').innerHTML = 'Correct!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-14').checked) {
+      document.getElementById('block-14').style.border = '3px solid red'
+      document.getElementById('result-14').style.color = 'red'
+      document.getElementById('result-14').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer1() {
+    let showAnswer1 = document.createElement('p')
+    showAnswer1.innerHTML = 'Show Corrent Answer'
+    showAnswer1.style.position = 'relative'
+    showAnswer1.style.top = '-150px'
+    showAnswer1.style.fontSize = '1.5rem'
+    document.getElementById('showanswer1').appendChild(showAnswer1)
+    showAnswer1.addEventListener('click', () => {
+      document.getElementById('block-13').style.border = '3px solid limegreen'
+      document.getElementById('result-13').style.color = 'limegreen'
+      document.getElementById('result-13').innerHTML = 'Correct!'
+      document.getElementById('showanswer1').removeChild(showAnswer1)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>2.	The cost of cloth, $x was over $200. Use inequality to present the information</h6>
+ <div id='block-21' >
+    <label for='option-21' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='x < 200' id='option-21' style='transform: scale(1.2)'  />
+      x < 200</label>
+    <span id='result-21'></span>
+  </div>
+ 
+
+  <div id='block-22'>
+    <label for='option-22' style='padding: 5px;'>
+      <input type='radio' name='option1' value='x > 200' id='option-22' style='transform: scale(1.2)' />
+      x > 200</label>
+    <span id='result-22'></span>
+  </div>
+  
+
+  <div id='block-23'>
+    <label for='option-23' style='padding: 5px;'>
+      <input type='radio' name='option1' value='x ≤ 200' id='option-23' style='transform: scale(1.2)' />
+      x ≤ 200</label>
+    <span id='result-23'></span>
+  </div>
+  
+
+  <div id='block-24'>
+    <label for='option-24' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='x ≥ 200' id='option-24' style='transform: scale(1.2)' />
+      x ≥ 200</label>
+    <span id='result-24'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer2()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer2() {
+    if (document.getElementById('option-21').checked) {
+      document.getElementById('block-21').style.border = '3px solid red'
+      document.getElementById('result-21').style.color = 'red'
+      document.getElementById('result-21').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-22').checked) {
+      document.getElementById('block-22').style.border = '3px solid limegreen'
+      document.getElementById('result-22').style.color = 'limegreen'
+      document.getElementById('result-22').innerHTML = 'Correct!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-23').checked) {
+      document.getElementById('block-23').style.border = '3px solid red'
+      document.getElementById('result-23').style.color = 'red'
+      document.getElementById('result-23').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-24').checked) {
+      document.getElementById('block-24').style.border = '3px solid red'
+      document.getElementById('result-24').style.color = 'red'
+      document.getElementById('result-24').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer2() {
+    let showAnswer2 = document.createElement('p')
+    showAnswer2.innerHTML = 'Show Corrent Answer'
+    showAnswer2.style.position = 'relative'
+    showAnswer2.style.top = '-150px'
+    showAnswer2.style.fontSize = '1.5rem'
+    document.getElementById('showanswer2').appendChild(showAnswer2)
+    showAnswer2.addEventListener('click', () => {
+      document.getElementById('block-22').style.border = '3px solid limegreen'
+      document.getElementById('result-22').style.color = 'limegreen'
+      document.getElementById('result-22').innerHTML = 'Correct!'
+      document.getElementById('showanswer2').removeChild(showAnswer2)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>Write the value of inequality shown in the graph;<%= image_tag 'question-inequality.png', alt: "inequality graph question", class: 'carol' %></h6>
+ <div id='block-31' >
+    <label for='option-31' style=' padding: 5px;'>
+      <input type='radio' name='option2' value=' ≤ ─2' id='option-31' style='transform: scale(1.2)'  />
+      x ≤ ─2</label>
+    <span id='result-31'></span>
+  </div>
+ 
+
+  <div id='block-32'>
+    <label for='option-32' style='padding: 5px;'>
+      <input type='radio' name='option2' value='x < ─2' id='option-32' style='transform: scale(1.2)' />
+      x < ─2</label>
+    <span id='result-32'></span>
+  </div>
+  
+
+  <div id='block-33'>
+    <label for='option-33' style='padding: 5px;'>
+      <input type='radio' name='option2' value='x > 2' id='option-33' style='transform: scale(1.2)' />
+      x > 2</label>
+    <span id='result-33'></span>
+  </div>
+  
+
+  <div id='block-34'>
+    <label for='option-34' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='x ≥ −2' id='option-34' style='transform: scale(1.2)' />
+      x ≥ −2</label>
+    <span id='result-34'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer3()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer3() {
+    if (document.getElementById('option-31').checked) {
+      document.getElementById('block-31').style.border = '3px solid limegreen'
+      document.getElementById('result-31').style.color = 'limegreen'
+      document.getElementById('result-31').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-32').checked) {
+      document.getElementById('block-32').style.border = '3px solid red'
+      document.getElementById('result-32').style.color = 'red'
+      document.getElementById('result-32').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-33').checked) {
+      document.getElementById('block-33').style.border = '3px solid red'
+      document.getElementById('result-33').style.color = 'red'
+      document.getElementById('result-33').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-34').checked) {
+      document.getElementById('block-34').style.border = '3px solid red'
+      document.getElementById('result-34').style.color = 'red'
+      document.getElementById('result-34').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer3() {
+    let showAnswer3 = document.createElement('p')
+    showAnswer3.innerHTML = 'Show Corrent Answer'
+    showAnswer3.style.position = 'relative'
+    showAnswer3.style.top = '-150px'
+    showAnswer3.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer2)
+    showAnswer3.addEventListener('click', () => {
+      document.getElementById('block-31').style.border = '3px solid limegreen'
+      document.getElementById('result-31').style.color = 'limegreen'
+      document.getElementById('result-31').innerHTML = 'Correct!'
+      document.getElementById('showanswer3').removeChild(showAnswer3)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>4.	The speed of the car, s km/h was not less than 80km/h</h6>
+ <div id='block-41' >
+    <label for='option-41' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='s < 80' id='option-41' style='transform: scale(1.2)'  />
+      s < 80</label>
+    <span id='result-41'></span>
+  </div>
+ 
+
+  <div id='block-42'>
+    <label for='option-42' style='padding: 5px;'>
+      <input type='radio' name='option3' value='s > 80' id='option-42' style='transform: scale(1.2)' />
+      s > 80</label>
+    <span id='result-42'></span>
+  </div>
+  
+
+  <div id='block-43'>
+    <label for='option-43' style='padding: 5px;'>
+      <input type='radio' name='option3' value='s ≤ 80' id='option-43' style='transform: scale(1.2)' />
+      s ≤ 80</label>
+    <span id='result-43'></span>
+  </div>
+  
+
+  <div id='block-44'>
+    <label for='option-44' style=' padding: 5px;'>
+      <input type='radio' name='option3' value='s ≥ 80' id='option-44' style='transform: scale(1.2)' />
+      s ≥ 80</label>
+    <span id='result-44'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer4()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer4() {
+    if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid red'
+      document.getElementById('result-41').style.color = 'red'
+      document.getElementById('result-41').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid red' 
+      document.getElementById('result-42').style.color = 'red'
+      document.getElementById('result-42').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid red'
+      document.getElementById('result-43').style.color = 'red'
+      document.getElementById('result-43').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-44').style.color = 'limegreen'
+      document.getElementById('result-44').innerHTML = 'Correct!'
+      showCorrectAnswer4()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer4() {
+    let showAnswer4 = document.createElement('p')
+    showAnswer4.innerHTML = 'Show Corrent Answer'
+    showAnswer4.style.position = 'relative'
+    showAnswer4.style.top = '-150px'
+    showCorrectAnswer4.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer4)
+    showAnswer4.addEventListener('click', () => {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-44').style.color = 'limegreen'
+      document.getElementById('result-44').innerHTML = 'Correct!'
+      document.getElementById('showanswer4').removeChild(showAnswer4)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>5.	Solve the inequality; 3x + 5 ≤ 14</h6>
+ <div id='block-51' >
+    <label for='option-51' style=' padding: 5px;'>
+      <input type='radio' name='option4' value='x ≥ 3' id='option-51' style='transform: scale(1.2)'  />
+      x ≥ 3</label>
+    <span id='result-51'></span>
+  </div>
+ 
+
+  <div id='block-52'>
+    <label for='option-52' style='padding: 5px;'>
+      <input type='radio' name='option4' value='x ≤ 3' id='option-52' style='transform: scale(1.2)' />
+      x ≤ 3</label>
+    <span id='result-52'></span>
+  </div>
+  
+
+  <div id='block-53'>
+    <label for='option-53' style='padding: 5px;'>
+      <input type='radio' name='option4' value='x < 3' id='option-53' style='transform: scale(1.2)' />
+      x < 3</label>
+    <span id='result-53'></span>
+  </div>
+  
+
+  <div id='block-54'>
+    <label for='option-54' style=' padding: 5px;'>
+      <input type='radio' name='option4' value='x > 9' id='option-54' style='transform: scale(1.2)' />
+      x > 9</label>
+    <span id='result-54'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer5()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer5() {
+    if (document.getElementById('option-51').checked) {
+      document.getElementById('block-51').style.border = '3px solid red'
+      document.getElementById('result-51').style.color = 'red'
+      document.getElementById('result-51').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-52').checked) {
+      document.getElementById('block-52').style.border = '3px solid limegreen'
+      document.getElementById('result-52').style.color = 'limegreen'
+      document.getElementById('result-52').innerHTML = 'Correct!'
+      showCorrectAnswer5()
+    }
+    if (document.getElementById('option-53').checked) {
+      document.getElementById('block-53').style.border = '3px solid red'
+      document.getElementById('result-53').style.color = 'red'
+      document.getElementById('result-53').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+    if (document.getElementById('option-54').checked) {
+      document.getElementById('block-54').style.border = '3px solid red'
+      document.getElementById('result-54').style.color = 'red'
+      document.getElementById('result-54').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer5() {
+    let showAnswer5 = document.createElement('p')
+    showAnswer5.innerHTML = 'Show Corrent Answer'
+    showAnswer5.style.position = 'relative'
+    showAnswer5.style.top = '-150px'
+    showAnswer5.style.fontSize = '1.5rem'
+    document.getElementById('showanswer5').appendChild(showAnswer5)
+    showAnswer5.addEventListener('click', () => {
+      document.getElementById('block-52').style.border = '3px solid limegreen'
+      document.getElementById('result-52').style.color = 'limegreen'
+      document.getElementById('result-52').innerHTML = 'Correct!'
+      document.getElementById('showanswer5').removeChild(showAnswer5)
+    })
+  }
+</script>
+</article>
+</div>
+  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+ <%= render 'layouts/sideadvert' %>
+  </div>
+</div>
+<hr>
+<nav class="nav nav-pills nav-fill">
+<button class='ml-3'>
+<%= link_to "Prev>>", page12_path, class:'h3' %>
+  </button>
+<a class="nav-item nav-link" href="#"></a>
+  <a class="nav-item nav-link" href="#"></a>
+<button class='mr-2 ml-3'>
+<%= link_to "Next>>", page14_path, class:'h3' %>
+</button>
+</nav>
+<hr>
+<%= render 'layouts/footer' %>
+</div>

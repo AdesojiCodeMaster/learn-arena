@@ -1,7 +1,35 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent  mednav">
+<div class='container-fluid' style="overflow-x:auto;">
+  <table class='bg-warning'>
+    <tr>
+      <th><%= link_to "Mathematics", mathematics_index_path, class: "#{current? "active", mathematics_index_path}" %></th>
+      <th><%= link_to "English", page3_path, class: "#{current? "active", page3_path}"  %></th>
+      <th><a class="nav-item nav-link ml-auto" href="#">Economics</a></th>
+      <th><a class="nav-item nav-link ml-auto" href="#">Agric.Sc</a></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>
+      <form class="form-inline  my-lg-0">
+      <input class="form-control search-input" type="search" placeholder="Search">
+      </form>
+      </th>
+      <th>
+      <form class="form-inline my-lg-0">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      </th>
 
-<div class="sidenav list-group" id='side-ite'>
-<span class="text-dark ml-4"> GRADE 7-9 STUDENT</span>
-
+    </tr>
+</table>
+</div>
+<button class="navbar-toggler  bg-transparent btn1" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+<div class="vertical-menu">
+<div class='bg-light'><b class="text-primary ml-2 grade "> GRADE 7-9 STUDENT</b></div>
 <%= link_to "Number Systems", mathematics_index_path, class: "#{current? "active", mathematics_index_path}"  %>
 <%= link_to "Reading and Writing Numbers", mathematics_page1_path, class: "#{current? "active", mathematics_page1_path}"%>
 <%= link_to "Factors and Multiples in Whole Numbers", page2_path, class: "#{current? "active", page2_path}"%>
@@ -18,14 +46,11 @@
 <%= link_to "Linear Inequalities", page13_path, class: "#{current? "active", page13_path}"%> 
 <%= link_to "Word Problems", page14_path, class: "#{current? "active", page14_path}"%> 
 <%= link_to "Variation", page15_path, class: "#{current? "active", page15_path}"%> 
-<%= link_to "Enlargement", page16_path, class: "#{current? "active", page16_path}"%> 
-<%= link_to "Probability", page17_path, class: "#{current? "active", page17_path}"%> 
+<%= link_to "16", page16_path, class: "#{current? "active", page16_path}"%> 
   <a href="#">Contact</a>
   <a href="#">Contact</a>
   <a href="#">Contact</a>
   <a href="#">Contact</a>
-  
 </div>
-
-
-  
+</div>
+</nav>
