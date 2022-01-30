@@ -1,4 +1,4 @@
-
+<%= render 'layouts/header'%>
 <div class="d-flex align-items-center pl-3 pt-2 text-success">
 Whether to request for teacher(s) for your kid(s), to give feedback or to apply for a teaching position, use the form below.
 </div>
@@ -6,11 +6,23 @@ Whether to request for teacher(s) for your kid(s), to give feedback or to apply 
 Note:The potential teacher(s) should attach the CV/Resume to the message.
 </div>
 
-<div class="row justify-content-md-center ml-3">
-<h3>Contact-Form/Request-Form/feedback-Form</h3>
+<div class="row justify-content-md-center" id = 'cont-pg-over'>
+<h3 class='ml-3'>Contact-Form/Request-Form/feedback-Form</h3>
 </div>
 
 <div id="contact">
 <%= render 'pages/contact_form' %>
 </div>
-
+<hr>
+<nav class="nav nav-pills nav-fill">
+<button class='ml-3'>
+<%= link_to "Prev>>", faq_path, class:'h3' %>
+  </button>
+  <a class="nav-item nav-link" href="#"></a>
+  <a class="nav-item nav-link" href="#"></a>
+<button class='mr-2'>
+<%= link_to "Next>>", about_path, class:'h3' %>
+</button>
+</nav>
+<hr>
+<%= render 'layouts/footer'%>

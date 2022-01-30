@@ -252,7 +252,7 @@ Table of Values;
   The graph of y = 2x + 9 and y = -x + 6;
   <br>
   <br>
-  <%= image_tag 'LinearEquaGraph.png', alt:'linaer eaquation graph image', class: 'carol col-12' %>
+  <%= image_tag 'LinearEquaGraph.png', alt:'linear eaquation graph image', class: 'carol col-12' %>
   <br>
   <br>
   <strong>From the graph above; the solution at the point of intersection is; when x = ─1 and y = 7.</strong>
@@ -559,12 +559,12 @@ Table of Values;
       <span id='result-14'></span>
     </div>
    
-    <button type='button' class = "c-btn" onclick='displayAnswer1()'>Submit</button>
+    <button type='button' class = "c-btn" onclick='displayAnswer3()'>Submit</button>
   </div>
   
   <script>
     //    The function evaluates the answer and displays result
-    function displayAnswer1() {
+    function displayAnswer3() {
       if (document.getElementById('option-11').checked) {
         document.getElementById('block-11').style.border = '3px solid limegreen'
         document.getElementById('result-11').style.color = 'limegreen'
@@ -574,34 +574,34 @@ Table of Values;
         document.getElementById('block-12').style.border = '3px solid red'
         document.getElementById('result-12').style.color = 'red'
         document.getElementById('result-12').innerHTML = 'Incorrect!'
-        showCorrectAnswer1()
+        showCorrectAnswer3()
       }
       if (document.getElementById('option-13').checked) {
         document.getElementById('block-13').style.border = '3px solid red'
         document.getElementById('result-13').style.color = 'red'
         document.getElementById('result-13').innerHTML = 'Incorrect!'
-        showCorrectAnswer1()
+        showCorrectAnswer3()
       }
       if (document.getElementById('option-14').checked) {
         document.getElementById('block-14').style.border = '3px solid red'
         document.getElementById('result-14').style.color = 'red'
         document.getElementById('result-14').innerHTML = 'Incorrect!'
-        showCorrectAnswer1()
+        showCorrectAnswer3()
       }
     }
     // the functon displays the link to the correct answer
-    function showCorrectAnswer1() {
-      let showAnswer1 = document.createElement('p')
-      showAnswer1.innerHTML = 'Show Corrent Answer'
-      showAnswer1.style.position = 'relative'
-      showAnswer1.style.top = '-150px'
-      showAnswer1.style.fontSize = '1.5rem'
-      document.getElementById('showanswer1').appendChild(showAnswer1)
-      showAnswer1.addEventListener('click', () => {
+    function showCorrectAnswer3() {
+      let showAnswer3 = document.createElement('p')
+      showAnswer3.innerHTML = 'Show Corrent Answer'
+      showAnswer3.style.position = 'relative'
+      showAnswer3.style.top = '-150px'
+      showAnswer3.style.fontSize = '1.5rem'
+      document.getElementById('showanswer3').appendChild(showAnswer3)
+      showAnswer3.addEventListener('click', () => {
         document.getElementById('block-11').style.border = '3px solid limegreen'
         document.getElementById('result-11').style.color = 'limegreen'
         document.getElementById('result-11').innerHTML = 'Correct!'
-        document.getElementById('showanswer1').removeChild(showAnswer1)
+        document.getElementById('showanswer3').removeChild(showAnswer3)
       })
     }
   </script>
@@ -641,12 +641,12 @@ Table of Values;
       <span id='result-24'></span>
     </div>
    
-    <button type='button' onclick='displayAnswer2()' class='c-btn'>Submit</button>
+    <button type='button' onclick='displayAnswer4()' class='c-btn'>Submit</button>
   </div>
   
   <script>
     //    The function evaluates the answer and displays result
-    function displayAnswer2() {
+    function displayAnswer4() {
       if (document.getElementById('option-21').checked) {
         document.getElementById('block-21').style.border = '3px solid red'
         document.getElementById('result-21').style.color = 'red'
@@ -656,34 +656,34 @@ Table of Values;
         document.getElementById('block-22').style.border = '3px solid red'
         document.getElementById('result-22').style.color = 'red'
         document.getElementById('result-22').innerHTML = 'Incorrect!'
-        showCorrectAnswer2()
+        showCorrectAnswer4()
       }
       if (document.getElementById('option-23').checked) {
         document.getElementById('block-23').style.border = '3px solid limegreen'
         document.getElementById('result-23').style.color = 'limegreen'
         document.getElementById('result-23').innerHTML = 'Correct!'
-        showCorrectAnswer2()
+        showCorrectAnswer4()
       }
       if (document.getElementById('option-24').checked) {
         document.getElementById('block-24').style.border = '3px solid red'
         document.getElementById('result-24').style.color = 'red'
         document.getElementById('result-24').innerHTML = 'Incorrect!'
-        showCorrectAnswer2()
+        showCorrectAnswer4()
       }
     }
     // the functon displays the link to the correct answer
-    function showCorrectAnswer2() {
-      let showAnswer2 = document.createElement('p')
-      showAnswer2.innerHTML = 'Show Corrent Answer'
-      showAnswer2.style.position = 'relative'
-      showAnswer2.style.top = '-150px'
-      showAnswer2.style.fontSize = '1.5rem'
-      document.getElementById('showanswer2').appendChild(showAnswer2)
-      showAnswer2.addEventListener('click', () => {
+    function showCorrectAnswer4() {
+      let showAnswer4 = document.createElement('p')
+      showAnswer4.innerHTML = 'Show Corrent Answer'
+      showAnswer4.style.position = 'relative'
+      showCorrectAnswer4.style.top = '-150px'
+      showAnswer4.style.fontSize = '1.5rem'
+      document.getElementById('showanswer4').appendChild(showAnswer4)
+      showAnswer4.addEventListener('click', () => {
         document.getElementById('block-23').style.border = '3px solid limegreen'
         document.getElementById('result-23').style.color = 'limegreen'
         document.getElementById('result-23').innerHTML = 'Correct!'
-        document.getElementById('showanswer2').removeChild(showAnswer2)
+        document.getElementById('showanswer4').removeChild(showAnswer4)
       })
     }
   </script>
@@ -1467,33 +1467,33 @@ Table of Values;
 <article>
 <div class='obj-cont' >
   <h6>1.	Solve this simultaneous equations; x –y = 2 and 2x + y = 7</h6>
- <div id='block-11' >
-    <label for='option-11' style=' padding: 5px;'>
-      <input type='radio' name='option' value='x = 3 and y = 1' id='option-11' style='transform: scale(1.2)'  />
+ <div id='block-31' >
+    <label for='option-31' style=' padding: 5px;'>
+      <input type='radio' name='option' value='x = 3 and y = 1' id='option-31' style='transform: scale(1.2)'  />
       x = 3 and y = 1</label>
     <span id='result-11'></span>
   </div>
  
 
-  <div id='block-12'>
-    <label for='option-12' style='padding: 5px;'>
-      <input type='radio' name='option' value='x = 1 and y = 1' id='option-12' style='transform: scale(1.2)' />
+  <div id='block-32'>
+    <label for='option-32' style='padding: 5px;'>
+      <input type='radio' name='option' value='x = 1 and y = 1' id='option-32' style='transform: scale(1.2)' />
       x = 1 and y = 1</label>
     <span id='result-12'></span>
   </div>
   
 
-  <div id='block-13'>
-    <label for='option-13' style='padding: 5px;'>
-      <input type='radio' name='option' value='x = 3 and y = 3' id='option-13' style='transform: scale(1.2)' />
+  <div id='block-33'>
+    <label for='option-33' style='padding: 5px;'>
+      <input type='radio' name='option' value='x = 3 and y = 3' id='option-33' style='transform: scale(1.2)' />
       x = 3 and y = 3</label>
     <span id='result-13'></span>
   </div>
   
 
-  <div id='block-14'>
-    <label for='option-14' style=' padding: 5px;'>
-      <input type='radio' name='option' value='x = 2 and y = 5' id='option-14' style='transform: scale(1.2)' />
+  <div id='block-34'>
+    <label for='option-34' style=' padding: 5px;'>
+      <input type='radio' name='option' value='x = 2 and y = 5' id='option-34' style='transform: scale(1.2)' />
       x = 2 and y = 5</label>
     <span id='result-14'></span>
   </div>
@@ -1504,25 +1504,25 @@ Table of Values;
 <script>
   //    The function evaluates the answer and displays result
   function displayAnswer1() {
-    if (document.getElementById('option-11').checked) {
-      document.getElementById('block-11').style.border = '3px solid limegreen'
+    if (document.getElementById('option-31').checked) {
+      document.getElementById('block-31').style.border = '3px solid limegreen'
       document.getElementById('result-11').style.color = 'limegreen'
       document.getElementById('result-11').innerHTML = 'Correct!'
     }
-    if (document.getElementById('option-12').checked) {
-      document.getElementById('block-12').style.border = '3px solid red'
+    if (document.getElementById('option-32').checked) {
+      document.getElementById('block-32').style.border = '3px solid red'
       document.getElementById('result-12').style.color = 'red'
       document.getElementById('result-12').innerHTML = 'Incorrect!'
       showCorrectAnswer1()
     }
-    if (document.getElementById('option-13').checked) {
-      document.getElementById('block-13').style.border = '3px solid red'
+    if (document.getElementById('option-33').checked) {
+      document.getElementById('block-33').style.border = '3px solid red'
       document.getElementById('result-13').style.color = 'red'
       document.getElementById('result-13').innerHTML = 'Incorrect!'
       showCorrectAnswer1()
     }
-    if (document.getElementById('option-14').checked) {
-      document.getElementById('block-14').style.border = '3px solid red'
+    if (document.getElementById('option-34').checked) {
+      document.getElementById('block-34').style.border = '3px solid red'
       document.getElementById('result-14').style.color = 'red'
       document.getElementById('result-14').innerHTML = 'Incorrect!'
       showCorrectAnswer1()
@@ -1537,7 +1537,7 @@ Table of Values;
     showAnswer1.style.fontSize = '1.5rem'
     document.getElementById('showanswer1').appendChild(showAnswer1)
     showAnswer1.addEventListener('click', () => {
-      document.getElementById('block-11').style.border = '3px solid limegreen'
+      document.getElementById('block-31').style.border = '3px solid limegreen'
       document.getElementById('result-11').style.color = 'limegreen'
       document.getElementById('result-11').innerHTML = 'Correct!'
       document.getElementById('showanswer1').removeChild(showAnswer1)
@@ -1549,33 +1549,33 @@ Table of Values;
 <article>
 <div class='obj-cont'>
   <h6>2.	The average of two numbers is 7. The difference between them is 6. Find the numbers.</h6>
- <div id='block-21' >
-    <label for='option-21' style=' padding: 5px;'>
-      <input type='radio' name='option1' value='12 and 18' id='option-21' style='transform: scale(1.2)'  />
+ <div id='block-41' >
+    <label for='option-41' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='12 and 18' id='option-41' style='transform: scale(1.2)'  />
       12 and 18</label>
     <span id='result-21'></span>
   </div>
  
 
-  <div id='block-22'>
-    <label for='option-22' style='padding: 5px;'>
-      <input type='radio' name='option1' value='3 and 6' id='option-22' style='transform: scale(1.2)' />
+  <div id='block-42'>
+    <label for='option-42' style='padding: 5px;'>
+      <input type='radio' name='option1' value='3 and 6' id='option-42' style='transform: scale(1.2)' />
       3 and 6</label>
     <span id='result-22'></span>
   </div>
   
 
-  <div id='block-23'>
-    <label for='option-23' style='padding: 5px;'>
-      <input type='radio' name='option1' value='10 and 4' id='option-23' style='transform: scale(1.2)' />
+  <div id='block-43'>
+    <label for='option-43' style='padding: 5px;'>
+      <input type='radio' name='option1' value='10 and 4' id='option-43' style='transform: scale(1.2)' />
       10 and 4</label>
     <span id='result-23'></span>
   </div>
   
 
-  <div id='block-24'>
-    <label for='option-24' style=' padding: 5px;'>
-      <input type='radio' name='option1' value='11 and 7' id='option-24' style='transform: scale(1.2)' />
+  <div id='block-44'>
+    <label for='option-44' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='11 and 7' id='option-44' style='transform: scale(1.2)' />
       11 and 7</label>
     <span id='result-24'></span>
   </div>
@@ -1586,25 +1586,25 @@ Table of Values;
 <script>
   //    The function evaluates the answer and displays result
   function displayAnswer2() {
-    if (document.getElementById('option-21').checked) {
-      document.getElementById('block-21').style.border = '3px solid red'
+    if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid red'
       document.getElementById('result-21').style.color = 'red'
       document.getElementById('result-21').innerHTML = 'Incorrect!'
     }
-    if (document.getElementById('option-22').checked) {
-      document.getElementById('block-22').style.border = '3px solid red'
+    if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid red'
       document.getElementById('result-22').style.color = 'red'
       document.getElementById('result-22').innerHTML = 'Incorrect!'
       showCorrectAnswer2()
     }
-    if (document.getElementById('option-23').checked) {
-      document.getElementById('block-23').style.border = '3px solid limegreen'
+    if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid limegreen'
       document.getElementById('result-23').style.color = 'limegreen'
       document.getElementById('result-23').innerHTML = 'Correct!'
       showCorrectAnswer2()
     }
-    if (document.getElementById('option-24').checked) {
-      document.getElementById('block-24').style.border = '3px solid red'
+    if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid red'
       document.getElementById('result-24').style.color = 'red'
       document.getElementById('result-24').innerHTML = 'Incorrect!'
       showCorrectAnswer2()
@@ -1619,7 +1619,7 @@ Table of Values;
     showAnswer2.style.fontSize = '1.5rem'
     document.getElementById('showanswer2').appendChild(showAnswer2)
     showAnswer2.addEventListener('click', () => {
-      document.getElementById('block-23').style.border = '3px solid limegreen'
+      document.getElementById('block-43').style.border = '3px solid limegreen'
       document.getElementById('result-23').style.color = 'limegreen'
       document.getElementById('result-23').innerHTML = 'Correct!'
       document.getElementById('showanswer2').removeChild(showAnswer2)
@@ -1634,7 +1634,7 @@ Table of Values;
   </div>
 </div>
 <hr>
-<nav class="nav nav-pills nav-fill">
+<nav class="nav nav-pills nav-fill nav-small">
 <button class='ml-3'>
 <%= link_to "Prev>>", page10_path, class:'h3' %>
   </button>

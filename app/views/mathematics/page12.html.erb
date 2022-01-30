@@ -419,7 +419,7 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
 <a class="nav-item nav-link" href="#"></a>
   <a class="nav-item nav-link" href="#"></a>
 <button class='mr-2 ml-3'>
-<%= link_to "Next>>", page12_path, class:'h3' %>
+<%= link_to "Next>>", page13_path, class:'h3' %>
 </button>
 </nav>
 <hr>
@@ -904,80 +904,80 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
 <article>
 <div class='obj-cont' >
   <h6>1. Using your graph, what is the cost of 20kg of gold?</h6>
- <div id='block-11' >
-    <label for='option-11' style=' padding: 5px;'>
-      <input type='radio' name='option' value='$2500' id='option-11' style='transform: scale(1.2)'  />
+ <div id='block-31' >
+    <label for='option-31' style=' padding: 5px;'>
+      <input type='radio' name='option' value='$2500' id='option-31' style='transform: scale(1.2)'  />
       $2500</label>
     <span id='result-11'></span>
   </div>
  
 
-  <div id='block-12'>
-    <label for='option-12' style='padding: 5px;'>
-      <input type='radio' name='option' value='$210' id='option-12' style='transform: scale(1.2)' />
+  <div id='block-32'>
+    <label for='option-32' style='padding: 5px;'>
+      <input type='radio' name='option' value='$210' id='option-32' style='transform: scale(1.2)' />
       $210</label>
     <span id='result-12'></span>
   </div>
   
 
-  <div id='block-13'>
-    <label for='option-13' style='padding: 5px;'>
-      <input type='radio' name='option' value='$200' id='option-13' style='transform: scale(1.2)' />
+  <div id='block-33'>
+    <label for='option-33' style='padding: 5px;'>
+      <input type='radio' name='option' value='$200' id='option-33' style='transform: scale(1.2)' />
       $200</label>
     <span id='result-13'></span>
   </div>
   
 
-  <div id='block-14'>
-    <label for='option-14' style=' padding: 5px;'>
-      <input type='radio' name='option' value='$2400' id='option-14' style='transform: scale(1.2)' />
+  <div id='block-34'>
+    <label for='option-34' style=' padding: 5px;'>
+      <input type='radio' name='option' value='$2400' id='option-34' style='transform: scale(1.2)' />
       $2400</label>
     <span id='result-14'></span>
   </div>
  
-  <button type='button' class = "c-btn" onclick='displayAnswer1()'>Submit</button>
+  <button type='button' class = "c-btn" onclick='displayAnswer3()'>Submit</button>
 </div>
 
 <script>
   //    The function evaluates the answer and displays result
-  function displayAnswer1() {
-    if (document.getElementById('option-11').checked) {
-      document.getElementById('block-11').style.border = '3px solid red'
+  function displayAnswer3() {
+    if (document.getElementById('option-31').checked) {
+      document.getElementById('block-31').style.border = '3px solid red'
       document.getElementById('result-11').style.color = 'red'
       document.getElementById('result-11').innerHTML = 'Incorrect!'
     }
-    if (document.getElementById('option-12').checked) {
-      document.getElementById('block-12').style.border = '3px solid red'
+    if (document.getElementById('option-32').checked) {
+      document.getElementById('block-32').style.border = '3px solid red'
       document.getElementById('result-12').style.color = 'red'
       document.getElementById('result-12').innerHTML = 'Incorrect!'
-      showCorrectAnswer1()
+      showCorrectAnswer3()
     }
-    if (document.getElementById('option-13').checked) {
-      document.getElementById('block-13').style.border = '3px solid red'
+    if (document.getElementById('option-33').checked) {
+      document.getElementById('block-33').style.border = '3px solid red'
       document.getElementById('result-13').style.color = 'red'
       document.getElementById('result-13').innerHTML = 'Incorrect!'
-      showCorrectAnswer1()
+      showCorrectAnswer3()
     }
-    if (document.getElementById('option-14').checked) {
-      document.getElementById('block-14').style.border = '3px solid limegreen'
+    if (document.getElementById('option-34').checked) {
+      document.getElementById('block-34').style.border = '3px solid limegreen'
       document.getElementById('result-14').style.color = 'limegreen'
       document.getElementById('result-14').innerHTML = 'Correct!'
-      showCorrectAnswer1()
+      showCorrectAnswer3()
     }
   }
   // the functon displays the link to the correct answer
-  function showCorrectAnswer1() {
-    let showAnswer1 = document.createElement('p')
-    showAnswer1.innerHTML = 'Show Corrent Answer'
-    showAnswer1.style.position = 'relative'
-    showAnswer1.style.top = '-150px'
-    showAnswer1.style.fontSize = '1.5rem'
-    document.getElementById('showanswer1').appendChild(showAnswer1)
-    showAnswer1.addEventListener('click', () => {
-      document.getElementById('block-14').style.border = '3px solid limegreen'
+  function showCorrectAnswer3() {
+    let showAnswer3 = document.createElement('p')
+    showAnswer3.innerHTML = 'Show Corrent Answer'
+    showAnswer3.style.position = 'relative'
+    showAnswer3.style.top = '-150px'
+    showAnswer3.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer3)
+    showAnswer3.addEventListener('click', () => {
+      document.getElementById('block-34').style.border = '3px solid limegreen'
       document.getElementById('result-14').style.color = 'limegreen'
       document.getElementById('result-14').innerHTML = 'Correct!'
-      document.getElementById('showanswer1').removeChild(showAnswer1)
+      document.getElementById('showanswer3').removeChild(showAnswer3)
     })
   }
 </script>
@@ -986,80 +986,80 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
 <article>
 <div class='obj-cont'>
   <h6>2.	Using your graph, how much gold can be purchased with $780</h6>
- <div id='block-21' >
-    <label for='option-21' style=' padding: 5px;'>
-      <input type='radio' name='option1' value='7.5kg' id='option-21' style='transform: scale(1.2)'  />
+ <div id='block-41' >
+    <label for='option-41' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='7.5kg' id='option-41' style='transform: scale(1.2)'  />
       7.5kg</label>
     <span id='result-21'></span>
   </div>
  
 
-  <div id='block-22'>
-    <label for='option-22' style='padding: 5px;'>
-      <input type='radio' name='option1' value='6.5kg' id='option-22' style='transform: scale(1.2)' />
+  <div id='block-42'>
+    <label for='option-42' style='padding: 5px;'>
+      <input type='radio' name='option1' value='6.5kg' id='option-42' style='transform: scale(1.2)' />
       6.5kg</label>
     <span id='result-22'></span>
   </div>
   
 
-  <div id='block-23'>
-    <label for='option-23' style='padding: 5px;'>
-      <input type='radio' name='option1' value='7kg' id='option-23' style='transform: scale(1.2)' />
+  <div id='block-43'>
+    <label for='option-43' style='padding: 5px;'>
+      <input type='radio' name='option1' value='7kg' id='option-43' style='transform: scale(1.2)' />
       7kg</label>
     <span id='result-23'></span>
   </div>
   
 
-  <div id='block-24'>
+  <div id='block-44'>
     <label for='option-24' style=' padding: 5px;'>
-      <input type='radio' name='option1' value='9kg' id='option-24' style='transform: scale(1.2)' />
+      <input type='radio' name='option1' value='9kg' id='option-44' style='transform: scale(1.2)' />
       9kg</label>
     <span id='result-24'></span>
   </div>
  
-  <button type='button' onclick='displayAnswer2()' class='c-btn'>Submit</button>
+  <button type='button' onclick='displayAnswer4()' class='c-btn'>Submit</button>
 </div>
 
 <script>
   //    The function evaluates the answer and displays result
-  function displayAnswer2() {
-    if (document.getElementById('option-21').checked) {
-      document.getElementById('block-21').style.border = '3px solid red'
+  function displayAnswer4() {
+    if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid red'
       document.getElementById('result-21').style.color = 'red'
       document.getElementById('result-21').innerHTML = 'Incorrect!'
     }
-    if (document.getElementById('option-22').checked) {
-      document.getElementById('block-22').style.border = '3px solid limegreen'
+    if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid limegreen'
       document.getElementById('result-22').style.color = 'limegreen'
       document.getElementById('result-22').innerHTML = 'Correct!'
-      showCorrectAnswer2()
+      showCorrectAnswer4()
     }
-    if (document.getElementById('option-23').checked) {
-      document.getElementById('block-23').style.border = '3px solid red'
+    if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid red'
       document.getElementById('result-23').style.color = 'red'
       document.getElementById('result-23').innerHTML = 'Incorrect!'
-      showCorrectAnswer2()
+      showCorrectAnswer4()
     }
-    if (document.getElementById('option-24').checked) {
-      document.getElementById('block-24').style.border = '3px solid red'
+    if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid red'
       document.getElementById('result-24').style.color = 'red'
       document.getElementById('result-24').innerHTML = 'Incorrect!'
-      showCorrectAnswer2()
+      showCorrectAnswer4()
     }
   }
   // the functon displays the link to the correct answer
-  function showCorrectAnswer2() {
-    let showAnswer2 = document.createElement('p')
-    showAnswer2.innerHTML = 'Show Corrent Answer'
-    showAnswer2.style.position = 'relative'
-    showAnswer2.style.top = '-150px'
-    showAnswer2.style.fontSize = '1.5rem'
-    document.getElementById('showanswer2').appendChild(showAnswer2)
-    showAnswer2.addEventListener('click', () => {
-      document.getElementById('block-22').style.border = '3px solid limegreen'
+  function showCorrectAnswer4() {
+    let showAnswer4 = document.createElement('p')
+    showAnswer4.innerHTML = 'Show Corrent Answer'
+    showAnswer4.style.position = 'relative'
+    showAnswer4.style.top = '-150px'
+    showAnswer4.style.fontSize = '1.5rem'
+    document.getElementById('showanswer4').appendChild(showAnswer4)
+    showAnswer4.addEventListener('click', () => {
+      document.getElementById('block-42').style.border = '3px solid limegreen'
       document.getElementById('result-22').style.color = 'limegreen'
       document.getElementById('result-22').innerHTML = 'Correct!'
-      document.getElementById('showanswer2').removeChild(showAnswer2)
+      document.getElementById('showanswer4').removeChild(showAnswer4)
     })
   }
 </script>
@@ -1071,7 +1071,7 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
   </div>
 </div>
 <hr>
-<nav class="nav nav-pills nav-fill">
+<nav class="nav nav-pills nav-fill nav-small">
 <button class='ml-3'>
 <%= link_to "Prev>>", page11_path, class:'h3' %>
   </button>

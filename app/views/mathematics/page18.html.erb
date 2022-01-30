@@ -1,0 +1,1278 @@
+<div class='large'>
+<%= render 'layouts/header'%>
+<div class="main">
+<div class="row row-over">
+  <div class="col-md-10 ad-border">
+  <div class='container-fluid med'>
+  <div class="d-flex justify-content-center mt-3">
+<h1 class='text-dark justify-content-center'>Number Bases</h1>
+</div>
+<hr>
+<article>
+<strong>Number bases</strong> is the system of total counting of digits used to express numbers in a number system e.g. base two system (binary system) uses only 2 digits; 0 and 1, base-six system uses 6 digits; 0 to 5 and base-ten system uses 10 digits; 0 to 9. The number bases make use of powers of a particular number system i.e. base-ten system is based on powers of 10 and base-six system is based on powers of 6.
+<br>
+<br>
+The most common number system worldwide is <strong>base-ten system</strong>. <strong>Binary system</strong> is also important due to its numerous applications to computing. A computer contains a large number of switches; each switch is either ‘On’ or ‘Off’;
+<br>
+‘On’ switch => <strong>1</strong>
+<br>
+‘Off’ switch => <strong>0</strong>
+<hr>
+<div class="d-flex justify-content-center mt-3">
+  <h2 class='text-dark justify-content-center'>Conversions in Number Bases</h2>
+  </div>
+  <hr>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>Conversion from Base Ten to other Number Bases</h3>
+  </div>
+  Conversion from base ten to other number bases involves dividing the number in base ten system by the number of the desired base e.g. conversion from base ten to base two means dividing the number in base ten by two and take the record of the remainders. 
+  <br>
+  Base ten numbers are commonly written as; 22 => 22<sub>10</sub> or 22<sub>ten</sub> , 85 => 85<sub>10</sub> or 85<sub>ten</sub>  etc.
+  <br>
+  <br>
+<strong>Rules for converting from base ten to other base;</strong>
+<br>
+(i)	Divide the base ten number by the desired base number.
+<br>
+(ii) Continue to divide until zero (0) is reached, write down any remainder each time.
+<br>
+(iii) Start at the last remainder and read upwards to get the new number in the desired base.  
+<br>
+<strong>Example 1</strong>
+<br>
+(i) Convert 733 and 76 to base five (ii) convert 5046 and 128 to base eight (iii) convert 27 and 18 to base two (iv) convert 725 and 31 to base six
+<br>
+<br>
+<strong>Solution</strong>
+<br>
+<%= image_tag 'Number-bases-conversion.png', alt:'Number basesconversion1 image', class: 'carol col-12 ml-4' %>
+<br>
+<%= image_tag 'Number-bases-conversion1.png', alt:'Number basesconversion2 image', class: 'carol col-12 ml-4' %>
+<hr>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Expansion in Number Bases</h3>
+</div>
+<hr>
+<strong>Expansion</strong> in number bases involves using the powers of their bases for the expansion.  
+ <br> 
+ Steps;
+ <br>
+(i)	Add power (index) to each digit in a number from RHS to LHS e.g.
+<br>
+<strong>4 3 2 1 0</strong>
+<br>
+2 5 0 2 4 --------------- Number
+<br>
+<strong>Where;</strong> 4, 3, 2, 1, 0 are the powers
+<br>
+(ii)	Use each digit in the number to multiply the given or desired number base and its corresponding power, then add to one another.
+<br>
+<br>
+<strong>Example 1</strong>
+<br>
+Expand the following (i) 25024<sub>6</sub> (ii) 10110<sub>2</sub> (iii) 4102<sub>5</sub> (iv) 2389<sub>10</sub> in powers of their bases.
+<br>
+<br>
+<strong>Solution</strong>
+<br>
+<strong>Note:</strong> any number raised to power of zero is <strong>1.</strong>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (i)
+    <br>
+    <strong><i>4 3 2 1 0 - powers</i></strong>
+    <br>
+    2 5 0 2 4<sub>6</sub>
+    <br>
+    = 2 x 6<sup>4</sup>  +  5 x 6<sup>3</sup> + 0 x 6<sup>2</sup> + 2 x 6<sup>1</sup> + 4 x 6<sup>0</sup>
+    <br>
+    = 2 x 6<sup>4</sup>  +  5 x 6<sup>3</sup> + 0 x 6<sup>2</sup> + 2 x 6<sup>1</sup> + 4 x 1
+    </div>
+    <div class="col">
+    (ii)
+    <br>
+    <strong><i>4 3 2 1 0 – powers</i></strong>
+    <br>
+    1 0 1 1 0<sub>2</sub>
+    <br>
+    = 1 x 2<sup>4</sup> + 0 x 2<sup>3</sup> + 1 x 2<sup>2</sup> + 1 x 2<sup>1</sup> + 0 x 2<sup>0</sup>
+    <br>
+    = 1 x 2<sup>4</sup> + 0 x 2<sup>3</sup> + 1 x 2<sup>2</sup> + 1 x 2<sup>1</sup> + 0 x 1
+   </div>
+  </div>
+  </div>
+  <br>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (iii)
+    <br>
+    <strong><i>3 2 1 0 – powers</i></strong>
+     <br>
+     4 1 0 2<sub>5</sub>
+     <br>
+     = 4 x 5<sup>3</sup> + 1 x 5<sup>2</sup> + 0 x 5<sup>1</sup> + 2 x 5<sup>0</sup>
+     <br>
+     = 4 x 5<sup>3</sup> + 1 x 5<sup>2</sup> + 0 x 5<sup>1</sup> + 2 x 1
+    </div>
+    <div class="col">
+    (iv)
+    <br>
+    <strong><i>3 2 1 0 – powers</i></strong>
+    <br>
+    2 3 8 9<sub>10</sub>
+    <br>
+    = 2 x 10<sup>3</sup> + 3 x 10<sup>2</sup> + 8 x 10<sup>1</sup> + 9 x 10<sup>0</sup>
+    <br>
+    = 2 x 10<sup>3</sup> + 3 x 10<sup>2</sup> + 8 x 10<sup>1</sup> + 9 x 1
+     </div>
+  </div>
+  </div>
+  <hr>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>Conversion from other Bases to Base Ten</h3>
+  </div>
+  <hr>
+  <strong>Steps;</strong>
+  <br>
+(i)	Expand the number bases in the powers of their bases.
+<br>
+(ii)	Sum up the results in step (i) above to get the conversion.
+<br>
+<br>
+<strong>Example 1</strong>
+<br>
+Convert the following bases to base ten (i) 11001<sub>2</sub> (ii) 2120<sub>3</sub> (iii) 231<sub>4</sub> (iv) 31<sub>8</sub>
+<br>
+<br>
+<strong>Solution</strong>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (i)
+    <br>
+    <strong><i>4 3 2 1 0 – powers</strong></i>
+    <br>
+    1 1 0 0 1<sub>2</sub>
+    <br>
+    = 1 x 2<sup>4</sup> + 1 x 2<sup>3</sup> + 0 x 2<sup>2</sup> + 0 x 2<sup>1</sup> + 1 x 2<sup>0</sup>
+    <br>
+     = 2<sup>4</sup> + 2<sup>3</sup> + 0 + 0 + 1 x 1
+     <br>
+     = 16 + 8 + 1
+     <br>
+    = 25
+    <br>
+    = 1 1 0 0 1<sub>2</sub> => <strong> 25 or 25<sub>10</sub></strong>
+    </div>
+    <div class="col">
+    (ii)
+    <br>
+    <strong><i>3 2 1 0 – powers </strong></i>
+    <br>
+    2 1 2 0<sub>3</sub>
+    <br>
+    = 2 x 3<sup>3</sup> + 1 x 3<sup>2</sup> + 2 x 3<sup>1</sup> + 0 x 3<sup>0</sup>
+    <br>
+    = 2 x 27 + 1 x 9 + 2 x 3 + 0 x 1
+    <br>
+    = 54 + 9 + 6 + 0
+    <br>
+    = 69
+    <br>
+    2 1 2 0<sub>3</sub> => <strong>69 or 69<sub>10</sub></strong> 
+    </div>
+  </div>
+  </div>
+  <br>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (iii)
+    <br>
+    <strong><i>2 1 0 – powers</strong></i>
+    <br>
+    2 3 1<sub>4</sub>
+    <br>
+    = 2 x 4<sup>2</sup> + 3 x 4<sup>1</sup> + 1 x 4<sup>0</sup>
+    <br>
+    = 2 x 16 + 3 x 4 + 1 x 1
+    <br>
+    = 32 + 12 + 1
+    <br>
+    = 45
+    <br>
+    2 3 1<sub>4</sub> => <strong>45 or 45<sub>10</sub></strong>
+    </div>
+    <div class="col">
+    (iv)
+    <br>
+    <strong><i>1 0 – powers </strong></i>
+    <br>
+    3 1<sub>8</sub>
+    <br>
+    = 3 x 8<sup>1</sup> + 1 x 8<sup>0</sup>
+    <br>
+    = 3 x 8 + 1 x 1
+    <br>
+    = 24 + 1
+    <br>
+    = 25
+    <br>
+    31<sub>8</sub> => 25 or 25<sub>10</sub>
+    </div>
+  </div>
+  </div>
+  <hr>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>Conversion between Bases other than Base Ten</h3>
+  </div>
+  <hr>
+  <strong>Conversion between bases;</strong>
+  <br> 
+  This can be easily done by converting the first base to base ten, then to the desired base.
+<br>
+<br>
+<strong>Example 1</strong>
+<br>
+Convert 100110<sub>2</sub> to base eight.
+<br>
+<strong>Solution</strong>
+<br>
+<strong>First;</strong> convert 100110<sub>2</sub> to base ten;
+<br>
+<strong><i>5 4 3 2 1 0 – powers</strong></i>
+<br>
+1 0 0 1 1 0<sub>2</sub>
+= 1 x 2<sup>5</sup> + 0 x 2<sup>4</sup> + 0 x 2<sup>3</sup> + 1 x 2<sup>2</sup> + 1 x 2<sup>1</sup> + 0 x 2<sup>0</sup>
+<br>
+= 2<sup>5</sup> + 0 + 0 + 2<sup>2</sup> + 2<sup>1</sup> + 0 x 1
+<br>
+= 32 + 4 + 2
+<br>
+= <strong>38 or 38<sub>10</sub></strong>
+<br>
+<strong>Then;</strong> convert 38<sub>10</sub> to base eight;
+ <br>
+ <%= image_tag 'Number-bases-conversion2.png', alt:'Number basesconversion2 image', class: 'carol' %>
+</article>
+<hr>
+<article>
+<div class="d-flex justify-content-start text-primary">
+<h5>Test your <strong class='text-secondary'>Number Bases</strong> knowledge with these Objective Questions.</h5>
+</div>
+<div class='obj-cont' >
+  <h6>1. Convert 20 to base five.</h6>
+ <div id='block-11' >
+    <label for='option-11' style=' padding: 5px;'>
+      <input type='radio' name='option' value='50<sub>5</sub>' id='option-11' style='transform: scale(1.2)'  />
+      50<sub>5</sub></label>
+    <span id='result-11'></span>
+  </div>
+ 
+
+  <div id='block-12'>
+    <label for='option-12' style='padding: 5px;'>
+      <input type='radio' name='option' value='28<sub>5</sub>' id='option-12' style='transform: scale(1.2)' />
+      28<sub>5</sub></label>
+    <span id='result-12'></span>
+  </div>
+  
+
+  <div id='block-13'>
+    <label for='option-13' style='padding: 5px;'>
+      <input type='radio' name='option' value='30<sub>5</sub>' id='option-13' style='transform: scale(1.2)' />
+      30<sub>5</sub></label>
+    <span id='result-13'></span>
+  </div>
+  
+
+  <div id='block-14'>
+    <label for='option-14' style=' padding: 5px;'>
+      <input type='radio' name='option' value='40<sub>5</sub>' id='option-14' style='transform: scale(1.2)' />
+      40<sub>5</sub></label>
+    <span id='result-14'></span>
+  </div>
+ 
+  <button type='button' class = "c-btn" onclick='displayAnswer1()'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer1() {
+    if (document.getElementById('option-11').checked) {
+      document.getElementById('block-11').style.border = '3px solid red'
+      document.getElementById('result-11').style.color = 'red'
+      document.getElementById('result-11').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-12').checked) {
+      document.getElementById('block-12').style.border = '3px solid red'
+      document.getElementById('result-12').style.color = 'red'
+      document.getElementById('result-12').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-13').checked) {
+      document.getElementById('block-13').style.border = '3px solid red'
+      document.getElementById('result-13').style.color = 'red'
+      document.getElementById('result-13').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-14').checked) {
+      document.getElementById('block-14').style.border = '3px solid limegreen'
+      document.getElementById('result-14').style.color = 'limegreen'
+      document.getElementById('result-14').innerHTML = 'Correct!'
+      showCorrectAnswer1()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer1() {
+    let showAnswer1 = document.createElement('p')
+    showAnswer1.innerHTML = 'Show Corrent Answer'
+    showAnswer1.style.position = 'relative'
+    showAnswer1.style.top = '-150px'
+    showAnswer1.style.fontSize = '1.5rem'
+    document.getElementById('showanswer1').appendChild(showAnswer1)
+    showAnswer1.addEventListener('click', () => {
+      document.getElementById('block-14').style.border = '3px solid limegreen'
+      document.getElementById('result-14').style.color = 'limegreen'
+      document.getElementById('result-14').innerHTML = 'Correct!'
+      document.getElementById('showanswer1').removeChild(showAnswer1)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>2.	Convert 10101<sub>2</sub> to base ten.</h6>
+ <div id='block-21' >
+    <label for='option-21' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='24' id='option-21' style='transform: scale(1.2)'  />
+      24</label>
+    <span id='result-21'></span>
+  </div>
+ 
+
+  <div id='block-22'>
+    <label for='option-22' style='padding: 5px;'>
+      <input type='radio' name='option1' value='17' id='option-22' style='transform: scale(1.2)' />
+      17</label>
+    <span id='result-22'></span>
+  </div>
+  
+
+  <div id='block-23'>
+    <label for='option-23' style='padding: 5px;'>
+      <input type='radio' name='option1' value='21' id='option-23' style='transform: scale(1.2)' />
+      21</label>
+    <span id='result-23'></span>
+  </div>
+  
+
+  <div id='block-24'>
+    <label for='option-24' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='12' id='option-24' style='transform: scale(1.2)' />
+      12</label>
+    <span id='result-24'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer2()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer2() {
+    if (document.getElementById('option-21').checked) {
+      document.getElementById('block-21').style.border = '3px solid red'
+      document.getElementById('result-21').style.color = 'red'
+      document.getElementById('result-21').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-22').checked) {
+      document.getElementById('block-22').style.border = '3px solid red'
+      document.getElementById('result-22').style.color = 'red'
+      document.getElementById('result-22').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-23').checked) {
+      document.getElementById('block-23').style.border = '3px solid limegreen'
+      document.getElementById('result-23').style.color = 'limegreen'
+      document.getElementById('result-23').innerHTML = 'Correct!'
+      showCorrectAnswer2()
+    }
+    if (document.getElementById('option-24').checked) {
+      document.getElementById('block-24').style.border = '3px solid red'
+      document.getElementById('result-24').style.color = 'red'
+      document.getElementById('result-24').innerHTML = 'Incorrect!'
+      showCorrectAnswer2()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer2() {
+    let showAnswer2 = document.createElement('p')
+    showAnswer2.innerHTML = 'Show Corrent Answer'
+    showAnswer2.style.position = 'relative'
+    showAnswer2.style.top = '-150px'
+    showAnswer2.style.fontSize = '1.5rem'
+    document.getElementById('showanswer2').appendChild(showAnswer2)
+    showAnswer2.addEventListener('click', () => {
+      document.getElementById('block-21').style.border = '3px solid limegreen'
+      document.getElementById('result-21').style.color = 'limegreen'
+      document.getElementById('result-21').innerHTML = 'Correct!'
+      document.getElementById('showanswer2').removeChild(showAnswer2)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>3.	Convert 11011<sub>2</sub> to base four</h6>
+ <div id='block-31' >
+    <label for='option-31' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='123<sub>4</sub>' id='option-31' style='transform: scale(1.2)'  />
+      123<sub>4</sub></label>
+    <span id='result-31'></span>
+  </div>
+ 
+
+  <div id='block-32'>
+    <label for='option-32' style='padding: 5px;'>
+      <input type='radio' name='option2' value='162<sub>4</sub>' id='option-32' style='transform: scale(1.2)' />
+      162<sub>4</sub></label>
+    <span id='result-32'></span>
+  </div>
+  
+
+  <div id='block-33'>
+    <label for='option-33' style='padding: 5px;'>
+      <input type='radio' name='option2' value='112<sub>4</sub>' id='option-33' style='transform: scale(1.2)' />
+      112<sub>4</sub></label>
+    <span id='result-33'></span>
+  </div>
+  
+
+  <div id='block-34'>
+    <label for='option-34' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='142<sub>4</sub>' id='option-34' style='transform: scale(1.2)' />
+      142<sub>4</sub></label>
+    <span id='result-34'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer3()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer3() {
+    if (document.getElementById('option-31').checked) {
+      document.getElementById('block-31').style.border = '3px solid limegreen '
+      document.getElementById('result-31').style.color = 'limegreen'
+      document.getElementById('result-31').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-32').checked) {
+      document.getElementById('block-32').style.border = '3px solid red'
+      document.getElementById('result-32').style.color = 'red'
+      document.getElementById('result-32').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-33').checked) {
+      document.getElementById('block-33').style.border = '3px solid red'
+      document.getElementById('result-33').style.color = 'red'
+      document.getElementById('result-33').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-34').checked) {
+      document.getElementById('block-34').style.border = '3px solid red'
+      document.getElementById('result-34').style.color = 'red'
+      document.getElementById('result-34').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer3() {
+    let showAnswer3 = document.createElement('p')
+    showAnswer3.innerHTML = 'Show Corrent Answer'
+    showAnswer3.style.position = 'relative'
+    showAnswer3.style.top = '-150px'
+    showAnswer3.style.fontSize = '1.5rem'
+    document.getElementById('showanswer3').appendChild(showAnswer2)
+    showAnswer3.addEventListener('click', () => {
+      document.getElementById('block-31').style.border = '3px solid limegreen'
+      document.getElementById('result-31').style.color = 'limegreen'
+      document.getElementById('result-31').innerHTML = 'Correct!'
+      document.getElementById('showanswer3').removeChild(showAnswer3)
+    })
+  }
+</script>
+</article>
+</div>
+  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+  <%= render 'layouts/sideadvert' %>
+</div>
+</div>
+<hr>
+<nav class="nav nav-pills nav-fill">
+<button class='ml-3'>
+<%= link_to "Prev>>", page17_path, class:'h3' %>
+  </button>
+<a class="nav-item nav-link" href="#"></a>
+  <a class="nav-item nav-link" href="#"></a>
+<button class='mr-2 ml-3'>
+<%= link_to "Next>>", page19_path, class:'h3' %>
+</button>
+</nav>
+<hr>
+<%= render 'layouts/footer' %>
+</div>
+<%= render 'mathematics/sidebar'%>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="medium">
+<%= render 'layouts/header2'%>
+<br>
+<div class="row ml-5 row-over">
+  <div class=" col-md-10  ad-border">
+  <div class='container-fluid med'>
+  <div class="d-flex justify-content-center mt-3">
+<h1 class='text-dark justify-content-center'>Number Bases</h1>
+</div>
+<hr>
+<article>
+<strong>Number bases</strong> is the system of total counting of digits used to express numbers in a number system e.g. base two system (binary system) uses only 2 digits; 0 and 1, base-six system uses 6 digits; 0 to 5 and base-ten system uses 10 digits; 0 to 9. The number bases make use of powers of a particular number system i.e. base-ten system is based on powers of 10 and base-six system is based on powers of 6.
+<br>
+<br>
+The most common number system worldwide is <strong>base-ten system</strong>. <strong>Binary system</strong> is also important due to its numerous applications to computing. A computer contains a large number of switches; each switch is either ‘On’ or ‘Off’;
+<br>
+‘On’ switch => <strong>1</strong>
+<br>
+‘Off’ switch => <strong>0</strong>
+<hr>
+<div class="d-flex justify-content-center mt-3">
+  <h2 class='text-dark justify-content-center'>Conversions in Number Bases</h2>
+  </div>
+  <hr>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>Conversion from Base Ten to other Number Bases</h3>
+  </div>
+  Conversion from base ten to other number bases involves dividing the number in base ten system by the number of the desired base e.g. conversion from base ten to base two means dividing the number in base ten by two and take the record of the remainders. 
+  <br>
+  Base ten numbers are commonly written as; 22 => 22<sub>10</sub> or 22<sub>ten</sub> , 85 => 85<sub>10</sub> or 85<sub>ten</sub>  etc.
+  <br>
+  <br>
+<strong>Rules for converting from base ten to other base;</strong>
+<br>
+(i)	Divide the base ten number by the desired base number.
+<br>
+(ii) Continue to divide until zero (0) is reached, write down any remainder each time.
+<br>
+(iii) Start at the last remainder and read upwards to get the new number in the desired base.  
+<br>
+<strong>Example 1</strong>
+<br>
+(i) Convert 733 and 76 to base five (ii) convert 5046 and 128 to base eight (iii) convert 27 and 18 to base two (iv) convert 725 and 31 to base six
+<br>
+<br>
+<strong>Solution</strong>
+<br>
+<%= image_tag 'Number-bases-conversion.png', alt:'Number basesconversion1 image', class: 'carol ' %>
+<br>
+<%= image_tag 'Number-bases-conversion1.png', alt:'Number basesconversion2 image', class: 'carol' %>
+<hr>
+<div class="d-flex justify-content-center mt-3">
+<h3 class='text-dark justify-content-center'>Expansion in Number Bases</h3>
+</div>
+<hr>
+<strong>Expansion</strong> in number bases involves using the powers of their bases for the expansion.  
+ <br> 
+ Steps;
+ <br>
+(i)	Add power (index) to each digit in a number from RHS to LHS e.g.
+<br>
+<strong>4 3 2 1 0</strong>
+<br>
+2 5 0 2 4 --------------- Number
+<br>
+<strong>Where;</strong> 4, 3, 2, 1, 0 are the powers
+<br>
+(ii)	Use each digit in the number to multiply the given or desired number base and its corresponding power, then add to one another.
+<br>
+<br>
+<strong>Example 1</strong>
+<br>
+Expand the following (i) 25024<sub>6</sub> (ii) 10110<sub>2</sub> (iii) 4102<sub>5</sub> (iv) 2389<sub>10</sub> in powers of their bases.
+<br>
+<br>
+<strong>Solution</strong>
+<br>
+<strong>Note:</strong> any number raised to power of zero is <strong>1.</strong>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (i)
+    <br>
+    <strong><i>4 3 2 1 0 - powers</i></strong>
+    <br>
+    2 5 0 2 4<sub>6</sub>
+    <br>
+    = 2 x 6<sup>4</sup>  +  5 x 6<sup>3</sup> + 0 x 6<sup>2</sup> + 2 x 6<sup>1</sup> + 4 x 6<sup>0</sup>
+    <br>
+    = 2 x 6<sup>4</sup>  +  5 x 6<sup>3</sup> + 0 x 6<sup>2</sup> + 2 x 6<sup>1</sup> + 4 x 1
+    </div>
+    <div class="col">
+    (ii)
+    <br>
+    <strong><i>4 3 2 1 0 – powers</i></strong>
+    <br>
+    1 0 1 1 0<sub>2</sub>
+    <br>
+    = 1 x 2<sup>4</sup> + 0 x 2<sup>3</sup> + 1 x 2<sup>2</sup> + 1 x 2<sup>1</sup> + 0 x 2<sup>0</sup>
+    <br>
+    = 1 x 2<sup>4</sup> + 0 x 2<sup>3</sup> + 1 x 2<sup>2</sup> + 1 x 2<sup>1</sup> + 0 x 1
+   </div>
+  </div>
+  </div>
+  <br>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (iii)
+    <br>
+    <strong><i>3 2 1 0 – powers</i></strong>
+     <br>
+     4 1 0 2<sub>5</sub>
+     <br>
+     = 4 x 5<sup>3</sup> + 1 x 5<sup>2</sup> + 0 x 5<sup>1</sup> + 2 x 5<sup>0</sup>
+     <br>
+     = 4 x 5<sup>3</sup> + 1 x 5<sup>2</sup> + 0 x 5<sup>1</sup> + 2 x 1
+    </div>
+    <div class="col">
+    (iv)
+    <br>
+    <strong><i>3 2 1 0 – powers</i></strong>
+    <br>Solution
+    2 3 8 9<sub>10</sub>
+    <br>
+    = 2 x 10<sup>3</sup> + 3 x 10<sup>2</sup> + 8 x 10<sup>1</sup> + 9 x 10<sup>0</sup>
+    <br>
+    = 2 x 10<sup>3</sup> + 3 x 10<sup>2</sup> + 8 x 10<sup>1</sup> + 9 x 1
+     </div>
+  </div>
+  </div>
+  <hr>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>Conversion from other Bases to Base Ten</h3>
+  </div>
+  <hr>
+  <strong>Steps;</strong>
+  <br>
+(i)	Expand the number bases in the powers of their bases.
+<br>
+(ii)	Sum up the results in step (i) above to get the conversion.
+<br>
+<br>
+<strong>Example 1</strong>
+<br>
+Convert the following bases to base ten (i) 11001<sub>2</sub> (ii) 2120<sub>3</sub> (iii) 231<sub>4</sub> (iv) 31<sub>8</sub>
+<br>
+<br>
+<strong>Solution</strong>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (i)
+    <br>
+    <strong><i>4 3 2 1 0 – powers</strong></i>
+    <br>
+    1 1 0 0 1<sub>2</sub>
+    <br>
+    = 1 x 2<sup>4</sup> + 1 x 2<sup>3</sup> + 0 x 2<sup>2</sup> + 0 x 2<sup>1</sup> + 1 x 2<sup>0</sup>
+    <br>
+     = 2<sup>4</sup> + 2<sup>3</sup> + 0 + 0 + 1 x 1
+     <br>
+     = 16 + 8 + 1
+     <br>
+    = 25
+    <br>
+    = 1 1 0 0 1<sub>2</sub> => <strong> 25 or 25<sub>10</sub></strong>
+    </div>
+    <div class="col">
+    (ii)
+    <br>
+    <strong><i>3 2 1 0 – powers </strong></i>
+    <br>
+    2 1 2 0<sub>3</sub>
+    <br>
+    = 2 x 3<sup>3</sup> + 1 x 3<sup>2</sup> + 2 x 3<sup>1</sup> + 0 x 3<sup>0</sup>
+    <br>
+    = 2 x 27 + 1 x 9 + 2 x 3 + 0 x 1
+    <br>
+    = 54 + 9 + 6 + 0
+    <br>
+    = 69
+    <br>
+    2 1 2 0<sub>3</sub> => <strong>69 or 69<sub>10</sub></strong> 
+    </div>
+  </div>
+  </div>
+  <br>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col border-right border-danger">
+    (iii)
+    <br>
+    <strong><i>2 1 0 – powers</strong></i>
+    <br>
+    2 3 1<sub>4</sub>
+    <br>
+    = 2 x 4<sup>2</sup> + 3 x 4<sup>1</sup> + 1 x 4<sup>0</sup>
+    <br>
+    = 2 x 16 + 3 x 4 + 1 x 1
+    <br>
+    = 32 + 12 + 1
+    <br>
+    = 45
+    <br>
+    2 3 1<sub>4</sub> => <strong>45 or 45<sub>10</sub></strong>
+    </div>
+    <div class="col">
+    (iv)
+    <br>
+    <strong><i>1 0 – powers </strong></i>
+    <br>
+    3 1<sub>8</sub>
+    <br>
+    = 3 x 8<sup>1</sup> + 1 x 8<sup>0</sup>
+    <br>
+    = 3 x 8 + 1 x 1
+    <br>
+    = 24 + 1
+    <br>
+    = 25
+    <br>
+    31<sub>8</sub> => 25 or 25<sub>10</sub>
+    </div>
+  </div>
+  </div>
+  <hr>
+  <div class="d-flex justify-content-center mt-3">
+  <h3 class='text-dark justify-content-center'>Conversion between Bases other than Base Ten</h3>
+  </div>
+  <hr>
+  <strong>Conversion between bases;</strong>
+  <br> 
+  This can be easily done by converting the first base to base ten, then to the desired base.
+<br>
+<br>
+<strong>Example 1</strong>
+<br>
+Convert 100110<sub>2</sub> to base eight.
+<br>
+<strong>Solution</strong>
+<br>
+<strong>First;</strong> convert 100110<sub>2</sub> to base ten;
+<br>
+<strong><i>5 4 3 2 1 0 – powers</strong></i>
+<br>
+1 0 0 1 1 0<sub>2</sub>
+<br>
+= 1 x 2<sup>5</sup> + 0 x 2<sup>4</sup> + 0 x 2<sup>3</sup> + 1 x 2<sup>2</sup> + 1 x 2<sup>1</sup> + 0 x 2<sup>0</sup>
+<br>
+= 2<sup>5</sup> + 0 + 0 + 2<sup>2</sup> + 2<sup>1</sup> + 0 x 1
+<br>
+= 32 + 4 + 2
+<br>
+= <strong>38 or 38<sub>10</sub></strong>
+<br>
+<strong>Then;</strong> convert 38<sub>10</sub> to base eight;
+ <br>
+ <%= image_tag 'Number-bases-conversion2.png', alt:'Number basesconversion2 image', class: 'carol' %>
+</article>
+<hr>
+<article>
+<div class="d-flex justify-content-start text-primary">
+<h5>Test your <strong class='text-secondary'>Number Bases</strong> knowledge with these Objective Questions.</h5>
+</div>
+<div class='obj-cont' >
+  <h6>1. Convert 20 to base five.</h6>
+ <div id='block-41' >
+    <label for='option-41' style=' padding: 5px;'>
+      <input type='radio' name='option' value='50<sub>5</sub>' id='option-41' style='transform: scale(1.2)'  />
+      50<sub>5</sub></label>
+    <span id='result-11'></span>
+  </div>
+ 
+
+  <div id='block-42'>
+    <label for='option-42' style='padding: 5px;'>
+      <input type='radio' name='option' value='28<sub>5</sub>' id='option-42' style='transform: scale(1.2)' />
+      28<sub>5</sub></label>
+    <span id='result-12'></span>
+  </div>
+  
+
+  <div id='block-43'>
+    <label for='option-43' style='padding: 5px;'>
+      <input type='radio' name='option' value='30<sub>5</sub>' id='option-43' style='transform: scale(1.2)' />
+      30<sub>5</sub></label>
+    <span id='result-13'></span>
+  </div>
+  
+
+  <div id='block-44'>
+    <label for='option-44' style=' padding: 5px;'>
+      <input type='radio' name='option' value='40<sub>5</sub>' id='option-44' style='transform: scale(1.2)' />
+      40<sub>5</sub></label>
+    <span id='result-14'></span>
+  </div>
+ 
+  <button type='button' class = "c-btn" onclick='displayAnswer4()'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer4() {
+    if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid red'
+      document.getElementById('result-11').style.color = 'red'
+      document.getElementById('result-11').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid red'
+      document.getElementById('result-12').style.color = 'red'
+      document.getElementById('result-12').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid red'
+      document.getElementById('result-13').style.color = 'red'
+      document.getElementById('result-13').innerHTML = 'Incorrect!'
+      showCorrectAnswer4()
+    }
+    if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-14').style.color = 'limegreen'
+      document.getElementById('result-14').innerHTML = 'Correct!'
+      showCorrectAnswer4()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer4() {
+    let showAnswer4 = document.createElement('p')
+    showAnswer4.innerHTML = 'Show Corrent Answer'
+    showAnswer4.style.position = 'relative'
+    showAnswer4.style.top = '-150px'
+    showAnswer4.style.fontSize = '1.5rem'
+    document.getElementById('showanswer4').appendChild(showAnswer4)
+    showAnswer4.addEventListener('click', () => {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-14').style.color = 'limegreen'
+      document.getElementById('result-14').innerHTML = 'Correct!'
+      document.getElementById('showanswer4').removeChild(showAnswer4)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>2.	Convert 10101<sub>2</sub> to base ten.</h6>
+ <div id='block-51' >
+    <label for='option-51' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='24' id='option-51' style='transform: scale(1.2)'  />
+      24</label>
+    <span id='result-21'></span>
+  </div>
+ 
+
+  <div id='block-52'>
+    <label for='option-52' style='padding: 5px;'>
+      <input type='radio' name='option1' value='17' id='option-52' style='transform: scale(1.2)' />
+      17</label>
+    <span id='result-22'></span>
+  </div>
+  
+
+  <div id='block-53'>
+    <label for='option-53' style='padding: 5px;'>
+      <input type='radio' name='option1' value='21' id='option-53' style='transform: scale(1.2)' />
+      21</label>
+    <span id='result-23'></span>
+  </div>
+  
+
+  <div id='block-54'>
+    <label for='option-54' style=' padding: 5px;'>
+      <input type='radio' name='option1' value='12' id='option-54' style='transform: scale(1.2)' />
+      12</label>
+    <span id='result-24'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer5()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer5() {
+    if (document.getElementById('option-51').checked) {
+      document.getElementById('block-51').style.border = '3px solid red'
+      document.getElementById('result-21').style.color = 'red'
+      document.getElementById('result-21').innerHTML = 'Incorrect!'
+    }
+    if (document.getElementById('option-52').checked) {
+      document.getElementById('block-52').style.border = '3px solid red'
+      document.getElementById('result-22').style.color = 'red'
+      document.getElementById('result-22').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+    if (document.getElementById('option-53').checked) {
+      document.getElementById('block-53').style.border = '3px solid limegreen'
+      document.getElementById('result-23').style.color = 'limegreen'
+      document.getElementById('result-23').innerHTML = 'Correct!'
+      showCorrectAnswer5()
+    }
+    if (document.getElementById('option-54').checked) {
+      document.getElementById('block-54').style.border = '3px solid red'
+      document.getElementById('result-24').style.color = 'red'
+      document.getElementById('result-24').innerHTML = 'Incorrect!'
+      showCorrectAnswer5()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer5() {
+    let showAnswer5 = document.createElement('p')
+    showAnswer5.innerHTML = 'Show Corrent Answer'
+    showAnswer5.style.position = 'relative'
+    showAnswer5.style.top = '-150px'
+    showAnswer5.style.fontSize = '1.5rem'
+    document.getElementById('showanswer5').appendChild(showAnswer5)
+    showAnswer2.addEventListener('click', () => {
+      document.getElementById('block-51').style.border = '3px solid limegreen'
+      document.getElementById('result-21').style.color = 'limegreen'
+      document.getElementById('result-21').innerHTML = 'Correct!'
+      document.getElementById('showanswer5').removeChild(showAnswer5)
+    })
+  }
+</script>
+</article>
+<hr>
+<article>
+<div class='obj-cont'>
+  <h6>3.	Convert 11011<sub>2</sub> to base four</h6>
+ <div id='block-61' >
+    <label for='option-61' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='123<sub>4</sub>' id='option-61' style='transform: scale(1.2)'  />
+      123<sub>4</sub></label>
+    <span id='result-31'></span>
+  </div>
+ 
+
+  <div id='block-62'>
+    <label for='option-62' style='padding: 5px;'>
+      <input type='radio' name='option2' value='162<sub>4</sub>' id='option-62' style='transform: scale(1.2)' />
+      162<sub>4</sub></label>
+    <span id='result-32'></span>
+  </div>
+  
+
+  <div id='block-63'>
+    <label for='option-63' style='padding: 5px;'>
+      <input type='radio' name='option2' value='112<sub>4</sub>' id='option-63' style='transform: scale(1.2)' />
+      112<sub>4</sub></label>
+    <span id='result-33'></span>
+  </div>
+  
+
+  <div id='block-64'>
+    <label for='option-64' style=' padding: 5px;'>
+      <input type='radio' name='option2' value='142<sub>4</sub>' id='option-64' style='transform: scale(1.2)' />
+      142<sub>4</sub></label>
+    <span id='result-34'></span>
+  </div>
+ 
+  <button type='button' onclick='displayAnswer6()' class='c-btn'>Submit</button>
+</div>
+
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer6() {
+    if (document.getElementById('option-61').checked) {
+      document.getElementById('block-61').style.border = '3px solid limegreen '
+      document.getElementById('result-31').style.color = 'limegreen'
+      document.getElementById('result-31').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-62').checked) {
+      document.getElementById('block-62').style.border = '3px solid red'
+      document.getElementById('result-32').style.color = 'red'
+      document.getElementById('result-32').innerHTML = 'Incorrect!'
+      showCorrectAnswer6()
+    }
+    if (document.getElementById('option-63').checked) {
+      document.getElementById('block-63').style.border = '3px solid red'
+      document.getElementById('result-33').style.color = 'red'
+      document.getElementById('result-33').innerHTML = 'Incorrect!'
+      showCorrectAnswer3()
+    }
+    if (document.getElementById('option-64').checked) {
+      document.getElementById('block-64').style.border = '3px solid red'
+      document.getElementById('result-34').style.color = 'red'
+      document.getElementById('result-34').innerHTML = 'Incorrect!'
+      showCorrectAnswer6()
+    }
+  }
+  // the functon displays the link to the correct answer
+  function showCorrectAnswer6() {
+    let showAnswer6 = document.createElement('p')
+    showAnswer6.innerHTML = 'Show Corrent Answer'
+    showAnswer6.style.position = 'relative'
+    showAnswer6.style.top = '-150px'
+    showAnswer6.style.fontSize = '1.5rem'
+    document.getElementById('showanswer6').appendChild(showAnswer6)
+    showAnswer6.addEventListener('click', () => {
+      document.getElementById('block-61').style.border = '3px solid limegreen'
+      document.getElementById('result-31').style.color = 'limegreen'
+      document.getElementById('result-31').innerHTML = 'Correct!'
+      document.getElementById('showanswer6').removeChild(showAnswer6)
+    })
+  }
+</script>
+</article>
+</div>
+  </div>
+  <div class="col-md-2 justify-content-center mt-1">
+ <%= render 'layouts/sideadvert' %>
+  </div>
+</div>
+<hr>
+<nav class="nav nav-pills nav-fill nav-small">
+<button class='ml-3'>
+<%= link_to "Prev>>", page17_path, class:'h3' %>
+  </button>
+<a class="nav-item nav-link" href="#"></a>
+  <a class="nav-item nav-link" href="#"></a>
+<button class='mr-2 ml-3'>
+<%= link_to "Next>>", page19_path, class:'h3' %>
+</button>
+</nav>
+<hr>
+<%= render 'layouts/footer' %>
+</div>

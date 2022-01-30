@@ -25,6 +25,8 @@ Rails.application.routes.draw do
  get 'page15', to: 'mathematics#page15', as: 'page15'
  get 'page16', to: 'mathematics#page16', as: 'page16'
  get 'page17', to: 'mathematics#page17', as: 'page17'
+ get 'page18', to: 'mathematics#page18', as: 'page18'
+ get 'page19', to: 'mathematics#page19', as: 'page19'
  root to: 'mathematics#index'
 devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.

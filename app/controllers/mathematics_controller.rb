@@ -39,5 +39,9 @@ class MathematicsController < ApplicationController
   end
   def page17
   end
+  def page18
+  end
+  def page19
+  end
 end
 
