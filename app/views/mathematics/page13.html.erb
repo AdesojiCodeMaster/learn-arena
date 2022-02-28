@@ -477,7 +477,7 @@ Find the value of x that will satisfy the following inequalities;
 <hr>
 <article>
 <div class='obj-cont'>
-  <h6>Write the value of inequality shown in the graph;<%= image_tag 'question-inequality.png', alt: "inequality graph question", class: 'carol' %></h6>
+  <h6>3. Write the value of inequality shown in the graph;<%= image_tag 'question-inequality.png', alt: "inequality graph question", class: 'carol' %></h6>
  <div id='block-31' >
     <label for='option-31' style=' padding: 5px;'>
       <input type='radio' name='option2' value=' ≤ ─2' id='option-31' style='transform: scale(1.2)'  />
@@ -1296,7 +1296,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-61' style=' padding: 5px;'>
       <input type='radio' name='option' value='x < 2' id='option-61' style='transform: scale(1.2)'  />
       x < 2</label>
-    <span id='result-11'></span>
+    <span id='result-61'></span>
   </div>
  
 
@@ -1304,7 +1304,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-62' style='padding: 5px;'>
       <input type='radio' name='option' value='x < 8' id='option-62' style='transform: scale(1.2)' />
       x < 8</label>
-    <span id='result-12'></span>
+    <span id='result-62'></span>
   </div>
   
 
@@ -1312,7 +1312,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-63' style='padding: 5px;'>
       <input type='radio' name='option' value='x > 2' id='option-63' style='transform: scale(1.2)' />
       x > 2</label>
-    <span id='result-13'></span>
+    <span id='result-63'></span>
   </div>
   
 
@@ -1320,7 +1320,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-64' style=' padding: 5px;'>
       <input type='radio' name='option' value='x > 8' id='option-64' style='transform: scale(1.2)' />
       x > 8</label>
-    <span id='result-14'></span>
+    <span id='result-64'></span>
   </div>
  
   <button type='button' class = "c-btn" onclick='displayAnswer1()'>Submit</button>
@@ -1331,25 +1331,25 @@ Find the value of x that will satisfy the following inequalities;
   function displayAnswer1() {
     if (document.getElementById('option-61').checked) {
       document.getElementById('block-61').style.border = '3px solid red'
-      document.getElementById('result-11').style.color = 'red'
-      document.getElementById('result-11').innerHTML = 'Incorrect!'
+      document.getElementById('result-61').style.color = 'red'
+      document.getElementById('result-61').innerHTML = 'Incorrect!'
     }
     if (document.getElementById('option-62').checked) {
       document.getElementById('block-62').style.border = '3px solid red'
-      document.getElementById('result-12').style.color = 'red'
-      document.getElementById('result-12').innerHTML = 'Incorrect!'
+      document.getElementById('result-62').style.color = 'red'
+      document.getElementById('result-62').innerHTML = 'Incorrect!'
       showCorrectAnswer1()
     }
     if (document.getElementById('option-63').checked) {
       document.getElementById('block-63').style.border = '3px solid limegreen'
-      document.getElementById('result-13').style.color = 'limegreen'
-      document.getElementById('result-13').innerHTML = 'Correct!'
+      document.getElementById('result-63').style.color = 'limegreen'
+      document.getElementById('result-63').innerHTML = 'Correct!'
       showCorrectAnswer1()
     }
     if (document.getElementById('option-64').checked) {
       document.getElementById('block-64').style.border = '3px solid red'
-      document.getElementById('result-14').style.color = 'red'
-      document.getElementById('result-14').innerHTML = 'Incorrect!'
+      document.getElementById('result-64').style.color = 'red'
+      document.getElementById('result-64').innerHTML = 'Incorrect!'
       showCorrectAnswer1()
     }
   }
@@ -1363,8 +1363,8 @@ Find the value of x that will satisfy the following inequalities;
     document.getElementById('showanswer1').appendChild(showAnswer1)
     showAnswer1.addEventListener('click', () => {
       document.getElementById('block-63').style.border = '3px solid limegreen'
-      document.getElementById('result-13').style.color = 'limegreen'
-      document.getElementById('result-13').innerHTML = 'Correct!'
+      document.getElementById('result-63').style.color = 'limegreen'
+      document.getElementById('result-63').innerHTML = 'Correct!'
       document.getElementById('showanswer1').removeChild(showAnswer1)
     })
   }
@@ -1378,7 +1378,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-71' style=' padding: 5px;'>
       <input type='radio' name='option1' value='x < 200' id='option-71' style='transform: scale(1.2)'  />
       x < 200</label>
-    <span id='result-21'></span>
+    <span id='result-71'></span>
   </div>
  
 
@@ -1386,7 +1386,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-72' style='padding: 5px;'>
       <input type='radio' name='option1' value='x > 200' id='option-72' style='transform: scale(1.2)' />
       x > 200</label>
-    <span id='result-22'></span>
+    <span id='result-72'></span>
   </div>
   
 
@@ -1394,7 +1394,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-73' style='padding: 5px;'>
       <input type='radio' name='option1' value='x ≤ 200' id='option-73' style='transform: scale(1.2)' />
       x ≤ 200</label>
-    <span id='result-23'></span>
+    <span id='result-73'></span>
   </div>
   
 
@@ -1402,7 +1402,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-74' style=' padding: 5px;'>
       <input type='radio' name='option1' value='x ≥ 200' id='option-74' style='transform: scale(1.2)' />
       x ≥ 200</label>
-    <span id='result-24'></span>
+    <span id='result-74'></span>
   </div>
  
   <button type='button' onclick='displayAnswer2()' class='c-btn'>Submit</button>
@@ -1413,25 +1413,25 @@ Find the value of x that will satisfy the following inequalities;
   function displayAnswer2() {
     if (document.getElementById('option-71').checked) {
       document.getElementById('block-71').style.border = '3px solid red'
-      document.getElementById('result-21').style.color = 'red'
-      document.getElementById('result-21').innerHTML = 'Incorrect!'
+      document.getElementById('result-71').style.color = 'red'
+      document.getElementById('result-71').innerHTML = 'Incorrect!'
     }
     if (document.getElementById('option-72').checked) {
       document.getElementById('block-72').style.border = '3px solid limegreen'
-      document.getElementById('result-22').style.color = 'limegreen'
-      document.getElementById('result-22').innerHTML = 'Correct!'
+      document.getElementById('result-72').style.color = 'limegreen'
+      document.getElementById('result-72').innerHTML = 'Correct!'
       showCorrectAnswer2()
     }
     if (document.getElementById('option-73').checked) {
       document.getElementById('block-73').style.border = '3px solid red'
-      document.getElementById('result-23').style.color = 'red'
-      document.getElementById('result-23').innerHTML = 'Incorrect!'
+      document.getElementById('result-73').style.color = 'red'
+      document.getElementById('result-73').innerHTML = 'Incorrect!'
       showCorrectAnswer2()
     }
     if (document.getElementById('option-74').checked) {
       document.getElementById('block-74').style.border = '3px solid red'
-      document.getElementById('result-24').style.color = 'red'
-      document.getElementById('result-24').innerHTML = 'Incorrect!'
+      document.getElementById('result-74').style.color = 'red'
+      document.getElementById('result-74').innerHTML = 'Incorrect!'
       showCorrectAnswer2()
     }
   }
@@ -1445,8 +1445,8 @@ Find the value of x that will satisfy the following inequalities;
     document.getElementById('showanswer2').appendChild(showAnswer2)
     showAnswer2.addEventListener('click', () => {
       document.getElementById('block-72').style.border = '3px solid limegreen'
-      document.getElementById('result-22').style.color = 'limegreen'
-      document.getElementById('result-22').innerHTML = 'Correct!'
+      document.getElementById('result-72').style.color = 'limegreen'
+      document.getElementById('result-72').innerHTML = 'Correct!'
       document.getElementById('showanswer2').removeChild(showAnswer2)
     })
   }
@@ -1455,12 +1455,12 @@ Find the value of x that will satisfy the following inequalities;
 <hr>
 <article>
 <div class='obj-cont'>
-  <h6>Write the value of inequality shown in the graph;<%= image_tag 'question-inequality.png', alt: "inequality graph question", class: 'carol' %></h6>
+  <h6>3. Write the value of inequality shown in the graph;<%= image_tag 'question-inequality.png', alt: "inequality graph question", class: 'carol' %></h6>
  <div id='block-81' >
     <label for='option-81' style=' padding: 5px;'>
       <input type='radio' name='option2' value=' ≤ ─2' id='option-81' style='transform: scale(1.2)'  />
       x ≤ ─2</label>
-    <span id='result-31'></span>
+    <span id='result-81'></span>
   </div>
  
 
@@ -1468,7 +1468,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-82' style='padding: 5px;'>
       <input type='radio' name='option2' value='x < ─2' id='option-82' style='transform: scale(1.2)' />
       x < ─2</label>
-    <span id='result-32'></span>
+    <span id='result-82'></span>
   </div>
   
 
@@ -1476,7 +1476,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-83' style='padding: 5px;'>
       <input type='radio' name='option2' value='x > 2' id='option-83' style='transform: scale(1.2)' />
       x > 2</label>
-    <span id='result-33'></span>
+    <span id='result-83'></span>
   </div>
   
 
@@ -1484,7 +1484,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-84' style=' padding: 5px;'>
       <input type='radio' name='option2' value='x ≥ −2' id='option-84' style='transform: scale(1.2)' />
       x ≥ −2</label>
-    <span id='result-34'></span>
+    <span id='result-84'></span>
   </div>
  
   <button type='button' onclick='displayAnswer3()' class='c-btn'>Submit</button>
@@ -1495,25 +1495,25 @@ Find the value of x that will satisfy the following inequalities;
   function displayAnswer3() {
     if (document.getElementById('option-81').checked) {
       document.getElementById('block-81').style.border = '3px solid limegreen'
-      document.getElementById('result-31').style.color = 'limegreen'
-      document.getElementById('result-31').innerHTML = 'Correct!'
+      document.getElementById('result-81').style.color = 'limegreen'
+      document.getElementById('result-81').innerHTML = 'Correct!'
     }
     if (document.getElementById('option-82').checked) {
       document.getElementById('block-82').style.border = '3px solid red'
-      document.getElementById('result-32').style.color = 'red'
-      document.getElementById('result-32').innerHTML = 'Incorrect!'
+      document.getElementById('result-82').style.color = 'red'
+      document.getElementById('result-82').innerHTML = 'Incorrect!'
       showCorrectAnswer3()
     }
     if (document.getElementById('option-83').checked) {
       document.getElementById('block-83').style.border = '3px solid red'
-      document.getElementById('result-33').style.color = 'red'
-      document.getElementById('result-33').innerHTML = 'Incorrect!'
+      document.getElementById('result-83').style.color = 'red'
+      document.getElementById('result-83').innerHTML = 'Incorrect!'
       showCorrectAnswer3()
     }
     if (document.getElementById('option-84').checked) {
       document.getElementById('block-84').style.border = '3px solid red'
-      document.getElementById('result-34').style.color = 'red'
-      document.getElementById('result-34').innerHTML = 'Incorrect!'
+      document.getElementById('result-84').style.color = 'red'
+      document.getElementById('result-84').innerHTML = 'Incorrect!'
       showCorrectAnswer3()
     }
   }
@@ -1527,8 +1527,8 @@ Find the value of x that will satisfy the following inequalities;
     document.getElementById('showanswer3').appendChild(showAnswer2)
     showAnswer3.addEventListener('click', () => {
       document.getElementById('block-81').style.border = '3px solid limegreen'
-      document.getElementById('result-31').style.color = 'limegreen'
-      document.getElementById('result-31').innerHTML = 'Correct!'
+      document.getElementById('result-81').style.color = 'limegreen'
+      document.getElementById('result-81').innerHTML = 'Correct!'
       document.getElementById('showanswer3').removeChild(showAnswer3)
     })
   }
@@ -1542,7 +1542,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-91' style=' padding: 5px;'>
       <input type='radio' name='option3' value='s < 80' id='option-91' style='transform: scale(1.2)'  />
       s < 80</label>
-    <span id='result-41'></span>
+    <span id='result-91'></span>
   </div>
  
 
@@ -1550,7 +1550,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-92' style='padding: 5px;'>
       <input type='radio' name='option3' value='s > 80' id='option-92' style='transform: scale(1.2)' />
       s > 80</label>
-    <span id='result-42'></span>
+    <span id='result-92'></span>
   </div>
   
 
@@ -1558,7 +1558,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-93' style='padding: 5px;'>
       <input type='radio' name='option3' value='s ≤ 80' id='option-93' style='transform: scale(1.2)' />
       s ≤ 80</label>
-    <span id='result-43'></span>
+    <span id='result-93'></span>
   </div>
   
 
@@ -1566,7 +1566,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-94' style=' padding: 5px;'>
       <input type='radio' name='option3' value='s ≥ 80' id='option-94' style='transform: scale(1.2)' />
       s ≥ 80</label>
-    <span id='result-44'></span>
+    <span id='result-94'></span>
   </div>
  
   <button type='button' onclick='displayAnswer4()' class='c-btn'>Submit</button>
@@ -1577,25 +1577,25 @@ Find the value of x that will satisfy the following inequalities;
   function displayAnswer4() {
     if (document.getElementById('option-91').checked) {
       document.getElementById('block-91').style.border = '3px solid red'
-      document.getElementById('result-41').style.color = 'red'
-      document.getElementById('result-41').innerHTML = 'Incorrect!'
+      document.getElementById('result-91').style.color = 'red'
+      document.getElementById('result-91').innerHTML = 'Incorrect!'
     }
     if (document.getElementById('option-92').checked) {
       document.getElementById('block-92').style.border = '3px solid red' 
-      document.getElementById('result-42').style.color = 'red'
-      document.getElementById('result-42').innerHTML = 'Incorrect!'
+      document.getElementById('result-92').style.color = 'red'
+      document.getElementById('result-92').innerHTML = 'Incorrect!'
       showCorrectAnswer4()
     }
     if (document.getElementById('option-93').checked) {
       document.getElementById('block-93').style.border = '3px solid red'
-      document.getElementById('result-43').style.color = 'red'
-      document.getElementById('result-43').innerHTML = 'Incorrect!'
+      document.getElementById('result-93').style.color = 'red'
+      document.getElementById('result-93').innerHTML = 'Incorrect!'
       showCorrectAnswer4()
     }
     if (document.getElementById('option-94').checked) {
       document.getElementById('block-94').style.border = '3px solid limegreen'
-      document.getElementById('result-44').style.color = 'limegreen'
-      document.getElementById('result-44').innerHTML = 'Correct!'
+      document.getElementById('result-94').style.color = 'limegreen'
+      document.getElementById('result-94').innerHTML = 'Correct!'
       showCorrectAnswer4()
     }
   }
@@ -1609,8 +1609,8 @@ Find the value of x that will satisfy the following inequalities;
     document.getElementById('showanswer3').appendChild(showAnswer4)
     showAnswer4.addEventListener('click', () => {
       document.getElementById('block-94').style.border = '3px solid limegreen'
-      document.getElementById('result-44').style.color = 'limegreen'
-      document.getElementById('result-44').innerHTML = 'Correct!'
+      document.getElementById('result-94').style.color = 'limegreen'
+      document.getElementById('result-94').innerHTML = 'Correct!'
       document.getElementById('showanswer4').removeChild(showAnswer4)
     })
   }
@@ -1624,7 +1624,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-101' style=' padding: 5px;'>
       <input type='radio' name='option4' value='x ≥ 3' id='option-101' style='transform: scale(1.2)'  />
       x ≥ 3</label>
-    <span id='result-51'></span>
+    <span id='result-101'></span>
   </div>
  
 
@@ -1632,7 +1632,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-102' style='padding: 5px;'>
       <input type='radio' name='option4' value='x ≤ 3' id='option-102' style='transform: scale(1.2)' />
       x ≤ 3</label>
-    <span id='result-52'></span>
+    <span id='result-102'></span>
   </div>
   
 
@@ -1640,7 +1640,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-103' style='padding: 5px;'>
       <input type='radio' name='option4' value='x < 3' id='option-103' style='transform: scale(1.2)' />
       x < 3</label>
-    <span id='result-53'></span>
+    <span id='result-103'></span>
   </div>
   
 
@@ -1648,7 +1648,7 @@ Find the value of x that will satisfy the following inequalities;
     <label for='option-104' style=' padding: 5px;'>
       <input type='radio' name='option4' value='x > 9' id='option-104' style='transform: scale(1.2)' />
       x > 9</label>
-    <span id='result-54'></span>
+    <span id='result-104'></span>
   </div>
  
   <button type='button' onclick='displayAnswer5()' class='c-btn'>Submit</button>
@@ -1659,25 +1659,25 @@ Find the value of x that will satisfy the following inequalities;
   function displayAnswer5() {
     if (document.getElementById('option-101').checked) {
       document.getElementById('block-101').style.border = '3px solid red'
-      document.getElementById('result-51').style.color = 'red'
-      document.getElementById('result-51').innerHTML = 'Incorrect!'
+      document.getElementById('result-101').style.color = 'red'
+      document.getElementById('result-101').innerHTML = 'Incorrect!'
     }
     if (document.getElementById('option-102').checked) {
       document.getElementById('block-102').style.border = '3px solid limegreen'
-      document.getElementById('result-52').style.color = 'limegreen'
-      document.getElementById('result-52').innerHTML = 'Correct!'
+      document.getElementById('result-102').style.color = 'limegreen'
+      document.getElementById('result-102').innerHTML = 'Correct!'
       showCorrectAnswer5()
     }
     if (document.getElementById('option-103').checked) {
       document.getElementById('block-103').style.border = '3px solid red'
-      document.getElementById('result-53').style.color = 'red'
-      document.getElementById('result-53').innerHTML = 'Incorrect!'
+      document.getElementById('result-103').style.color = 'red'
+      document.getElementById('result-103').innerHTML = 'Incorrect!'
       showCorrectAnswer5()
     }
     if (document.getElementById('option-104').checked) {
       document.getElementById('block-104').style.border = '3px solid red'
-      document.getElementById('result-54').style.color = 'red'
-      document.getElementById('result-54').innerHTML = 'Incorrect!'
+      document.getElementById('result-104').style.color = 'red'
+      document.getElementById('result-104').innerHTML = 'Incorrect!'
       showCorrectAnswer5()
     }
   }
@@ -1691,8 +1691,8 @@ Find the value of x that will satisfy the following inequalities;
     document.getElementById('showanswer5').appendChild(showAnswer5)
     showAnswer5.addEventListener('click', () => {
       document.getElementById('block-102').style.border = '3px solid limegreen'
-      document.getElementById('result-52').style.color = 'limegreen'
-      document.getElementById('result-52').innerHTML = 'Correct!'
+      document.getElementById('result-102').style.color = 'limegreen'
+      document.getElementById('result-102').innerHTML = 'Correct!'
       document.getElementById('showanswer5').removeChild(showAnswer5)
     })
   }

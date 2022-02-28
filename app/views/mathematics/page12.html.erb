@@ -908,7 +908,7 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
     <label for='option-31' style=' padding: 5px;'>
       <input type='radio' name='option' value='$2500' id='option-31' style='transform: scale(1.2)'  />
       $2500</label>
-    <span id='result-11'></span>
+    <span id='result-31'></span>
   </div>
  
 
@@ -916,7 +916,7 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
     <label for='option-32' style='padding: 5px;'>
       <input type='radio' name='option' value='$210' id='option-32' style='transform: scale(1.2)' />
       $210</label>
-    <span id='result-12'></span>
+    <span id='result-32'></span>
   </div>
   
 
@@ -924,7 +924,7 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
     <label for='option-33' style='padding: 5px;'>
       <input type='radio' name='option' value='$200' id='option-33' style='transform: scale(1.2)' />
       $200</label>
-    <span id='result-13'></span>
+    <span id='result-33'></span>
   </div>
   
 
@@ -932,7 +932,7 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
     <label for='option-34' style=' padding: 5px;'>
       <input type='radio' name='option' value='$2400' id='option-34' style='transform: scale(1.2)' />
       $2400</label>
-    <span id='result-14'></span>
+    <span id='result-34'></span>
   </div>
  
   <button type='button' class = "c-btn" onclick='displayAnswer3()'>Submit</button>
@@ -943,25 +943,25 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
   function displayAnswer3() {
     if (document.getElementById('option-31').checked) {
       document.getElementById('block-31').style.border = '3px solid red'
-      document.getElementById('result-11').style.color = 'red'
-      document.getElementById('result-11').innerHTML = 'Incorrect!'
+      document.getElementById('result-31').style.color = 'red'
+      document.getElementById('result-31').innerHTML = 'Incorrect!'
     }
     if (document.getElementById('option-32').checked) {
       document.getElementById('block-32').style.border = '3px solid red'
-      document.getElementById('result-12').style.color = 'red'
-      document.getElementById('result-12').innerHTML = 'Incorrect!'
+      document.getElementById('result-32').style.color = 'red'
+      document.getElementById('result-32').innerHTML = 'Incorrect!'
       showCorrectAnswer3()
     }
     if (document.getElementById('option-33').checked) {
       document.getElementById('block-33').style.border = '3px solid red'
-      document.getElementById('result-13').style.color = 'red'
-      document.getElementById('result-13').innerHTML = 'Incorrect!'
+      document.getElementById('result-33').style.color = 'red'
+      document.getElementById('result-33').innerHTML = 'Incorrect!'
       showCorrectAnswer3()
     }
     if (document.getElementById('option-34').checked) {
       document.getElementById('block-34').style.border = '3px solid limegreen'
-      document.getElementById('result-14').style.color = 'limegreen'
-      document.getElementById('result-14').innerHTML = 'Correct!'
+      document.getElementById('result-34').style.color = 'limegreen'
+      document.getElementById('result-34').innerHTML = 'Correct!'
       showCorrectAnswer3()
     }
   }
@@ -975,8 +975,8 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
     document.getElementById('showanswer3').appendChild(showAnswer3)
     showAnswer3.addEventListener('click', () => {
       document.getElementById('block-34').style.border = '3px solid limegreen'
-      document.getElementById('result-14').style.color = 'limegreen'
-      document.getElementById('result-14').innerHTML = 'Correct!'
+      document.getElementById('result-34').style.color = 'limegreen'
+      document.getElementById('result-34').innerHTML = 'Correct!'
       document.getElementById('showanswer3').removeChild(showAnswer3)
     })
   }
@@ -990,7 +990,7 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
     <label for='option-41' style=' padding: 5px;'>
       <input type='radio' name='option1' value='7.5kg' id='option-41' style='transform: scale(1.2)'  />
       7.5kg</label>
-    <span id='result-21'></span>
+    <span id='result-41'></span>
   </div>
  
 
@@ -998,7 +998,7 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
     <label for='option-42' style='padding: 5px;'>
       <input type='radio' name='option1' value='6.5kg' id='option-42' style='transform: scale(1.2)' />
       6.5kg</label>
-    <span id='result-22'></span>
+    <span id='result-42'></span>
   </div>
   
 
@@ -1006,7 +1006,7 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
     <label for='option-43' style='padding: 5px;'>
       <input type='radio' name='option1' value='7kg' id='option-43' style='transform: scale(1.2)' />
       7kg</label>
-    <span id='result-23'></span>
+    <span id='result-43'></span>
   </div>
   
 
@@ -1014,7 +1014,7 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
     <label for='option-24' style=' padding: 5px;'>
       <input type='radio' name='option1' value='9kg' id='option-44' style='transform: scale(1.2)' />
       9kg</label>
-    <span id='result-24'></span>
+    <span id='result-44'></span>
   </div>
  
   <button type='button' onclick='displayAnswer4()' class='c-btn'>Submit</button>
@@ -1025,25 +1025,25 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
   function displayAnswer4() {
     if (document.getElementById('option-41').checked) {
       document.getElementById('block-41').style.border = '3px solid red'
-      document.getElementById('result-21').style.color = 'red'
-      document.getElementById('result-21').innerHTML = 'Incorrect!'
+      document.getElementById('result-41').style.color = 'red'
+      document.getElementById('result-41').innerHTML = 'Incorrect!'
     }
     if (document.getElementById('option-42').checked) {
       document.getElementById('block-42').style.border = '3px solid limegreen'
-      document.getElementById('result-22').style.color = 'limegreen'
-      document.getElementById('result-22').innerHTML = 'Correct!'
+      document.getElementById('result-42').style.color = 'limegreen'
+      document.getElementById('result-42').innerHTML = 'Correct!'
       showCorrectAnswer4()
     }
     if (document.getElementById('option-43').checked) {
       document.getElementById('block-43').style.border = '3px solid red'
-      document.getElementById('result-23').style.color = 'red'
-      document.getElementById('result-23').innerHTML = 'Incorrect!'
+      document.getElementById('result-43').style.color = 'red'
+      document.getElementById('result-43').innerHTML = 'Incorrect!'
       showCorrectAnswer4()
     }
     if (document.getElementById('option-44').checked) {
       document.getElementById('block-44').style.border = '3px solid red'
-      document.getElementById('result-24').style.color = 'red'
-      document.getElementById('result-24').innerHTML = 'Incorrect!'
+      document.getElementById('result-44').style.color = 'red'
+      document.getElementById('result-44').innerHTML = 'Incorrect!'
       showCorrectAnswer4()
     }
   }
@@ -1057,8 +1057,8 @@ Gold costs $120 per kg. Use a suitable scale and draw a graph for the cost of go
     document.getElementById('showanswer4').appendChild(showAnswer4)
     showAnswer4.addEventListener('click', () => {
       document.getElementById('block-42').style.border = '3px solid limegreen'
-      document.getElementById('result-22').style.color = 'limegreen'
-      document.getElementById('result-22').innerHTML = 'Correct!'
+      document.getElementById('result-42').style.color = 'limegreen'
+      document.getElementById('result-42').innerHTML = 'Correct!'
       document.getElementById('showanswer4').removeChild(showAnswer4)
     })
   }

@@ -755,7 +755,7 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
       <label for='option-41' style=' padding: 5px;'>
         <input type='radio' name='option' value='1' id='option-41' style='transform: scale(1.2)'  />
         1</label>
-      <span id='result-11'></span>
+      <span id='result-41'></span>
     </div>
    
   
@@ -763,7 +763,7 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
       <label for='option-42' style='padding: 5px;'>
         <input type='radio' name='option' value='<sup>1</sup>&frasl;<sub>2</sub>' id='option-42' style='transform: scale(1.2)' />
         <sup>1</sup>&frasl;<sub>2</sub></label>
-      <span id='result-12'></span>
+      <span id='result-42'></span>
     </div>
     
   
@@ -771,7 +771,7 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
       <label for='option-43' style='padding: 5px;'>
         <input type='radio' name='option' value='0' id='option-43' style='transform: scale(1.2)' />
       0</label>
-      <span id='result-13'></span>
+      <span id='result-43'></span>
     </div>
     
   
@@ -779,7 +779,7 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
       <label for='option-44' style=' padding: 5px;'>
         <input type='radio' name='option' value='-1' id='option-44' style='transform: scale(1.2)' />
         -1</label>
-      <span id='result-14'></span>
+      <span id='result-44'></span>
     </div>
    
     <button type='button' class = "c-btn" onclick='displayAnswer4()'>Submit</button>
@@ -790,25 +790,25 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
     function displayAnswer4() {
       if (document.getElementById('option-41').checked) {
         document.getElementById('block-41').style.border = '3px solid red'
-        document.getElementById('result-11').style.color = 'red'
-        document.getElementById('result-11').innerHTML = 'Incorrect!'
+        document.getElementById('result-41').style.color = 'red'
+        document.getElementById('result-41').innerHTML = 'Incorrect!'
       }
       if (document.getElementById('option-42').checked) {
         document.getElementById('block-42').style.border = '3px solid red'
-        document.getElementById('result-12').style.color = 'red'
-        document.getElementById('result-12').innerHTML = 'Incorrect!'
+        document.getElementById('result-42').style.color = 'red'
+        document.getElementById('result-42').innerHTML = 'Incorrect!'
         showCorrectAnswer4()
       }
       if (document.getElementById('option-43').checked) {
         document.getElementById('block-43').style.border = '3px solid limegreen'
-        document.getElementById('result-13').style.color = 'limegreen'
-        document.getElementById('result-13').innerHTML = 'Correct!'
+        document.getElementById('result-43').style.color = 'limegreen'
+        document.getElementById('result-43').innerHTML = 'Correct!'
         showCorrectAnswer4()
       }
       if (document.getElementById('option-44').checked) {
         document.getElementById('block-44').style.border = '3px solid red'
-        document.getElementById('result-14').style.color = 'red'
-        document.getElementById('result-14').innerHTML = 'Incorrect!'
+        document.getElementById('result-44').style.color = 'red'
+        document.getElementById('result-44').innerHTML = 'Incorrect!'
         showCorrectAnswer4()
       }
     }
@@ -822,8 +822,8 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
       document.getElementById('showanswer4').appendChild(showAnswer4)
       showAnswer4.addEventListener('click', () => {
         document.getElementById('block-43').style.border = '3px solid limegreen'
-        document.getElementById('result-13').style.color = 'limegreen'
-        document.getElementById('result-13').innerHTML = 'Correct!'
+        document.getElementById('result-43').style.color = 'limegreen'
+        document.getElementById('result-43').innerHTML = 'Correct!'
         document.getElementById('showanswer4').removeChild(showAnswer4)
       })
     }
@@ -837,7 +837,7 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
       <label for='option-51' style=' padding: 5px;'>
         <input type='radio' name='option1' value='<sup>3</sup>&frasl;<sub>5</sub>' id='option-51' style='transform: scale(1.2)'  />
         <sup>3</sup>&frasl;<sub>5</sub></label>
-      <span id='result-21'></span>
+      <span id='result-51'></span>
     </div>
    
   
@@ -845,7 +845,7 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
       <label for='option-52' style='padding: 5px;'>
         <input type='radio' name='option1' value='<sup>2</sup>&frasl;<sub>5</sub>' id='option-52' style='transform: scale(1.2)' />
         <sup>2</sup>&frasl;<sub>5</sub></label>
-      <span id='result-22'></span>
+      <span id='result-52'></span>
     </div>
     
   
@@ -853,7 +853,7 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
       <label for='option-53' style='padding: 5px;'>
         <input type='radio' name='option1' value='1' id='option-53' style='transform: scale(1.2)' />
         1</label>
-      <span id='result-23'></span>
+      <span id='result-53'></span>
     </div>
     
   
@@ -861,7 +861,7 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
       <label for='option-54' style=' padding: 5px;'>
         <input type='radio' name='option1' value='<sup>4</sup>&frasl;<sub>5</sub>' id='option-54' style='transform: scale(1.2)' />
         <sup>4</sup>&frasl;<sub>5</sub></label>
-      <span id='result-24'></span>
+      <span id='result-54'></span>
     </div>
    
     <button type='button' onclick='displayAnswer5()' class='c-btn'>Submit</button>
@@ -872,25 +872,25 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
     function displayAnswer5() {
       if (document.getElementById('option-51').checked) {
         document.getElementById('block-51').style.border = '3px solid red'
-        document.getElementById('result-21').style.color = 'red'
-        document.getElementById('result-21').innerHTML = 'Incorrect!'
+        document.getElementById('result-51').style.color = 'red'
+        document.getElementById('result-51').innerHTML = 'Incorrect!'
       }
       if (document.getElementById('option-52').checked) {
         document.getElementById('block-52').style.border = '3px solid limegreen'
-        document.getElementById('result-22').style.color = 'limegreen'
-        document.getElementById('result-22').innerHTML = 'Correct!'
+        document.getElementById('result-52').style.color = 'limegreen'
+        document.getElementById('result-52').innerHTML = 'Correct!'
         showCorrectAnswer5()
       }
       if (document.getElementById('option-53').checked) {
         document.getElementById('block-53').style.border = '3px solid red'
-        document.getElementById('result-23').style.color = 'red'
-        document.getElementById('result-23').innerHTML = 'Incorrect!'
+        document.getElementById('result-53').style.color = 'red'
+        document.getElementById('result-53').innerHTML = 'Incorrect!'
         showCorrectAnswer5()
       }
       if (document.getElementById('option-54').checked) {
         document.getElementById('block-54').style.border = '3px solid red'
-        document.getElementById('result-24').style.color = 'red'
-        document.getElementById('result-24').innerHTML = 'Incorrect!'
+        document.getElementById('result-54').style.color = 'red'
+        document.getElementById('result-54').innerHTML = 'Incorrect!'
         showCorrectAnswer5()
       }
     }
@@ -904,8 +904,8 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
       document.getElementById('showanswer5').appendChild(showAnswer5)
       showAnswer2.addEventListener('click', () => {
         document.getElementById('block-52').style.border = '3px solid limegreen'
-        document.getElementById('result-22').style.color = 'limegreen'
-        document.getElementById('result-22').innerHTML = 'Correct!'
+        document.getElementById('result-52').style.color = 'limegreen'
+        document.getElementById('result-52').innerHTML = 'Correct!'
         document.getElementById('showanswer5').removeChild(showAnswer5)
       })
     }
@@ -919,7 +919,7 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
       <label for='option-61' style=' padding: 5px;'>
         <input type='radio' name='option2' value='<sup>5</sup>&frasl;<sub>6</sub>' id='option-61' style='transform: scale(1.2)'  />
         <sup>5</sup>&frasl;<sub>6</sub></label>
-      <span id='result-31'></span>
+      <span id='result-61'></span>
     </div>
    
   
@@ -927,7 +927,7 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
       <label for='option-62' style='padding: 5px;'>
         <input type='radio' name='option2' value='<sup>2</sup>&frasl;<sub>3</sub>' id='option-62' style='transform: scale(1.2)' />
         <sup>2</sup>&frasl;<sub>3</sub></label>
-      <span id='result-32'></span>
+      <span id='result-62'></span>
     </div>
     
   
@@ -935,7 +935,7 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
       <label for='option-63' style='padding: 5px;'>
         <input type='radio' name='option2' value='<sup>1</sup>&frasl;<sub>2</sub>' id='option-63' style='transform: scale(1.2)' />
         <sup>1</sup>&frasl;<sub>2</sub></label>
-      <span id='result-33'></span>
+      <span id='result-63'></span>
     </div>
     
   
@@ -943,7 +943,7 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
       <label for='option-64' style=' padding: 5px;'>
         <input type='radio' name='option2' value='<sup>1</sup>&frasl;<sub>6</sub>' id='option-64' style='transform: scale(1.2)' />
         <sup>1</sup>&frasl;<sub>6</sub></label>
-      <span id='result-34'></span>
+      <span id='result-64'></span>
     </div>
    
     <button type='button' onclick='displayAnswer6()' class='c-btn'>Submit</button>
@@ -954,25 +954,25 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
     function displayAnswer6() {
       if (document.getElementById('option-61').checked) {
         document.getElementById('block-61').style.border = '3px solid red'
-        document.getElementById('result-31').style.color = 'red'
-        document.getElementById('result-31').innerHTML = 'Incorrect!'
+        document.getElementById('result-61').style.color = 'red'
+        document.getElementById('result-61').innerHTML = 'Incorrect!'
       }
       if (document.getElementById('option-62').checked) {
         document.getElementById('block-62').style.border = '3px solid red'
-        document.getElementById('result-32').style.color = 'red'
-        document.getElementById('result-32').innerHTML = 'Incorrect!'
+        document.getElementById('result-62').style.color = 'red'
+        document.getElementById('result-62').innerHTML = 'Incorrect!'
         showCorrectAnswer6()
       }
       if (document.getElementById('option-63').checked) {
         document.getElementById('block-63').style.border = '3px solid red'
-        document.getElementById('result-33').style.color = 'red'
-        document.getElementById('result-33').innerHTML = 'Incorrect!'
+        document.getElementById('result-63').style.color = 'red'
+        document.getElementById('result-63').innerHTML = 'Incorrect!'
         showCorrectAnswer6()
       }
       if (document.getElementById('option-64').checked) {
         document.getElementById('block-64').style.border = '3px solid limegreen'
-        document.getElementById('result-34').style.color = 'limegreen'
-        document.getElementById('result-34').innerHTML = 'Correct!'
+        document.getElementById('result-64').style.color = 'limegreen'
+        document.getElementById('result-64').innerHTML = 'Correct!'
         showCorrectAnswer6()
       }
     }
@@ -986,8 +986,8 @@ Probability of neither blue nor red = 1 ─ <sup>4</sup>&frasl;<sub>5</sub>  = <
       document.getElementById('showanswer6').appendChild(showAnswer6)
       showAnswer6.addEventListener('click', () => {
         document.getElementById('block-64').style.border = '3px solid limegreen'
-        document.getElementById('result-34').style.color = 'limegreen'
-        document.getElementById('result-34').innerHTML = 'Correct!'
+        document.getElementById('result-64').style.color = 'limegreen'
+        document.getElementById('result-64').innerHTML = 'Correct!'
         document.getElementById('showanswer6').removeChild(showAnswer6)
       })
     }

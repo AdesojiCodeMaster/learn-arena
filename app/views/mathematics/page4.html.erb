@@ -892,7 +892,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-51' style=' padding: 5px;'>
       <input type='radio' name='option' value='14' id='option-51' style='transform: scale(1.2)'  />
      14</label>
-    <span id='result-11'></span>
+    <span id='result-51'></span>
   </div>
  
 
@@ -900,7 +900,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-52' style='padding: 5px;'>
       <input type='radio' name='option' value='15' id='option-52' style='transform: scale(1.2)' />
       15 </label>
-    <span id='result-12'></span>
+    <span id='result-52'></span>
   </div>
   
 
@@ -908,7 +908,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-53' style='padding: 5px;'>
       <input type='radio' name='option' value='4' id='option-53' style='transform: scale(1.2)' />
      4</label>
-    <span id='result-13'></span>
+    <span id='result-53'></span>
   </div>
   
 
@@ -916,7 +916,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-54' style=' padding: 5px;'>
       <input type='radio' name='option' value='-15' id='option-54' style='transform: scale(1.2)' />
      -15 </label>
-    <span id='result-14'></span>
+    <span id='result-54'></span>
   </div>
  
   <button type='button' class = "c-btn" onclick='displayAnswer1()'>Submit</button>
@@ -927,25 +927,25 @@ This involves replacing the letter with number in algebraic equation. The exampl
   function displayAnswer1() {
     if (document.getElementById('option-51').checked) {
       document.getElementById('block-51').style.border = '3px solid limegreen'
-      document.getElementById('result-11').style.color = 'limegreen'
-      document.getElementById('result-11').innerHTML = 'Correct!'
+      document.getElementById('result-51').style.color = 'limegreen'
+      document.getElementById('result-51').innerHTML = 'Correct!'
     }
     if (document.getElementById('option-52').checked) {
       document.getElementById('block-52').style.border = '3px solid red'
-      document.getElementById('result-12').style.color = 'red'
-      document.getElementById('result-12').innerHTML = 'Incorrect!'
+      document.getElementById('result-52').style.color = 'red'
+      document.getElementById('result-52').innerHTML = 'Incorrect!'
       showCorrectAnswer1()
     }
     if (document.getElementById('option-53').checked) {
       document.getElementById('block-53').style.border = '3px solid red'
-      document.getElementById('result-13').style.color = 'red'
-      document.getElementById('result-13').innerHTML = 'Incorrect!'
+      document.getElementById('result-53').style.color = 'red'
+      document.getElementById('result-53').innerHTML = 'Incorrect!'
       showCorrectAnswer1()
     }
     if (document.getElementById('option-54').checked) {
       document.getElementById('block-54').style.border = '3px solid red'
-      document.getElementById('result-14').style.color = 'red'
-      document.getElementById('result-14').innerHTML = 'Incorrect!'
+      document.getElementById('result-54').style.color = 'red'
+      document.getElementById('result-54').innerHTML = 'Incorrect!'
       showCorrectAnswer1()
     }
   }
@@ -959,8 +959,8 @@ This involves replacing the letter with number in algebraic equation. The exampl
     document.getElementById('showanswer1').appendChild(showAnswer1)
     showAnswer1.addEventListener('click', () => {
       document.getElementById('block-51').style.border = '3px solid limegreen'
-      document.getElementById('result-11').style.color = 'limegreen'
-      document.getElementById('result-11').innerHTML = 'Correct!'
+      document.getElementById('result-51').style.color = 'limegreen'
+      document.getElementById('result-51').innerHTML = 'Correct!'
       document.getElementById('showanswer1').removeChild(showAnswer1)
     })
   }
@@ -974,7 +974,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-61' style=' padding: 5px;'>
       <input type='radio' name='option1' value='6' id='option-61' style='transform: scale(1.2)'  />
       6</label>
-    <span id='result-21'></span>
+    <span id='result-61'></span>
   </div>
  
 
@@ -982,7 +982,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-62' style='padding: 5px;'>
       <input type='radio' name='option1' value='5' id='option-62' style='transform: scale(1.2)' />
       5</label>
-    <span id='result-22'></span>
+    <span id='result-62'></span>
   </div>
   
 
@@ -990,7 +990,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-63' style='padding: 5px;'>
       <input type='radio' name='option1' value='12' id='option-63' style='transform: scale(1.2)' />
       12</label>
-    <span id='result-23'></span>
+    <span id='result-63'></span>
   </div>
   
 
@@ -998,7 +998,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-64' style=' padding: 5px;'>
       <input type='radio' name='option1' value='18' id='option-64' style='transform: scale(1.2)' />
       18</label>
-    <span id='result-24'></span>
+    <span id='result-64'></span>
   </div>
  
   <button type='button' onclick='displayAnswer2()' class='c-btn'>Submit</button>
@@ -1009,25 +1009,25 @@ This involves replacing the letter with number in algebraic equation. The exampl
   function displayAnswer2() {
     if (document.getElementById('option-61').checked) {
       document.getElementById('block-61').style.border = '3px solid red'
-      document.getElementById('result-21').style.color = 'red'
-      document.getElementById('result-21').innerHTML = 'Incorrect!'
+      document.getElementById('result-61').style.color = 'red'
+      document.getElementById('result-61').innerHTML = 'Incorrect!'
     }
     if (document.getElementById('option-62').checked) {
       document.getElementById('block-62').style.border = '3px solid limegreen'
-      document.getElementById('result-22').style.color = 'limegreen'
-      document.getElementById('result-22').innerHTML = 'Correct!'
+      document.getElementById('result-62').style.color = 'limegreen'
+      document.getElementById('result-62').innerHTML = 'Correct!'
       showCorrectAnswer2()
     }
     if (document.getElementById('option-63').checked) {
       document.getElementById('block-63').style.border = '3px solid red'
-      document.getElementById('result-23').style.color = 'red'
-      document.getElementById('result-23').innerHTML = 'Incorrect!'
+      document.getElementById('result-63').style.color = 'red'
+      document.getElementById('result-63').innerHTML = 'Incorrect!'
       showCorrectAnswer2()
     }
     if (document.getElementById('option-64').checked) {
       document.getElementById('block-64').style.border = '3px solid red'
-      document.getElementById('result-24').style.color = 'red'
-      document.getElementById('result-24').innerHTML = 'Incorrect!'
+      document.getElementById('result-64').style.color = 'red'
+      document.getElementById('result-64').innerHTML = 'Incorrect!'
       showCorrectAnswer2()
     }
   }
@@ -1041,8 +1041,8 @@ This involves replacing the letter with number in algebraic equation. The exampl
     document.getElementById('showanswer2').appendChild(showAnswer2)
     showAnswer2.addEventListener('click', () => {
       document.getElementById('block-62').style.border = '3px solid limegreen'
-      document.getElementById('result-22').style.color = 'limegreen'
-      document.getElementById('result-22').innerHTML = 'Correct!'
+      document.getElementById('result-62').style.color = 'limegreen'
+      document.getElementById('result-62').innerHTML = 'Correct!'
       document.getElementById('showanswer2').removeChild(showAnswer2)
     })
   }
@@ -1056,7 +1056,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-71' style=' padding: 5px;'>
       <input type='radio' name='option2' value='$500' id='option-71' style='transform: scale(1.2)' />
     $500</label>
-    <span id='result-31'></span>
+    <span id='result-71'></span>
   </div>
  
 
@@ -1064,7 +1064,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-72' style='padding: 5px;'>
       <input type='radio' name='option2' value='470' id='option-72' style='transform: scale(1.2)' />
       $470</label>
-    <span id='result-32'></span>
+    <span id='result-72'></span>
   </div>
   
 
@@ -1072,7 +1072,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-73' style='padding: 5px;'>
       <input type='radio' name='option2' value='$170' id='option-73' style='transform: scale(1.2)' />
       $170</label>
-    <span id='result-33'></span>
+    <span id='result-73'></span>
   </div>
   
 
@@ -1080,7 +1080,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-74' style=' padding: 5px;'>
       <input type='radio' name='option2' value='$450' id='option-74' style='transform: scale(1.2)' />
       $450</label>
-    <span id='result-34'></span>
+    <span id='result-74'></span>
   </div>
  
   <button type='button' onclick='displayAnswer3()' class='c-btn'>Submit</button>
@@ -1091,25 +1091,25 @@ This involves replacing the letter with number in algebraic equation. The exampl
   function displayAnswer3() {
     if (document.getElementById('option-71').checked) {
       document.getElementById('block-71').style.border = '3px solid red'
-      document.getElementById('result-31').style.color = 'red'
-      document.getElementById('result-31').innerHTML = 'Incorrect!'
+      document.getElementById('result-71').style.color = 'red'
+      document.getElementById('result-71').innerHTML = 'Incorrect!'
     }
     if (document.getElementById('option-72').checked) {
       document.getElementById('block-72').style.border = '3px solid limegreen'
-      document.getElementById('result-32').style.color = 'limegreen'
-      document.getElementById('result-32').innerHTML = 'Correct!'
+      document.getElementById('result-72').style.color = 'limegreen'
+      document.getElementById('result-72').innerHTML = 'Correct!'
       showCorrectAnswer3()
     }
     if (document.getElementById('option-73').checked) {
       document.getElementById('block-73').style.border = '3px solid red'
-      document.getElementById('result-33').style.color = 'red'
-      document.getElementById('result-33').innerHTML = 'Incorrect!'
+      document.getElementById('result-73').style.color = 'red'
+      document.getElementById('result-73').innerHTML = 'Incorrect!'
       showCorrectAnswer3()
     }
     if (document.getElementById('option-74').checked) {
       document.getElementById('block-74').style.border = '3px solid red'
-      document.getElementById('result-34').style.color = 'red'
-      document.getElementById('result-34').innerHTML = 'Incorrect!'
+      document.getElementById('result-74').style.color = 'red'
+      document.getElementById('result-74').innerHTML = 'Incorrect!'
       showCorrectAnswer3()
     }
   }
@@ -1123,8 +1123,8 @@ This involves replacing the letter with number in algebraic equation. The exampl
     document.getElementById('showanswer3').appendChild(showAnswer2)
     showAnswer3.addEventListener('click', () => {
       document.getElementById('block-72').style.border = '3px solid limegreen'
-      document.getElementById('result-32').style.color = 'limegreen'
-      document.getElementById('result-32').innerHTML = 'Correct!'
+      document.getElementById('result-72').style.color = 'limegreen'
+      document.getElementById('result-72').innerHTML = 'Correct!'
       document.getElementById('showanswer3').removeChild(showAnswer3)
     })
   }
@@ -1138,7 +1138,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-81' style=' padding: 5px;'>
       <input type='radio' name='option3' value='12' id='option-81' style='transform: scale(1.2)'  />
       12</label>
-    <span id='result-41'></span>
+    <span id='result-81'></span>
   </div>
  
 
@@ -1146,7 +1146,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-82' style='padding: 5px;'>
       <input type='radio' name='option3' value='10' id='option-82' style='transform: scale(1.2)' />
       10</label>
-    <span id='result-42'></span>
+    <span id='result-82'></span>
   </div>
   
 
@@ -1154,7 +1154,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-83' style='padding: 5px;'>
       <input type='radio' name='option3' value='6' id='option-83' style='transform: scale(1.2)' />
      6</label>
-    <span id='result-43'></span>
+    <span id='result-83'></span>
   </div>
   
 
@@ -1162,7 +1162,7 @@ This involves replacing the letter with number in algebraic equation. The exampl
     <label for='option-84' style=' padding: 5px;'>
       <input type='radio' name='option3' value='14' id='option-84' style='transform: scale(1.2)' />
       14</label>
-    <span id='result-44'></span>
+    <span id='result-84'></span>
   </div>
  
   <button type='button' onclick='displayAnswer4()' class='c-btn'>Submit</button>
@@ -1173,25 +1173,25 @@ This involves replacing the letter with number in algebraic equation. The exampl
   function displayAnswer4() {
     if (document.getElementById('option-81').checked) {
       document.getElementById('block-81').style.border = '3px solid red'
-      document.getElementById('result-41').style.color = 'red'
-      document.getElementById('result-41').innerHTML = 'Incorrect!'
+      document.getElementById('result-81').style.color = 'red'
+      document.getElementById('result-81').innerHTML = 'Incorrect!'
     }
     if (document.getElementById('option-82').checked) {
       document.getElementById('block-82').style.border = '3px solid red' 
-      document.getElementById('result-42').style.color = 'red'
-      document.getElementById('result-42').innerHTML = 'Incorrect!'
+      document.getElementById('result-82').style.color = 'red'
+      document.getElementById('result-82').innerHTML = 'Incorrect!'
       showCorrectAnswer4()
     }
     if (document.getElementById('option-83').checked) {
       document.getElementById('block-83').style.border = '3px solid red'
-      document.getElementById('result-43').style.color = 'red'
-      document.getElementById('result-43').innerHTML = 'Incorrect!'
+      document.getElementById('result-83').style.color = 'red'
+      document.getElementById('result-83').innerHTML = 'Incorrect!'
       showCorrectAnswer4()
     }
     if (document.getElementById('option-84').checked) {
       document.getElementById('block-84').style.border = '3px solid limegreen'
-      document.getElementById('result-44').style.color = 'limegreen'
-      document.getElementById('result-44').innerHTML = 'Incorrect!'
+      document.getElementById('result-84').style.color = 'limegreen'
+      document.getElementById('result-84').innerHTML = 'Incorrect!'
       showCorrectAnswer4()
     }
   }
@@ -1205,8 +1205,8 @@ This involves replacing the letter with number in algebraic equation. The exampl
     document.getElementById('showanswer3').appendChild(showAnswer4)
     showAnswer4.addEventListener('click', () => {
       document.getElementById('block-84').style.border = '3px solid limegreen'
-      document.getElementById('result-44').style.color = 'limegreen'
-      document.getElementById('result-44').innerHTML = 'Correct!'
+      document.getElementById('result-84').style.color = 'limegreen'
+      document.getElementById('result-84').innerHTML = 'Correct!'
       document.getElementById('showanswer4').removeChild(showAnswer4)
     })
   }

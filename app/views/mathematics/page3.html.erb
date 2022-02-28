@@ -1444,7 +1444,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-81' style=' padding: 5px;'>
       <input type='radio' name='option' value='1<sup>2</sup>&frasl;<sub>5</sub> ' id='option-81' style='transform: scale(1.2)'  />
       1<sup>2</sup>&frasl;<sub>5</sub> </label>
-    <span id='result-11'></span>
+    <span id='result-81'></span>
   </div>
  
 
@@ -1452,7 +1452,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-82' style='padding: 5px;'>
       <input type='radio' name='option' value='<sup>9</sup>&frasl;<sub>2</sub> ' id='option-82' style='transform: scale(1.2)' />
       <sup>9</sup>&frasl;<sub>2</sub> </label>
-    <span id='result-12'></span>
+    <span id='result-82'></span>
   </div>
   
 
@@ -1460,7 +1460,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-83' style='padding: 5px;'>
       <input type='radio' name='option' value='<sup>13</sup>&frasl;<sub>2</sub> ' id='option-83' style='transform: scale(1.2)' />
       <sup>13</sup>&frasl;<sub>2</sub> </label>
-    <span id='result-13'></span>
+    <span id='result-83'></span>
   </div>
   
 
@@ -1468,7 +1468,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-84' style=' padding: 5px;'>
       <input type='radio' name='option' value='<sup>7</sup>&frasl;<sub>2</sub> ' id='option-84' style='transform: scale(1.2)' />
       <sup>7</sup>&frasl;<sub>2</sub> </label>
-    <span id='result-14'></span>
+    <span id='result-84'></span>
   </div>
  
   <button type='button' class = "c-btn" onclick='displayAnswer1()'>Submit</button>
@@ -1479,25 +1479,25 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
   function displayAnswer1() {
     if (document.getElementById('option-81').checked) {
       document.getElementById('block-81').style.border = '3px solid red'
-      document.getElementById('result-11').style.color = 'red'
-      document.getElementById('result-11').innerHTML = 'Incorrect!'
+      document.getElementById('result-81').style.color = 'red'
+      document.getElementById('result-81').innerHTML = 'Incorrect!'
     }
     if (document.getElementById('option-82').checked) {
       document.getElementById('block-82').style.border = '3px solid red'
-      document.getElementById('result-12').style.color = 'red'
-      document.getElementById('result-12').innerHTML = 'Incorrect!'
+      document.getElementById('result-82').style.color = 'red'
+      document.getElementById('result-82').innerHTML = 'Incorrect!'
       showCorrectAnswer1()
     }
     if (document.getElementById('option-83').checked) {
       document.getElementById('block-83').style.border = '3px solid limegreen'
-      document.getElementById('result-13').style.color = 'limegreen'
-      document.getElementById('result-13').innerHTML = 'Correct!'
+      document.getElementById('result-83').style.color = 'limegreen'
+      document.getElementById('result-83').innerHTML = 'Correct!'
       showCorrectAnswer1()
     }
     if (document.getElementById('option-84').checked) {
       document.getElementById('block-84').style.border = '3px solid red'
-      document.getElementById('result-14').style.color = 'red'
-      document.getElementById('result-14').innerHTML = 'Incorrect!'
+      document.getElementById('result-84').style.color = 'red'
+      document.getElementById('result-84').innerHTML = 'Incorrect!'
       showCorrectAnswer1()
     }
   }
@@ -1511,8 +1511,8 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     document.getElementById('showanswer1').appendChild(showAnswer1)
     showAnswer1.addEventListener('click', () => {
       document.getElementById('block-83').style.border = '3px solid limegreen'
-      document.getElementById('result-13').style.color = 'limegreen'
-      document.getElementById('result-13').innerHTML = 'Correct!'
+      document.getElementById('result-83').style.color = 'limegreen'
+      document.getElementById('result-83').innerHTML = 'Correct!'
       document.getElementById('showanswer1').removeChild(showAnswer1)
     })
   }
@@ -1526,7 +1526,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-91' style=' padding: 5px;'>
       <input type='radio' name='option1' value='9' id='option-91' style='transform: scale(1.2)'  />
       9</label>
-    <span id='result-21'></span>
+    <span id='result-91'></span>
   </div>
  
 
@@ -1534,7 +1534,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-92' style='padding: 5px;'>
       <input type='radio' name='option1' value='6' id='option-92' style='transform: scale(1.2)' />
       6</label>
-    <span id='result-22'></span>
+    <span id='result-92'></span>
   </div>
   
 
@@ -1542,7 +1542,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-93' style='padding: 5px;'>
       <input type='radio' name='option1' value='10' id='option-93' style='transform: scale(1.2)' />
       10</label>
-    <span id='result-23'></span>
+    <span id='result-93'></span>
   </div>
   
 
@@ -1550,7 +1550,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-94' style=' padding: 5px;'>
       <input type='radio' name='option1' value='12' id='option-94' style='transform: scale(1.2)' />
       12</label>
-    <span id='result-24'></span>
+    <span id='result-94'></span>
   </div>
  
   <button type='button' onclick='displayAnswer2()' class='c-btn'>Submit</button>
@@ -1561,25 +1561,25 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
   function displayAnswer2() {
     if (document.getElementById('option-91').checked) {
       document.getElementById('block-91').style.border = '3px solid limegreen'
-      document.getElementById('result-21').style.color = 'limegreen'
-      document.getElementById('result-21').innerHTML = 'Correct!'
+      document.getElementById('result-91').style.color = 'limegreen'
+      document.getElementById('result-91').innerHTML = 'Correct!'
     }
     if (document.getElementById('option-92').checked) {
       document.getElementById('block-92').style.border = '3px solid red'
-      document.getElementById('result-22').style.color = 'red'
-      document.getElementById('result-22').innerHTML = 'Incorrect!'
+      document.getElementById('result-92').style.color = 'red'
+      document.getElementById('result-92').innerHTML = 'Incorrect!'
       showCorrectAnswer2()
     }
     if (document.getElementById('option-93').checked) {
       document.getElementById('block-93').style.border = '3px solid red'
-      document.getElementById('result-23').style.color = 'red'
-      document.getElementById('result-23').innerHTML = 'Incorrect!'
+      document.getElementById('result-93').style.color = 'red'
+      document.getElementById('result-93').innerHTML = 'Incorrect!'
       showCorrectAnswer2()
     }
     if (document.getElementById('option-94').checked) {
       document.getElementById('block-94').style.border = '3px solid red'
-      document.getElementById('result-24').style.color = 'red'
-      document.getElementById('result-24').innerHTML = 'Incorrect!'
+      document.getElementById('result-94').style.color = 'red'
+      document.getElementById('result-94').innerHTML = 'Incorrect!'
       showCorrectAnswer2()
     }
   }
@@ -1593,8 +1593,8 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     document.getElementById('showanswer2').appendChild(showAnswer2)
     showAnswer2.addEventListener('click', () => {
       document.getElementById('block-91').style.border = '3px solid limegreen'
-      document.getElementById('result-21').style.color = 'limegreen'
-      document.getElementById('result-21').innerHTML = 'Correct!'
+      document.getElementById('result-91').style.color = 'limegreen'
+      document.getElementById('result-91').innerHTML = 'Correct!'
       document.getElementById('showanswer2').removeChild(showAnswer2)
     })
   }
@@ -1608,7 +1608,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-101' style=' padding: 5px;'>
       <input type='radio' name='option2' value='<sup>3</sup>&frasl;<sub>5</sub> , <sup>5</sup>&frasl;<sub>8</sub>, <sup>7</sup>&frasl;<sub>10</sub>, <sup>13</sup>&frasl;<sub>20</sub>' id='option-101' style='transform: scale(1.2)' />
       <sup>3</sup>&frasl;<sub>5</sub> , <sup>5</sup>&frasl;<sub>8</sub>, <sup>7</sup>&frasl;<sub>10</sub>, <sup>13</sup>&frasl;<sub>20</sub></label>
-    <span id='result-31'></span>
+    <span id='result-101'></span>
   </div>
  
 
@@ -1616,7 +1616,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-102' style='padding: 5px;'>
       <input type='radio' name='option2' value='<sup>13</sup>&frasl;<sub>20</sub>, <sup>7</sup>&frasl;<sub>10</sub>, <sup>5</sup>&frasl;<sub>8</sub>, <sup>3</sup>&frasl;<sub>5</sub>' id='option-102' style='transform: scale(1.2)' />
       <sup>13</sup>&frasl;<sub>20</sub>, <sup>7</sup>&frasl;<sub>10</sub>, <sup>5</sup>&frasl;<sub>8</sub>, <sup>3</sup>&frasl;<sub>5</sub></label>
-    <span id='result-32'></span>
+    <span id='result-102'></span>
   </div>
   
 
@@ -1624,7 +1624,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-103' style='padding: 5px;'>
       <input type='radio' name='option2' value=' <sup>3</sup>&frasl;<sub>5</sub>, <sup>5</sup>&frasl;<sub>8</sub>, <sup>13</sup>&frasl;<sub>20</sub>, <sup>7</sup>&frasl;<sub>10</sub>' id='option-103' style='transform: scale(1.2)' />
       <sup>3</sup>&frasl;<sub>5</sub>, <sup>5</sup>&frasl;<sub>8</sub>, <sup>13</sup>&frasl;<sub>20</sub>, <sup>7</sup>&frasl;<sub>10</sub></label>
-    <span id='result-33'></span>
+    <span id='result-103'></span>
   </div>
   
 
@@ -1632,7 +1632,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-104' style=' padding: 5px;'>
       <input type='radio' name='option2' value=' <sup>7</sup>&frasl;<sub>10</sub>, <sup>13</sup>&frasl;<sub>20</sub>, <sup>8</sup>&frasl;<sub>5</sub>, <sup>3</sup>&frasl;<sub>5</sub>' id='option-104' style='transform: scale(1.2)' />
       <sup>7</sup>&frasl;<sub>10</sub>, <sup>13</sup>&frasl;<sub>20</sub>, <sup>8</sup>&frasl;<sub>5</sub>, <sup>3</sup>&frasl;<sub>5</sub></label>
-    <span id='result-34'></span>
+    <span id='result-104'></span>
   </div>
  
   <button type='button' onclick='displayAnswer3()' class='c-btn'>Submit</button>
@@ -1643,25 +1643,25 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
   function displayAnswer3() {
     if (document.getElementById('option-101').checked) {
       document.getElementById('block-101').style.border = '3px solid red'
-      document.getElementById('result-31').style.color = 'red'
-      document.getElementById('result-31').innerHTML = 'Incorrect!'
+      document.getElementById('result-101').style.color = 'red'
+      document.getElementById('result-101').innerHTML = 'Incorrect!'
     }
     if (document.getElementById('option-102').checked) {
       document.getElementById('block-102').style.border = '3px solid red'
-      document.getElementById('result-32').style.color = 'red'
-      document.getElementById('result-32').innerHTML = 'Incorrect!'
+      document.getElementById('result-102').style.color = 'red'
+      document.getElementById('result-102').innerHTML = 'Incorrect!'
       showCorrectAnswer3()
     }
     if (document.getElementById('option-103').checked) {
       document.getElementById('block-103').style.border = '3px solid limegreen'
-      document.getElementById('result-33').style.color = 'limegreen'
-      document.getElementById('result-33').innerHTML = 'Correct!'
+      document.getElementById('result-103').style.color = 'limegreen'
+      document.getElementById('result-103').innerHTML = 'Correct!'
       showCorrectAnswer3()
     }
     if (document.getElementById('option-104').checked) {
       document.getElementById('block-104').style.border = '3px solid red'
-      document.getElementById('result-34').style.color = 'red'
-      document.getElementById('result-34').innerHTML = 'Incorrect!'
+      document.getElementById('result-104').style.color = 'red'
+      document.getElementById('result-104').innerHTML = 'Incorrect!'
       showCorrectAnswer3()
     }
   }
@@ -1675,8 +1675,8 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     document.getElementById('showanswer3').appendChild(showAnswer2)
     showAnswer3.addEventListener('click', () => {
       document.getElementById('block-103').style.border = '3px solid limegreen'
-      document.getElementById('result-33').style.color = 'limegreen'
-      document.getElementById('result-33').innerHTML = 'Correct!'
+      document.getElementById('result-103').style.color = 'limegreen'
+      document.getElementById('result-103').innerHTML = 'Correct!'
       document.getElementById('showanswer3').removeChild(showAnswer3)
     })
   }
@@ -1690,7 +1690,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-111' style=' padding: 5px;'>
       <input type='radio' name='option3' value='5<sup>5</sup>&frasl;<sub>24</sub>' id='option-111' style='transform: scale(1.2)'  />
       5<sup>5</sup>&frasl;<sub>24</sub></label>
-    <span id='result-41'></span>
+    <span id='result-111'></span>
   </div>
  
 
@@ -1698,7 +1698,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-112' style='padding: 5px;'>
       <input type='radio' name='option3' value='3<sup>5</sup>&frasl;<sub>24</sub>' id='option-112' style='transform: scale(1.2)' />
       3<sup>5</sup>&frasl;<sub>24</sub></label>
-    <span id='result-42'></span>
+    <span id='result-112'></span>
   </div>
   
 
@@ -1706,7 +1706,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-113' style='padding: 5px;'>
       <input type='radio' name='option3' value='6<sup>5</sup>&frasl;<sub>24</sub>' id='option-113' style='transform: scale(1.2)' />
       6<sup>5</sup>&frasl;<sub>24</sub></label>
-    <span id='result-43'></span>
+    <span id='result-113'></span>
   </div>
   
 
@@ -1714,7 +1714,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-114' style=' padding: 5px;'>
       <input type='radio' name='option3' value='<sup>5</sup>&frasl;<sub>24</sub>' id='option-114' style='transform: scale(1.2)' />
       <sup>5</sup>&frasl;<sub>24</sub></label>
-    <span id='result-44'></span>
+    <span id='result-114'></span>
   </div>
  
   <button type='button' onclick='displayAnswer4()' class='c-btn'>Submit</button>
@@ -1725,13 +1725,13 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
   function displayAnswer4() {
     if (document.getElementById('option-111').checked) {
       document.getElementById('block-111').style.border = '3px solid limegreen'
-      document.getElementById('result-41').style.color = 'limegreen'
-      document.getElementById('result-41').innerHTML = 'Correct!'
+      document.getElementById('result-111').style.color = 'limegreen'
+      document.getElementById('result-111').innerHTML = 'Correct!'
     }
     if (document.getElementById('option-112').checked) {
       document.getElementById('block-112').style.border = '3px solid red' 
-      document.getElementById('result-42').style.color = 'red'
-      document.getElementById('result-42').innerHTML = 'Incorrect!'
+      document.getElementById('result-112').style.color = 'red'
+      document.getElementById('result-112').innerHTML = 'Incorrect!'
       showCorrectAnswer4()
     }
     if (document.getElementById('option-113').checked) {
@@ -1742,8 +1742,8 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     }
     if (document.getElementById('option-114').checked) {
       document.getElementById('block-114').style.border = '3px solid red'
-      document.getElementById('result-44').style.color = 'red'
-      document.getElementById('result-44').innerHTML = 'Incorrect!'
+      document.getElementById('result-114').style.color = 'red'
+      document.getElementById('result-114').innerHTML = 'Incorrect!'
       showCorrectAnswer4()
     }
   }
@@ -1757,8 +1757,8 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     document.getElementById('showanswer3').appendChild(showAnswer4)
     showAnswer4.addEventListener('click', () => {
       document.getElementById('block-111').style.border = '3px solid limegreen'
-      document.getElementById('result-41').style.color = 'limegreen'
-      document.getElementById('result-41').innerHTML = 'Correct!'
+      document.getElementById('result-111').style.color = 'limegreen'
+      document.getElementById('result-111').innerHTML = 'Correct!'
       document.getElementById('showanswer4').removeChild(showAnswer4)
     })
   }
@@ -1772,7 +1772,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-121' style=' padding: 5px;'>
       <input type='radio' name='option4' value='30' id='option-121' style='transform: scale(1.2)'  />
       30</label>
-    <span id='result-51'></span>
+    <span id='result-121'></span>
   </div>
  
 
@@ -1780,7 +1780,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-122' style='padding: 5px;'>
       <input type='radio' name='option4' value='40' id='option-122' style='transform: scale(1.2)' />
       40</label>
-    <span id='result-52'></span>
+    <span id='result-122'></span>
   </div>
   
 
@@ -1788,7 +1788,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-123' style='padding: 5px;'>
       <input type='radio' name='option4' value='25' id='option-123' style='transform: scale(1.2)' />
       25</label>
-    <span id='result-53'></span>
+    <span id='result-123'></span>
   </div>
   
 
@@ -1796,7 +1796,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-124' style=' padding: 5px;'>
       <input type='radio' name='option4' value='50' id='option-124' style='transform: scale(1.2)' />
       50</label>
-    <span id='result-54'></span>
+    <span id='result-124'></span>
   </div>
  
   <button type='button' onclick='displayAnswer5()' class='c-btn'>Submit</button>
@@ -1807,25 +1807,25 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
   function displayAnswer5() {
     if (document.getElementById('option-121').checked) {
       document.getElementById('block-121').style.border = '3px solid red'
-      document.getElementById('result-51').style.color = 'red'
-      document.getElementById('result-51').innerHTML = 'Inorrect!'
+      document.getElementById('result-121').style.color = 'red'
+      document.getElementById('result-121').innerHTML = 'Inorrect!'
     }
     if (document.getElementById('option-122').checked) {
       document.getElementById('block-122').style.border = '3px solid red'
-      document.getElementById('result-52').style.color = 'red'
-      document.getElementById('result-52').innerHTML = 'Incorrect!'
+      document.getElementById('result-122').style.color = 'red'
+      document.getElementById('result-122').innerHTML = 'Incorrect!'
       showCorrectAnswer5()
     }
     if (document.getElementById('option-123').checked) {
       document.getElementById('block-123').style.border = '3px solid red'
-      document.getElementById('result-53').style.color = 'red'
-      document.getElementById('result-53').innerHTML = 'Incorrect!'
+      document.getElementById('result-123').style.color = 'red'
+      document.getElementById('result-123').innerHTML = 'Incorrect!'
       showCorrectAnswer5()
     }
     if (document.getElementById('option-124').checked) {
       document.getElementById('block-124').style.border = '3px solid limegreen'
-      document.getElementById('result-54').style.color = 'limegreen'
-      document.getElementById('result-54').innerHTML = 'Correct!'
+      document.getElementById('result-124').style.color = 'limegreen'
+      document.getElementById('result-124').innerHTML = 'Correct!'
       showCorrectAnswer5()
     }
   }
@@ -1839,8 +1839,8 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     document.getElementById('showanswer5').appendChild(showAnswer5)
     showAnswer5.addEventListener('click', () => {
       document.getElementById('block-124').style.border = '3px solid limegreen'
-      document.getElementById('result-54').style.color = 'limegreen'
-      document.getElementById('result-54').innerHTML = 'Correct!'
+      document.getElementById('result-124').style.color = 'limegreen'
+      document.getElementById('result-124').innerHTML = 'Correct!'
       document.getElementById('showanswer5').removeChild(showAnswer5)
     })
   }
@@ -1855,7 +1855,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-131' style=' padding: 5px;'>
       <input type='radio' name='option5' value='60%' id='option-131' style='transform: scale(1.2)'  />
       60%</label>
-    <span id='result-61'></span>
+    <span id='result-131'></span>
   </div>
  
 
@@ -1863,7 +1863,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-132' style='padding: 5px;'>
       <input type='radio' name='option5' value='65%' id='option-132' style='transform: scale(1.2)' />
       65%</label>
-    <span id='result-62'></span>
+    <span id='result-132'></span>
   </div>
   
 
@@ -1871,7 +1871,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-133' style='padding: 5px;'>
       <input type='radio' name='option5' value='75%' id='option-133' style='transform: scale(1.2)' />
       75%</label>
-    <span id='result-63'></span>
+    <span id='result-133'></span>
   </div>
   
 
@@ -1879,7 +1879,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-134' style=' padding: 5px;'>
       <input type='radio' name='option5' value='85%' id='option-134' style='transform: scale(1.2)' />
       85%</label>
-    <span id='result-64'></span>
+    <span id='result-134'></span>
   </div>
  
   <button type='button' onclick='displayAnswer6()' class='c-btn'>Submit</button>
@@ -1890,25 +1890,25 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
   function displayAnswer6() {
     if (document.getElementById('option-131').checked) {
       document.getElementById('block-131').style.border = '3px solid red'
-      document.getElementById('result-61').style.color = 'red'
-      document.getElementById('result-61').innerHTML = 'Incorrect!'
+      document.getElementById('result-131').style.color = 'red'
+      document.getElementById('result-131').innerHTML = 'Incorrect!'
     }
     if (document.getElementById('option-132').checked) {
       document.getElementById('block-132').style.border = '3px solid red'
-      document.getElementById('result-62').style.color = 'red'
-      document.getElementById('result-62').innerHTML = 'Incorrect!'
+      document.getElementById('result-132').style.color = 'red'
+      document.getElementById('result-132').innerHTML = 'Incorrect!'
       showCorrectAnswer6()
     }
     if (document.getElementById('option-133').checked) {
       document.getElementById('block-133').style.border = '3px solid limegreen'
-      document.getElementById('result-63').style.color = 'limegreen'
-      document.getElementById('result-63').innerHTML = 'Correct!'
+      document.getElementById('result-133').style.color = 'limegreen'
+      document.getElementById('result-133').innerHTML = 'Correct!'
       showCorrectAnswer6()
     }
     if (document.getElementById('option-134').checked) {
       document.getElementById('block-134').style.border = '3px solid red'
-      document.getElementById('result-64').style.color = 'red'
-      document.getElementById('result-64').innerHTML = 'Incorrect!'
+      document.getElementById('result-134').style.color = 'red'
+      document.getElementById('result-134').innerHTML = 'Incorrect!'
       showCorrectAnswer6()
     }
   }
@@ -1922,8 +1922,8 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     document.getElementById('showanswer6').appendChild(showAnswer6)
     showAnswer6.addEventListener('click', () => {
       document.getElementById('block-133').style.border = '3px solid limegreen'
-      document.getElementById('result-63').style.color = 'limegreen'
-      document.getElementById('result-63').innerHTML = 'Correct!'
+      document.getElementById('result-133').style.color = 'limegreen'
+      document.getElementById('result-133').innerHTML = 'Correct!'
       document.getElementById('showanswer6').removeChild(showAnswer6)
     })
   }
@@ -1937,7 +1937,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-141' style=' padding: 5px;'>
       <input type='radio' name='option6' value='0.25' id='option-141' style='transform: scale(1.2)'  />
       0.25</label>
-    <span id='result-71'></span>
+    <span id='result-141'></span>
   </div>
  
 
@@ -1945,7 +1945,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-142' style='padding: 5px;'>
       <input type='radio' name='option6' value='0.025' id='option-142' style='transform: scale(1.2)' />
       0.025</label>
-    <span id='result-72'></span>
+    <span id='result-142'></span>
   </div>
   
 
@@ -1953,7 +1953,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-143' style='padding: 5px;'>
       <input type='radio' name='option6' value='2.5' id='option-143' style='transform: scale(1.2)' />
       2.5</label>
-    <span id='result-73'></span>
+    <span id='result-143'></span>
   </div>
   
 
@@ -1961,7 +1961,7 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     <label for='option-144' style=' padding: 5px;'>
       <input type='radio' name='option6' value='0.15' id='option-144' style='transform: scale(1.2)' />
       0.15</label>
-    <span id='result-74'></span>
+    <span id='result-144'></span>
   </div>
  
   <button type='button' onclick='displayAnswer7()' class='c-btn'>Submit</button>
@@ -1972,25 +1972,25 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
   function displayAnswer7() {
     if (document.getElementById('option-141').checked) {
       document.getElementById('block-141').style.border = '3px solid limegreen'
-      document.getElementById('result-71').style.color = 'limegreen'
-      document.getElementById('result-71').innerHTML = 'Correct!'
+      document.getElementById('result-141').style.color = 'limegreen'
+      document.getElementById('result-141').innerHTML = 'Correct!'
     }
     if (document.getElementById('option-142').checked) {
       document.getElementById('block-142').style.border = '3px solid red'
-      document.getElementById('result-72').style.color = 'red'
-      document.getElementById('result-72').innerHTML = 'Incorrect!'
+      document.getElementById('result-142').style.color = 'red'
+      document.getElementById('result-142').innerHTML = 'Incorrect!'
       showCorrectAnswer7()
     }
     if (document.getElementById('option-143').checked) {
       document.getElementById('block-143').style.border = '3px solid red'
-      document.getElementById('result-73').style.color = 'red'
-      document.getElementById('result-73').innerHTML = 'Incorrect!'
+      document.getElementById('result-143').style.color = 'red'
+      document.getElementById('result-143').innerHTML = 'Incorrect!'
       showCorrectAnswer7()
     }
     if (document.getElementById('option-144').checked) {
       document.getElementById('block-144').style.border = '3px solid red'
-      document.getElementById('result-74').style.color = 'red'
-      document.getElementById('result-74').innerHTML = 'Incorrect!'
+      document.getElementById('result-144').style.color = 'red'
+      document.getElementById('result-144').innerHTML = 'Incorrect!'
       showCorrectAnswer7()
     }
   }
@@ -2004,8 +2004,8 @@ Change the decimal to fraction first, if the denominator is 100 express as perce
     document.getElementById('showanswer7').appendChild(showAnswer6)
     showAnswer7.addEventListener('click', () => {
       document.getElementById('block-141').style.border = '3px solid limegreen'
-      document.getElementById('result-71').style.color = 'limegreen'
-      document.getElementById('result-71').innerHTML = 'Correct!'
+      document.getElementById('result-141').style.color = 'limegreen'
+      document.getElementById('result-141').innerHTML = 'Correct!'
       document.getElementById('showanswer7').removeChild(showAnswer7)
     })
   }

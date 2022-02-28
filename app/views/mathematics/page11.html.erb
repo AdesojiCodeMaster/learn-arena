@@ -1471,7 +1471,7 @@ Table of Values;
     <label for='option-31' style=' padding: 5px;'>
       <input type='radio' name='option' value='x = 3 and y = 1' id='option-31' style='transform: scale(1.2)'  />
       x = 3 and y = 1</label>
-    <span id='result-11'></span>
+    <span id='result-31'></span>
   </div>
  
 
@@ -1479,7 +1479,7 @@ Table of Values;
     <label for='option-32' style='padding: 5px;'>
       <input type='radio' name='option' value='x = 1 and y = 1' id='option-32' style='transform: scale(1.2)' />
       x = 1 and y = 1</label>
-    <span id='result-12'></span>
+    <span id='result-32'></span>
   </div>
   
 
@@ -1487,7 +1487,7 @@ Table of Values;
     <label for='option-33' style='padding: 5px;'>
       <input type='radio' name='option' value='x = 3 and y = 3' id='option-33' style='transform: scale(1.2)' />
       x = 3 and y = 3</label>
-    <span id='result-13'></span>
+    <span id='result-33'></span>
   </div>
   
 
@@ -1495,7 +1495,7 @@ Table of Values;
     <label for='option-34' style=' padding: 5px;'>
       <input type='radio' name='option' value='x = 2 and y = 5' id='option-34' style='transform: scale(1.2)' />
       x = 2 and y = 5</label>
-    <span id='result-14'></span>
+    <span id='result-34'></span>
   </div>
  
   <button type='button' class = "c-btn" onclick='displayAnswer1()'>Submit</button>
@@ -1506,25 +1506,25 @@ Table of Values;
   function displayAnswer1() {
     if (document.getElementById('option-31').checked) {
       document.getElementById('block-31').style.border = '3px solid limegreen'
-      document.getElementById('result-11').style.color = 'limegreen'
-      document.getElementById('result-11').innerHTML = 'Correct!'
+      document.getElementById('result-31').style.color = 'limegreen'
+      document.getElementById('result-31').innerHTML = 'Correct!'
     }
     if (document.getElementById('option-32').checked) {
       document.getElementById('block-32').style.border = '3px solid red'
-      document.getElementById('result-12').style.color = 'red'
-      document.getElementById('result-12').innerHTML = 'Incorrect!'
+      document.getElementById('result-32').style.color = 'red'
+      document.getElementById('result-32').innerHTML = 'Incorrect!'
       showCorrectAnswer1()
     }
     if (document.getElementById('option-33').checked) {
       document.getElementById('block-33').style.border = '3px solid red'
-      document.getElementById('result-13').style.color = 'red'
-      document.getElementById('result-13').innerHTML = 'Incorrect!'
+      document.getElementById('result-33').style.color = 'red'
+      document.getElementById('result-33').innerHTML = 'Incorrect!'
       showCorrectAnswer1()
     }
     if (document.getElementById('option-34').checked) {
       document.getElementById('block-34').style.border = '3px solid red'
-      document.getElementById('result-14').style.color = 'red'
-      document.getElementById('result-14').innerHTML = 'Incorrect!'
+      document.getElementById('result-34').style.color = 'red'
+      document.getElementById('result-34').innerHTML = 'Incorrect!'
       showCorrectAnswer1()
     }
   }
@@ -1538,8 +1538,8 @@ Table of Values;
     document.getElementById('showanswer1').appendChild(showAnswer1)
     showAnswer1.addEventListener('click', () => {
       document.getElementById('block-31').style.border = '3px solid limegreen'
-      document.getElementById('result-11').style.color = 'limegreen'
-      document.getElementById('result-11').innerHTML = 'Correct!'
+      document.getElementById('result-31').style.color = 'limegreen'
+      document.getElementById('result-31').innerHTML = 'Correct!'
       document.getElementById('showanswer1').removeChild(showAnswer1)
     })
   }
@@ -1553,7 +1553,7 @@ Table of Values;
     <label for='option-41' style=' padding: 5px;'>
       <input type='radio' name='option1' value='12 and 18' id='option-41' style='transform: scale(1.2)'  />
       12 and 18</label>
-    <span id='result-21'></span>
+    <span id='result-41'></span>
   </div>
  
 
@@ -1561,7 +1561,7 @@ Table of Values;
     <label for='option-42' style='padding: 5px;'>
       <input type='radio' name='option1' value='3 and 6' id='option-42' style='transform: scale(1.2)' />
       3 and 6</label>
-    <span id='result-22'></span>
+    <span id='result-42'></span>
   </div>
   
 
@@ -1569,7 +1569,7 @@ Table of Values;
     <label for='option-43' style='padding: 5px;'>
       <input type='radio' name='option1' value='10 and 4' id='option-43' style='transform: scale(1.2)' />
       10 and 4</label>
-    <span id='result-23'></span>
+    <span id='result-43'></span>
   </div>
   
 
@@ -1577,7 +1577,7 @@ Table of Values;
     <label for='option-44' style=' padding: 5px;'>
       <input type='radio' name='option1' value='11 and 7' id='option-44' style='transform: scale(1.2)' />
       11 and 7</label>
-    <span id='result-24'></span>
+    <span id='result-44'></span>
   </div>
  
   <button type='button' onclick='displayAnswer2()' class='c-btn'>Submit</button>
@@ -1588,25 +1588,25 @@ Table of Values;
   function displayAnswer2() {
     if (document.getElementById('option-41').checked) {
       document.getElementById('block-41').style.border = '3px solid red'
-      document.getElementById('result-21').style.color = 'red'
-      document.getElementById('result-21').innerHTML = 'Incorrect!'
+      document.getElementById('result-41').style.color = 'red'
+      document.getElementById('result-41').innerHTML = 'Incorrect!'
     }
     if (document.getElementById('option-42').checked) {
       document.getElementById('block-42').style.border = '3px solid red'
-      document.getElementById('result-22').style.color = 'red'
-      document.getElementById('result-22').innerHTML = 'Incorrect!'
+      document.getElementById('result-42').style.color = 'red'
+      document.getElementById('result-42').innerHTML = 'Incorrect!'
       showCorrectAnswer2()
     }
     if (document.getElementById('option-43').checked) {
       document.getElementById('block-43').style.border = '3px solid limegreen'
-      document.getElementById('result-23').style.color = 'limegreen'
-      document.getElementById('result-23').innerHTML = 'Correct!'
+      document.getElementById('result-43').style.color = 'limegreen'
+      document.getElementById('result-43').innerHTML = 'Correct!'
       showCorrectAnswer2()
     }
     if (document.getElementById('option-44').checked) {
       document.getElementById('block-44').style.border = '3px solid red'
-      document.getElementById('result-24').style.color = 'red'
-      document.getElementById('result-24').innerHTML = 'Incorrect!'
+      document.getElementById('result-44').style.color = 'red'
+      document.getElementById('result-44').innerHTML = 'Incorrect!'
       showCorrectAnswer2()
     }
   }
@@ -1620,8 +1620,8 @@ Table of Values;
     document.getElementById('showanswer2').appendChild(showAnswer2)
     showAnswer2.addEventListener('click', () => {
       document.getElementById('block-43').style.border = '3px solid limegreen'
-      document.getElementById('result-23').style.color = 'limegreen'
-      document.getElementById('result-23').innerHTML = 'Correct!'
+      document.getElementById('result-43').style.color = 'limegreen'
+      document.getElementById('result-43').innerHTML = 'Correct!'
       document.getElementById('showanswer2').removeChild(showAnswer2)
     })
   }
